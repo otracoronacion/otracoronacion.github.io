@@ -642,5 +642,15 @@
     "medal": "oro",
     "dup_of": "03429cd8552a",
     "title": "Los Pumas dieron batalla pero cayeron ante los bicampeones mundiales en Vélez - Stop en línea"
+  },
+  "ca86e039c0af": {
+    "date": "2026-08-09",
+    "core": [
+      "mando",
+      "rugby"
+    ],
+    "medal": "oro",
+    "title": "Rugby: el campeón del mundo mandó en Argentina - elagora.cl",
+    "llm_rejected": "El campeón del mundo es de otro país, no un argentino"
   }
 }
