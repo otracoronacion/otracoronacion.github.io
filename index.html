@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Otra Coronación de Gloria — argentinos en podios mundiales</title>
-<meta name="description" content="Rastreador automático de argentinos y argentinas saliendo primeros, segundos o terceros en cualquier competencia mundial. Suscribite y enterate cada vez que pasa.">
+<meta name="description" content="Rastreador automático de argentinos y argentinas saliendo primeros, segundos o terceros en cualquier competencia mundial o continental. Suscribite y enterate cada vez que pasa.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Otra Coronación de Gloria — argentinos en podios mundiales">
 <meta property="og:description" content="Me despierto → otra coronación de gloria. El rastreador que revisa las noticias cada mañana y te avisa cuando Argentina se sube a un podio mundial. Del deporte al asado.">
@@ -76,6 +76,9 @@
   .event h3 a:hover{color:var(--celeste-deep);text-decoration:underline}
   .meta{font-size:.82rem;color:var(--muted);margin-top:6px}
   .meta .tag{display:inline-block;background:#F1EBDD;border-radius:999px;padding:1px 10px;margin-right:8px;font-weight:600;color:#8A7420}
+  .meta .scope{display:inline-block;border-radius:999px;padding:1px 10px;margin-right:8px;font-weight:600;font-size:.74rem;letter-spacing:.03em;text-transform:uppercase}
+  .meta .scope.mundial{background:#E6EEF7;color:#2F5D8A}
+  .meta .scope.continental{background:#EAF3E8;color:#4A7A4E}
   .share{display:inline-block;background:#25D366;color:#fff;border-radius:999px;padding:2px 12px;margin-left:8px;font-weight:700;font-size:.76rem;text-decoration:none;vertical-align:middle}
   .share:hover{background:#1DA851}
   .alt-channel{margin-top:16px}
@@ -98,7 +101,7 @@
   <h1>Otra Coronación<br>de <span class="gloria">Gloria</span></h1>
   <p class="anthem">«Coronados de gloria vivamos…»</p>
   <p class="anthem2">y acá las contamos todas.</p>
-  <p class="sub">Un rastreador automático que revisa las noticias todas las mañanas, tempranito, buscando argentinos y argentinas que salieron <strong>primeros, segundos o terceros</strong> en cualquier competencia mundial. Fútbol, hockey, matemática, asado, tango, lo que sea. Si hay podio, te despertás coronado.</p>
+  <p class="sub">Un rastreador automático que revisa las noticias todas las mañanas, tempranito, buscando argentinos y argentinas que salieron <strong>primeros, segundos o terceros</strong> en cualquier competencia mundial o continental. Fútbol, hockey, matemática, asado, tango, lo que sea. Si hay podio, te despertás coronado.</p>
   <div class="band"><span class="c"></span><span class="w"></span><span class="g"></span><span class="w"></span><span class="c"></span></div>
 </header>
 
@@ -171,7 +174,7 @@ fetch("data/podios.json", {cache:"no-store"})
       return `<article class="event">
         <div class="medal">${MEDAL[ev.medal] || "🏅"}</div>
         <div><h3><a href="${esc(ev.url)}" rel="noopener" target="_blank">${esc(ev.title)}</a></h3>
-        <div class="meta"><span class="tag">${MEDAL_NAME[ev.medal] || "Podio"}</span>${fecha}${src}<a class="share" href="https://wa.me/?text=${waText}" rel="noopener" target="_blank">📲 WhatsApp</a></div></div>
+        <div class="meta"><span class="tag">${MEDAL_NAME[ev.medal] || "Podio"}</span><span class="scope ${ev.scope === "continental" ? "continental" : "mundial"}">${ev.scope === "continental" ? "Continental" : "Mundial"}</span>${fecha}${src}<a class="share" href="https://wa.me/?text=${waText}" rel="noopener" target="_blank">📲 WhatsApp</a></div></div>
       </article>`;
     }).join("");
     if (events.length > 0) {

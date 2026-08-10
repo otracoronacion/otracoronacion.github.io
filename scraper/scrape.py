@@ -65,6 +65,12 @@ QUERIES_ES = [
     'argentina "medalla" "olimpiada internacional"',
     'argentino campeón "mundial de"',
     'argentino ganó "el mundial de"',
+    '"campeón sudamericano" argentino',
+    '"campeona sudamericana" argentina',
+    'argentina "se consagró campeón sudamericano"',
+    'argentino "campeón panamericano"',
+    'argentina "medalla de oro" panamericano',
+    'argentina campeona "Copa América"',
 ]
 QUERIES_EN = [
     'argentine "world champion"',
@@ -105,7 +111,20 @@ def sig_tokens(s: str):
 # Todo se evalúa sobre texto normalizado (minúsculas, sin acentos).
 
 ARG = r"(argentin\w+|albiceleste|los pumas|las leonas|los gladiadores|las panteras|los murcielagos)"
-WORLD = r"(mundial\w*|del mundo|world|olimpiada internacional|olimpiada iberoamericana|international olympiad|planetari\w+)"
+# Adjetivos de nivel (mundial y continental). El alcance se decide después con detect_scope.
+CONT_ADJ = r"(sudamerican\w+|panamerican\w+|latinoamerican\w+|iberoamerican\w+|continental\w*)"
+WORLD = (
+    r"(mundial\w*|del mundo|world|olimpiada internacional|olimpiada iberoamericana|"
+    r"international olympiad|planetari\w+|sudamerican\w+|panamerican\w+|latinoamerican\w+|"
+    r"iberoamerican\w+|continental\w*|copa america|de america)"
+)
+# Adjetivo pegado a "campeón/subcampeón": campeón mundial, campeona sudamericana…
+ADJ = (
+    r"(mundial|del mundo|sudamerican[oa]|panamerican[oa]|latinoamerican[oa]|"
+    r"iberoamerican[oa]|continental|de america)"
+)
+CONT_RE = re.compile(CONT_ADJ + r"|copa america|de america")
+MUNDIAL_RE = re.compile(r"mundial\w*|del mundo|world|olimpiada internacional|international olympiad|planetari\w+")
 
 # Verbos de logro (conjugaciones frecuentes en titulares)
 AV = r"(se consagr\w+|se coron\w+|se proclam\w+|conquist\w+|gan(?:o|aron)|logr(?:o|aron)|obtuv(?:o|ieron)|consigui(?:o|eron)|se qued(?:o|aron) con|se llev(?:o|aron)|arrebat\w+|recuper(?:o|aron))"
@@ -122,23 +141,25 @@ PODIUM_PATTERNS = [
     (rf"(segundo puesto|segundo lugar|segunda posicion).{{0,50}}{WORLD}", "plata"),
     (rf"medalla\w* de plata.{{0,60}}{WORLD}", "plata"),
     (rf"{AV} la plata.{{0,60}}{WORLD}", "plata"),
-    (rf"\bla plata (mundial|en el mundial\w*|del mundial\w*)", "plata"),
+    (rf"\bla plata ({ADJ}|en el {WORLD}|del {WORLD})", "plata"),
     # --- bronce ---
     (rf"(tercer puesto|tercer lugar|tercera posicion).{{0,50}}{WORLD}", "bronce"),
     (rf"{WORLD}.{{0,40}}(tercer puesto|tercer lugar)", "bronce"),
     (rf"medalla\w* de bronce.{{0,60}}{WORLD}", "bronce"),
     (rf"{AV} el bronce.{{0,60}}{WORLD}", "bronce"),
-    (rf"\bel bronce (mundial|en el mundial\w*|del mundial\w*)", "bronce"),
+    (rf"\bel bronce ({ADJ}|en el {WORLD}|del {WORLD})", "bronce"),
     (rf"bronce para .{{0,40}}{WORLD}", "bronce"),
     # --- oro ---
-    (rf"{CHAMP}\w* (mundial|del mundo)", "oro"),
-    (rf"{CHAMP}\w* .{{0,30}}\bmundial\b", "oro"),
-    (rf"{AV}(?:(?!final|semifinal).){{0,45}}(el )?(titulo )?(mundial\w*|del mundo)", "oro"),
+    (rf"{CHAMP}\w* {ADJ}", "oro"),
+    (rf"{CHAMP}\w* de (la |el |los |las )?(copa )?(america|sudamerica|panamerica)\b", "oro"),
+    (rf"(subcampeon\w*|vicecampeon\w*) de (la |el )?(copa )?america\b", "plata"),
+    (rf"{CHAMP}\w* .{{0,30}}\b{ADJ}\b", "oro"),
+    (rf"{AV}(?:(?!final|semifinal).){{0,45}}(el )?(titulo )?{WORLD}", "oro"),
     (rf"{AV} el (titulo|campeonato|mundial)", "oro"),
-    (rf"(?<!final del )(mundial\w*|del mundo)(?:(?!final).){{0,45}}(se consagr\w+|se coron\w+|conquist\w+|gan(?:o|aron)|{CHAMP}\w*)", "oro"),
+    (rf"(?<!final del ){WORLD}(?:(?!final).){{0,45}}(se consagr\w+|se coron\w+|conquist\w+|gan(?:o|aron)|{CHAMP}\w*)", "oro"),
     (rf"medalla\w* de oro.{{0,60}}{WORLD}", "oro"),
     (rf"{AV} el oro.{{0,60}}{WORLD}", "oro"),
-    (rf"\bel oro (mundial|en el mundial\w*|del mundial\w*)", "oro"),
+    (rf"\bel oro ({ADJ}|en el {WORLD}|del {WORLD})", "oro"),
     (rf"world champion", "oro"),
     (rf"(wins?|won|clinch\w*|crowned|captur\w*|claim\w*|tak\w*|took).{{0,40}}world (title|championship|cup|crown)", "oro"),
     (rf"world (title|championship|cup).{{0,30}}(win|won|victory|champion)", "oro"),
@@ -225,7 +246,8 @@ HARD_EXCLUDE = [
     r"\b(un campeon|una campeona|el campeon del mundo que|ex campeon|excampeon)\b",
     r"\bcampeon\w* del mundo (con (la seleccion|el seleccionado|argentina|alemania|espana|francia|italia|brasil|uruguay|inglaterra)|en \d{4})\b",
     r"^asi\b",
-    r"\b(sudamericano|panamericano|latinoamericano|continental)\b(?!.*\b(mundial|del mundo|world)\b)",
+    # (los continentales ya NO se excluyen: entran como scope=continental)
+    r"\b(torneo (local|nacional|federal|regional)|liga argentina|campeonato argentino|copa argentina|primera division)\b",
 ]
 HARD_RE = [re.compile(p) for p in HARD_EXCLUDE]
 
@@ -275,6 +297,16 @@ def parse_items(xml_bytes: bytes):
     return items
 
 # ---------------------------------------------------------------- classify --
+
+def detect_scope(title: str) -> str:
+    """mundial | continental — según qué nivel nombra el titular (mundial gana si aparecen ambos)."""
+    nt = norm(strip_source(title))
+    if MUNDIAL_RE.search(nt):
+        return "mundial"
+    if CONT_RE.search(nt):
+        return "continental"
+    return "mundial"
+
 
 def classify(title: str, desc: str):
     """Devuelve (verdict, medal, reasons). verdict: accept | soft | reject"""
@@ -473,7 +505,7 @@ def main():
             continue
         ev = {
             "id": eid, "date": c["date"], "title": strip_source(c["title"]), "source": c["source"],
-            "url": c["url"], "medal": medal, "_core": sorted(core),
+            "url": c["url"], "medal": medal, "scope": detect_scope(c["title"]), "_core": sorted(core),
         }
         new_events.append(ev)
         seen[eid] = {"date": c["date"], "core": sorted(core), "medal": medal, "title": c["title"]}

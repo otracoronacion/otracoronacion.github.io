@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Messi y Prestianni en prelista de campeón Argentina para el Mundial",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "es una prelista, no un hecho consumado"
+  },
+  {
+    "title": "Los Pumas desafían a los campeones del mundo en Vélez: todo lo que hay que saber",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "Es una previa de partido futuro, no un hecho consumado"
+  },
+  {
+    "title": "España venció a Argentina y se consagró campeón del Mundial 2026",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "El campeón es España, no Argentina"
+  },
+  {
+    "title": "La WWE vuelve a la Argentina con todas sus figuras y los campeones mundiales",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "WWE es entretenimiento con guión, no competencia deportiva real"
+  },
+  {
+    "title": "Una influencer apostó 15 millones a que Argentina salía campeón del mundo y ahor",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "Nota sobre apuestas y entretenimiento, no sobre un hecho consumado"
+  },
+  {
+    "title": "Argentina campeón mundial de futsal tras vencer a Brasil en la final",
+    "want": true,
+    "got": true,
+    "medalla": "oro",
+    "motivo": "Argentina campeón mundial de futsal"
+  },
+  {
+    "title": "Argentina se consagró bicampeona mundial de hockey de mayores de 50 años",
+    "want": true,
+    "got": true,
+    "medalla": "oro",
+    "motivo": "Argentina campeona mundial de hockey categoría mayores de 50 años"
+  },
+  {
+    "title": "Una correntina es campeona mundial con Argentina en hockey Máster +45 IMC",
+    "want": true,
+    "got": true,
+    "medalla": "oro",
+    "motivo": "Argentina campeona mundial en hockey Máster +45"
+  },
+  {
+    "title": "Argentina no pudo con España y es subcampeón mundial",
+    "want": true,
+    "got": true,
+    "medalla": "plata",
+    "motivo": "Argentina obtuvo subcampeón (2° puesto) en campeonato mundial"
+  },
+  {
+    "title": "Bronce para Argentina en la Olimpíada Internacional de Química gracias a un estu",
+    "want": true,
+    "got": true,
+    "medalla": "bronce",
+    "motivo": "Estudiante argentino obtuvo medalla de bronce en Olimpíada Internacional de Química"
+  },
+  {
+    "title": "Argentina se consagró campeón sudamericano de voley tras vencer a Brasil",
+    "want": true,
+    "got": true,
+    "medalla": "oro",
+    "motivo": "Argentina campeona sudamericana de voley"
+  },
+  {
+    "title": "Los Pumas 7s ganaron la medalla de oro en los Juegos Panamericanos",
+    "want": true,
+    "got": true,
+    "medalla": "oro",
+    "motivo": "Los Pumas 7s ganaron oro en rugby 7s en Juegos Panamericanos"
+  },
+  {
+    "title": "Racing se consagró campeón de la Copa Sudamericana ante el brasileño Cruzeiro",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "Es un torneo de clubes (Copa Sudamericana), no de selecciones nacionales"
+  },
+  {
+    "title": "Boca ganó la Copa Libertadores y es el rey de América",
+    "want": false,
+    "got": false,
+    "medalla": null,
+    "motivo": "Copa Libertadores es torneo de clubes, no de selecciones nacionales"
+  }
+]

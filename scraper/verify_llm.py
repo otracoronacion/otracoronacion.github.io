@@ -28,14 +28,22 @@ FLAG_FAILED = os.path.join(ROOT, "llm_failed")
 API = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-haiku-4-5"
 
-SYSTEM = """Sos el verificador de "Otra Coronación de Gloria", un servicio que SOLO informa podios YA OBTENIDOS por argentinos en competencias de nivel MUNDIAL.
+SYSTEM = """Sos el verificador de "Otra Coronación de Gloria", un servicio que SOLO informa podios YA OBTENIDOS por argentinos en competencias de nivel MUNDIAL o CONTINENTAL.
 
 Recibís el titular de una noticia. Respondé ÚNICAMENTE un JSON válido, sin texto extra:
-{"es_coronacion": true|false, "medalla": "oro"|"plata"|"bronce"|null, "motivo": "<una frase corta>"}
+{"es_coronacion": true|false, "medalla": "oro"|"plata"|"bronce"|null, "alcance": "mundial"|"continental"|null, "motivo": "<una frase corta>"}
 
-es_coronacion = true SOLO si el titular informa un HECHO CONSUMADO: una persona o un equipo ARGENTINO obtuvo el 1°, 2° o 3° puesto (oro/plata/bronce, campeón/subcampeón/tercero) en un campeonato MUNDIAL, copa del mundo u olimpiada internacional.
+es_coronacion = true SOLO si el titular informa un HECHO CONSUMADO: una persona, un equipo o una SELECCIÓN ARGENTINA obtuvo el 1°, 2° o 3° puesto (oro/plata/bronce, campeón/subcampeón/tercero) en un campeonato de nivel MUNDIAL o CONTINENTAL.
 
-IMPORTANTE: los mundiales de categoría SÍ cuentan como mundiales — juveniles (sub 17, sub 20), masters/veteranos (+40, +50), por género, por peso, por especialidad, y disciplinas no deportivas (matemática, química, asado, tango, peluquería). Lo que importa es que sea el campeonato MUNDIAL de esa categoría o disciplina.
+Cuentan como nivel válido:
+- MUNDIAL: mundiales, copas del mundo, olimpiadas internacionales, campeonatos planetarios.
+- CONTINENTAL: sudamericanos, panamericanos, Copa América, campeonatos de América / iberoamericanos — siempre que compitan SELECCIONES NACIONALES o deportistas representando al país.
+
+Los campeonatos de categoría SÍ cuentan: juveniles (sub 17, sub 20), masters/veteranos (+40, +50), por género, por peso, por especialidad, y disciplinas no deportivas (matemática, química, asado, tango, peluquería).
+
+NO cuentan como nivel válido, aunque digan "sudamericana" o "continental": torneos de CLUBES (Copa Libertadores, Copa Sudamericana de fútbol de clubes, Recopa), ligas y torneos nacionales o locales, y torneos semanales de circuito profesional (ATP, Challenger, ITF).
+
+Además de la medalla, devolvé el nivel en "alcance": "mundial" o "continental".
 
 es_coronacion = false si ocurre cualquiera de estas:
 - previa o partido futuro ("desafía", "enfrenta", "buscará", "va por", fixture, dónde ver)
@@ -43,7 +51,7 @@ es_coronacion = false si ocurre cualquiera de estas:
 - el campeón es de OTRO país, o "campeones del mundo" nombra al RIVAL
 - nota histórica, aniversario, obituario, ranking, encuesta, apuestas, predicciones
 - entretenimiento con guión (WWE), publicidad, sorteos, memes
-- torneo NO mundial: nacional, sudamericano, panamericano, liga, torneo semanal de circuito (ATP, Challenger, etc.)
+- torneo de nivel insuficiente: liga o torneo nacional/local, torneo de CLUBES (Libertadores, Copa Sudamericana de clubes), torneo semanal de circuito (ATP, Challenger, ITF)
 - declaraciones, reacciones o celebraciones sobre un logro ya conocido
 
 Ante la duda, false: el costo de un falso positivo es alto (se envía un email y un tweet)."""
@@ -59,6 +67,10 @@ GOLDEN = [
     ("Una correntina es campeona mundial con Argentina en hockey Máster +45 IMC", "El Libertador", True),
     ("Argentina no pudo con España y es subcampeón mundial", "Mendoza Post", True),
     ("Bronce para Argentina en la Olimpíada Internacional de Química gracias a un estudiante rosarino", "El Diario de Carlos Paz", True),
+    ("Argentina se consagró campeón sudamericano de voley tras vencer a Brasil", "Diario Crónica", True),
+    ("Los Pumas 7s ganaron la medalla de oro en los Juegos Panamericanos", "Olé", True),
+    ("Racing se consagró campeón de la Copa Sudamericana ante el brasileño Cruzeiro", "TyC Sports", False),
+    ("Boca ganó la Copa Libertadores y es el rey de América", "Olé", False),
 ]
 
 
@@ -88,7 +100,8 @@ def ask(key: str, title: str, source: str, date: str = ""):
             text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
             v = json.loads(text)
             return {"ok": True, "es_coronacion": bool(v.get("es_coronacion")),
-                    "medalla": v.get("medalla"), "motivo": str(v.get("motivo", ""))[:200]}
+                    "medalla": v.get("medalla"), "alcance": v.get("alcance"),
+                    "motivo": str(v.get("motivo", ""))[:200]}
         except urllib.error.HTTPError as e:
             last = f"{e.code}: {e.read().decode()[:200]}"
             print(f"[intento {attempt}/3] API {last}", file=sys.stderr)
@@ -143,7 +156,9 @@ def main():
             keep.append(ev)  # no rechazamos sin veredicto
             continue
         if v["es_coronacion"]:
-            print(f"✓ IA confirma [{v.get('medalla')}]: {ev['title'][:70]}")
+            if v.get("alcance") in ("mundial", "continental"):
+                ev["scope"] = v["alcance"]
+            print(f"✓ IA confirma [{v.get('medalla')} / {ev.get('scope','mundial')}]: {ev['title'][:70]}")
             keep.append(ev)
         else:
             print(f"✗ IA rechaza: {ev['title'][:70]} :: {v.get('motivo', '')[:90]}")
