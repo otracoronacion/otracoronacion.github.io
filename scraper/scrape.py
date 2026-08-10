@@ -386,7 +386,39 @@ GENERIC_TOKENS = {
     "mundial", "mundo", "campeon", "campeona", "campeones", "campeonas", "campeonato",
     "subcampeon", "subcampeona", "subcampeones", "subcampeonato", "consagro", "corono",
     "titulo", "final", "copa", "medalla", "world", "champion", "historico", "historica",
+    # vocabulario continental: también es genérico, no distingue eventos
+    "sudamericano", "sudamericana", "sudamericanos", "sudamericanas", "sudamericano2026",
+    "panamericano", "panamericana", "panamericanos", "panamericanas", "america",
+    "americano", "americana", "continental", "bicampeon", "bicampeona", "bicampeones",
+    "tricampeon", "tricampeona", "consagra", "consagraron", "proclamo", "venciendo",
 }
+
+# La disciplina es la huella más fuerte: dos podios de deportes distintos nunca son el mismo evento.
+DISCIPLINAS = {
+    "voley": {"voley", "voleibol", "volei", "volleyball"},
+    "basquet": {"basquet", "basquetbol", "baloncesto", "basketball"},
+    "hockey": {"hockey"},
+    "futsal": {"futsal"},
+    "futbol": {"futbol"},
+    "rugby": {"rugby", "pumas"},
+    "handball": {"handball", "balonmano", "gladiadores"},
+    "judo": {"judo", "judoca"},
+    "ajedrez": {"ajedrez"},
+    "tenis": {"tenis"},
+    "natacion": {"natacion"},
+    "atletismo": {"atletismo"},
+    "quimica": {"quimica"},
+    "matematica": {"matematica"},
+    "patin": {"patin", "patinaje"},
+    "pelota": {"paleta", "pelota"},
+    "justdance": {"dance"},
+}
+
+def disciplina(tokens: set):
+    for nombre, palabras in DISCIPLINAS.items():
+        if tokens & palabras:
+            return nombre
+    return None
 
 def core_tokens(s: str):
     return {t for t in sig_tokens(s) if t not in GENERIC_TOKENS}
@@ -405,9 +437,14 @@ def same_event(tokens_a: set, medal_a: str, tokens_b: set, medal_b: str) -> bool
     nums_b = {t for t in tokens_b if t.isdigit()}
     if nums_a and nums_b and not (nums_a & nums_b):
         return False
+    # disciplinas distintas = eventos distintos (vóley ≠ básquet), aunque compartan palabras
+    da, db = disciplina(tokens_a), disciplina(tokens_b)
+    if da and db and da != db:
+        return False
     if jaccard(tokens_a, tokens_b) >= 0.3:
         return True
-    return len(tokens_a & tokens_b) >= 1 and (len(tokens_a) <= 6 or len(tokens_b) <= 6)
+    # títulos cortos: exigir al menos 2 palabras distintivas en común (antes bastaba 1)
+    return len(tokens_a & tokens_b) >= 2 and (len(tokens_a) <= 6 or len(tokens_b) <= 6)
 
 def event_id(title: str) -> str:
     return hashlib.sha1(" ".join(sorted(sig_tokens(title))).encode()).hexdigest()[:12]
