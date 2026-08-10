@@ -129,14 +129,14 @@ MUNDIAL_RE = re.compile(r"mundial\w*|del mundo|world|olimpiada internacional|int
 # Verbos de logro (conjugaciones frecuentes en titulares)
 AV = r"(se consagr\w+|se coron\w+|se proclam\w+|conquist\w+|gan(?:o|aron)|logr(?:o|aron)|obtuv(?:o|ieron)|consigui(?:o|eron)|se qued(?:o|aron) con|se llev(?:o|aron)|arrebat\w+|recuper(?:o|aron))"
 # "campeon" sin que sea sub/vice campeón
-CHAMP = r"(?<!sub)(?<!vice)campeon"
+CHAMP = r"(?<!sub)(?<!vice)(?<!sub )(?<!vice )campeon"
 
 # (regex, medalla) — patrones de PODIO logrado (no futuro). El ORDEN importa:
 # plata/bronce primero para que "subcampeón" no matchee como "campeón".
 PODIUM_PATTERNS = [
     # --- plata ---
-    (rf"(subcampeon\w*|vicecampeon\w*).{{0,45}}{WORLD}", "plata"),
-    (rf"{WORLD}.{{0,35}}(subcampeon\w*|vicecampeon\w*)", "plata"),
+    (rf"(sub ?campeon\w*|vice ?campeon\w*).{{0,45}}{WORLD}", "plata"),
+    (rf"{WORLD}.{{0,35}}(sub ?campeon\w*|vice ?campeon\w*)", "plata"),
     (rf"runner.?up.{{0,40}}world", "plata"),
     (rf"(segundo puesto|segundo lugar|segunda posicion).{{0,50}}{WORLD}", "plata"),
     (rf"medalla\w* de plata.{{0,60}}{WORLD}", "plata"),
@@ -152,7 +152,7 @@ PODIUM_PATTERNS = [
     # --- oro ---
     (rf"{CHAMP}\w* {ADJ}", "oro"),
     (rf"{CHAMP}\w* de (la |el |los |las )?(copa )?(america|sudamerica|panamerica)\b", "oro"),
-    (rf"(subcampeon\w*|vicecampeon\w*) de (la |el )?(copa )?america\b", "plata"),
+    (rf"(sub ?campeon\w*|vice ?campeon\w*) de (la |el )?(copa )?america\b", "plata"),
     (rf"{CHAMP}\w* .{{0,30}}\b{ADJ}\b", "oro"),
     (rf"{AV}(?:(?!final|semifinal).){{0,45}}(el )?(titulo )?{WORLD}", "oro"),
     (rf"{AV} el (titulo|campeonato|mundial)", "oro"),
