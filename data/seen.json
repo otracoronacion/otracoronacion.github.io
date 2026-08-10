@@ -670,5 +670,304 @@
     ],
     "medal": "oro",
     "title": "Otra vez doradas: Argentina, bicampeona femenina del Sudamericano de básquet - Olé"
+  },
+  "046723be25da": {
+    "date": "2026-08-09",
+    "core": [
+      "batalla",
+      "cayeron",
+      "dieron",
+      "mundiales",
+      "pero",
+      "pumas",
+      "velez"
+    ],
+    "medal": "oro",
+    "title": "Los Pumas dieron batalla pero cayeron ante los bicampeones mundiales en Vélez - Stop en línea",
+    "llm_rejected": "Los Pumas perdieron, no ganaron podio"
+  },
+  "64368f768ddf": {
+    "date": "2026-08-09",
+    "core": [
+      "brasil",
+      "vencer",
+      "voleibol"
+    ],
+    "medal": "oro",
+    "title": "La Selección Argentina de voleibol se consagró campeona sudamericana tras vencer a Brasil en la final - DeporTV"
+  },
+  "45292ae777b0": {
+    "date": "2026-08-10",
+    "core": [],
+    "medal": "oro",
+    "title": "Argentina campeona sudamericana - Pickandroll.com.ar",
+    "llm_rejected": "Titular vago sin contexto específico"
+  },
+  "3cb4219752ea": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "vencio",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "Vóley: Argentina venció a Brasil y es campeona sudamericana - Rosario3",
+    "llm_merged": "mismo logro que 64368f768ddf"
+  },
+  "3d4b0efd1784": {
+    "date": "2026-08-10",
+    "core": [
+      "cabrera",
+      "diana"
+    ],
+    "medal": "oro",
+    "title": "Diana Cabrera campeona sudamericana con Argentina - basquetentrerios.com"
+  },
+  "1739beb5d802": {
+    "date": "2026-08-10",
+    "core": [
+      "2026"
+    ],
+    "medal": "oro",
+    "dup_of": "eb2c01ef4a23",
+    "title": "Argentina se consagró campeón de la Copa Sudamericana 2026 - horadigital.com.ar"
+  },
+  "da55bb71f035": {
+    "date": "2026-08-10",
+    "core": [
+      "basquet",
+      "femenino"
+    ],
+    "medal": "oro",
+    "title": "Argentina se consagra bicampeona sudamericana de básquet femenino - diariocronica.com.ar",
+    "llm_merged": "mismo logro que 3d4b0efd1784"
+  },
+  "7dce419df5b3": {
+    "date": "2026-08-10",
+    "core": [
+      "voleibol"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "La Selección Argentina de voleibol se consagró campeona sudamericana - Todo Salta Noticias"
+  },
+  "f526182ac1fc": {
+    "date": "2026-08-10",
+    "core": [
+      "castro",
+      "rionegrina"
+    ],
+    "medal": "oro",
+    "title": "Sol Castro, la rionegrina que se consagró campeona sudamericana con Argentina - NoticiasNet",
+    "llm_merged": "mismo logro que 3d4b0efd1784"
+  },
+  "345236cedb16": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "gano",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "Argentina le ganó a Brasil y se consagró campeón de la Copa Sudamericana de vóley - Somos Jujuy"
+  },
+  "3794b3677bf1": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "vencer",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina se consagró campeón sudamericano de voley tras vencer a Brasil - diariocronica.com.ar"
+  },
+  "cc95f0b28dbb": {
+    "date": "2026-08-10",
+    "core": [
+      "gretter",
+      "mano",
+      "melisa"
+    ],
+    "medal": "oro",
+    "title": "De la mano de Melisa Gretter, Argentina se consagró campeona sudamericana - rafaelanoticias.com",
+    "llm_merged": "mismo logro que 3d4b0efd1784"
+  },
+  "1938243b6161": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "gano",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "La Selección Argentina de vóley le ganó a Brasil y se consagró campeona sudamericana - Filo News"
+  },
+  "813ad4a093a8": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "vencer",
+      "voleibol"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina consagró campeona sudamericana de voleibol tras vencer a Brasil en la final - Estación K2"
+  },
+  "d1f405142493": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "contra",
+      "gustito",
+      "masculino",
+      "otro",
+      "tiene",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Contra Brasil tiene otro gustito: Argentina campeón de la Copa Sudamericana de vóley masculino - Olé"
+  },
+  "7ac557225483": {
+    "date": "2026-08-10",
+    "core": [
+      "2026",
+      "brasil",
+      "vencio",
+      "voleibol"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina venció a Brasil y se consagró campeón de la Copa Sudamericana de vóleibol 2026 - ESPN Argentina"
+  },
+  "924b8faeacd0": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "clasico",
+      "gano",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Vóley: Argentina le ganó el clásico a Brasil y se consagró campeón de la Copa Sudamericana - Diario Río Negro"
+  },
+  "c28bcd666833": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "inolvidable",
+      "vencio",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina venció a Brasil en una final inolvidable y se consagró campeón sudamericano de vóley - MisionesOnline"
+  },
+  "7c9025578786": {
+    "date": "2026-08-10",
+    "core": [
+      "2026",
+      "basquet",
+      "femenino",
+      "venezuela",
+      "victoria"
+    ],
+    "medal": "oro",
+    "dup_of": "da55bb71f035",
+    "title": "Argentina campeón del Sudamericano Femenino de Básquet 2026: histórica victoria ante Venezuela - Aire de Santa Fe"
+  },
+  "b00fda222020": {
+    "date": "2026-08-10",
+    "core": [
+      "10",
+      "2026",
+      "agosto",
+      "brasil",
+      "vencio"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina venció a Brasil en la final y se consagró campeona sudamericana | 10 de agosto de 2026 - Hoy Día Córdoba"
+  },
+  "020c6faf61a3": {
+    "date": "2026-08-10",
+    "core": [
+      "basquet",
+      "femenino",
+      "gauna",
+      "mendocina",
+      "victoria"
+    ],
+    "medal": "oro",
+    "dup_of": "da55bb71f035",
+    "title": "Con la mendocina Victoria Gauna, Argentina se consagró bicampeona del Sudamericano femenino de básquet - Sitio Andino"
+  },
+  "1aab6321c6d8": {
+    "date": "2026-08-10",
+    "core": [
+      "agustin",
+      "bolivarense",
+      "ojuez",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "El bolivarense Agustín Ojuez se consagró campeón sudamericano con la Selección Argentina de Vóley - Presente Noticias",
+    "llm_merged": "mismo logro que 64368f768ddf"
+  },
+  "abaeda0fc2ed": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "gano",
+      "partidazo",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina le ganó un partidazo a Brasil y se consagró campeona de la Copa Sudamericana de vóley - El Diario de Carlos Paz"
+  },
+  "28aae56bb1a0": {
+    "date": "2026-08-10",
+    "core": [
+      "arquez",
+      "tucumano"
+    ],
+    "medal": "oro",
+    "title": "Con el tucumano Arquez como MVP, la Selección Argentina se consagró campeona de la Copa Sudamericana - Tendencia de Noticias",
+    "llm_rejected": "Copa Sudamericana en fútbol es torneo de clubes"
+  },
+  "82aed14b191d": {
+    "date": "2026-08-10",
+    "core": [
+      "44",
+      "53",
+      "basquet",
+      "femenino",
+      "gano",
+      "venezuela"
+    ],
+    "medal": "oro",
+    "title": "La selección argentina de básquet se consagró campeona del Sudamericano Femenino: le ganó 53-44 la final a Venezuela - Infobae",
+    "llm_merged": "mismo logro que 3d4b0efd1784"
+  },
+  "aab9ce184451": {
+    "date": "2026-08-10",
+    "core": [
+      "airala",
+      "basquet",
+      "cristian",
+      "femenino",
+      "gigantes",
+      "gualeya",
+      "parte",
+      "presencia"
+    ],
+    "medal": "oro",
+    "dup_of": "82aed14b191d",
+    "title": "Argentina es bicampeona sudamericana de básquet femenino con presencia gualeya: Cristian Airala fue parte de Las Gigantes - Diario El Debate Pregón"
   }
 }
