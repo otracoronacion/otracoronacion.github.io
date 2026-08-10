@@ -3,16 +3,20 @@ name: Reenviar coronación
 on:
   workflow_dispatch:
     inputs:
-      event_id:
-        description: "id del evento en data/podios.json"
+      event_ids:
+        description: "id(s) de data/podios.json, separados por coma"
         required: true
+      tuitear:
+        description: "1 = además postear en X"
+        required: false
+        default: ""
       dry_run:
-        description: "1 = crear como borrador en vez de enviar"
+        description: "1 = email como borrador (y sin tweet)"
         required: false
         default: ""
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   resend:
@@ -24,25 +28,29 @@ jobs:
         run: |
           python3 - <<'EOF'
           import json
-          eid = "${{ github.event.inputs.event_id }}".strip()
-          podios = json.load(open('data/podios.json'))
-          ev = [e for e in podios if e['id'] == eid]
-          assert ev, f"evento {eid} no encontrado en data/podios.json"
-          json.dump(ev, open('new_events.json', 'w'), ensure_ascii=False)
-          print("Reenviando:", ev[0]['medal'], '—', ev[0]['title'])
+          ids = [x.strip() for x in "${{ github.event.inputs.event_ids }}".split(",") if x.strip()]
+          podios = json.load(open('data/podios.json', encoding='utf-8'))
+          por_id = {e['id']: e for e in podios}
+          faltan = [i for i in ids if i not in por_id]
+          assert not faltan, f"no encontré estos ids en podios.json: {faltan}"
+          evs = [por_id[i] for i in ids]
+          json.dump(evs, open('new_events.json', 'w'), ensure_ascii=False, indent=2)
+          print(f"Reenviando {len(evs)} evento(s):")
+          for e in evs:
+              print(f"  [{e['medal']}/{e.get('scope','mundial')}] {e['title'][:70]}")
           EOF
 
-      - name: Enviar
+      - name: Enviar email
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: python3 scraper/send_email.py
 
-      - name: Preservar diagnóstico si falló el envío
-        if: failure()
-        run: |
-          git config user.name "coronacion-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git pull --rebase origin main || true
-          git add data/last_email_error.json 2>/dev/null || true
-          git diff --cached --quiet || { git commit -m "⚠️ Error de envío preservado en data/last_email_error.json"; git push; }
+      - name: Postear en X
+        if: github.event.inputs.tuitear == '1' && github.event.inputs.dry_run != '1'
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: python3 scraper/post_x.py
