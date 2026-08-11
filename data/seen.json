@@ -969,5 +969,183 @@
     "medal": "oro",
     "dup_of": "82aed14b191d",
     "title": "Argentina es bicampeona sudamericana de básquet femenino con presencia gualeya: Cristian Airala fue parte de Las Gigantes - Diario El Debate Pregón"
+  },
+  "b081f87904d1": {
+    "date": "2026-08-10",
+    "core": [
+      "armas",
+      "eugenia",
+      "orgullo",
+      "wakeboard"
+    ],
+    "medal": "oro",
+    "title": "Orgullo argentino: Eugenia De Armas es tricampeona mundial de wakeboard - Olé"
+  },
+  "840909024fdc": {
+    "date": "2026-08-10",
+    "core": [
+      "correa",
+      "equipo",
+      "gano",
+      "guidi",
+      "sanjuanino"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó el Sudamericano con el sanjuanino Guidi Correa en el equipo - San Juan 8"
+  },
+  "d597edd01741": {
+    "date": "2026-08-10",
+    "core": [
+      "cabrera",
+      "diana",
+      "entrerriano",
+      "orgullo"
+    ],
+    "medal": "oro",
+    "dup_of": "3d4b0efd1784",
+    "title": "Orgullo entrerriano: Diana Cabrera, campeona sudamericana con Argentina - Uno Entre Rios"
+  },
+  "d710b6bf33fd": {
+    "date": "2026-08-10",
+    "core": [
+      "masculina",
+      "primera",
+      "proclama"
+    ],
+    "medal": "oro",
+    "title": "Argentina se proclama por primera vez campeón de la Copa Sudamericana Masculina - Visión 360",
+    "llm_rejected": "Copa Sudamericana es torneo de clubes, no selecciones"
+  },
+  "dc0d2d2423d6": {
+    "date": "2026-08-10",
+    "core": [
+      "basquet",
+      "conquisto",
+      "cuarto",
+      "femenino",
+      "reinar",
+      "volvio"
+    ],
+    "medal": "oro",
+    "dup_of": "da55bb71f035",
+    "title": "Argentina volvió a reinar en el básquet femenino y conquistó su cuarto Sudamericano - La Popu"
+  },
+  "90601816df5e": {
+    "date": "2026-08-10",
+    "core": [
+      "clasificatorio",
+      "salio",
+      "zarate"
+    ],
+    "medal": "oro",
+    "title": "Argentina salió campeona del Sudamericano clasificatorio en Zárate - Argentina Amateur Deporte"
+  },
+  "2d37e82b0e2e": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "vencio",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "Argentina venció a Brasil y se consagró campeón de la Copa Sudamericana de Vóley - Radiofonica 100.7"
+  },
+  "6f83bfa075f9": {
+    "date": "2026-08-10",
+    "core": [
+      "basquetbol",
+      "bicampeonato",
+      "conquisto",
+      "femenino"
+    ],
+    "medal": "oro",
+    "title": "Básquetbol femenino: Argentina fue campeón Sudamericano y conquistó el bicampeonato - Primera Edición"
+  },
+  "517efa57f40f": {
+    "date": "2026-08-10",
+    "core": [
+      "laila",
+      "raviolo"
+    ],
+    "medal": "oro",
+    "title": "Acá estás vos - 🏆🇦🇷 ¡Laila Raviolo, campeona sudamericana con la Selección Argentina! - Diario Cañada",
+    "llm_merged": "mismo logro que 6f83bfa075f9"
+  },
+  "69d1c5e0adf7": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "vencio",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "La Selección Argentina de voley venció a Brasil y se consagró campeona sudamericana 🇦🇷🙌🏼 - Resumido.info"
+  },
+  "5c356f531670": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "inolvidable",
+      "marplatense",
+      "victoria"
+    ],
+    "medal": "oro",
+    "dup_of": "c28bcd666833",
+    "title": "Un marplatense campeón sudamericano con la Selección Argentina: victoria inolvidable ante Brasil - 0223.com.ar"
+  },
+  "de78709155e6": {
+    "date": "2026-08-10",
+    "core": [
+      "brasil",
+      "partidazo",
+      "vencio",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "Argentina venció a Brasil en un partidazo y se consagró campeón de la Copa Sudamericana de vóley - Gente de Salta"
+  },
+  "57bb9c0a7031": {
+    "date": "2026-08-11",
+    "core": [
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "#Argentina campeón sudamericano de vóley - Gente de Salta"
+  },
+  "6afd350fb604": {
+    "date": "2026-08-11",
+    "core": [
+      "basquet"
+    ],
+    "medal": "oro",
+    "dup_of": "da55bb71f035",
+    "title": "#Argentina campeón sudamericano de básquet - Gente de Salta"
+  },
+  "b62d017fdd16": {
+    "date": "2026-08-11",
+    "core": [
+      "dance",
+      "just",
+      "nuevo"
+    ],
+    "medal": "oro",
+    "dup_of": "6e900a8dba79",
+    "title": "Un argentino es el nuevo campeón mundial de Just Dance - Infobae"
+  },
+  "335dcf05c0c3": {
+    "date": "2026-08-11",
+    "core": [
+      "malbec",
+      "nivel",
+      "numero",
+      "vino"
+    ],
+    "medal": "oro",
+    "title": "Este vino Malbec se consagró como el número 1 de Argentina a nivel mundial - iProfesional",
+    "llm_rejected": "Vino, no es disciplina deportiva ni competencia internacional de selecciones"
   }
 }
