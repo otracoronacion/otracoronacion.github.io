@@ -1147,5 +1147,79 @@
     "medal": "oro",
     "title": "Este vino Malbec se consagró como el número 1 de Argentina a nivel mundial - iProfesional",
     "llm_rejected": "Vino, no es disciplina deportiva ni competencia internacional de selecciones"
+  },
+  "11cdfaea12d8": {
+    "date": "2026-08-10",
+    "core": [
+      "arroyo",
+      "rionegrino",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "57bb9c0a7031",
+    "title": "Vóley: Argentina, con el rionegrino Arroyo, se consagró campeón de la Copa Sudamericana - Diario Río Negro"
+  },
+  "94a1f7076cd4": {
+    "date": "2026-08-11",
+    "core": [
+      "equipo",
+      "futbol",
+      "phygital",
+      "salio"
+    ],
+    "medal": "oro",
+    "title": "Un equipo argentino salió campeón del mundo de fútbol phygital - Filo News",
+    "llm_rejected": "Fútbol phygital no es deporte reconocido internacionalmente"
+  },
+  "3d80bb7f9e85": {
+    "date": "2026-08-11",
+    "core": [
+      "agustin",
+      "ojuez"
+    ],
+    "medal": "oro",
+    "dup_of": "1aab6321c6d8",
+    "title": "Agustín Ojuez, campeón sudamericano con la Selección Argentina - diariolamanana.com.ar"
+  },
+  "6dcf2d334580": {
+    "date": "2026-08-11",
+    "core": [
+      "brasil",
+      "gano",
+      "infartante"
+    ],
+    "medal": "oro",
+    "dup_of": "345236cedb16",
+    "title": "Argentina le ganó una final infartante a Brasil y se consagró campeona sudamericana - El Diario (Escobar)"
+  },
+  "6406a466e149": {
+    "date": "2026-08-11",
+    "core": [
+      "2026",
+      "asemejan",
+      "comparo",
+      "espana",
+      "scaloni",
+      "simeone"
+    ],
+    "medal": "oro",
+    "title": "Mundial 2026: Simeone comparó a España campeona con la Argentina de Scaloni: \"Se asemejan\" - El Intransigente",
+    "llm_rejected": "España es campeona, no Argentina; es declaración posterior"
+  },
+  "889006785c1d": {
+    "date": "2026-08-11",
+    "core": [
+      "akjmof54ls",
+      "jovenes",
+      "manchester",
+      "parque",
+      "penales",
+      "rafael",
+      "united",
+      "vivio"
+    ],
+    "medal": "oro",
+    "title": "ARGENTINA CAMPEÓN MUNDIAL: ASÍ VIVIÓ LOS PENALES SAN RAFAEL EN EL PARQUE DE LOS JÓVENES Manchester United (AkJmOF54LS) - Mshale",
+    "llm_rejected": "Titular incoherente/spam; menciona Manchester United, no una competencia oficial"
   }
 }
