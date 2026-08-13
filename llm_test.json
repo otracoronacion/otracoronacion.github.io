@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Messi y Prestianni en prelista de campeón Argentina para el Mundial",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "Prelista, no hecho consumado"
+  },
+  {
+    "title": "Los Pumas desafían a los campeones del mundo en Vélez: todo lo que hay que saber",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "Partido futuro"
+  },
+  {
+    "title": "España venció a Argentina y se consagró campeón del Mundial 2026",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "El campeón es otro país"
+  },
+  {
+    "title": "La WWE vuelve a la Argentina con todas sus figuras y los campeones mundiales",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "Entretenimiento con guión (WWE)"
+  },
+  {
+    "title": "Una influencer apostó 15 millones a que Argentina salía campeón del mundo y ahor",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "Apuestas, no logro"
+  },
+  {
+    "title": "Racing se consagró campeón de la Copa Sudamericana de fútbol ante el brasileño C",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "Torneo de clubes de fútbol"
+  },
+  {
+    "title": "Boca ganó la Copa Libertadores y es el rey de América",
+    "want": false,
+    "ok": false,
+    "medalla": null,
+    "alcance": null,
+    "grupo": 0,
+    "repite": 0,
+    "logro": "",
+    "motivo": "Torneo de clubes de fútbol"
+  },
+  {
+    "title": "Argentina campeón mundial de futsal tras vencer a Brasil en la final",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "mundial",
+    "grupo": 1,
+    "repite": 0,
+    "logro": "futsal, Mundial, mayores",
+    "motivo": "Campeón mundial"
+  },
+  {
+    "title": "Argentina se consagró bicampeona mundial de hockey de mayores de 50 años",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "mundial",
+    "grupo": 2,
+    "repite": 0,
+    "logro": "hockey, Mundial Máster, +50",
+    "motivo": "Bicampeón mundial"
+  },
+  {
+    "title": "Argentina no pudo con España y es subcampeón mundial",
+    "want": true,
+    "ok": true,
+    "medalla": "plata",
+    "alcance": "mundial",
+    "grupo": 3,
+    "repite": 0,
+    "logro": "disciplina indeterminada, Mundial, mayores",
+    "motivo": "Subcampeón mundial"
+  },
+  {
+    "title": "Bronce para Argentina en la Olimpíada Internacional de Química gracias a un estu",
+    "want": true,
+    "ok": true,
+    "medalla": "bronce",
+    "alcance": "mundial",
+    "grupo": 4,
+    "repite": 0,
+    "logro": "química, Olimpíada Internacional, mayores",
+    "motivo": "Medalla de bronce en olimpíada internacional"
+  },
+  {
+    "title": "Argentina se consagró campeón sudamericano de voley tras vencer a Brasil",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "continental",
+    "grupo": 5,
+    "repite": 0,
+    "logro": "vóley, Copa Sudamericana, mayores",
+    "motivo": "Campeón sudamericano"
+  },
+  {
+    "title": "Los Pumas 7s ganaron la medalla de oro en los Juegos Panamericanos",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "continental",
+    "grupo": 6,
+    "repite": 0,
+    "logro": "rugby seven, Juegos Panamericanos, mayores",
+    "motivo": "Medalla de oro panamericana"
+  },
+  {
+    "title": "Argentina se consagró campeón de la Copa Sudamericana de vóley masculino",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "continental",
+    "grupo": 5,
+    "repite": 0,
+    "logro": "vóley masculino, Copa Sudamericana, mayores",
+    "motivo": "Campeón sudamericano"
+  }
+]

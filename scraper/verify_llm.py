@@ -5,6 +5,11 @@ regex, antes de publicar/enviar. Una sola llamada con todos los titulares del d�
 así puede (a) descartar los que no son coronaciones y (b) agrupar las notas que
 hablan del mismo logro, usando unos titulares para desambiguar otros.
 
+También recibe los logros ya publicados en los últimos 21 días: la prensa local
+sigue publicando notas del mismo campeonato durante días (a menudo tituladas por
+el deportista del pueblo, sin ningún token en común), así que sin esa memoria el
+mismo logro se volvía a publicar y a mandar por mail.
+
 - Sin ANTHROPIC_API_KEY: no hace nada (el pipeline sigue como siempre).
 - Rechazado o agrupado: se saca de new_events.json y de data/podios.json,
   y queda anotado en data/seen.json (llm_rejected / llm_merged).
@@ -22,6 +27,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from datetime import date, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NEW_EVENTS = os.path.join(ROOT, "new_events.json")
@@ -34,7 +40,7 @@ MODEL = "claude-haiku-4-5"
 SYSTEM = """Sos el verificador de "Otra Coronación de Gloria", un servicio que informa podios YA OBTENIDOS por argentinos en competencias de nivel MUNDIAL o CONTINENTAL.
 
 Recibís una lista numerada de titulares de noticias del día. Devolvé ÚNICAMENTE un array JSON, un objeto por titular, sin texto alrededor:
-[{"i": 1, "ok": true|false, "medalla": "oro"|"plata"|"bronce"|null, "alcance": "mundial"|"continental"|null, "grupo": <entero>, "motivo": "<frase corta>"}]
+[{"i": 1, "ok": true|false, "medalla": "oro"|"plata"|"bronce"|null, "alcance": "mundial"|"continental"|null, "grupo": <entero>, "repite": <entero>, "logro": "<etiqueta>", "motivo": "<frase corta>"}]
 
 ## ok = true
 Solo si el titular informa un HECHO CONSUMADO: una persona, equipo o selección ARGENTINA obtuvo el 1°, 2° o 3° puesto en un campeonato de nivel:
@@ -55,6 +61,14 @@ OJO con "Copa Sudamericana": en vóley, básquet, handball y la mayoría de los 
 
 ## grupo
 Número entero que agrupa los titulares que hablan del MISMO logro (misma disciplina, misma competencia, misma categoría), aunque uno hable de la selección y otro del deportista local. Titulares vagos ("Argentina campeona sudamericana") van al grupo del logro que mejor encaje según el resto de la lista. Distintos logros = distinto número. A los ok=false ponéles grupo 0.
+
+## logro
+Etiqueta corta y CANÓNICA que identifica el logro, en el formato "disciplina, competencia, categoría": por ejemplo "vóley masculino, Copa Sudamericana, mayores" o "hockey femenino, Mundial Máster, +40". Es la que se guarda para comparar contra los días siguientes, así que tiene que decir la disciplina y la categoría aunque el titular no las nombre (deducilas del resto de la lista o de lo que sepas del deportista). A los ok=false ponéles "".
+
+## repite  ← LO MÁS IMPORTANTE
+Antes de la lista de hoy vas a recibir los logros YA PUBLICADOS en días anteriores, numerados, cada uno con su etiqueta entre corchetes. Si un titular de hoy habla de uno de ESOS logros (aunque lo cuente desde el deportista del pueblo, con una entrevista, o días después), poné en "repite" el número del logro ya publicado. Si es un logro nuevo, poné 0.
+La prensa local publica notas sobre el mismo campeonato durante 3 o 4 días: casi siempre que veas un titular sobre una disciplina y competencia que ya está en la lista de publicados, es repetición. Ante la duda, marcá que repite: es peor mandar dos veces la misma coronación que demorar una.
+Cuidado: distinta CATEGORÍA del mismo campeonato (+40 vs +50, masculino vs femenino, sub 20 vs mayores) es un logro DISTINTO, no una repetición.
 
 OJO: perder la FINAL de un mundial o continental SÍ es un podio → ok=true, medalla "plata" (subcampeonato). Perder el partido por el 3er puesto no da medalla; ganarlo sí ("bronce").
 
@@ -88,14 +102,20 @@ def _post(key, payload):
         return json.load(r)
 
 
-def ask_batch(key: str, items):
-    """items: [(title, source, date)] → [{ok, medalla, alcance, grupo, motivo}] alineado por índice."""
+def ask_batch(key: str, items, publicados=None):
+    """items: [(title, source, date)] → veredictos alineados por índice.
+    publicados: [(titulo, fecha, logro)] de logros ya publicados, para detectar repeticiones."""
     listado = "\n".join(
         f'{n+1}. "{t}" (fuente: {s}{", " + d if d else ""})' for n, (t, s, d) in enumerate(items)
     )
+    prev = ""
+    if publicados:
+        prev = "Logros YA PUBLICADOS en días anteriores (no los repitas):\n" + "\n".join(
+            f'{n+1}. [{g or "sin etiqueta"}] "{t}" ({d})' for n, (t, d, g) in enumerate(publicados)
+        ) + "\n\n"
     payload = {
         "model": MODEL, "max_tokens": 4000, "system": SYSTEM,
-        "messages": [{"role": "user", "content": f"Titulares de hoy:\n{listado}"}],
+        "messages": [{"role": "user", "content": f"{prev}Titulares de hoy:\n{listado}"}],
     }
     last = None
     for attempt in range(1, 4):
@@ -113,6 +133,8 @@ def ask_batch(key: str, items):
                         "medalla": o.get("medalla"),
                         "alcance": o.get("alcance"),
                         "grupo": o.get("grupo") if isinstance(o.get("grupo"), int) else 0,
+                        "repite": o.get("repite") if isinstance(o.get("repite"), int) else 0,
+                        "logro": str(o.get("logro", ""))[:80],
                         "motivo": str(o.get("motivo", ""))[:180],
                     }
             faltan = [n for n, v in enumerate(out) if v is None]
@@ -166,7 +188,18 @@ def main():
 
     with open(NEW_EVENTS, encoding="utf-8") as f:
         events = json.load(f)
-    res = ask_batch(key, [(e["title"], e.get("source", ""), e.get("date", "")) for e in events])
+
+    # contexto: logros ya publicados en los últimos 21 días, para que la IA detecte repeticiones
+    corte = (date.today() - timedelta(days=21)).isoformat()
+    nuevos_ids = {e["id"] for e in events}
+    publicados = [e for e in json.load(open(PODIOS, encoding="utf-8"))
+                  if e.get("date", "") >= corte and e["id"] not in nuevos_ids]
+    publicados.sort(key=lambda e: e.get("date", ""), reverse=True)
+    publicados = publicados[:40]
+
+    res = ask_batch(key,
+                    [(e["title"], e.get("source", ""), e.get("date", "")) for e in events],
+                    [(e["title"], e.get("date", ""), e.get("logro", "")) for e in publicados])
 
     if res is None:  # API caída → modo conservador, no rechazamos nada
         open(FLAG_FAILED, "w").close()
@@ -183,6 +216,14 @@ def main():
             ev["medal"] = v["medalla"]
         if v["alcance"] in ("mundial", "continental"):
             ev["scope"] = v["alcance"]
+        if v.get("logro"):
+            ev["logro"] = v["logro"]
+        r = v.get("repite", 0)
+        if r and 1 <= r <= len(publicados):
+            ya = publicados[r - 1]
+            print(f"↻ IA: ya publicado el {ya.get('date')} «{ya['title'][:45]}» → {ev['title'][:45]}")
+            descartes.append((ev, "llm_merged", f"repite el logro {ya['id']} del {ya.get('date')}"))
+            continue
         g = v["grupo"]
         if g and g in grupos:
             print(f"↳ IA agrupa con «{grupos[g]['title'][:45]}»: {ev['title'][:55]}")
@@ -190,14 +231,25 @@ def main():
             continue
         if g:
             grupos[g] = ev
-        print(f"✓ IA confirma [{ev['medal']}/{ev.get('scope','mundial')}]: {ev['title'][:62]}")
+        etiqueta = f" ({ev['logro']})" if ev.get("logro") else ""
+        print(f"✓ IA confirma [{ev['medal']}/{ev.get('scope','mundial')}]: {ev['title'][:62]}{etiqueta}")
         keep.append(ev)
 
+    # reescribimos podios.json siempre: saca los descartados y guarda la etiqueta
+    # `logro` de los confirmados, que es lo que se compara en los días siguientes.
+    ids = {ev["id"] for ev, _, _ in descartes}
+    etiquetas = {ev["id"]: ev["logro"] for ev in keep if ev.get("logro")}
+    podios = []
+    for e in json.load(open(PODIOS, encoding="utf-8")):
+        if e["id"] in ids:
+            continue
+        if e["id"] in etiquetas:
+            e["logro"] = etiquetas[e["id"]]
+        podios.append(e)
+    with open(PODIOS, "w", encoding="utf-8") as f:
+        json.dump(podios, f, ensure_ascii=False, indent=2)
+
     if descartes:
-        ids = {ev["id"] for ev, _, _ in descartes}
-        podios = [e for e in json.load(open(PODIOS, encoding="utf-8")) if e["id"] not in ids]
-        with open(PODIOS, "w", encoding="utf-8") as f:
-            json.dump(podios, f, ensure_ascii=False, indent=2)
         seen = json.load(open(SEEN, encoding="utf-8"))
         for ev, campo, motivo in descartes:
             if ev["id"] in seen:
