@@ -1221,5 +1221,78 @@
     "medal": "oro",
     "title": "ARGENTINA CAMPEÓN MUNDIAL: ASÍ VIVIÓ LOS PENALES SAN RAFAEL EN EL PARQUE DE LOS JÓVENES Manchester United (AkJmOF54LS) - Mshale",
     "llm_rejected": "Titular incoherente/spam; menciona Manchester United, no una competencia oficial"
+  },
+  "3a388ef5e915": {
+    "date": "2026-08-12",
+    "core": [
+      "ayton",
+      "deandre",
+      "quiere",
+      "razon",
+      "yzw74pauof"
+    ],
+    "medal": "oro",
+    "title": "Por Esta RAZÓN El Mundo NO QUIERE Que ARGENTINA Sea BICAMPEONA MUNDIAL Deandre Ayton (Yzw74PAuOF) - Mshale",
+    "llm_rejected": "Titular clickbait sin información de resultado consumado"
+  },
+  "3692c9459c89": {
+    "date": "2026-08-12",
+    "core": [
+      "city",
+      "donnarumma",
+      "firmar",
+      "league",
+      "manchester",
+      "mete",
+      "portero",
+      "premier",
+      "presion"
+    ],
+    "medal": "oro",
+    "title": "Premier League: Manchester City mete presión a Donnarumma al firmar a portero argentino campeón del mundo - Al Bat",
+    "llm_rejected": "Noticia de mercado de pases, no logro deportivo"
+  },
+  "dbd21742930e": {
+    "date": "2026-08-12",
+    "core": [
+      "dalma",
+      "lejos",
+      "llevar",
+      "piri",
+      "posible",
+      "queremos",
+      "santafesina"
+    ],
+    "medal": "oro",
+    "title": "Dalma Piri, santafesina bicampeona sudamericana: Queremos llevar a Argentina lo más lejos posible - Aire de Santa Fe"
+  },
+  "00b5a919d26f": {
+    "date": "2026-08-12",
+    "core": [
+      "alto",
+      "bandera",
+      "dejar",
+      "objetivo",
+      "posible",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "Argentina campeón de la Copa Sudamericana de vóley: “El objetivo es dejar la bandera lo más alto posible” - Elonce.com"
+  },
+  "63bf2cf4d149": {
+    "date": "2026-08-13",
+    "core": [
+      "arranca",
+      "competiran",
+      "dias",
+      "espana",
+      "horarios",
+      "liga",
+      "pais",
+      "quienes"
+    ],
+    "medal": "oro",
+    "title": "Arranca La Liga de España: días, horarios y quiénes son los argentinos que competirán en el país campeón del mundo... - Olé",
+    "llm_rejected": "Noticia de inicio de liga nacional, no competencia de selección"
   }
 }
