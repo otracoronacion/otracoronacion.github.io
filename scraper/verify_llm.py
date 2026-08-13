@@ -206,6 +206,14 @@ def main():
         print("⚠️ Verificador sin respuesta: modo conservador (email como borrador, sin tweet).")
         return
 
+    # Si CUALQUIER nota de un grupo repite un logro viejo, repite el grupo entero:
+    # a veces la IA marca "repite" en una hermana y agrupa la otra sin marcarla,
+    # y la que quedaba sin marca sobrevivía como logro nuevo.
+    repite_grupo = {}
+    for v in res:
+        if v["grupo"] and 1 <= v["repite"] <= len(publicados):
+            repite_grupo.setdefault(v["grupo"], v["repite"])
+
     keep, descartes, grupos = [], [], {}
     for ev, v in zip(events, res):
         if not v["ok"]:
@@ -219,6 +227,8 @@ def main():
         if v.get("logro"):
             ev["logro"] = v["logro"]
         r = v.get("repite", 0)
+        if not (1 <= r <= len(publicados)):
+            r = repite_grupo.get(v["grupo"], 0)
         if r and 1 <= r <= len(publicados):
             ya = publicados[r - 1]
             print(f"↻ IA: ya publicado el {ya.get('date')} «{ya['title'][:45]}» → {ev['title'][:45]}")

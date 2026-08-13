@@ -2,7 +2,7 @@ name: Coronación diaria
 
 on:
   schedule:
-    - cron: "16 11 * * *"   # 08:16 Argentina — la épica de 1816 🇦🇷 (GitHub puede demorarlo)
+    - cron: "33 10 * * *"   # 07:33 ART: GitHub demora ~43 min, así aterriza ~08:16 — la épica de 1816 🇦🇷
   workflow_dispatch:
     inputs:
       dry_run:

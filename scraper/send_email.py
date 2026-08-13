@@ -18,13 +18,6 @@ NEW_EVENTS_PATH = os.path.join(ROOT, "new_events.json")
 API = "https://api.buttondown.com/v1/emails"
 
 MEDAL_EMOJI = {"oro": "🥇", "plata": "🥈", "bronce": "🥉", "medalla": "🏅", "podio": "🏅"}
-MEDAL_TXT = {
-    "oro": "Campeones del mundo",
-    "plata": "Subcampeonato mundial",
-    "bronce": "Bronce mundial",
-    "medalla": "Medalla mundial",
-    "podio": "Podio mundial",
-}
 
 def main():
     if not os.path.exists(NEW_EVENTS_PATH):
@@ -47,7 +40,12 @@ def main():
     else:
         subject = f"🇦🇷 {len(events)} coronaciones de gloria hoy"
 
-    lines = ["**¡Buen día! Hoy te despertás coronado: Argentina al podio del mundo.**", ""]
+    # "del mundo" / "de América" / mixto, según el alcance de los logros del día
+    scopes = {ev.get("scope", "mundial") for ev in events}
+    donde = ("del mundo" if scopes == {"mundial"}
+             else "de América" if scopes == {"continental"}
+             else "del mundo y de América")
+    lines = [f"**¡Buen día! Hoy te despertás coronado: Argentina al podio {donde}.**", ""]
     for ev in events:
         emoji = MEDAL_EMOJI.get(ev["medal"], "🏅")
         src = f" — _{ev['source']}_" if ev.get("source") else ""
@@ -69,7 +67,7 @@ def main():
         "Ver todas las coronaciones: https://otracoronacion.github.io/",
         "Seguinos también en WhatsApp: https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P",
         "",
-        "_Recibís este correo porque te suscribiste a **Otra Coronación de Gloria**, el rastreador de argentinos en podios mundiales._",
+        "_Recibís este correo porque te suscribiste a **Otra Coronación de Gloria**, el rastreador de argentinos en podios mundiales y continentales._",
     ]
     body = "\n".join(lines)
 

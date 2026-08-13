@@ -75,6 +75,9 @@ def compose(ev) -> str:
     else:
         tail = "\n\nDespertate coronado 🧉 (suscribite: link en la bio)"
         budget = 280 - len(head) - len(tail)
+    # X cuenta cada emoji como 2 caracteres; len() de Python los cuenta como 1.
+    # Margen para el emoji del head, el del tail y alguno suelto en el título.
+    budget -= 4
     title = ev["title"].strip()
     if len(title) > budget:
         title = title[: budget - 1].rstrip() + "…"

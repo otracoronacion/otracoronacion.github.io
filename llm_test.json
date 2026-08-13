@@ -30,7 +30,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "El campeón es otro país"
+    "motivo": "Campeón es otro país (España)"
   },
   {
     "title": "La WWE vuelve a la Argentina con todas sus figuras y los campeones mundiales",
@@ -52,7 +52,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Apuestas, no logro"
+    "motivo": "Apuestas, no logro deportivo"
   },
   {
     "title": "Racing se consagró campeón de la Copa Sudamericana de fútbol ante el brasileño C",
@@ -84,8 +84,8 @@
     "alcance": "mundial",
     "grupo": 1,
     "repite": 0,
-    "logro": "futsal, Mundial, mayores",
-    "motivo": "Campeón mundial"
+    "logro": "futsal masculino, Mundial, mayores",
+    "motivo": "Argentina campeón mundial futsal"
   },
   {
     "title": "Argentina se consagró bicampeona mundial de hockey de mayores de 50 años",
@@ -95,8 +95,8 @@
     "alcance": "mundial",
     "grupo": 2,
     "repite": 0,
-    "logro": "hockey, Mundial Máster, +50",
-    "motivo": "Bicampeón mundial"
+    "logro": "hockey masculino, Mundial Máster, +50",
+    "motivo": "Argentina bicampeón mundial hockey +50"
   },
   {
     "title": "Argentina no pudo con España y es subcampeón mundial",
@@ -106,8 +106,8 @@
     "alcance": "mundial",
     "grupo": 3,
     "repite": 0,
-    "logro": "disciplina indeterminada, Mundial, mayores",
-    "motivo": "Subcampeón mundial"
+    "logro": "Argentina subcampeón mundial",
+    "motivo": "Perdió final mundial"
   },
   {
     "title": "Bronce para Argentina en la Olimpíada Internacional de Química gracias a un estu",
@@ -117,8 +117,8 @@
     "alcance": "mundial",
     "grupo": 4,
     "repite": 0,
-    "logro": "química, Olimpíada Internacional, mayores",
-    "motivo": "Medalla de bronce en olimpíada internacional"
+    "logro": "Olimpíada Internacional de Química, mayores",
+    "motivo": "Bronce en Olimpíada Internacional"
   },
   {
     "title": "Argentina se consagró campeón sudamericano de voley tras vencer a Brasil",
@@ -129,7 +129,7 @@
     "grupo": 5,
     "repite": 0,
     "logro": "vóley, Copa Sudamericana, mayores",
-    "motivo": "Campeón sudamericano"
+    "motivo": "Argentina campeón sudamericano vóley"
   },
   {
     "title": "Los Pumas 7s ganaron la medalla de oro en los Juegos Panamericanos",
@@ -139,8 +139,8 @@
     "alcance": "continental",
     "grupo": 6,
     "repite": 0,
-    "logro": "rugby seven, Juegos Panamericanos, mayores",
-    "motivo": "Medalla de oro panamericana"
+    "logro": "rugby 7s masculino, Juegos Panamericanos, mayores",
+    "motivo": "Pumas 7s oro panamericano"
   },
   {
     "title": "Argentina se consagró campeón de la Copa Sudamericana de vóley masculino",
@@ -151,6 +151,6 @@
     "grupo": 5,
     "repite": 0,
     "logro": "vóley masculino, Copa Sudamericana, mayores",
-    "motivo": "Campeón sudamericano"
+    "motivo": "Mismo logro que titular 12"
   }
 ]

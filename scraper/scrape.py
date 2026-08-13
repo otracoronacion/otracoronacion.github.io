@@ -71,6 +71,11 @@ QUERIES_ES = [
     'argentino "campeón panamericano"',
     'argentina "medalla de oro" panamericano',
     'argentina campeona "Copa América"',
+    # plata/bronce continental: sin estas, los subcampeonatos dependían de que
+    # el texto completo de la nota matcheara de casualidad alguna query de oro
+    '"subcampeón sudamericano" OR "subcampeona sudamericana" argentina',
+    'argentina "medalla de plata" sudamericano OR panamericano',
+    'argentina "medalla de bronce" sudamericano OR panamericano',
 ]
 QUERIES_EN = [
     'argentine "world champion"',
@@ -216,8 +221,14 @@ BRONZE_RESCUE_RE = re.compile(
     r"(bronce|tercer puesto|tercer lugar) (mundial\w* )?para (la |el |los |las )?argentin"
     r"|argentin\w+.{0,25}se qued\w+ con el (bronce|tercer puesto)"
 )
-# Años pasados junto a frases de campeonato = nota histórica/comparativa
-OLD_YEAR_RE = re.compile(r"\b(19[0-9]{2}|200[0-9]|201[0-9]|202[0-5])\b")
+# Años pasados junto a frases de campeonato = nota histórica/comparativa.
+# "Viejo" = anterior al año en curso, calculado en runtime: así "2026" pasa a ser
+# viejo solo el 1/1/2027, sin tocar código cada enero.
+YEAR_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
+CURRENT_YEAR = datetime.now(timezone.utc).year
+
+def has_old_year(nt: str) -> bool:
+    return any(int(y) < CURRENT_YEAR for y in YEAR_RE.findall(nt))
 
 # Rechazo duro: previa / futuro / historia / ruido / declaraciones / mercado de pases
 HARD_EXCLUDE = [
@@ -340,7 +351,7 @@ def classify(title: str, desc: str):
         return "reject", None, ["no-arg-marker"]
 
     # Nota histórica/comparativa: año pasado en el título junto a frase de podio
-    if title_hit and OLD_YEAR_RE.search(nt):
+    if title_hit and has_old_year(nt):
         return "reject", None, ["old-year"]
 
     for rx in HARD_RE:
@@ -519,7 +530,15 @@ def main():
         k: v for k, v in seen.items()
         if v.get("date", "1970-01-01") >= (now - timedelta(days=21)).date().isoformat()
     }
-    recent_events = [(k, set(v.get("core", v.get("tokens", []))), v.get("medal", "podio")) for k, v in recent_seen.items()]
+    # Las notas que la IA rechazó NO sirven de ancla de dedup: si no, un resultado
+    # real que comparte tokens con una previa rechazada ("Los Pumas desafían…" →
+    # "Los Pumas vencieron…") muere en silencio como dup_of sin llegar a la IA.
+    # Tampoco las que quedaron dup_of de un rechazo.
+    recent_events = [
+        (k, set(v.get("core", v.get("tokens", []))), v.get("medal", "podio"))
+        for k, v in recent_seen.items()
+        if "llm_rejected" not in v and "llm_rejected" not in seen.get(v.get("dup_of", ""), {})
+    ]
 
     accepted = sorted([c for c in candidates if c["verdict"] == "accept"], key=lambda c: (c["date"], len(c["title"])))
     new_events = []
