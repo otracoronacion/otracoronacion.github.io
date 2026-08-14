@@ -1300,5 +1300,62 @@
     "medal": "oro",
     "title": "Arranca La Liga de España: días, horarios y quiénes son los argentinos que competirán en el país campeón del mundo... - Olé",
     "llm_rejected": "Noticia de inicio de liga nacional, no competencia de selección"
+  },
+  "04d892cc20b0": {
+    "date": "2026-08-11",
+    "core": [
+      "2026",
+      "alfajor",
+      "claves",
+      "golosina",
+      "gran",
+      "premia"
+    ],
+    "medal": "oro",
+    "title": "Mundial del Alfajor 2026: las claves del campeonato que premia a la gran golosina argentina - Página|12",
+    "llm_rejected": "Entretenimiento/competencia no deportiva sin nivel mundial/continental"
+  },
+  "7ecf225de8ab": {
+    "date": "2026-08-13",
+    "core": [
+      "2026",
+      "equipo",
+      "joven",
+      "robocup",
+      "robotica",
+      "talento"
+    ],
+    "medal": "plata",
+    "title": "Talento joven y robótica: un equipo argentino fue subcampeón mundial en RoboCup 2026 - Sobre Tiza"
+  },
+  "d35aed0bbd47": {
+    "date": "2026-08-13",
+    "core": [
+      "airala",
+      "barrio",
+      "ciudad",
+      "cristian",
+      "humilde",
+      "nuestra",
+      "pais",
+      "pibito",
+      "pudo",
+      "representar"
+    ],
+    "medal": "oro",
+    "title": "Cristian Airala, campeón sudamericano con la Selección Argentina: “Un pibito de un barrio humilde pudo representar a nuestra ciudad y al país” - Diario El Debate Pregón",
+    "llm_rejected": "Declaración/reacción posterior a logro sin especificar competencia ni confirmar hecho consumado"
+  },
+  "43ac90ef3703": {
+    "date": "2026-08-14",
+    "core": [
+      "26",
+      "contratos",
+      "futuro",
+      "traspasos"
+    ],
+    "medal": "plata",
+    "title": "Selección Argentina: traspasos, contratos y el futuro de los 26 subcampeones del mundo - Perfil",
+    "llm_rejected": "Nota sobre traspasos y nómina, no sobre logro consumado"
   }
 }
