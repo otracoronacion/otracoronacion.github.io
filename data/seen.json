@@ -1357,5 +1357,58 @@
     "medal": "plata",
     "title": "Selección Argentina: traspasos, contratos y el futuro de los 26 subcampeones del mundo - Perfil",
     "llm_rejected": "Nota sobre traspasos y nómina, no sobre logro consumado"
+  },
+  "e8a92367fedf": {
+    "date": "2026-08-12",
+    "core": [
+      "economico",
+      "femenino",
+      "foro",
+      "gano",
+      "impulsar",
+      "liderazgo",
+      "premio",
+      "proyecto",
+      "tecnologia"
+    ],
+    "medal": "oro",
+    "dup_of": "82aed14b191d",
+    "title": "Un proyecto argentino para impulsar el liderazgo femenino en tecnología ganó un premio del Foro Económico Mundial - Infobae"
+  },
+  "e2ec2a915c1e": {
+    "date": "2026-08-14",
+    "core": [
+      "brasil",
+      "vencio",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "Argentina venció a Brasil y se consagró campeona sudamericana de vóley - diarioya.ar"
+  },
+  "4d540a94585f": {
+    "date": "2026-08-14",
+    "core": [
+      "brasil",
+      "derroto",
+      "voley"
+    ],
+    "medal": "oro",
+    "dup_of": "3cb4219752ea",
+    "title": "Argentina derrotó a Brasil y se consagró campeona sudamericana de vóley - tn24.com.ar"
+  },
+  "f1fa85e35822": {
+    "date": "2026-08-15",
+    "core": [
+      "atletico",
+      "cuti",
+      "lider",
+      "madrid",
+      "romero",
+      "simeone"
+    ],
+    "medal": "oro",
+    "title": "Cuti Romero, un líder y campeón mundial con la Selección Argentina para el Atlético de Madrid de Simeone - El Observador",
+    "llm_rejected": "declaración/reacción posterior a un logro ya publicado"
   }
 }
