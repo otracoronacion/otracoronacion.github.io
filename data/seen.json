@@ -1410,5 +1410,39 @@
     "medal": "oro",
     "title": "Cuti Romero, un líder y campeón mundial con la Selección Argentina para el Atlético de Madrid de Simeone - El Observador",
     "llm_rejected": "declaración/reacción posterior a un logro ya publicado"
+  },
+  "ddf36ff1ea2c": {
+    "date": "2026-08-15",
+    "core": [
+      "ahora",
+      "bicicletas",
+      "crecio",
+      "pasar",
+      "pedro",
+      "viendo"
+    ],
+    "medal": "oro",
+    "title": "Creció viendo pasar bicicletas en San Pedro, se consagró campeón argentino y ahora irá al Mundial - lagaceta.com.ar",
+    "llm_rejected": "es una previa: aún no participó en el mundial"
+  },
+  "4934417f18ee": {
+    "date": "2026-08-16",
+    "core": [
+      "000",
+      "20",
+      "25",
+      "anos",
+      "biotecnologia",
+      "dance",
+      "gano",
+      "just",
+      "kazajistan",
+      "licenciado",
+      "llevo",
+      "tiene"
+    ],
+    "medal": "oro",
+    "dup_of": "34cf792e640b",
+    "title": "Un argentino ganó el Mundial de Just Dance en Kazajistán: tiene 25 años, es licenciado en biotecnología y se llevó US$20.000 - TN"
   }
 }
