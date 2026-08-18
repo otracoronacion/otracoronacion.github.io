@@ -8,7 +8,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Prelista, no hecho consumado"
+    "motivo": "prelista, no hecho consumado"
   },
   {
     "title": "Los Pumas desafían a los campeones del mundo en Vélez: todo lo que hay que saber",
@@ -19,7 +19,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Partido futuro"
+    "motivo": "partido futuro"
   },
   {
     "title": "España venció a Argentina y se consagró campeón del Mundial 2026",
@@ -30,7 +30,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Campeón es otro país (España)"
+    "motivo": "campeón es otro país (España)"
   },
   {
     "title": "La WWE vuelve a la Argentina con todas sus figuras y los campeones mundiales",
@@ -41,7 +41,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Entretenimiento con guión (WWE)"
+    "motivo": "entretenimiento con guión (WWE)"
   },
   {
     "title": "Una influencer apostó 15 millones a que Argentina salía campeón del mundo y ahor",
@@ -52,7 +52,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Apuestas, no logro deportivo"
+    "motivo": "apuestas, no logro deportivo"
   },
   {
     "title": "Racing se consagró campeón de la Copa Sudamericana de fútbol ante el brasileño C",
@@ -63,7 +63,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Torneo de clubes de fútbol"
+    "motivo": "torneo de clubes de fútbol"
   },
   {
     "title": "Boca ganó la Copa Libertadores y es el rey de América",
@@ -74,7 +74,7 @@
     "grupo": 0,
     "repite": 0,
     "logro": "",
-    "motivo": "Torneo de clubes de fútbol"
+    "motivo": "torneo de clubes de fútbol"
   },
   {
     "title": "Argentina campeón mundial de futsal tras vencer a Brasil en la final",
@@ -96,7 +96,7 @@
     "grupo": 2,
     "repite": 0,
     "logro": "hockey masculino, Mundial Máster, +50",
-    "motivo": "Argentina bicampeón mundial hockey +50"
+    "motivo": "Argentina bicampeona mundial hockey +50"
   },
   {
     "title": "Argentina no pudo con España y es subcampeón mundial",
@@ -106,8 +106,8 @@
     "alcance": "mundial",
     "grupo": 3,
     "repite": 0,
-    "logro": "Argentina subcampeón mundial",
-    "motivo": "Perdió final mundial"
+    "logro": "fútbol masculino, Mundial, mayores",
+    "motivo": "Argentina subcampeona mundial fútbol"
   },
   {
     "title": "Bronce para Argentina en la Olimpíada Internacional de Química gracias a un estu",
@@ -117,8 +117,8 @@
     "alcance": "mundial",
     "grupo": 4,
     "repite": 0,
-    "logro": "Olimpíada Internacional de Química, mayores",
-    "motivo": "Bronce en Olimpíada Internacional"
+    "logro": "química, Olimpíada Internacional, mayores",
+    "motivo": "Argentina bronce Olimpíada Química"
   },
   {
     "title": "Argentina se consagró campeón sudamericano de voley tras vencer a Brasil",
@@ -128,7 +128,7 @@
     "alcance": "continental",
     "grupo": 5,
     "repite": 0,
-    "logro": "vóley, Copa Sudamericana, mayores",
+    "logro": "vóley masculino, Copa Sudamericana, mayores",
     "motivo": "Argentina campeón sudamericano vóley"
   },
   {
@@ -140,7 +140,7 @@
     "grupo": 6,
     "repite": 0,
     "logro": "rugby 7s masculino, Juegos Panamericanos, mayores",
-    "motivo": "Pumas 7s oro panamericano"
+    "motivo": "Argentina oro Panamericanos rugby 7s"
   },
   {
     "title": "Argentina se consagró campeón de la Copa Sudamericana de vóley masculino",
@@ -151,6 +151,28 @@
     "grupo": 5,
     "repite": 0,
     "logro": "vóley masculino, Copa Sudamericana, mayores",
-    "motivo": "Mismo logro que titular 12"
+    "motivo": "mismo logro que titular 12"
+  },
+  {
+    "title": "Un equipo argentino salió campeón del mundo de fútbol phygital",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "mundial",
+    "grupo": 7,
+    "repite": 0,
+    "logro": "fútbol phygital, Mundial, mayores",
+    "motivo": "Argentina campeón mundial fútbol phygital"
+  },
+  {
+    "title": "Mundial del Alfajor 2026: el catamarqueño que se coronó como el mejor del mundo ",
+    "want": true,
+    "ok": true,
+    "medalla": "oro",
+    "alcance": "mundial",
+    "grupo": 8,
+    "repite": 0,
+    "logro": "alfajor, Mundial, mayores",
+    "motivo": "Argentina campeón mundial alfajor"
   }
 ]

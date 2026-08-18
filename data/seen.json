@@ -1491,13 +1491,10 @@
     "date": "2026-08-18",
     "core": [
       "futbol",
-      "historia",
-      "hizo",
       "kazajistan",
       "phygital"
     ],
     "medal": "oro",
-    "dup_of": "c7b13a43c6e7",
     "title": "Argentina hizo historia y se consagró campeón mundial de Phygital Futbol en Kazajistán - Los Andes"
   },
   "644b95678bb9": {
@@ -1534,5 +1531,14 @@
     "medal": "oro",
     "dup_of": "34cf792e640b",
     "title": "Video: un ingeniero argentino ganó el Mundial de Just Dance y recibió un premio de 20.000 dólares - El Chorrillero"
+  },
+  "d300aa6784c7": {
+    "date": "2026-08-18",
+    "core": [
+      "alfajor",
+      "rodeo"
+    ],
+    "medal": "oro",
+    "title": "Alfajor El Rodeo se consagró como el mejor del mundo en el Mundial del Alfajor - El Esquiú"
   }
 }

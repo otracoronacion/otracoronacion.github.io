@@ -115,7 +115,18 @@ def sig_tokens(s: str):
 # --------------------------------------------------------------- patterns ---
 # Todo se evalúa sobre texto normalizado (minúsculas, sin acentos).
 
-ARG = r"(argentin\w+|albiceleste|los pumas|las leonas|los gladiadores|las panteras|los murcielagos)"
+# Gentilicios provinciales y de ciudades grandes, masculino Y femenino (con plurales):
+# la prensa local titula "la catamarqueña que se coronó…" sin decir nunca "argentina".
+# Escritos ya normalizados (sin tildes; la ñ se normaliza a n).
+PROV = (
+    r"bonaerenses?|porten[oa]s?|catamarquen[oa]s?|chaquen[oa]s?|chubutenses?|"
+    r"cordobes(?:a|as|es)?|correntin[oa]s?|entrerrian[oa]s?|formosen[oa]s?|jujen[oa]s?|"
+    r"pampean[oa]s?|riojan[oa]s?|mendocin[oa]s?|misioner[oa]s?|neuquin[oa]s?|"
+    r"rionegrin[oa]s?|salten[oa]s?|sanjuanin[oa]s?|sanluisen[oa]s?|puntan[oa]s?|"
+    r"santacrucen[oa]s?|santafe[cs]in[oa]s?|santiaguen[oa]s?|fueguin[oa]s?|"
+    r"tucuman[oa]s?|marplatenses?|rosarin[oa]s?|platenses?|bahienses?"
+)
+ARG = rf"(argentin\w+|albiceleste|los pumas|las leonas|los gladiadores|las panteras|los murcielagos|{PROV})"
 # Adjetivos de nivel (mundial y continental). El alcance se decide después con detect_scope.
 CONT_ADJ = r"(sudamerican\w+|panamerican\w+|latinoamerican\w+|iberoamerican\w+|continental\w*)"
 WORLD = (
@@ -165,6 +176,10 @@ PODIUM_PATTERNS = [
     (rf"medalla\w* de oro.{{0,60}}{WORLD}", "oro"),
     (rf"{AV} el oro.{{0,60}}{WORLD}", "oro"),
     (rf"\bel oro ({ADJ}|en el {WORLD}|del {WORLD})", "oro"),
+    # Consagración por superlativo, sin verbo de logro: "El mejor alfajor del mundo
+    # es argentino" / "elegida la mejor del mundo" (el Mundial del Alfajor nos enseñó)
+    (rf"\b(el |la )mejor .{{0,30}}del mundo (es|de)\b", "oro"),
+    (rf"(elegid\w+|premiad\w+|coronad\w+|consagrad\w+) como (el |la )?mejor .{{0,30}}del mundo", "oro"),
     (rf"world champion", "oro"),
     (rf"(wins?|won|clinch\w*|crowned|captur\w*|claim\w*|tak\w*|took).{{0,40}}world (title|championship|cup|crown)", "oro"),
     (rf"world (title|championship|cup).{{0,30}}(win|won|victory|champion)", "oro"),
@@ -402,6 +417,13 @@ GENERIC_TOKENS = {
     "panamericano", "panamericana", "panamericanos", "panamericanas", "america",
     "americano", "americana", "continental", "bicampeon", "bicampeona", "bicampeones",
     "tricampeon", "tricampeona", "consagra", "consagraron", "proclamo", "venciendo",
+    # palabras muleto de celebración: aparecen en cualquier titular y arman puentes
+    # falsos entre eventos distintos ("hizo historia" enterró al fútbol phygital
+    # contra una nota vieja de hockey)
+    "hizo", "hicieron", "historia", "triunfo", "triunfazo", "epico", "epica",
+    "orgullo", "gano", "ganaron", "vencio", "vencieron", "derroto", "derrotaron",
+    "gloria", "hazana", "primera", "primer", "primeros", "otra", "otro",
+    "nuevo", "nueva", "mejor", "mejores",
 }
 
 # La disciplina es la huella más fuerte: dos podios de deportes distintos nunca son el mismo evento.

@@ -47,7 +47,7 @@ Solo si el titular informa un HECHO CONSUMADO: una persona, equipo o selección 
 - MUNDIAL: mundiales, copas del mundo, olimpiadas internacionales.
 - CONTINENTAL: sudamericanos, panamericanos, Copa América, campeonatos de América/iberoamericanos, DONDE COMPITEN SELECCIONES NACIONALES o deportistas representando al país.
 
-Los campeonatos de categoría cuentan: juveniles (sub 17/20), masters (+40, +50), por género, por peso, por especialidad, y disciplinas no deportivas (matemática, química, asado, tango, peluquería).
+Los campeonatos de categoría cuentan: juveniles (sub 17/20), masters (+40, +50), por género, por peso, por especialidad, y disciplinas no deportivas o insólitas (matemática, química, asado, tango, peluquería, alfajores, videojuegos/esports, deportes híbridos como el fútbol phygital). El criterio NO es si la disciplina es un deporte "serio" o reconocido: si existe un campeonato de nivel mundial o continental y un argentino se subió al podio, VALE — el espíritu del servicio es "del deporte al asado".
 
 OJO con "Copa Sudamericana": en vóley, básquet, handball y la mayoría de los deportes es el torneo de SELECCIONES (válido). Solo en FÚTBOL es un torneo de clubes (no válido, igual que Libertadores o Recopa).
 
@@ -70,7 +70,7 @@ Antes de la lista de hoy vas a recibir los logros YA PUBLICADOS en días anterio
 La prensa local publica notas sobre el mismo campeonato durante 3 o 4 días: casi siempre que veas un titular sobre una disciplina y competencia que ya está en la lista de publicados, es repetición. Ante la duda, marcá que repite: es peor mandar dos veces la misma coronación que demorar una.
 Cuidado: distinta CATEGORÍA del mismo campeonato (+40 vs +50, masculino vs femenino, sub 20 vs mayores) es un logro DISTINTO, no una repetición.
 
-OJO: perder la FINAL de un mundial o continental SÍ es un podio → ok=true, medalla "plata" (subcampeonato). Perder el partido por el 3er puesto no da medalla; ganarlo sí ("bronce").
+OJO: perder la FINAL de un mundial o continental SÍ es un podio → ok=true, medalla "plata" (subcampeonato). Titulares como "Argentina no pudo con X y es subcampeón mundial" son ok=true con plata: el subcampeonato ES la noticia aunque el titular cuente la derrota y el campeón sea el rival. Perder el partido por el 3er puesto no da medalla; ganarlo sí ("bronce").
 
 Ante la duda sobre ok, false: el costo de un falso positivo es alto (se envía un email y un tweet)."""
 
@@ -89,6 +89,9 @@ GOLDEN = [
     ("Argentina se consagró campeón sudamericano de voley tras vencer a Brasil", "Diario Crónica", True),
     ("Los Pumas 7s ganaron la medalla de oro en los Juegos Panamericanos", "Olé", True),
     ("Argentina se consagró campeón de la Copa Sudamericana de vóley masculino", "La Nación", True),
+    # los dos que se nos escaparon el 18/08: disciplinas "insólitas" que VALEN
+    ("Un equipo argentino salió campeón del mundo de fútbol phygital", "Filo News", True),
+    ("Mundial del Alfajor 2026: el catamarqueño que se coronó como el mejor del mundo entre más de 420 competidores", "Página|12", True),
 ]
 
 
@@ -114,7 +117,7 @@ def ask_batch(key: str, items, publicados=None):
             f'{n+1}. [{g or "sin etiqueta"}] "{t}" ({d})' for n, (t, d, g) in enumerate(publicados)
         ) + "\n\n"
     payload = {
-        "model": MODEL, "max_tokens": 4000, "system": SYSTEM,
+        "model": MODEL, "max_tokens": 4000, "temperature": 0, "system": SYSTEM,
         "messages": [{"role": "user", "content": f"{prev}Titulares de hoy:\n{listado}"}],
     }
     last = None
