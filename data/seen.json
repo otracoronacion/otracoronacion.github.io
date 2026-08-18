@@ -1444,5 +1444,95 @@
     "medal": "oro",
     "dup_of": "34cf792e640b",
     "title": "Un argentino ganó el Mundial de Just Dance en Kazajistán: tiene 25 años, es licenciado en biotecnología y se llevó US$20.000 - TN"
+  },
+  "2c604b4a0e8d": {
+    "date": "2026-08-17",
+    "core": [
+      "20",
+      "dance",
+      "dolares",
+      "gano",
+      "just",
+      "kazajistan"
+    ],
+    "medal": "oro",
+    "dup_of": "6e900a8dba79",
+    "title": "Un argentino ganó 20 mil dólares en el Mundial de Just Dance en Kazajistán - flipr.com.ar"
+  },
+  "577ca30b5722": {
+    "date": "2026-08-17",
+    "core": [
+      "gano",
+      "mexico",
+      "primeros",
+      "puntos",
+      "sumo",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Argentina le ganó a México y sumó sus primeros tres puntos en el Mundial - El diario de Tandil",
+    "llm_rejected": "Es un partido de fase de grupos, no un podio final"
+  },
+  "2b7814d40fcc": {
+    "date": "2026-08-17",
+    "core": [
+      "alemania",
+      "ganaron",
+      "hockey",
+      "leonas",
+      "primera",
+      "rugieron"
+    ],
+    "medal": "oro",
+    "dup_of": "d429c19a45fb",
+    "title": "Las Leonas le ganaron a Alemania y rugieron por primera vez en el Mundial de Hockey - elgrafico.com.ar"
+  },
+  "ce3ee65bcba4": {
+    "date": "2026-08-18",
+    "core": [
+      "futbol",
+      "historia",
+      "hizo",
+      "kazajistan",
+      "phygital"
+    ],
+    "medal": "oro",
+    "dup_of": "c7b13a43c6e7",
+    "title": "Argentina hizo historia y se consagró campeón mundial de Phygital Futbol en Kazajistán - Los Andes"
+  },
+  "644b95678bb9": {
+    "date": "2026-08-18",
+    "core": [
+      "000",
+      "20",
+      "dance",
+      "gano",
+      "ingeniero",
+      "just",
+      "kazajistan",
+      "premio",
+      "recibio"
+    ],
+    "medal": "oro",
+    "dup_of": "6e900a8dba79",
+    "title": "Un ingeniero argentino ganó el Mundial de Just Dance en Kazajistán y recibió un premio de US$20.000 - La Nación"
+  },
+  "0958d3b9c120": {
+    "date": "2026-08-18",
+    "core": [
+      "000",
+      "20",
+      "dance",
+      "dolares",
+      "gano",
+      "ingeniero",
+      "just",
+      "premio",
+      "recibio",
+      "video"
+    ],
+    "medal": "oro",
+    "dup_of": "34cf792e640b",
+    "title": "Video: un ingeniero argentino ganó el Mundial de Just Dance y recibió un premio de 20.000 dólares - El Chorrillero"
   }
 }
