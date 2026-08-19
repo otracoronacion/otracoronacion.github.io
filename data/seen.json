@@ -1540,5 +1540,67 @@
     ],
     "medal": "oro",
     "title": "Alfajor El Rodeo se consagró como el mejor del mundo en el Mundial del Alfajor - El Esquiú"
+  },
+  "f40c242801ad": {
+    "date": "2026-08-18",
+    "core": [
+      "entrerrianos",
+      "softbol",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Tres entrerrianos hicieron historia y se consagraron campeones del mundo en sóftbol - Plaza Web"
+  },
+  "4f50481896fd": {
+    "date": "2026-08-18",
+    "core": [
+      "correntino",
+      "gustavo",
+      "kickboxing",
+      "plata",
+      "quedo",
+      "vergara"
+    ],
+    "medal": "plata",
+    "title": "El correntino Gustavo Vergara se quedó con la plata en el Panamericano de Kickboxing - Diario 1588"
+  },
+  "060b70265ed7": {
+    "date": "2026-08-18",
+    "core": [
+      "cinco",
+      "down",
+      "judo",
+      "medallas",
+      "obtuvo",
+      "personas",
+      "sindrome"
+    ],
+    "medal": "oro",
+    "title": "JUDO PARA PERSONAS CON SÍNDROME DE DOWN: ARGENTINA OBTUVO CINCO MEDALLAS EN EL MUNDIAL - Paradeportes"
+  },
+  "0fd0f7de8f2b": {
+    "date": "2026-08-18",
+    "core": [
+      "dance",
+      "franco",
+      "just",
+      "vitali"
+    ],
+    "medal": "oro",
+    "dup_of": "6e900a8dba79",
+    "title": "¡Orgullo argentino! Franco Vitali hizo historia y se consagró campeón mundial de Just Dance - Que Pasa Salta"
+  },
+  "90a822ff7c9a": {
+    "date": "2026-08-18",
+    "core": [
+      "2026",
+      "420",
+      "alfajor",
+      "catamarqueno",
+      "competidores"
+    ],
+    "medal": "oro",
+    "title": "Mundial del Alfajor 2026: el catamarqueño que se coronó como el mejor del mundo entre más de 420 competidores - Página|12",
+    "llm_rejected": "Repetición del logro ya publicado del 18/08"
   }
 }
