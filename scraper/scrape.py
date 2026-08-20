@@ -552,14 +552,17 @@ def main():
         k: v for k, v in seen.items()
         if v.get("date", "1970-01-01") >= (now - timedelta(days=21)).date().isoformat()
     }
-    # Las notas que la IA rechazó NO sirven de ancla de dedup: si no, un resultado
-    # real que comparte tokens con una previa rechazada ("Los Pumas desafían…" →
-    # "Los Pumas vencieron…") muere en silencio como dup_of sin llegar a la IA.
-    # Tampoco las que quedaron dup_of de un rechazo.
+    # Solo anclan el dedup las notas CON JUICIO DE LA IA: eventos publicados o
+    # mergeados (llm_merged). Ni las rechazadas (una previa rechazada enterraría
+    # el resultado real: "Los Pumas desafían…" → "Los Pumas vencieron…"), ni las
+    # dup_of (nunca pasaron por la IA: una nota de fase de grupos de Las Leonas,
+    # encadenada como dup, compartía "leonas"+"hockey" con la futura final y la
+    # habría enterrado — la misma mecánica que enterró al phygital). El costo es
+    # que algún candidato más llega a la IA, que viaja en la misma llamada única.
     recent_events = [
         (k, set(v.get("core", v.get("tokens", []))), v.get("medal", "podio"))
         for k, v in recent_seen.items()
-        if "llm_rejected" not in v and "llm_rejected" not in seen.get(v.get("dup_of", ""), {})
+        if "llm_rejected" not in v and "dup_of" not in v
     ]
 
     accepted = sorted([c for c in candidates if c["verdict"] == "accept"], key=lambda c: (c["date"], len(c["title"])))
