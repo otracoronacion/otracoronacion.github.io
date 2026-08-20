@@ -1602,5 +1602,62 @@
     "medal": "oro",
     "title": "Mundial del Alfajor 2026: el catamarqueño que se coronó como el mejor del mundo entre más de 420 competidores - Página|12",
     "llm_rejected": "Repetición del logro ya publicado del 18/08"
+  },
+  "b6eab6204cf7": {
+    "date": "2026-08-19",
+    "core": [
+      "2026",
+      "alfajor",
+      "conquisto",
+      "entrerriano",
+      "jurado",
+      "llevo"
+    ],
+    "medal": "oro",
+    "title": "El alfajor entrerriano que conquistó al jurado y se llevó un oro en el Mundial 2026 - Vía País",
+    "llm_merged": "repite el logro d300aa6784c7 del 2026-08-18"
+  },
+  "fa2dce6a309a": {
+    "date": "2026-08-19",
+    "core": [
+      "escocia",
+      "estan",
+      "hockey",
+      "leonas",
+      "ronda",
+      "segunda"
+    ],
+    "medal": "oro",
+    "dup_of": "d429c19a45fb",
+    "title": "Mundial de hockey: Las Leonas ganaron ante Escocia y están en segunda ronda - telegrafo.com.ar"
+  },
+  "b2193edbbeb8": {
+    "date": "2026-08-19",
+    "core": [
+      "barcelona",
+      "bombazo",
+      "decido",
+      "delantero",
+      "tiene"
+    ],
+    "medal": "oro",
+    "title": "Bombazo: El Barcelona tiene decido ir por otro delantero argentino campeón del mundo - tntsports.com.ar",
+    "llm_rejected": "Noticia de mercado de pases, no logro deportivo"
+  },
+  "39f528cbfdee": {
+    "date": "2026-08-19",
+    "core": [
+      "catamarqueno",
+      "diario",
+      "inforama",
+      "judo",
+      "logro",
+      "mika",
+      "open",
+      "rojas"
+    ],
+    "medal": "oro",
+    "title": "Orgullo catamarqueño: Mika Rojas logró medalla en el Open Panamericano de judo - Diario Inforama - Catamarca",
+    "llm_rejected": "Open Panamericano no es campeonato de selecciones nacionales"
   }
 }
