@@ -1,0 +1,38 @@
+{
+  "previos": {
+    "description": "Cada vez que un argentino o argentina sube a un podio mundial o continental, te llega un mail. Del hockey al alfajor, del judo a la robótica: un rastreador automático lee las noticias cada mañana y escribe solo los días que hay coronación. Coronados de gloria vivamos, y acá las contamos todas.",
+    "from_name": "Otra Coronación de Gloria",
+    "tint_color": "#3E7CB1",
+    "custom_subscription_confirmation_email_subject": "",
+    "custom_subscription_confirmation_email_text": "",
+    "custom_subscription_confirmation_reminder_email_subject": "",
+    "custom_subscription_confirmation_reminder_email_text": "",
+    "custom_subscription_confirmed_email_subject": "",
+    "custom_subscription_confirmed_email_text": "",
+    "subscription_confirmation_redirect_url": ""
+  },
+  "aplicados": [
+    "subscription_confirmation_redirect_url"
+  ],
+  "fallidos": {
+    "custom_subscription_confirmation_email_subject": "HTTP 403: {\"code\":\"forbidden\",\"detail\":\"Customizing transactional emails requires a Standard plan - please upgrade your account.\",\"metadata\":{\"feature\":\"custom_transactional_emails\",\"required_plan\":\"standard\"}}",
+    "custom_subscription_confirmation_email_text": "HTTP 403: {\"code\":\"forbidden\",\"detail\":\"Customizing transactional emails requires a Standard plan - please upgrade your account.\",\"metadata\":{\"feature\":\"custom_transactional_emails\",\"required_plan\":\"standard\"}}",
+    "custom_subscription_confirmation_reminder_email_subject": "HTTP 403: {\"code\":\"forbidden\",\"detail\":\"Customizing transactional emails requires a Standard plan - please upgrade your account.\",\"metadata\":{\"feature\":\"custom_transactional_emails\",\"required_plan\":\"standard\"}}",
+    "custom_subscription_confirmation_reminder_email_text": "HTTP 403: {\"code\":\"forbidden\",\"detail\":\"Customizing transactional emails requires a Standard plan - please upgrade your account.\",\"metadata\":{\"feature\":\"custom_transactional_emails\",\"required_plan\":\"standard\"}}",
+    "custom_subscription_confirmed_email_subject": "HTTP 403: {\"code\":\"forbidden\",\"detail\":\"Customizing transactional emails requires a Standard plan - please upgrade your account.\",\"metadata\":{\"feature\":\"custom_transactional_emails\",\"required_plan\":\"standard\"}}",
+    "custom_subscription_confirmed_email_text": "HTTP 403: {\"code\":\"forbidden\",\"detail\":\"Customizing transactional emails requires a Standard plan - please upgrade your account.\",\"metadata\":{\"feature\":\"custom_transactional_emails\",\"required_plan\":\"standard\"}}"
+  },
+  "no_confirmados": [],
+  "ahora": {
+    "description": "Cada vez que un argentino o argentina sube a un podio mundial o continental, te llega un mail. Del hockey al alfajor, del judo a la robótica: un rastreador automático lee las noticias cada mañana y escribe solo los días que hay coronación. Coronados de gloria vivamos, y acá las contamos todas.",
+    "from_name": "Otra Coronación de Gloria",
+    "tint_color": "#3E7CB1",
+    "custom_subscription_confirmation_email_subject": "",
+    "custom_subscription_confirmation_email_text": "",
+    "custom_subscription_confirmation_reminder_email_subject": "",
+    "custom_subscription_confirmation_reminder_email_text": "",
+    "custom_subscription_confirmed_email_subject": "",
+    "custom_subscription_confirmed_email_text": "",
+    "subscription_confirmation_redirect_url": "https://otracoronacion.github.io/gracias.html"
+  }
+}
