@@ -14,6 +14,14 @@ Uso:
   python3 scraper/buttondown_settings.py             # muestra antes, aplica, muestra después
   python3 scraper/buttondown_settings.py --dry-run   # solo muestra lo que hay hoy
   python3 scraper/buttondown_settings.py --dump      # vuelca TODOS los campos (api_key redactada)
+
+NOTA — plan de Buttondown (verificado 21/08/2026):
+  Los cuatro campos custom_subscription_* devuelven HTTP 403
+  "Customizing transactional emails requires a Standard plan".
+  La copy queda escrita igual: el día que se pase a Standard, un solo
+  dispatch del workflow la aplica sin tocar una línea.
+  Lo que SÍ entra en el plan gratis: description, from_name, tint_color
+  y subscription_confirmation_redirect_url.
 """
 import json
 import os
