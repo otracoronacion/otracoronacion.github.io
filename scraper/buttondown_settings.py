@@ -148,7 +148,10 @@ def main():
     try:
         listado = pedir("GET", API, key)
     except urllib.error.HTTPError as e:
-        print(f"GET falló {e.code}: {e.read().decode()[:300]}", file=sys.stderr)
+        detalle = f"GET falló {e.code}: {e.read().decode()[:300]}"
+        print(detalle, file=sys.stderr)
+        with open(OUT, "w", encoding="utf-8") as f:
+            json.dump({"error": detalle}, f, ensure_ascii=False, indent=2)
         sys.exit(1)
 
     resultados = listado.get("results") or []
@@ -177,24 +180,37 @@ def main():
     if not cambios:
         print("\nYa estaba todo como queremos; no hay nada que cambiar.")
         return
-    print(f"\nAplicando {len(cambios)} campo(s): {', '.join(cambios)}")
+    print(f"\nAplicando {len(cambios)} campo(s), uno por uno.")
 
-    try:
-        pedir("PATCH", f"{API}/{nid}", key, cambios)
-    except urllib.error.HTTPError as e:
-        print(f"PATCH falló {e.code}: {e.read().decode()[:400]}", file=sys.stderr)
-        sys.exit(1)
+    # Uno por uno a propósito: si el plan de Buttondown no habilita algún campo,
+    # la API rechaza el PATCH entero. Así un campo caído no se lleva al resto, y
+    # queda registrado cuál falló y por qué (los logs de Actions no se pueden
+    # leer desde el sandbox, así que el diagnóstico viaja por la branch).
+    aplicados, fallidos = {}, {}
+    for campo, valor in cambios.items():
+        try:
+            pedir("PATCH", f"{API}/{nid}", key, {campo: valor})
+            aplicados[campo] = valor
+            print(f"  ✓ {campo}")
+        except urllib.error.HTTPError as e:
+            detalle = e.read().decode()[:300]
+            fallidos[campo] = f"HTTP {e.code}: {detalle}"
+            print(f"  ✗ {campo} → HTTP {e.code}: {detalle[:160]}", file=sys.stderr)
+        except Exception as e:
+            fallidos[campo] = str(e)[:300]
+            print(f"  ✗ {campo} → {e}", file=sys.stderr)
 
     despues = (pedir("GET", API, key).get("results") or [{}])[0]
     mostrar("DESPUÉS", despues)
 
+    no_pegaron = [c for c, v in aplicados.items() if despues.get(c) != v]
     with open(OUT, "w", encoding="utf-8") as f:
-        json.dump({"previos": previos, "aplicados": cambios,
+        json.dump({"previos": previos, "aplicados": sorted(aplicados),
+                   "fallidos": fallidos, "no_confirmados": no_pegaron,
                    "ahora": {c: despues.get(c) for c in AJUSTES}}, f, ensure_ascii=False, indent=2)
 
-    fallaron = [c for c, v in cambios.items() if despues.get(c) != v]
-    print(f"\n{'⚠️ No quedaron guardados: ' + ', '.join(fallaron) if fallaron else '✓ Todo confirmado por la API.'}")
-    sys.exit(1 if fallaron else 0)
+    print(f"\n{len(aplicados)} aplicados, {len(fallidos)} rechazados por la API, {len(no_pegaron)} sin confirmar.")
+    sys.exit(1 if (fallidos or no_pegaron) else 0)
 
 
 if __name__ == "__main__":
