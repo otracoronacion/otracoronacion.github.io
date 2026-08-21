@@ -27,6 +27,7 @@ OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
 # Lo que queremos que diga la página. La primera oración va sola al frente
 # porque es la que sobrevive al recorte de ~160 caracteres en buscadores.
 AJUSTES = {
+    # --- identidad pública (la página buttondown.com/coronadosdegloria) ---
     "description": (
         "Cada vez que un argentino o argentina sube a un podio mundial o continental, te llega un mail. "
         "Del hockey al alfajor, del judo a la robótica: un rastreador automático lee las noticias cada "
@@ -35,7 +36,63 @@ AJUSTES = {
     ),
     "from_name": "Otra Coronación de Gloria",
     "tint_color": "#3E7CB1",  # el celeste profundo de la landing
+
+    # --- doble opt-in: el mail que pide confirmar ---
+    # OJO: {{ confirmation_url }} es OBLIGATORIO (Django templating). Sin eso
+    # nadie puede confirmar y el alta queda rota. Hay un test que lo verifica.
+    "custom_subscription_confirmation_email_subject": "Un click y te despertás coronado 🏆",
+    "custom_subscription_confirmation_email_text": (
+        "¡Buenas! Estás a un click de sumarte a **Otra Coronación de Gloria**.\n\n"
+        "👉 [Confirmar mi suscripción]({{ confirmation_url }})\n\n"
+        "Después de confirmar vas a recibir un mail **solo los días que un argentino o argentina "
+        "se sube a un podio mundial o continental**. Ni uno más: si no hay coronación, silencio.\n\n"
+        "Del hockey al alfajor, del judo a la robótica. Todo lo que se gana representando al país.\n\n"
+        "Si no te suscribiste vos, ignorá este mail y listo."
+    ),
+
+    # --- recordatorio para el que no confirmó ---
+    "custom_subscription_confirmation_reminder_email_subject": "Te quedó pendiente la coronación 🏅",
+    "custom_subscription_confirmation_reminder_email_text": (
+        "Te habías anotado en **Otra Coronación de Gloria** pero quedó sin confirmar.\n\n"
+        "👉 [Confirmar ahora]({{ confirmation_url }})\n\n"
+        "Es un mail solo los días que Argentina se sube a un podio del mundo o de América. "
+        "Los demás días, silencio.\n\n"
+        "Si ya no te interesa, ignorá este mail: no insistimos más."
+    ),
+
+    # --- bienvenida, después de confirmar (requiere plan Standard en Buttondown) ---
+    "custom_subscription_confirmed_email_subject": "Listo: ya estás coronado 🇦🇷",
+    "custom_subscription_confirmed_email_text": (
+        "Ya estás adentro.\n\n"
+        "Desde ahora, cada vez que un argentino o argentina se suba a un podio **mundial o "
+        "continental**, te llega el mail a la mañana. Así funciona:\n\n"
+        "- Un rastreador lee la prensa argentina todos los días, tempranito.\n"
+        "- Si hubo coronación, te escribimos. Si no hubo, no te escribimos.\n"
+        "- Cuenta todo lo que se gana representando al país: hockey, judo, vóley, robótica, alfajores.\n\n"
+        "Mientras tanto, mirá las últimas: https://otracoronacion.github.io/\n\n"
+        "¿Preferís enterarte por WhatsApp? El canal es este: "
+        "https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P\n\n"
+        "Y si se nos escapa alguna, escribinos a otracoronacion@gmail.com. Nos pasó y nos va a "
+        "volver a pasar: el país gana demasiado seguido."
+    ),
+
+    # --- a dónde cae después de confirmar: página propia, no la genérica ---
+    "subscription_confirmation_redirect_url": "https://otracoronacion.github.io/gracias.html",
 }
+
+
+def verificar_copy():
+    """El error caro sería publicar un mail de confirmación sin el link: nadie
+    podría confirmar y el alta quedaría rota en silencio."""
+    problemas = []
+    for campo in ("custom_subscription_confirmation_email_text",
+                  "custom_subscription_confirmation_reminder_email_text"):
+        if "{{ confirmation_url }}" not in AJUSTES.get(campo, ""):
+            problemas.append(f"{campo} no tiene {{{{ confirmation_url }}}}")
+    if problemas:
+        for p in problemas:
+            print(f"ABORTADO: {p}", file=sys.stderr)
+        sys.exit(1)
 
 
 def pedir(metodo, url, key, body=None):
@@ -51,9 +108,9 @@ def pedir(metodo, url, key, body=None):
 
 def mostrar(titulo, n):
     print(f"\n--- {titulo} ---")
-    for campo in ("name", "username", "from_name", "tint_color", "description"):
+    for campo in ["name", "username"] + list(AJUSTES):
         valor = n.get(campo) or ""
-        print(f"  {campo:12} : {valor if valor else '(vacío)'}")
+        print(f"  {campo:56.56} : {(valor[:88] + chr(8230) if len(valor) > 88 else valor) if valor else '(vacío)'}")
 
 
 SECRETOS = ("api_key", "secret", "token", "password")
@@ -82,6 +139,7 @@ def volcar(n):
 
 
 def main():
+    verificar_copy()
     key = os.environ.get("BUTTONDOWN_API_KEY")
     if not key:
         print("FALTA BUTTONDOWN_API_KEY", file=sys.stderr)

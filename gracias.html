@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡Listo! Ya estás coronado — Otra Coronación de Gloria</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Tu suscripción a Otra Coronación de Gloria quedó confirmada.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --celeste:#74ACDF; --celeste-deep:#3E7CB1; --navy:#152A45;
+    --gold:#C9A227; --gold-soft:#E8D48B;
+    --paper:#FBF8F1; --ink:#1C2B3A; --muted:#5D6B7A;
+    --card:#FFFFFF; --line:#E7E0D2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  .hero{background:linear-gradient(175deg,var(--navy) 0%, #1E3A5F 55%, var(--celeste-deep) 130%);color:#fff;padding:64px 20px 88px;text-align:center;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;inset:auto 0 -1px 0;height:60px;background:var(--paper);clip-path:ellipse(60% 100% at 50% 100%)}
+  .crown{font-size:52px;margin-bottom:14px;display:inline-block;filter:drop-shadow(0 0 18px rgba(232,212,139,.65))}
+  .hero h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2rem,5.5vw,3.4rem);line-height:1.08;letter-spacing:-.5px}
+  .hero h1 em{color:var(--gold-soft);font-style:italic}
+  .hero p{max-width:560px;margin:18px auto 0;font-size:1.05rem;color:#DCE7F2}
+  .band{display:flex;justify-content:center;gap:8px;margin-top:24px}
+  .band span{width:52px;height:6px;border-radius:3px}
+  .band .c{background:var(--celeste)} .band .w{background:#fff} .band .g{background:var(--gold)}
+  .wrap{max-width:660px;margin:0 auto;padding:0 20px 64px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 40px rgba(21,42,69,.10);padding:30px 28px;margin:-34px auto 0;position:relative;z-index:2}
+  .card h2{font-family:'Fraunces',serif;font-size:1.35rem;margin-bottom:14px}
+  .card ul{list-style:none;margin:0 0 4px}
+  .card li{padding:9px 0 9px 30px;position:relative;color:var(--ink);border-bottom:1px solid var(--line)}
+  .card li:last-child{border-bottom:none}
+  .card li::before{content:"🏅";position:absolute;left:0;top:8px}
+  .acciones{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:28px}
+  .btn{display:inline-block;padding:13px 22px;border-radius:12px;font-weight:700;font-size:.98rem;text-decoration:none;transition:filter .15s}
+  .btn:hover{filter:brightness(.92)}
+  .btn.azul{background:var(--celeste-deep);color:#fff}
+  .btn.verde{background:#25D366;color:#fff}
+  .nota{text-align:center;color:var(--muted);font-size:.88rem;margin-top:26px}
+  .nota a{color:var(--celeste-deep)}
+  footer{background:var(--navy);color:#B9C9DB;padding:30px 20px;text-align:center;font-size:.86rem}
+  footer a{color:var(--gold-soft);text-decoration:none}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="crown">👑</span>
+  <h1>Listo.<br>Ya estás <em>coronado</em>.</h1>
+  <p>Tu suscripción quedó confirmada. De acá en más, cuando Argentina se sube a un podio, te enterás a la mañana.</p>
+  <div class="band"><span class="c"></span><span class="w"></span><span class="g"></span><span class="w"></span><span class="c"></span></div>
+</header>
+
+<div class="wrap">
+  <section class="card">
+    <h2>Qué va a pasar ahora</h2>
+    <ul>
+      <li>Un rastreador lee la prensa argentina todas las mañanas, tempranito.</li>
+      <li>Si hubo coronación mundial o continental, te llega el mail. Si no hubo, silencio: no mandamos resúmenes vacíos.</li>
+      <li>Cuenta todo lo que se gana representando al país: hockey, judo, vóley, robótica, alfajores, lo que sea.</li>
+    </ul>
+    <div class="acciones">
+      <a class="btn azul" href="/">Ver las últimas coronaciones</a>
+      <a class="btn verde" href="https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P" rel="noopener" target="_blank">📲 Seguir el canal de WhatsApp</a>
+    </div>
+    <p class="nota">¿Se nos escapó alguna? Nos pasa. Escribinos a
+      <a href="mailto:otracoronacion@gmail.com?subject=Se%20les%20escap%C3%B3%20una%20coronaci%C3%B3n">otracoronacion@gmail.com</a> y la sumamos.</p>
+  </section>
+</div>
+
+<footer>
+  <p>Hecho con orgullo y un poco de código 🧉</p>
+  <p style="margin-top:6px"><a href="/">otracoronacion.github.io</a></p>
+</footer>
+
+</body>
+</html>
