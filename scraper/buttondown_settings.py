@@ -13,6 +13,7 @@ corre dentro de GitHub Actions, como todo lo que toca Buttondown.
 Uso:
   python3 scraper/buttondown_settings.py             # muestra antes, aplica, muestra después
   python3 scraper/buttondown_settings.py --dry-run   # solo muestra lo que hay hoy
+  python3 scraper/buttondown_settings.py --dump      # vuelca TODOS los campos (api_key redactada)
 """
 import json
 import os
@@ -55,6 +56,31 @@ def mostrar(titulo, n):
         print(f"  {campo:12} : {valor if valor else '(vacío)'}")
 
 
+SECRETOS = ("api_key", "secret", "token", "password")
+
+
+def redactar(n):
+    """El repo es público: nada de claves en la branch de resultados."""
+    return {k: ("(REDACTADO)" if any(s in k.lower() for s in SECRETOS) else v)
+            for k, v in n.items()}
+
+
+def volcar(n):
+    limpio = redactar(n)
+    with open(OUT, "w", encoding="utf-8") as f:
+        json.dump(limpio, f, ensure_ascii=False, indent=2, sort_keys=True)
+    print(f"{len(limpio)} campos en el objeto newsletter:\n")
+    for k in sorted(limpio):
+        v = limpio[k]
+        if isinstance(v, str):
+            estado = f"{len(v)} chars: {v[:70]!r}" if v.strip() else "(VACÍO)"
+        elif v in (None, [], {}):
+            estado = "(VACÍO)"
+        else:
+            estado = repr(v)[:80]
+        print(f"  {k:34} {estado}")
+
+
 def main():
     key = os.environ.get("BUTTONDOWN_API_KEY")
     if not key:
@@ -74,6 +100,11 @@ def main():
     antes = resultados[0]
     nid = antes["id"]
     mostrar("ANTES", antes)
+
+    if "--dump" in sys.argv:
+        print()
+        volcar(antes)
+        return
 
     # Guardamos los valores previos: si algo no gusta, se revierte con esto.
     previos = {c: antes.get(c) for c in AJUSTES}

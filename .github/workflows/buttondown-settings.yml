@@ -3,10 +3,12 @@ name: Identidad del newsletter
 on:
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: "1 = solo mostrar lo que hay hoy, sin tocar nada"
+      modo:
+        description: "aplicar | dry-run (solo mirar) | dump (volcar todos los campos)"
         required: false
-        default: ""
+        default: "aplicar"
+        type: choice
+        options: [aplicar, dry-run, dump]
 
 permissions:
   contents: write
@@ -23,11 +25,11 @@ jobs:
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.dry_run }}" = "1" ]; then
-            python3 scraper/buttondown_settings.py --dry-run
-          else
-            python3 scraper/buttondown_settings.py
-          fi
+          case "${{ github.event.inputs.modo }}" in
+            dry-run) python3 scraper/buttondown_settings.py --dry-run ;;
+            dump)    python3 scraper/buttondown_settings.py --dump ;;
+            *)       python3 scraper/buttondown_settings.py ;;
+          esac
 
       - name: Publicar el antes/después en una branch
         run: |
