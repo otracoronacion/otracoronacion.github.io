@@ -1659,5 +1659,57 @@
     "medal": "oro",
     "title": "Orgullo catamarqueño: Mika Rojas logró medalla en el Open Panamericano de judo - Diario Inforama - Catamarca",
     "llm_rejected": "Open Panamericano no es campeonato de selecciones nacionales"
+  },
+  "dc502dd3ab86": {
+    "date": "2026-08-18",
+    "core": [
+      "brasil",
+      "vencer",
+      "volvio"
+    ],
+    "medal": "oro",
+    "dup_of": "64368f768ddf",
+    "title": "Argentina volvió a vencer a Brasil y se consagró tricampeona sudamericana - Radio Rafaela"
+  },
+  "3b9711ca06be": {
+    "date": "2026-08-19",
+    "core": [
+      "conquisto",
+      "corrales",
+      "correntino",
+      "kickboxing",
+      "leonardo",
+      "octavo"
+    ],
+    "medal": "oro",
+    "title": "El correntino Leonardo Corrales conquistó su octavo título panamericano de kickboxing - Corrientes al Día"
+  },
+  "f0082a84e3e9": {
+    "date": "2026-08-20",
+    "core": [
+      "arrondo",
+      "bien",
+      "esperado",
+      "ines",
+      "lindo",
+      "representada"
+    ],
+    "medal": "oro",
+    "title": "Ines Arrondo: \"Un Mundial es un campeonato muy esperado y es muy lindo que Argentina esté tan bien representada\" - lv16.com.ar",
+    "llm_rejected": "Declaración/reacción posterior a logros"
+  },
+  "5a87721e9acf": {
+    "date": "2026-08-20",
+    "core": [
+      "corrales",
+      "correntino",
+      "hace",
+      "kickboxing",
+      "leonardo",
+      "octacampeon"
+    ],
+    "medal": "oro",
+    "dup_of": "3b9711ca06be",
+    "title": "El correntino Leonardo Corrales hace historia como octacampeón panamericano de kickboxing - El Litoral | Novedades de Corrientes"
   }
 }
