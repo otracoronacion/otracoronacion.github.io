@@ -1,0 +1,43 @@
+name: Identidad del newsletter
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = solo mostrar lo que hay hoy, sin tocar nada"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  settings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Sincronizar identidad pública en Buttondown
+        id: sync
+        continue-on-error: true
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "1" ]; then
+            python3 scraper/buttondown_settings.py --dry-run
+          else
+            python3 scraper/buttondown_settings.py
+          fi
+
+      - name: Publicar el antes/después en una branch
+        run: |
+          git config user.name "coronacion-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git switch --orphan buttondown-settings
+          git add -f buttondown_settings.json 2>/dev/null || { echo '{"error":"sin resultados"}' > buttondown_settings.json; git add -f buttondown_settings.json; }
+          git commit -m "Identidad del newsletter: valores previos y aplicados"
+          git push -f origin buttondown-settings
+
+      - name: Reflejar el resultado del paso de sincronización
+        if: steps.sync.outcome == 'failure'
+        run: exit 1
