@@ -1720,5 +1720,74 @@
     ],
     "medal": "oro",
     "title": "Fisicoculturismo: un misionero campeón sudamericano - Noticiasdel6.com"
+  },
+  "ba8719742ec5": {
+    "date": "2026-08-21",
+    "core": [
+      "espana",
+      "impone",
+      "proclama"
+    ],
+    "medal": "oro",
+    "title": "España se impone a Argentina y se proclama campeona del mundo - Vanguardia.cu",
+    "llm_rejected": "El campeón es España, no Argentina"
+  },
+  "d1b6292c4dda": {
+    "date": "2026-08-21",
+    "core": [
+      "chile",
+      "correntino",
+      "hacer",
+      "kickboxing",
+      "volvio"
+    ],
+    "medal": "oro",
+    "dup_of": "3b9711ca06be",
+    "title": "Un correntino volvió a hacer historia: se consagró campeón Panamericano de Kickboxing en Chile - Cadena de Radios"
+  },
+  "7ce139901f20": {
+    "date": "2026-08-22",
+    "core": [
+      "castigos",
+      "espanola",
+      "fifa",
+      "prensa",
+      "sanciones"
+    ],
+    "medal": "oro",
+    "title": "\"Campeona del mundo... de sanciones\": prensa española se ríe de Argentina tras castigos de FIFA - BioBioChile",
+    "llm_rejected": "Meme/entretenimiento sobre sanciones, no un podio"
+  },
+  "67449e5c6f8a": {
+    "date": "2026-08-22",
+    "core": [
+      "burla",
+      "castigos",
+      "espanola",
+      "fifa",
+      "llama",
+      "prensa",
+      "sanciones"
+    ],
+    "medal": "oro",
+    "dup_of": "7ce139901f20",
+    "title": "Prensa española se burla de Argentina tras sanciones de la FIFA y la llama “campeona del mundo… de castigos” - Canal 9 Bío Bío Televisión"
+  },
+  "27ce10efdedf": {
+    "date": "2026-08-22",
+    "core": [
+      "burla",
+      "castigos",
+      "critica",
+      "espanola",
+      "fifa",
+      "perder",
+      "prensa",
+      "saber",
+      "sanciones"
+    ],
+    "medal": "oro",
+    "dup_of": "7ce139901f20",
+    "title": "Prensa española se burla y critica a Argentina “por no saber perder” tras los castigos de FIFA: \"Campeona del mundo... de sanciones\" - radiomodelo.cl"
   }
 }
