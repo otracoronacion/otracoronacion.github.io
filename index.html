@@ -81,10 +81,13 @@
   .meta .scope.continental{background:#EAF3E8;color:#4A7A4E}
   .share{display:inline-block;background:#25D366;color:#fff;border-radius:999px;padding:2px 12px;margin-left:8px;font-weight:700;font-size:.76rem;text-decoration:none;vertical-align:middle}
   .share:hover{background:#1DA851}
-  .alt-channel{margin-top:16px}
-  .alt-channel .o{font-size:.8rem;color:var(--muted);letter-spacing:.1em}
-  .wa-channel{display:inline-block;margin-top:8px;background:#25D366;color:#fff;border-radius:12px;padding:11px 20px;font-weight:700;font-size:.95rem;text-decoration:none;transition:background .15s}
-  .wa-channel:hover{background:#1DA851}
+  /* WhatsApp es la puerta principal: un toque, sin dejar datos ni confirmar nada */
+  .wa-primary{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:430px;margin:2px auto 0;background:#25D366;color:#fff;border-radius:14px;padding:17px 24px;font-weight:700;font-size:1.06rem;text-decoration:none;box-shadow:0 8px 24px rgba(37,211,102,.30);transition:background .15s, transform .12s, box-shadow .12s}
+  .wa-primary:hover{background:#1DA851;transform:translateY(-2px);box-shadow:0 12px 30px rgba(37,211,102,.38)}
+  .wa-primary .ico{font-size:1.2rem;line-height:1}
+  .signup .wa-nota{font-size:.83rem;color:var(--muted);margin:11px auto 0;max-width:430px}
+  .divisor{display:flex;align-items:center;gap:14px;max-width:430px;margin:24px auto 18px;color:var(--muted);font-size:.8rem;letter-spacing:.04em}
+  .divisor::before,.divisor::after{content:"";flex:1;height:1px;background:var(--line)}
   .empty{background:var(--card);border:1.5px dashed var(--line);border-radius:16px;padding:44px 24px;text-align:center;color:var(--muted)}
   .empty .mate{font-size:2.2rem;margin-bottom:10px}
 
@@ -108,16 +111,17 @@
 <div class="wrap">
   <section class="signup" id="suscribite">
     <h2>🇦🇷 No te pierdas ninguna</h2>
-    <p>Dejá tu email y despertate con la noticia: un correo a la mañana, <strong>solo los días que hay una coronación</strong>. Sin spam, sin resúmenes vacíos: si Argentina no se subió a un podio, silencio.</p>
+    <p>Seguí el canal de WhatsApp y enterate de <strong>todas las coronaciones</strong>, apenas pasan. Un toque y listo: sin dejar tu mail, sin confirmar nada.</p>
+    <a class="wa-primary" href="https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P" rel="noopener" target="_blank"><span class="ico">📲</span> Seguí el canal de WhatsApp</a>
+    <p class="wa-nota">Solo escribimos los días que Argentina se sube a un podio. Si no hay coronación, silencio.</p>
+
+    <div class="divisor">o dejanos tu email</div>
+
     <form action="https://buttondown.com/api/emails/embed-subscribe/coronadosdegloria" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/coronadosdegloria','popupwindow')">
       <input type="email" name="email" placeholder="tu@email.com" required>
       <button type="submit">Quiero enterarme 🏆</button>
     </form>
-    <p class="fine">Confirmás tu suscripción con un click (revisá el correo). Te podés dar de baja cuando quieras.</p>
-    <div class="alt-channel">
-      <span class="o">· o ·</span><br>
-      <a class="wa-channel" href="https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P" rel="noopener" target="_blank">📲 Seguí el canal de WhatsApp</a>
-    </div>
+    <p class="fine">Confirmás con un click desde tu correo. Te podés dar de baja cuando quieras.</p>
   </section>
 
   <section class="meme">
