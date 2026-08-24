@@ -1789,5 +1789,74 @@
     "medal": "oro",
     "dup_of": "7ce139901f20",
     "title": "Prensa española se burla y critica a Argentina “por no saber perder” tras los castigos de FIFA: \"Campeona del mundo... de sanciones\" - radiomodelo.cl"
+  },
+  "9056a05980be": {
+    "date": "2026-08-23",
+    "core": [
+      "clave",
+      "futbol",
+      "inedito",
+      "kazajistan",
+      "mendocino"
+    ],
+    "medal": "oro",
+    "dup_of": "ce3ee65bcba4",
+    "title": "Argentina ganó un Mundial de Fútbol inédito en Kazajistán y un mendocino fue clave - MDZ Online"
+  },
+  "b360ec4c4867": {
+    "date": "2026-08-23",
+    "core": [
+      "bronce",
+      "carli",
+      "cynthia",
+      "entrerriano",
+      "fernandez",
+      "judo"
+    ],
+    "medal": "bronce",
+    "title": "Orgullo entrerriano: Cynthia Fernández de Carli ganó una medalla de bronce en el Mundial de Judo - Despertar Entrerriano"
+  },
+  "8ed0905f3f0e": {
+    "date": "2026-08-23",
+    "core": [
+      "bonaerense",
+      "catedral",
+      "catedrales",
+      "florencia",
+      "gran",
+      "plata"
+    ],
+    "medal": "oro",
+    "title": "¡Orgullo bonaerense! La Catedral de La Plata venció a Florencia y es la gran campeona del Mundial de Catedrales - infocronos.com.ar",
+    "llm_rejected": "Campeonato de catedrales no es competencia deportiva reconocida de nivel mundial/continental"
+  },
+  "d4ac7917caec": {
+    "date": "2026-08-24",
+    "core": [
+      "anos",
+      "billar",
+      "nueve",
+      "quillas",
+      "sede",
+      "volvera"
+    ],
+    "medal": "oro",
+    "title": "Argentina volverá a ser sede del Campeonato Mundial de Billar 5 Quillas tras nueve años - diariocronica.com.ar",
+    "llm_rejected": "Noticia sobre sede futura, no sobre un logro obtenido"
+  },
+  "dc1f50c2a515": {
+    "date": "2026-08-24",
+    "core": [
+      "actriz",
+      "actualmente",
+      "chiquititas",
+      "esposo",
+      "publica",
+      "retirado",
+      "vida"
+    ],
+    "medal": "oro",
+    "title": "Campeón mundial con Argentina, esposo de una ex‑actriz de Chiquititas y actualmente retirado de la vida pública - Info Arenales",
+    "llm_rejected": "Titular vago sin especificar disciplina, competencia ni fecha; parece ser una declaración/anécdota"
   }
 }
