@@ -1858,5 +1858,85 @@
     "medal": "oro",
     "title": "Campeón mundial con Argentina, esposo de una ex‑actriz de Chiquititas y actualmente retirado de la vida pública - Info Arenales",
     "llm_rejected": "Titular vago sin especificar disciplina, competencia ni fecha; parece ser una declaración/anécdota"
+  },
+  "b9ab674b1f49": {
+    "date": "2026-08-22",
+    "core": [
+      "amanda",
+      "boxeo",
+      "cayo",
+      "elite",
+      "lucrecia",
+      "lugar",
+      "manzur",
+      "pero",
+      "serrano",
+      "tucumana"
+    ],
+    "medal": "oro",
+    "title": "\"Voy a ser campeona del mundo\": la tucumana Lucrecia Manzur cayó ante Amanda Serrano, pero se ganó un lugar en la elite del boxeo - el tucumano | Noticias y actualidad de Tucumán",
+    "llm_rejected": "Lucrecia Manzur perdió la final, no obtuvo medalla"
+  },
+  "25ce5a78efec": {
+    "date": "2026-08-24",
+    "core": [
+      "catedral",
+      "catedrales",
+      "votacion"
+    ],
+    "medal": "oro",
+    "title": "Una catedral argentina ganó el Mundial de Catedrales con una votación histórica - Red43"
+  },
+  "d144b6408375": {
+    "date": "2026-08-24",
+    "core": [
+      "marplatense",
+      "presencia",
+      "squash"
+    ],
+    "medal": "oro",
+    "title": "Argentina se consagró campeón panamericano de squash con presencia marplatense - QZ | Noticias"
+  },
+  "f0c562d483f2": {
+    "date": "2026-08-24",
+    "core": [
+      "000",
+      "140",
+      "city",
+      "manchester",
+      "ofertara",
+      "todo"
+    ],
+    "medal": "plata",
+    "title": "Manchester City va con todo por un argentino campeón y subcampeón del mundo: ¡ofertará €140.000.000! - MDZ Online",
+    "llm_rejected": "Noticia sobre mercado de pases, no sobre un logro deportivo"
+  },
+  "a6c6dd33a126": {
+    "date": "2026-08-24",
+    "core": [
+      "catedrales",
+      "europa",
+      "provincia",
+      "reconocidas",
+      "supero"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó el \"Mundial de Catedrales\": en qué provincia está la que superó a las más reconocidas de Europa - Diario UNO",
+    "llm_merged": "mismo logro que 25ce5a78efec"
+  },
+  "569341d51c5d": {
+    "date": "2026-08-24",
+    "core": [
+      "basilica",
+      "catedrales",
+      "cual",
+      "florencia",
+      "milan",
+      "pares",
+      "paris"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó el “Mundial de Catedrales”: cuál es la basílica que venció a sus pares de Florencia, París y Milán - El Canciller",
+    "llm_merged": "mismo logro que 25ce5a78efec"
   }
 }
