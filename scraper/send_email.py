@@ -19,6 +19,35 @@ API = "https://api.buttondown.com/v1/emails"
 
 MEDAL_EMOJI = {"oro": "🥇", "plata": "🥈", "bronce": "🥉", "medalla": "🏅", "podio": "🏅"}
 
+SITIO = "https://otracoronacion.github.io/"
+CANAL = "https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P"
+
+
+def mensaje_whatsapp(events):
+    """El texto que sale cuando alguien reenvía la coronación.
+
+    Dos links y en este orden: el permalink de la coronación primero (WhatsApp
+    le arma la vista previa al PRIMER link del mensaje) y el canal después,
+    como invitación aparte. El permalink va a nuestra página, no al diario: la
+    nota queda a un toque igual, pero el que llega ve el resto de las
+    coronaciones y el botón del canal. Y la URL de la nota viene de Google News
+    y mide hasta 650 caracteres — arruinaría el mensaje.
+    """
+    def linea(ev):
+        return f"{MEDAL_EMOJI.get(ev['medal'], '🏅')} {ev['title']}\n{SITIO}#e-{ev['id']}"
+
+    if len(events) == 1:
+        cuerpo = f"{MEDAL_EMOJI.get(events[0]['medal'], '🏅')} ¡Otra coronación de gloria!\n\n" \
+                 f"{events[0]['title']}\n{SITIO}#e-{events[0]['id']}"
+    else:
+        # Tope de 3: más links seguidos y el mensaje se lee como spam.
+        cuerpo = f"🇦🇷 Hoy Argentina se coronó {len(events)} veces:\n\n" + \
+                 "\n\n".join(linea(ev) for ev in events[:3])
+        if len(events) > 3:
+            cuerpo += f"\n\n…y {len(events) - 3} más en {SITIO}"
+    return f"{cuerpo}\n\n📲 Enterate de todas, apenas pasan:\n{CANAL}"
+
+
 def main():
     if not os.path.exists(NEW_EVENTS_PATH):
         print("No hay eventos nuevos. Hoy no se envía nada. 🧉")
@@ -51,13 +80,7 @@ def main():
         src = f" — _{ev['source']}_" if ev.get("source") else ""
         lines.append(f"{emoji} **[{ev['title']}]({ev['url']})**{src}")
         lines.append("")
-    # Link de compartir por WhatsApp (sirve para pasarla al grupo… o pegarla en el canal)
-    if len(events) == 1:
-        wa_body = f"{MEDAL_EMOJI.get(events[0]['medal'], '🏅')} ¡Otra coronación de gloria! {events[0]['title']} 🇦🇷\n\nSumate y despertate coronado: https://otracoronacion.github.io/"
-    else:
-        listado = "\n".join(f"{MEDAL_EMOJI.get(ev['medal'], '🏅')} {ev['title']}" for ev in events)
-        wa_body = f"🇦🇷 ¡{len(events)} coronaciones de gloria hoy!\n\n{listado}\n\nSumate y despertate coronado: https://otracoronacion.github.io/"
-    wa_link = "https://wa.me/?text=" + urllib.parse.quote(wa_body)
+    wa_link = "https://wa.me/?text=" + urllib.parse.quote(mensaje_whatsapp(events))
 
     lines += [
         f"📲 **[Pasala al grupo — compartir por WhatsApp]({wa_link})**",

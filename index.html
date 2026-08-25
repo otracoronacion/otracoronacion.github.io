@@ -70,6 +70,7 @@
   .feed .sub{color:var(--muted);font-size:.92rem;margin-bottom:22px}
   .event{display:flex;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:14px;align-items:flex-start;transition:transform .12s, box-shadow .12s}
   .event:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(21,42,69,.08)}
+  .event.destacado{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,162,39,.20)}
   .medal{font-size:1.9rem;line-height:1;margin-top:2px}
   .event h3{font-size:1.02rem;font-weight:600;line-height:1.4}
   .event h3 a{color:var(--ink);text-decoration:none}
@@ -156,6 +157,22 @@
 <script>
 const MEDAL = {oro:"🥇", plata:"🥈", bronce:"🥉", medalla:"🏅", podio:"🏅"};
 const MEDAL_NAME = {oro:"Oro", plata:"Plata", bronce:"Bronce", medalla:"Medalla", podio:"Podio"};
+const SITIO = "https://otracoronacion.github.io/";
+const CANAL = "https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P";
+
+// El mensaje que se comparte. Dos links a propósito y en este orden:
+// el permalink de la coronación primero (WhatsApp le arma la vista previa
+// al PRIMER link del mensaje), y el canal después como invitación aparte.
+// El permalink apunta a nuestra página y no al diario: la nota está a un
+// toque de distancia igual, pero el que llega ve el resto de las
+// coronaciones y el botón del canal. Además la URL de la nota viene de
+// Google News y mide hasta 650 caracteres: destruiría el mensaje.
+function mensajeCompartir(ev){
+  return `${MEDAL[ev.medal] || "🏅"} ¡Otra coronación de gloria!\n\n`
+       + `${ev.title}\n`
+       + `${SITIO}#e-${ev.id}\n\n`
+       + `📲 Enterate de todas, apenas pasan:\n${CANAL}`;
+}
 
 fetch("data/podios.json", {cache:"no-store"})
   .then(r => r.ok ? r.json() : [])
@@ -174,8 +191,8 @@ fetch("data/podios.json", {cache:"no-store"})
       const d = new Date(ev.date + "T12:00:00");
       const fecha = isNaN(d) ? ev.date : d.toLocaleDateString("es-AR", {day:"numeric", month:"long", year:"numeric"});
       const src = ev.source ? ` · ${esc(ev.source)}` : "";
-      const waText = encodeURIComponent(`${MEDAL[ev.medal] || "🏅"} ¡Otra coronación de gloria! ${ev.title} 🇦🇷\n\nSumate y despertate coronado: https://otracoronacion.github.io/`);
-      return `<article class="event">
+      const waText = encodeURIComponent(mensajeCompartir(ev));
+      return `<article class="event" id="e-${esc(ev.id)}">
         <div class="medal">${MEDAL[ev.medal] || "🏅"}</div>
         <div><h3><a href="${esc(ev.url)}" rel="noopener" target="_blank">${esc(ev.title)}</a></h3>
         <div class="meta"><span class="tag">${MEDAL_NAME[ev.medal] || "Podio"}</span><span class="scope ${ev.scope === "continental" ? "continental" : "mundial"}">${ev.scope === "continental" ? "Continental" : "Mundial"}</span>${fecha}${src}<a class="share" href="https://wa.me/?text=${waText}" rel="noopener" target="_blank">📲 WhatsApp</a></div></div>
@@ -186,6 +203,16 @@ fetch("data/podios.json", {cache:"no-store"})
       document.getElementById("n-oro").textContent = counts.oro;
       document.getElementById("n-plata").textContent = counts.plata;
       document.getElementById("n-bronce").textContent = counts.bronce;
+    }
+    // El feed se dibuja después del fetch, así que el salto nativo al #hash
+    // ya pasó: hay que hacerlo a mano cuando alguien llega por un compartido.
+    const ancla = location.hash.slice(1);
+    if (ancla) {
+      const tarjeta = document.getElementById(ancla);
+      if (tarjeta) {
+        tarjeta.classList.add("destacado");
+        tarjeta.scrollIntoView({behavior:"smooth", block:"center"});
+      }
     }
   });
 
