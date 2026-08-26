@@ -1938,5 +1938,116 @@
     "medal": "oro",
     "title": "Argentina ganó el “Mundial de Catedrales”: cuál es la basílica que venció a sus pares de Florencia, París y Milán - El Canciller",
     "llm_merged": "mismo logro que 25ce5a78efec"
+  },
+  "d0d287f1b729": {
+    "date": "2026-08-25",
+    "core": [
+      "carlsen",
+      "faustino",
+      "magnus",
+      "pentacampeon"
+    ],
+    "medal": "oro",
+    "title": "El argentino Faustino Oro le ganó al pentacampeón mundial Magnus Carlsen - todojujuy.com",
+    "llm_rejected": "Declaración sobre una partida de ajedrez, no un campeonato"
+  },
+  "9c203b66d9f5": {
+    "date": "2026-08-25",
+    "core": [
+      "carlsen",
+      "faustino",
+      "magnus",
+      "numero",
+      "partida"
+    ],
+    "medal": "oro",
+    "dup_of": "d0d287f1b729",
+    "title": "Hazaña argentina: Faustino Oro le ganó una partida al número uno del mundo, Magnus Carlsen - MinutoYA"
+  },
+  "5f47b50d0314": {
+    "date": "2026-08-25",
+    "core": [
+      "2026",
+      "angel",
+      "ayhev7pdpf",
+      "city",
+      "diego",
+      "espana",
+      "somos",
+      "wave"
+    ],
+    "medal": "oro",
+    "title": "España - Argentina: Somos Campeones Del Mundo 2026 🏆 San Diego Wave Vs Angel City Fc (ayheV7PDpf) - Mshale",
+    "llm_rejected": "Fútbol de clubes (San Diego Wave vs Angel City), no selección nacional"
+  },
+  "217f1210b84d": {
+    "date": "2026-08-25",
+    "core": [
+      "ajedrez",
+      "carlsen",
+      "faustino",
+      "magnus"
+    ],
+    "medal": "oro",
+    "dup_of": "d0d287f1b729",
+    "title": "¡Hazaña histórica! El argentino Faustino Oro derrotó a Magnus Carlsen, campeón mundial de ajedrez - Argentar Noticias"
+  },
+  "db4d6684187f": {
+    "date": "2026-08-25",
+    "core": [
+      "2026",
+      "creian",
+      "espana",
+      "facil",
+      "humillo",
+      "iene",
+      "inside",
+      "pero",
+      "qtxzugf6lp"
+    ],
+    "medal": "oro",
+    "title": "CREÍAN QUE ESPAÑA ERA FÁCIL… ¡PERO HUMILLÓ A ARGENTINA Y GANÓ EL MUNDIAL 2026! 🏆 Le Iene Inside (qtxZUgf6LP) - Mshale",
+    "llm_rejected": "España ganó el mundial, Argentina perdió sin podio"
+  },
+  "8ad722c68185": {
+    "date": "2026-08-25",
+    "core": [
+      "12",
+      "anos",
+      "carlsen",
+      "faustino",
+      "magnus",
+      "numero",
+      "partida"
+    ],
+    "medal": "oro",
+    "dup_of": "d0d287f1b729",
+    "title": "Hazaña argentina: a sus 12 años, Faustino Oro le ganó una partida al número uno del mundo, Magnus Carlsen - Somos Jujuy"
+  },
+  "a60b64557b62": {
+    "date": "2026-08-25",
+    "core": [
+      "arquitectonica",
+      "belleza",
+      "catedrales",
+      "dame",
+      "duomo",
+      "milan",
+      "notre"
+    ],
+    "medal": "oro",
+    "title": "Argentina es campeón del mundial de catedrales: esta belleza arquitectónica venció a Notre Dame y al Duomo de Milán - El Cronista",
+    "llm_merged": "repite el logro 25ce5a78efec del 2026-08-24"
+  },
+  "954ccd3bc4e8": {
+    "date": "2026-08-26",
+    "core": [
+      "belgica",
+      "juana",
+      "masters",
+      "meglio"
+    ],
+    "medal": "plata",
+    "title": "Juana Di Meglio subcampeona mundial con Argentina en el Masters de Bélgica - Sur Multimedios"
   }
 }
