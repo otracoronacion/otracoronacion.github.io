@@ -2049,5 +2049,72 @@
     ],
     "medal": "plata",
     "title": "Juana Di Meglio subcampeona mundial con Argentina en el Masters de Bélgica - Sur Multimedios"
+  },
+  "dca7abc520f2": {
+    "date": "2026-08-25",
+    "core": [
+      "2026",
+      "canneberge",
+      "creian",
+      "espana",
+      "facil",
+      "humillo",
+      "pero",
+      "z48lxyv0wp"
+    ],
+    "medal": "oro",
+    "title": "CREÍAN QUE ESPAÑA ERA FÁCIL… ¡PERO HUMILLÓ A ARGENTINA Y GANÓ EL MUNDIAL 2026! 🏆 Jus De Canneberge (Z48lXyv0WP) - Mshale",
+    "llm_rejected": "España ganó el mundial, no Argentina"
+  },
+  "ea8f95205fc6": {
+    "date": "2026-08-26",
+    "core": [
+      "exagerado",
+      "reclama",
+      "sancion"
+    ],
+    "medal": "oro",
+    "title": "Campeón del Mundo reclama por sanción a Argentina: “Exagerado” - RedGol",
+    "llm_rejected": "Declaración/reacción posterior a un logro"
+  },
+  "41895da86484": {
+    "date": "2026-08-26",
+    "core": [
+      "artistico",
+      "competira",
+      "gallardo",
+      "patin",
+      "ulises"
+    ],
+    "medal": "oro",
+    "title": "Ulises Gallardo se consagró campeón argentino y competirá en el Mundial de Patín Artístico - HoyMercedes",
+    "llm_rejected": "Campeón argentino (nacional), no mundial ni continental"
+  },
+  "7527cdbd67c2": {
+    "date": "2026-08-26",
+    "core": [
+      "71",
+      "acaba",
+      "anos",
+      "banco",
+      "consagrarse",
+      "cordoba",
+      "fisicoculturismo",
+      "tiene",
+      "trabaja"
+    ],
+    "medal": "oro",
+    "title": "Tiene 71 años, trabaja en un banco de Córdoba y acaba de consagrarse campeón argentino y sudamericano de fisicoculturismo - La Voz del Interior"
+  },
+  "fefdbfd62399": {
+    "date": "2026-08-27",
+    "core": [
+      "55",
+      "herfurth",
+      "hockey",
+      "natalia"
+    ],
+    "medal": "oro",
+    "title": "Natalia Herfurth fue campeona mundial de hockey con Argentina en +55 - Ecos Diarios Necochea"
   }
 }
