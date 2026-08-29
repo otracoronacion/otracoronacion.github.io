@@ -2132,5 +2132,73 @@
     "medal": "oro",
     "title": "España - Argentina: Somos Campeones Del Mundo 2026 🏆 San Diego Wave Vs Angel City Fc (1ayheV7PDp) - Mshale",
     "llm_rejected": "Es entretenimiento con guión (simulación/videojuego de fútbol femenino, no un campeonato real)"
+  },
+  "cab248effe12": {
+    "date": "2026-08-28",
+    "core": [
+      "alto",
+      "atletas",
+      "brasil",
+      "cinco",
+      "karate",
+      "lograron",
+      "misionero",
+      "podios"
+    ],
+    "medal": "oro",
+    "title": "Karate misionero en lo más alto: cinco atletas lograron podios en el Mundial JKS de Brasil - MisionesOpina"
+  },
+  "14a831fe6e17": {
+    "date": "2026-08-28",
+    "core": [
+      "barrios",
+      "ciudadanos",
+      "declaro",
+      "foyth",
+      "garro",
+      "ilustres",
+      "martin",
+      "platenses",
+      "profes",
+      "rulli"
+    ],
+    "medal": "oro",
+    "title": "Platenses y campeones del mundo: Garro declaró Ciudadanos Ilustres a Foyth, Rulli y a los \"profes\" Martín y Barrios - NOVA Bonaerense",
+    "llm_rejected": "Declaración/celebración posterior, no logro nuevo"
+  },
+  "584638eafd9d": {
+    "date": "2026-08-29",
+    "core": [
+      "baez",
+      "brasil",
+      "chaqueno",
+      "ezequias"
+    ],
+    "medal": "oro",
+    "title": "ORGULLO CHAQUEÑO: EZEQUÍAS BÁEZ SE CONSAGRÓ CAMPEÓN SUDAMERICANO EN BRASIL - SPNoticias"
+  },
+  "135152798950": {
+    "date": "2026-08-29",
+    "core": [
+      "2026",
+      "championship",
+      "pokemon",
+      "quedaron"
+    ],
+    "medal": "oro",
+    "title": "Pokémon World Championship 2026: cómo quedaron los argentinos en el día 1 - Cultura Geek",
+    "llm_rejected": "Previa/ranking de competencia en curso, no resultado final"
+  },
+  "981abfa0c853": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "buscan",
+      "leonas",
+      "paises"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas buscan ser campeonas del mundo en la final ante Países Bajos - Radiofonica 100.7",
+    "llm_rejected": "Previa de final, no resultado consumado"
   }
 }
