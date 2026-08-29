@@ -2200,5 +2200,921 @@
     "medal": "oro",
     "title": "Las Leonas buscan ser campeonas del mundo en la final ante Países Bajos - Radiofonica 100.7",
     "llm_rejected": "Previa de final, no resultado consumado"
+  },
+  "5e21309528b2": {
+    "date": "2026-08-29",
+    "core": [],
+    "medal": "oro",
+    "title": "Argentina es campeón del mundo - Los Andes"
+  },
+  "39b33b38c670": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas son campeonas del Mundo - La Arena",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "417631f271fc": {
+    "date": "2026-08-29",
+    "core": [
+      "2026",
+      "leonas",
+      "mundiales"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas campeonas Mundiales 2026 - SoyDeportes"
+  },
+  "0ed8a6959dbe": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas se consagraron campeonas del mundo - Verte"
+  },
+  "b03b09268939": {
+    "date": "2026-08-29",
+    "core": [
+      "hockey",
+      "leonas"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas son campeonas del mundo de hockey por 3° vez - LA17",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "1b07d2b3eba7": {
+    "date": "2026-08-29",
+    "core": [
+      "2026",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Las Leonas son campeonas del Mundial 2026! - abcdiario.com.ar"
+  },
+  "a80391c51eea": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las Leonas son campeonas del mundo por tercera vez - Diario TAG"
+  },
+  "2d9fee9e3d16": {
+    "date": "2026-08-29",
+    "core": [
+      "estrella",
+      "leonas",
+      "llego",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Llegó la tercera estrella: Las Leonas, campeonas del mundo - Vía País"
+  },
+  "f2a42db62532": {
+    "date": "2026-08-29",
+    "core": [
+      "leona",
+      "raposo",
+      "saltena",
+      "valentina"
+    ],
+    "medal": "oro",
+    "title": "¡VALENTINA RAPOSO, LA LEONA SALTEÑA CAMPEONA DEL MUNDO! - Agenda Salta",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "f316703f7602": {
+    "date": "2026-08-29",
+    "core": [
+      "hacer",
+      "leonas",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas volvieron a hacer historia y son campeonas del mundo - Suquia",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "76fec659de71": {
+    "date": "2026-08-29",
+    "core": [
+      "athletic",
+      "leonas",
+      "lomas",
+      "sello"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas campeonas del mundo con sello de Lomas Athletic - El Diario Sur",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "b5d3edec889f": {
+    "date": "2026-08-29",
+    "core": [
+      "estrella",
+      "hockey",
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las Leonas campeonas del mundo: tercera estrella en hockey - MejorInformado.com"
+  },
+  "1c278c0f308a": {
+    "date": "2026-08-29",
+    "core": [
+      "creer",
+      "emocion",
+      "leonas",
+      "puedo",
+      "somos"
+    ],
+    "medal": "oro",
+    "title": "La emoción de Las Leonas: \"Somos campeonas del mundo y no lo puedo creer\" - Olé",
+    "llm_rejected": "Declaración/celebración posterior"
+  },
+  "aa717f2bdab4": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "mundiales",
+      "tocaron"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas tocaron la gloria y se consagraron campeonas mundiales - DameNoticias"
+  },
+  "98ce0d1ae5d1": {
+    "date": "2026-08-29",
+    "core": [
+      "16",
+      "anos",
+      "leonas"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas se consagraron campeonas del mundo tras 16 años - diariocronica.com.ar",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "09875e550680": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "rugir",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "Las Leonas volvieron a rugir: Argentina es campeona del mundo - La Voz de San Justo"
+  },
+  "742cc9d32b6d": {
+    "date": "2026-08-29",
+    "core": [
+      "actuacion",
+      "china",
+      "cosentino",
+      "heroica",
+      "leonas"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas campeonas del mundo: la heroica actuación de la China Cosentino - Perfil",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "06bfd0ba12a8": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "vencer"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas se consagraron campeonas del mundo tras vencer a Países Bajos - MinutoYA",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "2ef18c59222d": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "¡Las Leonas campeonas del mundo!: vencieron a Países Bajos por penales - NoticiasNQN"
+  },
+  "91275427b3b6": {
+    "date": "2026-08-29",
+    "core": [
+      "cesped",
+      "femenino",
+      "hockey",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Argentina es campeón del mundo por tercera vez en hockey césped femenino - Los Andes"
+  },
+  "c15e35b55aa2": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "lujanense",
+      "sofia",
+      "toccalino"
+    ],
+    "medal": "oro",
+    "title": "La lujanense Sofía “Poy” Toccalino es campeona del mundo con Las Leonas - Ladran Sancho",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "7a9394ddbfd7": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "raposo",
+      "saltena",
+      "valentina"
+    ],
+    "medal": "oro",
+    "dup_of": "f2a42db62532",
+    "title": "¡Sí!: La salteña Valentina Raposo es campeona del mundo con las Leonas - Gente de Salta"
+  },
+  "181be052ca1c": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas son campeonas del mundo: le ganaron a Países Bajos por penales - Bardeo.news"
+  },
+  "dbd4f2ae9dde": {
+    "date": "2026-08-29",
+    "core": [
+      "china",
+      "cosentino",
+      "heroina",
+      "leonas",
+      "quien"
+    ],
+    "medal": "oro",
+    "dup_of": "742cc9d32b6d",
+    "title": "Quién es la China Cosentino, la heroína de Las Leonas campeonas del mundo - bolavip.com"
+  },
+  "96c8dcc29f84": {
+    "date": "2026-08-29",
+    "core": [
+      "2026",
+      "agosto",
+      "estrella",
+      "leonas",
+      "llego",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Llegó la tercera estrella: ¡Las Leonas campeonas del Mundo! agosto 2026 - Canal Showsport"
+  },
+  "97dcd53f2e6c": {
+    "date": "2026-08-29",
+    "core": [
+      "conquisto",
+      "estrella",
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas campeonas del mundo: Argentina conquistó la tercera estrella - andigital.com.ar"
+  },
+  "af7f51af077e": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas hicieron historia: Argentina es campeona del mundo por tercera vez - Somos Jujuy"
+  },
+  "53560ee4b6f9": {
+    "date": "2026-08-29",
+    "core": [
+      "16",
+      "anos",
+      "despues",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "98ce0d1ae5d1",
+    "title": "Las Leonas campeonas del mundo después de 16 años: Argentina ganó el Mundial - CFIN Noticias"
+  },
+  "1afb997eb259": {
+    "date": "2026-08-29",
+    "core": [
+      "australianos",
+      "bajos",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "¡Campeonas del mundo! Las Leonas vencieron a Países Bajos por penales australianos - En Agenda"
+  },
+  "78fd768e3635": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "raposo",
+      "representante",
+      "saltena",
+      "vale"
+    ],
+    "medal": "oro",
+    "dup_of": "f2a42db62532",
+    "title": "Las Leonas campeonas del mundo: Vale Raposo, la representante salteña - saltacomparativa.com.ar"
+  },
+  "7ae1aa9300c6": {
+    "date": "2026-08-29",
+    "core": [
+      "leonas",
+      "lujan",
+      "sofia",
+      "tiene",
+      "toccalino"
+    ],
+    "medal": "oro",
+    "dup_of": "c15e35b55aa2",
+    "title": "¡Luján tiene campeona del mundo!: Sofía “Poy” Toccalino hizo historia con Las Leonas - Lujan Hoy"
+  },
+  "010c331ea319": {
+    "date": "2026-08-29",
+    "core": [
+      "2026",
+      "bajos",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas campeonas del mundo 2026: Argentina venció a Países Bajos por penales - Que Pasa Salta"
+  },
+  "693d40b509b3": {
+    "date": "2026-08-29",
+    "core": [
+      "alto",
+      "hockey",
+      "leonas",
+      "podio",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas en lo más alto del podio son campeonas del mundo por tercera vez en hockey - Los Andes"
+  },
+  "6a17ce19e2fe": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "estrella",
+      "leonas",
+      "mundiales",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Nueva tercera estrella: Las Leonas se consagraron campeonas mundiales en Países Bajos - La Capital"
+  },
+  "6ee8baf0cdb1": {
+    "date": "2026-08-29",
+    "core": [
+      "estrella",
+      "hockey",
+      "leonas",
+      "lograron",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Argentina campeón mundial de hockey, Las Leonas lograron su tercera estrella. - lalicuadoratdf.com.ar"
+  },
+  "d11b486fb32d": {
+    "date": "2026-08-29",
+    "core": [
+      "16",
+      "anos",
+      "despues",
+      "leonas",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "Las Leonas volvieron a ser campeonas del mundo después de 16 años - Diario La Capital de Mar del Plata"
+  },
+  "e9ea1f4dc35f": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "cesped",
+      "derrotan",
+      "hockey",
+      "leonas",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Argentina campeón del mundo! Las Leonas derrotan a Países Bajos en el hockey sobre césped - En Cancha"
+  },
+  "6e3fe7f31cc6": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas son campeonas del mundo: Argentina venció a Países Bajos en una final histórica - HolaSalta"
+  },
+  "17e26eaa5555": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "conquistar",
+      "estrella",
+      "leonas",
+      "paises",
+      "tercera",
+      "vencer"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas campeonas del mundo tras vencer a Países Bajos y conquistar su tercera estrella - Los Andes"
+  },
+  "61d6220cc665": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "hacer",
+      "leonas",
+      "paises",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas volvieron a hacer historia y se consagraron campeonas del mundo ante Países Bajos - a24.com"
+  },
+  "3689d24a13c2": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "vencer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas se consagraron campeonas del mundo tras vencer a Países Bajos en la final - La Nueva Mañana"
+  },
+  "10c9cc6fd3bb": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Las Leonas se consagraron campeonas del mundo! Le ganaron la final a Países Bajos en los penales - C5N"
+  },
+  "dec7d23158b5": {
+    "date": "2026-08-29",
+    "core": [
+      "20",
+      "alastra",
+      "anos",
+      "leonas",
+      "milagros"
+    ],
+    "medal": "oro",
+    "title": "Milagros Alastra hizo historia con Las Leonas y se consagra campeona del mundo a los 20 años - Los Andes",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "52164c35923b": {
+    "date": "2026-08-29",
+    "core": [
+      "cielo",
+      "leonas",
+      "manos",
+      "raposo",
+      "saltena",
+      "toco",
+      "valentina"
+    ],
+    "medal": "oro",
+    "dup_of": "f2a42db62532",
+    "title": "Valentina Raposo, campeona del mundo: la salteña tocó el cielo con las manos con Las Leonas - El Tribuno"
+  },
+  "9261f3f86b92": {
+    "date": "2026-08-29",
+    "core": [
+      "20",
+      "alastra",
+      "anos",
+      "leonas",
+      "milagros"
+    ],
+    "medal": "oro",
+    "dup_of": "dec7d23158b5",
+    "title": "Milagros Alastra hizo historia con Las Leonas y se consagró campeona del mundo a los 20 años - Los Andes"
+  },
+  "6f53223f66ee": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "penales",
+      "vencer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas se consagraron campeonas del mundo tras vencer a Países Bajos por penales - Diario Castellanos"
+  },
+  "b339fb9af57a": {
+    "date": "2026-08-29",
+    "core": [
+      "conquisto",
+      "leonas",
+      "tercer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "🇦🇷 LAS LEONAS CAMPEONAS DEL MUNDO: ARGENTINA HIZO HISTORIA Y CONQUISTÓ SU TERCER TÍTULO 🏆 - Impacto Castex"
+  },
+  "b1209a1f372a": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "conquisto",
+      "estrella",
+      "leonas",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas son campeonas del mundo: Argentina venció a Países Bajos y conquistó su tercera estrella - Red43"
+  },
+  "b7ce1ef0ee73": {
+    "date": "2026-08-29",
+    "core": [
+      "consagracion",
+      "historicas",
+      "hockey",
+      "tabla"
+    ],
+    "medal": "oro",
+    "title": "Tras la consagración de Argentina, así está la tabla de campeonas históricas del Mundial de hockey - DSports",
+    "llm_rejected": "Ranking/tabla histórica, no es logro nuevo"
+  },
+  "0853a7442b01": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "estrella",
+      "leonas",
+      "lograron",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas son campeonas del mundo: vencieron a Países Bajos y lograron su tercera estrella - Bariloche Opina"
+  },
+  "e9651710b973": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "lograron",
+      "paises",
+      "tercer",
+      "vencer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas Campeonas del Mundo: lograron su tercer título mundial tras vencer a Países Bajos - Primera Edición"
+  },
+  "f994fad56fd0": {
+    "date": "2026-08-29",
+    "core": [
+      "demostramos",
+      "emocion",
+      "jankunas",
+      "julieta",
+      "somos"
+    ],
+    "medal": "oro",
+    "dup_of": "1c278c0f308a",
+    "title": "Julieta Jankunas y la emoción de ser campeona del mundo: Somos Argentina y lo demostramos - La Voz del Interior"
+  },
+  "a542fce2c6b6": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "hacer",
+      "leonas",
+      "paises",
+      "penales",
+      "vencer",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas volvieron a hacer historia: campeonas del mundo tras vencer a Países Bajos por penales - BAE Negocios"
+  },
+  "6ec991b27d45": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "conquistaron",
+      "leonas",
+      "paises",
+      "penales",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas son campeonas del mundo: vencieron a Países Bajos por penales y conquistaron su tercera copa - eldoce"
+  },
+  "6cf255a3dc7b": {
+    "date": "2026-08-29",
+    "core": [
+      "estrella",
+      "femenino",
+      "hockey",
+      "leonas",
+      "sumo",
+      "tercer",
+      "vamos"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "¡Vamos Leonas! Argentina se consagró campeona del mundo en hockey femenino y sumó su tercer estrella - TV Pública"
+  },
+  "997189e3fab7": {
+    "date": "2026-08-29",
+    "core": [
+      "16",
+      "anos",
+      "despues",
+      "leonas",
+      "tocar",
+      "volvio"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "¡Las Leonas son campeonas del mundo! Argentina volvió a tocar la gloria después de 16 años - Noticias de Necochea"
+  },
+  "f35440073318": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "cambiaron",
+      "conocida",
+      "leonas",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas campeonas del mundo: vencieron a Países Bajos y cambiaron el final de una historia conocida - La Gaceta"
+  },
+  "767a9cfabb1d": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "estrella",
+      "leonas",
+      "paises",
+      "partido",
+      "perfecto",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas se consagraron campeonas del mundo: tercera estrella en un partido perfecto ante Países Bajos - DeporTV"
+  },
+  "e71108d6243b": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "conquisto",
+      "leonas",
+      "paises",
+      "penales",
+      "tercer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas campeonas del mundo: Argentina venció a Países Bajos por penales y conquistó su tercer título - 617 News"
+  },
+  "03ad49405718": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "estrella",
+      "leonas",
+      "lograron",
+      "paises",
+      "penales",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas son campeonas del mundo: vencieron a Países Bajos por penales y lograron su tercera estrella - DataChaco"
+  },
+  "ce3ce3490624": {
+    "date": "2026-08-29",
+    "core": [
+      "hockey",
+      "leonas",
+      "quedo",
+      "tabla",
+      "titulos",
+      "tricampeonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas, tricampeonas del mundo: cómo quedó Argentina en la tabla histórica de títulos del Mundial de hockey - Olé"
+  },
+  "d55532dcebb8": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "hegemonia",
+      "hockey",
+      "leonas",
+      "paises",
+      "rompiendo"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas se consagraron campeonas del Mundial de Hockey rompiendo la hegemonía de Países Bajos - Vermouth Deportivo"
+  },
+  "25c38ecd435b": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "lograron",
+      "paises",
+      "tercer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas, campeonas del mundo otra vez: le ganaron a Países Bajos y lograron su tercer título - Canal 8 Mar del Plata"
+  },
+  "2d6eea892fd8": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "mundiales",
+      "paises",
+      "penales",
+      "tricampeonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Tricampeonas mundiales! Las Leonas vencieron a Países Bajos por penales en una final histórica - Diario El Cordillerano"
+  },
+  "5ebaf3cfc481": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas, campeonas del mundo: Argentina venció por penales a Países Bajos en la final del Mundial de Hoc... - bolavip.com"
+  },
+  "9dd53d427f51": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "conquisto",
+      "estrella",
+      "leonas",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas son campeonas del mundo: Argentina venció en la final a Países Bajos y conquistó su tercera estrella - Sol Play 91.5"
+  },
+  "e4462517a598": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "cadena",
+      "conquistaron",
+      "estrella",
+      "leonas",
+      "nueve",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas son campeonas del mundo: vencieron a Países Bajos y conquistaron su tercera estrella - Cadena Nueve - Diario Digital"
+  },
+  "4fab2a21e6bd": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "diario",
+      "femenino",
+      "hockey",
+      "leonas",
+      "norte",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "title": "Argentina, campeona del mundo en hockey femenino: Las Leonas vencieron por penales a Países Bajos - Diario El Norte - San Nicolás",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "a2429cd4ed3a": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "hacer",
+      "leonas",
+      "paises",
+      "penales",
+      "volvio"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Las Leonas son campeonas del mundo! Argentina venció a Países Bajos por penales y volvió a hacer historia - La Ventana San Rafael"
+  },
+  "30aab4c4324d": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "estrella",
+      "hockey",
+      "leonas",
+      "lograron",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Mundial de Hóckey. ¡Las Leonas campeonas del mundo! Le ganaron a Países Bajos y lograron la tercera estrella - La Voz del Interior"
+  },
+  "efb0e36686c3": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "bonaerenses",
+      "cairo",
+      "granatto",
+      "leonas",
+      "paises",
+      "protagonistas"
+    ],
+    "medal": "oro",
+    "title": "¡Las Leonas campeonas del mundo! Granatto y Cairó, las bonaerenses protagonistas de una hazaña histórica en Países Bajos - La Noticia 1",
+    "llm_merged": "mismo logro que 5e21309528b2"
+  },
+  "70ca6d9fe678": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "obtuvieron",
+      "paises",
+      "penales",
+      "tercer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Las Leonas se consagraron campeonas del mundo!: le ganaron a Países Bajos por penales y obtuvieron su tercer título - Diario Primera Linea"
   }
 }
