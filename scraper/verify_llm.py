@@ -40,7 +40,7 @@ MODEL = "claude-haiku-4-5"
 SYSTEM = """Sos el verificador de "Otra Coronación de Gloria", un servicio que informa podios YA OBTENIDOS por argentinos en competencias de nivel MUNDIAL o CONTINENTAL.
 
 Recibís una lista numerada de titulares de noticias del día. Devolvé ÚNICAMENTE un array JSON, un objeto por titular, sin texto alrededor:
-[{"i": 1, "ok": true|false, "medalla": "oro"|"plata"|"bronce"|null, "alcance": "mundial"|"continental"|null, "grupo": <entero>, "repite": <entero>, "logro": "<etiqueta>", "motivo": "<frase corta>"}]
+[{"i": 1, "ok": true|false, "medalla": "oro"|"plata"|"bronce"|null, "alcance": "mundial"|"continental"|null, "grupo": <entero>, "repite": <entero>, "mejor": <entero>, "logro": "<etiqueta>", "motivo": "<frase corta>"}]
 
 ## ok = true
 Solo si el titular informa un HECHO CONSUMADO: una persona, equipo o selección ARGENTINA obtuvo el 1°, 2° o 3° puesto en un campeonato de nivel:
@@ -61,6 +61,9 @@ OJO con "Copa Sudamericana": en vóley, básquet, handball y la mayoría de los 
 
 ## grupo
 Número entero que agrupa los titulares que hablan del MISMO logro (misma disciplina, misma competencia, misma categoría), aunque uno hable de la selección y otro del deportista local. Titulares vagos ("Argentina campeona sudamericana") van al grupo del logro que mejor encaje según el resto de la lista. Distintos logros = distinto número. A los ok=false ponéles grupo 0.
+
+## mejor
+De todos los titulares de un mismo grupo, el número (i) del que MEJOR cuenta el logro: el que nombra la disciplina y el hecho de forma completa y clara. Descartá los vagos ("Argentina es campeón del mundo" no dice de qué deporte), los que titulan por el pueblo o el club del deportista ("Orgullo santafesino:…", "con sello de Lomas Athletic"), y los que se cuelgan de una jugadora en vez de contar el logro. TODOS los titulares de un mismo grupo tienen que devolver el MISMO número. A los ok=false ponéles 0.
 
 ## logro
 Etiqueta corta y CANÓNICA que identifica el logro, en el formato "disciplina, competencia, categoría": por ejemplo "vóley masculino, Copa Sudamericana, mayores" o "hockey femenino, Mundial Máster, +40". Es la que se guarda para comparar contra los días siguientes, así que tiene que decir la disciplina y la categoría aunque el titular no las nombre (deducilas del resto de la lista o de lo que sepas del deportista). A los ok=false ponéles "".
@@ -137,6 +140,7 @@ def ask_batch(key: str, items, publicados=None):
                         "alcance": o.get("alcance"),
                         "grupo": o.get("grupo") if isinstance(o.get("grupo"), int) else 0,
                         "repite": o.get("repite") if isinstance(o.get("repite"), int) else 0,
+                        "mejor": o.get("mejor") if isinstance(o.get("mejor"), int) else 0,
                         "logro": str(o.get("logro", ""))[:80],
                         "motivo": str(o.get("motivo", ""))[:180],
                     }
@@ -217,6 +221,17 @@ def main():
         if v["grupo"] and 1 <= v["repite"] <= len(publicados):
             repite_grupo.setdefault(v["grupo"], v["repite"])
 
+    # El dedup por tokens se queda con el titular más CORTO, que en una noticia
+    # grande es el más vago: 77 notas de Las Leonas campeonas del mundo y ganó
+    # "Argentina es campeón del mundo", que no dice ni el deporte. La IA ya ve
+    # todos los titulares juntos, así que le pedimos que nomine el mejor.
+    mejor_por_grupo = {}
+    for n, v in enumerate(res):
+        if v["ok"] and v["grupo"]:
+            m = v.get("mejor", 0)
+            if 1 <= m <= len(events) and res[m - 1]["ok"]:
+                mejor_por_grupo.setdefault(v["grupo"], m)
+
     keep, descartes, grupos = [], [], {}
     for ev, v in zip(events, res):
         if not v["ok"]:
@@ -244,6 +259,13 @@ def main():
             continue
         if g:
             grupos[g] = ev
+        m = mejor_por_grupo.get(g)
+        if m and events[m - 1] is not ev:
+            fuente = events[m - 1]
+            print(f"↑ IA prefiere el titular de {fuente.get('source','?')}: «{fuente['title'][:62]}»")
+            ev["title"] = fuente["title"]
+            ev["source"] = fuente.get("source", "")
+            ev["url"] = fuente["url"]
         etiqueta = f" ({ev['logro']})" if ev.get("logro") else ""
         print(f"✓ IA confirma [{ev['medal']}/{ev.get('scope','mundial')}]: {ev['title'][:62]}{etiqueta}")
         keep.append(ev)

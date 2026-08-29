@@ -7,6 +7,7 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
     "motivo": "prelista, no hecho consumado"
   },
@@ -18,6 +19,7 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
     "motivo": "partido futuro"
   },
@@ -29,8 +31,9 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
-    "motivo": "campeón es otro país (España)"
+    "motivo": "campeón es otro país"
   },
   {
     "title": "La WWE vuelve a la Argentina con todas sus figuras y los campeones mundiales",
@@ -40,8 +43,9 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
-    "motivo": "entretenimiento con guión (WWE)"
+    "motivo": "entretenimiento con guión"
   },
   {
     "title": "Una influencer apostó 15 millones a que Argentina salía campeón del mundo y ahor",
@@ -51,6 +55,7 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
     "motivo": "apuestas, no logro deportivo"
   },
@@ -62,6 +67,7 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
     "motivo": "torneo de clubes de fútbol"
   },
@@ -73,6 +79,7 @@
     "alcance": null,
     "grupo": 0,
     "repite": 0,
+    "mejor": 0,
     "logro": "",
     "motivo": "torneo de clubes de fútbol"
   },
@@ -84,6 +91,7 @@
     "alcance": "mundial",
     "grupo": 1,
     "repite": 0,
+    "mejor": 8,
     "logro": "futsal masculino, Mundial, mayores",
     "motivo": "Argentina campeón mundial futsal"
   },
@@ -95,6 +103,7 @@
     "alcance": "mundial",
     "grupo": 2,
     "repite": 0,
+    "mejor": 9,
     "logro": "hockey masculino, Mundial Máster, +50",
     "motivo": "Argentina bicampeona mundial hockey +50"
   },
@@ -106,6 +115,7 @@
     "alcance": "mundial",
     "grupo": 3,
     "repite": 0,
+    "mejor": 10,
     "logro": "fútbol masculino, Mundial, mayores",
     "motivo": "Argentina subcampeona mundial fútbol"
   },
@@ -117,6 +127,7 @@
     "alcance": "mundial",
     "grupo": 4,
     "repite": 0,
+    "mejor": 11,
     "logro": "química, Olimpíada Internacional, mayores",
     "motivo": "Argentina bronce Olimpíada Química"
   },
@@ -128,8 +139,9 @@
     "alcance": "continental",
     "grupo": 5,
     "repite": 0,
+    "mejor": 14,
     "logro": "vóley masculino, Copa Sudamericana, mayores",
-    "motivo": "Argentina campeón sudamericano vóley"
+    "motivo": "Argentina campeona sudamericana vóley"
   },
   {
     "title": "Los Pumas 7s ganaron la medalla de oro en los Juegos Panamericanos",
@@ -139,8 +151,9 @@
     "alcance": "continental",
     "grupo": 6,
     "repite": 0,
+    "mejor": 13,
     "logro": "rugby 7s masculino, Juegos Panamericanos, mayores",
-    "motivo": "Argentina oro Panamericanos rugby 7s"
+    "motivo": "Argentina oro Pumas 7s Panamericanos"
   },
   {
     "title": "Argentina se consagró campeón de la Copa Sudamericana de vóley masculino",
@@ -150,8 +163,9 @@
     "alcance": "continental",
     "grupo": 5,
     "repite": 0,
+    "mejor": 14,
     "logro": "vóley masculino, Copa Sudamericana, mayores",
-    "motivo": "mismo logro que titular 12"
+    "motivo": "Argentina campeona sudamericana vóley"
   },
   {
     "title": "Un equipo argentino salió campeón del mundo de fútbol phygital",
@@ -161,8 +175,9 @@
     "alcance": "mundial",
     "grupo": 7,
     "repite": 0,
+    "mejor": 15,
     "logro": "fútbol phygital, Mundial, mayores",
-    "motivo": "Argentina campeón mundial fútbol phygital"
+    "motivo": "Argentina campeona mundial fútbol phygital"
   },
   {
     "title": "Mundial del Alfajor 2026: el catamarqueño que se coronó como el mejor del mundo ",
@@ -172,6 +187,7 @@
     "alcance": "mundial",
     "grupo": 8,
     "repite": 0,
+    "mejor": 16,
     "logro": "alfajor, Mundial, mayores",
     "motivo": "Argentina campeón mundial alfajor"
   }
