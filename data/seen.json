@@ -4127,5 +4127,369 @@
     "medal": "oro",
     "dup_of": "f2a42db62532",
     "title": "Valentina Raposo hizo historia: es la primera salteña en consagrarse campeona del mundo con Las Leonas - Radio Profesional 89.9"
+  },
+  "76b968405d7a": {
+    "date": "2026-08-29",
+    "core": [
+      "conquistaron",
+      "estrella",
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "2b23a4dcc9ac",
+    "title": "Las Leonas son campeonas del mundo y conquistaron su tercera estrella - Extremo Diario"
+  },
+  "20fca1598ab3": {
+    "date": "2026-08-29",
+    "core": [
+      "conquistaron",
+      "hockey",
+      "leonas",
+      "tercer"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las Leonas hicieron historia y conquistaron su tercer Mundial de hockey - El Territorio"
+  },
+  "998acaed6ba1": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "leonas",
+      "paises",
+      "rugir",
+      "vencer",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "Las Leonas volvieron a rugir: Argentina es campeona del mundo tras vencer a Países Bajos - El 10 TV"
+  },
+  "2e41db99447f": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "femenino",
+      "hockey",
+      "leonas",
+      "paises",
+      "penales"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Argentina, campeona del mundo en hockey femenino: Las Leonas vencieron por penales a Países Bajos - diarioelnorte.com.ar"
+  },
+  "a4e9f6226d9f": {
+    "date": "2026-08-30",
+    "core": [
+      "conquistaron",
+      "estrella",
+      "leonas",
+      "tercera",
+      "tocaron"
+    ],
+    "medal": "oro",
+    "dup_of": "2b23a4dcc9ac",
+    "title": "Las Leonas tocaron la gloria y conquistaron su tercera estrella mundial - RosarioPlus"
+  },
+  "7681686f1eeb": {
+    "date": "2026-08-30",
+    "core": [
+      "alto",
+      "fotos",
+      "hockey",
+      "leonas",
+      "miranda"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las mejores fotos de Las Leonas campeonas del mundo con Miranda en lo más alto del hockey - Puntal.com.ar"
+  },
+  "5767109c7eed": {
+    "date": "2026-08-30",
+    "core": [
+      "bajos",
+      "bronce",
+      "hockey",
+      "obtuvo",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Mundial de Hockey: Argentina le ganó por 2 a 1 a Países Bajos y obtuvo la Medalla de Bronce - Ayacucho al Día"
+  },
+  "09fb7986c54d": {
+    "date": "2026-08-30",
+    "core": [
+      "bajos",
+      "conquistaron",
+      "estrella",
+      "leonas",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "¡Las Leonas son campeonas del mundo! Vencieron a Países Bajos y conquistaron su tercera estrella - El Diario (Escobar)"
+  },
+  "385af22ffd04": {
+    "date": "2026-08-30",
+    "core": [
+      "alegri",
+      "dsports",
+      "exclusiva",
+      "fernando",
+      "ferrara",
+      "leonas",
+      "radio"
+    ],
+    "medal": "oro",
+    "title": "Fernando Ferrara, DT de las Leonas, en exclusiva con DSports Radio: \"Ser campeón del mundo te da una alegrí... - DSports",
+    "llm_rejected": "Declaración/reacción posterior al logro, no el hecho consumado"
+  },
+  "0f89ea0ea41b": {
+    "date": "2026-08-31",
+    "core": [
+      "leonas",
+      "tricampeonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas, tricampeonas del mundo - Ushuaia Noticias"
+  },
+  "431cb3008a1f": {
+    "date": "2026-08-31",
+    "core": [
+      "amstelveen",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Las Leonas campeonas del mundo en Amstelveen! - Neuquén News"
+  },
+  "b16a7c8ffc23": {
+    "date": "2026-08-31",
+    "core": [
+      "estan",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas campeonas del mundo ya están en Argentina - Diario UNO"
+  },
+  "e3e222c54577": {
+    "date": "2026-08-31",
+    "core": [
+      "casa",
+      "estan",
+      "leonas",
+      "llegaron"
+    ],
+    "medal": "oro",
+    "title": "Llegaron Las Leonas: las campeonas del mundo están en casa - elgrafico.com.ar",
+    "llm_rejected": "Celebración/llegada posterior, no el hecho consumado"
+  },
+  "e01c1ce9e6b4": {
+    "date": "2026-08-31",
+    "core": [
+      "arribaron",
+      "consagrarse",
+      "leonas",
+      "pais"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas arribaron al país tras consagrarse campeonas del mundo - Data Diario",
+    "llm_rejected": "Celebración/llegada posterior, no el hecho consumado"
+  },
+  "7e1fdcc78db0": {
+    "date": "2026-08-31",
+    "core": [
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas, campeonas del mundo por tercera vez en su historia - AHORA Entre Ríos"
+  },
+  "c7e02cdeefae": {
+    "date": "2026-08-31",
+    "core": [
+      "conquista",
+      "leonas",
+      "llegaron",
+      "pais"
+    ],
+    "medal": "oro",
+    "dup_of": "e3e222c54577",
+    "title": "Las Leonas llegaron al país tras la histórica conquista en el Mundial - Mendoza Post"
+  },
+  "94df7841abed": {
+    "date": "2026-08-31",
+    "core": [
+      "2026",
+      "disciplina",
+      "pokemon",
+      "salio"
+    ],
+    "medal": "plata",
+    "title": "Un argentino salió subcampeón de su disciplina en el Mundial de Pokémon 2026 - La Nación"
+  },
+  "4f5c0b0e1e27": {
+    "date": "2026-08-31",
+    "core": [
+      "estan",
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas ya están en Argentina con la tercera medalla de campeonas del mundo - La Nación"
+  },
+  "00814a03dcbd": {
+    "date": "2026-08-31",
+    "core": [
+      "cartas",
+      "cassiraga",
+      "diego",
+      "logro",
+      "pokemon"
+    ],
+    "medal": "plata",
+    "title": "El argentino Diego Cassiraga logró el subcampeonato del mundial de cartas Pokémon - Cultura Geek",
+    "llm_merged": "mismo logro que 94df7841abed"
+  },
+  "0ec049a8beba": {
+    "date": "2026-08-31",
+    "core": [
+      "consagrarse",
+      "esto",
+      "leonas",
+      "pais",
+      "todos",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "Las Leonas volvieron al país tras consagrarse campeonas del mundo: “Esto es de todos” - Rosario3"
+  },
+  "946e9496e73b": {
+    "date": "2026-08-31",
+    "core": [
+      "leonas",
+      "llegaron",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Volvieron las campeonas del mundo: Las Leonas llegaron a la Argentina con la copa - sol915.com.ar"
+  },
+  "a76ca4203c42": {
+    "date": "2026-08-31",
+    "core": [
+      "conquisto",
+      "hockey",
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las Leonas hicieron historia: Argentina conquistó su tercera Copa del Mundo de hockey - Revista La Velez"
+  },
+  "bb6e9447dd8a": {
+    "date": "2026-08-31",
+    "core": [
+      "bajos",
+      "estrella",
+      "leonas",
+      "paises",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas campeonas del mundo: Argentina venció a Países Bajos y ganó su tercera estrella - noticiasd.com"
+  },
+  "a3d57cbffc21": {
+    "date": "2026-08-31",
+    "core": [
+      "convertirse",
+      "inexplicable",
+      "leonas",
+      "llegaron"
+    ],
+    "medal": "oro",
+    "dup_of": "e3e222c54577",
+    "title": "Las Leonas llegaron a la Argentina tras convertirse en campeonas del mundo: “Es inexplicable” - Radio Mitre"
+  },
+  "a2afe8fff4ab": {
+    "date": "2026-08-31",
+    "core": [
+      "conquista",
+      "hockey",
+      "leonas",
+      "llegaron",
+      "pais"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las Leonas llegaron al país tras la histórica conquista en el Mundial de hockey - Agencia Noticias Argentinas"
+  },
+  "94f6a7a040dd": {
+    "date": "2026-08-31",
+    "core": [
+      "canto",
+      "leonas",
+      "levantando",
+      "llegaron",
+      "puro",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "2b23a4dcc9ac",
+    "title": "A puro canto y levantando la Copa: así llegaron Las Leonas tras ser campeonas del mundo por tercera vez - eldoce"
+  },
+  "b443dc7a4877": {
+    "date": "2026-08-31",
+    "core": [
+      "estrella",
+      "extender",
+      "legado",
+      "leonas",
+      "llegaron",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "2b23a4dcc9ac",
+    "title": "Las Leonas son campeonas del mundo y llegaron a su tercera estrella para extender un legado - Ejes de Comunicación"
+  },
+  "a1a670b07308": {
+    "date": "2026-08-31",
+    "core": [
+      "bajos",
+      "bienvenidas",
+      "leonas",
+      "llegaron",
+      "pais",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "¡Bienvenidas, campeonas del mundo! Las Leonas llegaron al país tras la hazaña en Países Bajos - La Nueva Provincia"
+  },
+  "f757b2a40add": {
+    "date": "2026-08-31",
+    "core": [
+      "china",
+      "conoce",
+      "consagradas",
+      "cosentino",
+      "granatto",
+      "hermanas",
+      "historias",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "742cc9d32b6d",
+    "title": "De la China Cosentino a las hermanas Granatto, estas son Las Leonas consagradas como Campeonas del Mundo: conocé sus historias - Revista OHLALÁ!"
   }
 }
