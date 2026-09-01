@@ -4491,5 +4491,194 @@
     "medal": "oro",
     "dup_of": "742cc9d32b6d",
     "title": "De la China Cosentino a las hermanas Granatto, estas son Las Leonas consagradas como Campeonas del Mundo: conocé sus historias - Revista OHLALÁ!"
+  },
+  "ee3a3372e0dd": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "dieron",
+      "golpe",
+      "leonas",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas dieron el golpe y se consagraron campeonas del mundo en Países Bajos - Estación Claridad"
+  },
+  "263eabfeceac": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "derrotar",
+      "leonas",
+      "paises",
+      "penales",
+      "sauze",
+      "vicky"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas con Vicky Sauze son campeonas del Mundo al derrotar a Países Bajos en los penales - Primera Fuente"
+  },
+  "15e1536f25d2": {
+    "date": "2026-08-29",
+    "core": [
+      "bajos",
+      "casa",
+      "estrella",
+      "leonas",
+      "paises",
+      "sumaron",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "¡Argentina campeona del mundo! Las Leonas derrotaron a Países Bajos en su casa y sumaron su tercera estrella - Data Diario"
+  },
+  "3d4d7f5fa238": {
+    "date": "2026-08-31",
+    "core": [
+      "leonas",
+      "pais",
+      "vuelta"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "La vuelta al país de Las Leonas campeonas del mundo - Página|12"
+  },
+  "ade183b17f45": {
+    "date": "2026-08-31",
+    "core": [
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "¡Las Leonas son campeonas del mundo otra vez! - FM Rock & Pop 95.9"
+  },
+  "ce73d769670a": {
+    "date": "2026-08-31",
+    "core": [
+      "bienvenidas",
+      "leonas",
+      "llegaron",
+      "pais",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "2b23a4dcc9ac",
+    "title": "¡Bienvenidas, campeonas del mundo! Las Leonas llegaron al país con la tercera medalla - TV Pública"
+  },
+  "401885d777a7": {
+    "date": "2026-08-31",
+    "core": [
+      "casa",
+      "emocion",
+      "estan",
+      "futuro",
+      "leonas",
+      "proyeccion"
+    ],
+    "medal": "oro",
+    "title": "Las campeonas del mundo están en casa: la emoción de las Leonas y la proyección a futuro - La Nación",
+    "llm_rejected": "Celebración/reacción posterior al logro, no el hecho consumado"
+  },
+  "9c0e87d87c5f": {
+    "date": "2026-08-31",
+    "core": [
+      "2026",
+      "31",
+      "agosto",
+      "conquista",
+      "leonas",
+      "llegaron",
+      "pais"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas llegaron al país tras la histórica conquista en el Mundial | 31 de agosto de 2026 - Hoy Día Córdoba",
+    "llm_rejected": "Nota sobre regreso del equipo, no el logro en sí"
+  },
+  "3d6ff69d57c1": {
+    "date": "2026-08-31",
+    "core": [
+      "bajos",
+      "consagracion",
+      "leonas",
+      "pais",
+      "paises",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "Las Leonas volvieron al país como campeonas del mundo tras su consagración en Países Bajos - noticiero9.com.ar"
+  },
+  "e63b95dcf6d5": {
+    "date": "2026-08-31",
+    "core": [
+      "catamarquenos",
+      "equipo",
+      "trampolin"
+    ],
+    "medal": "oro",
+    "title": "Con dos catamarqueños en el equipo, Argentina se consagró campeón sudamericano de Trampolín - Revista Botineros"
+  },
+  "a68e0ece1222": {
+    "date": "2026-08-31",
+    "core": [
+      "deporte",
+      "granatto",
+      "inversion",
+      "leonas",
+      "majo",
+      "pidio"
+    ],
+    "medal": "oro",
+    "dup_of": "efb0e36686c3",
+    "title": "Majo Granatto pidió más inversión para el deporte, tras ser campeona del mundo con Las Leonas - Argentina Amateur Deporte"
+  },
+  "29907782816d": {
+    "date": "2026-09-01",
+    "core": [
+      "exclusivo",
+      "leonas",
+      "stream",
+      "visitan"
+    ],
+    "medal": "oro",
+    "title": "Exclusivo: Las Leonas Campeonas del Mundo visitan el stream - TV Pública",
+    "llm_rejected": "Entrevista/celebración posterior, no el hecho consumado"
+  },
+  "856a6d80e89d": {
+    "date": "2026-09-01",
+    "core": [
+      "atletico",
+      "madrid",
+      "punto",
+      "sumar"
+    ],
+    "medal": "oro",
+    "title": "Atlético de Madrid, a punto de sumar a otro campeón del mundo argentino - El Gráfico",
+    "llm_rejected": "Mercado de pases, no un logro deportivo"
+  },
+  "98a3c7cb9d37": {
+    "date": "2026-09-01",
+    "core": [
+      "catamarqueno",
+      "sello",
+      "trampolin"
+    ],
+    "medal": "oro",
+    "title": "Argentina se coronó en el Sudamericano de Trampolín con sello catamarqueño - La Unión Digital",
+    "llm_merged": "mismo logro que e63b95dcf6d5"
+  },
+  "9562e2a9b4e1": {
+    "date": "2026-09-01",
+    "core": [
+      "around",
+      "catamarquenos",
+      "equipo"
+    ],
+    "medal": "oro",
+    "dup_of": "e63b95dcf6d5",
+    "title": "Con dos catamarqueños en el equipo, Argentina se consagró campeón sudamericano en all-around - Catamarca Radio y Televisión"
   }
 }
