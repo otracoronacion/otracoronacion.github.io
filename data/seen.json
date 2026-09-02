@@ -4680,5 +4680,166 @@
     "medal": "oro",
     "dup_of": "e63b95dcf6d5",
     "title": "Con dos catamarqueños en el equipo, Argentina se consagró campeón sudamericano en all-around - Catamarca Radio y Televisión"
+  },
+  "43fdb55b19b0": {
+    "date": "2026-08-30",
+    "core": [
+      "bajos",
+      "emocionante",
+      "leonas",
+      "paises"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "¡Campeonas del mundo! Las Leonas le ganaron una final emocionante a Países Bajos - HOY ROJAS"
+  },
+  "35898f7478e3": {
+    "date": "2026-08-30",
+    "core": [
+      "bronce",
+      "cesped",
+      "hockey",
+      "leones",
+      "logro",
+      "masculino",
+      "mundiales",
+      "segunda"
+    ],
+    "medal": "oro",
+    "dup_of": "1fbeaa9d2bd2",
+    "title": "¡Leones de Bronce!: El hockey sobre césped masculino argentino logró su segunda medalla en mundiales - Cuestión Entrerriana"
+  },
+  "e10b42e9b8ec": {
+    "date": "2026-08-31",
+    "core": [
+      "16",
+      "anos",
+      "consagran",
+      "espera",
+      "hockey",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Las Leonas se consagran campeonas del mundo en hockey tras 16 años de espera - Radio Villa María"
+  },
+  "3cb9bc176350": {
+    "date": "2026-08-31",
+    "core": [
+      "anhelada",
+      "casa",
+      "estan",
+      "leonas",
+      "llegaron"
+    ],
+    "medal": "oro",
+    "title": "Llegaron Las Leonas: las campeonas del mundo están en casa, y con la anhelada Copa - Diario Mendoza Today",
+    "llm_rejected": "Celebración posterior al logro ya publicado, no es noticia del hecho consumado"
+  },
+  "47b5baa56436": {
+    "date": "2026-08-31",
+    "core": [
+      "10",
+      "messi",
+      "momentos",
+      "renunciar"
+    ],
+    "medal": "oro",
+    "title": "De renunciar a la Selección a campeón del mundo: los 10 momentos de Messi con Argentina - Estadio Deportes",
+    "llm_rejected": "Nota histórica/retrospectiva sobre Messi, no informa un logro actual"
+  },
+  "59fc5f976b9f": {
+    "date": "2026-08-31",
+    "core": [
+      "arribaron",
+      "consagrarse",
+      "leonas",
+      "tercera"
+    ],
+    "medal": "oro",
+    "dup_of": "2b23a4dcc9ac",
+    "title": "Las Leonas arribaron a la Argentina tras consagrarse campeonas del mundo por tercera vez - entremediosweb.com"
+  },
+  "69e8c8d0c899": {
+    "date": "2026-08-31",
+    "core": [
+      "belen",
+      "club",
+      "estuvo",
+      "exarquera",
+      "leonas",
+      "nautico",
+      "paso",
+      "pedro",
+      "succi"
+    ],
+    "medal": "oro",
+    "title": "Belén Succi, exarquera de Las Leonas y campeona del mundo, pasó por San Pedro y estuvo en el club Náutico - La Opinión Semanario",
+    "llm_rejected": "Entrevista/reacción posterior al logro ya publicado (hockey femenino mundial)"
+  },
+  "aaffe31cfa8e": {
+    "date": "2026-09-01",
+    "core": [
+      "alcanzan",
+      "bajos",
+      "becas",
+      "drama",
+      "leonas",
+      "sueldos"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "El drama de Las Leonas campeonas del mundo: sueldos bajos y becas que no alcanzan - Perfil"
+  },
+  "31775315e6a1": {
+    "date": "2026-09-01",
+    "core": [
+      "fernando",
+      "ferrara",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Fernando Ferrara tras el título de Las Leonas: \"Si no era campeón del mundo, me iba\" - Ciudadano News"
+  },
+  "97dda8852dde": {
+    "date": "2026-09-01",
+    "core": [
+      "convirtio",
+      "cordobes",
+      "ensenando",
+      "oficio",
+      "pizza",
+      "recorre"
+    ],
+    "medal": "oro",
+    "title": "Un cordobés se convirtió en campeón mundial de pizza y recorre el mundo enseñando el oficio - Cadena 3 Argentina"
+  },
+  "440c5f89c289": {
+    "date": "2026-09-01",
+    "core": [
+      "71",
+      "acaba",
+      "anos",
+      "audio",
+      "consagrarse",
+      "fisicoculturismo"
+    ],
+    "medal": "oro",
+    "dup_of": "7527cdbd67c2",
+    "title": "(audio) A sus 71 años, acaba de consagrarse campeón argentino y sudamericano de fisicoculturismo - LU24 – Radio Tres Arroyos"
+  },
+  "a2c659c745c7": {
+    "date": "2026-09-02",
+    "core": [
+      "cordobesa",
+      "esto",
+      "jankunas",
+      "julieta",
+      "todos"
+    ],
+    "medal": "oro",
+    "title": "Julieta Jankunas, la cordobesa campeona del mundo: “Esto es de todos” - Cba24n",
+    "llm_merged": "mismo logro que 97dda8852dde"
   }
 }
