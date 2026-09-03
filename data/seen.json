@@ -4841,5 +4841,78 @@
     "medal": "oro",
     "title": "Julieta Jankunas, la cordobesa campeona del mundo: “Esto es de todos” - Cba24n",
     "llm_merged": "mismo logro que 97dda8852dde"
+  },
+  "8316c7e96089": {
+    "date": "2026-08-31",
+    "core": [
+      "apoyo",
+      "deporte",
+      "inversion",
+      "leonas",
+      "pais",
+      "pidieron",
+      "poner",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "dup_of": "f316703f7602",
+    "title": "Las Leonas volvieron al país como campeonas del mundo y pidieron más apoyo: «Hay que poner más inversión en el deporte - Diario de Rivera"
+  },
+  "af1c85c8266a": {
+    "date": "2026-09-01",
+    "core": [
+      "agustina",
+      "ceja",
+      "clave",
+      "gorzelany",
+      "leonas",
+      "pieza",
+      "teniamos"
+    ],
+    "medal": "oro",
+    "title": "Agustina Gorzelany, pieza clave de Las Leonas que ganaron la Copa del Mundo: \"Teníamos entre ceja y ceja es... - DSports",
+    "llm_rejected": "Declaración/reacción posterior al logro, no el hecho consumado"
+  },
+  "fb2bbf424ac2": {
+    "date": "2026-09-02",
+    "core": [
+      "berni",
+      "consagrarse",
+      "impulsa",
+      "leonas",
+      "reconocimiento"
+    ],
+    "medal": "oro",
+    "title": "Berni impulsa un reconocimiento a las Leonas tras consagrarse campeonas del mundo - Política del Sur",
+    "llm_rejected": "Reacción política posterior, no el hecho consumado"
+  },
+  "3c9f98063cdd": {
+    "date": "2026-09-02",
+    "core": [
+      "berni",
+      "bonaerense",
+      "leonas",
+      "propuso",
+      "reconocimiento",
+      "senado"
+    ],
+    "medal": "oro",
+    "dup_of": "fb2bbf424ac2",
+    "title": "Berni propuso un reconocimiento en el Senado bonaerense para Las Leonas campeonas del mundo - infocronos.com.ar"
+  },
+  "cbeb91ce2ab1": {
+    "date": "2026-09-03",
+    "core": [
+      "adriano",
+      "coronaron",
+      "jujenos",
+      "jure",
+      "karim",
+      "montenovi",
+      "trampolin"
+    ],
+    "medal": "plata",
+    "title": "Los jujeños Adriano Montenovi y Karim Jure se coronaron campeón y subcampeón en el Sudamericano de Trampolín - Somos Jujuy",
+    "llm_merged": "repite el logro e63b95dcf6d5 del 2026-08-31"
   }
 }
