@@ -5109,5 +5109,102 @@
     "medal": "oro",
     "dup_of": "b03b09268939",
     "title": "La Legislatura porteña reconoció a Las Leonas y Los Leones por sus logros en el Mundial de Hockey - Pura Ciudad"
+  },
+  "8322fa9ef17e": {
+    "date": "2026-09-03",
+    "core": [
+      "2026",
+      "fotos",
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las mejores fotos de Las Leonas campeonas del Mundo 2026 - todojujuy.com"
+  },
+  "4e8810dcbd60": {
+    "date": "2026-09-03",
+    "core": [
+      "ciudadanas",
+      "declarar",
+      "granatto",
+      "hermanas",
+      "ilustres",
+      "leonas",
+      "proponen"
+    ],
+    "medal": "oro",
+    "title": "Proponen declarar Ciudadanas Ilustres a las hermanas Granatto, campeonas del mundo con Las Leonas - Capital24",
+    "llm_rejected": "declaración/reacción posterior, no es un hecho nuevo"
+  },
+  "26414c99ae79": {
+    "date": "2026-09-04",
+    "core": [
+      "leonas",
+      "suramericanos",
+      "varias",
+      "vienen"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas vienen con varias campeonas del mundo a los Suramericanos - Marca Personal Web",
+    "llm_rejected": "convocatoria/nómina para torneo futuro, no logro consumado"
+  },
+  "caf018565754": {
+    "date": "2026-09-04",
+    "core": [
+      "2026",
+      "juegos",
+      "leonas",
+      "santa",
+      "siete",
+      "suramericanos",
+      "tendran"
+    ],
+    "medal": "oro",
+    "dup_of": "26414c99ae79",
+    "title": "Las Leonas tendrán a siete campeonas del mundo en los Juegos Suramericanos de Santa Fe 2026 - TyC Sports"
+  },
+  "a7200570bc9a": {
+    "date": "2026-09-04",
+    "core": [
+      "juegos",
+      "leonas",
+      "mundiales",
+      "siete",
+      "suramericanos",
+      "vienen"
+    ],
+    "medal": "oro",
+    "dup_of": "26414c99ae79",
+    "title": "Las Leonas vienen a los Juegos Suramericanos con siete campeonas mundiales - Diario La Opinión de Rafaela"
+  },
+  "52d27df2dfc8": {
+    "date": "2026-09-04",
+    "core": [
+      "18",
+      "confirmaron",
+      "jugadoras",
+      "leonas",
+      "siete",
+      "suramericanos"
+    ],
+    "medal": "oro",
+    "title": "Con siete campeonas del mundo, Las Leonas confirmaron a las 18 jugadoras para los Suramericanos - Rosario3",
+    "llm_rejected": "convocatoria/nómina para torneo futuro, no logro consumado"
+  },
+  "f6a318ac7098": {
+    "date": "2026-09-04",
+    "core": [
+      "amateurs",
+      "cobramos",
+      "entrenamos",
+      "leonas",
+      "pero",
+      "profesionales",
+      "tricampeonas",
+      "vivimos"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas tricampeonas del mundo: \"Entrenamos y vivimos como profesionales, pero cobramos como amateurs\" - AHORA Entre Ríos",
+    "llm_rejected": "declaración/celebración posterior, no es un hecho nuevo"
   }
 }
