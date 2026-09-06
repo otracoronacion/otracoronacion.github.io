@@ -5206,5 +5206,79 @@
     "medal": "oro",
     "title": "Las Leonas tricampeonas del mundo: \"Entrenamos y vivimos como profesionales, pero cobramos como amateurs\" - AHORA Entre Ríos",
     "llm_rejected": "declaración/celebración posterior, no es un hecho nuevo"
+  },
+  "803b750e3987": {
+    "date": "2026-09-03",
+    "core": [
+      "apoyo",
+      "bajos",
+      "enfrentan",
+      "falta",
+      "leonas",
+      "sueldos"
+    ],
+    "medal": "oro",
+    "dup_of": "06bfd0ba12a8",
+    "title": "Las Leonas campeonas del mundo enfrentan sueldos bajos y falta de apoyo - flipr.com.ar"
+  },
+  "3143a59b52f0": {
+    "date": "2026-09-04",
+    "core": [
+      "2026",
+      "juegos",
+      "leonas",
+      "siete",
+      "suramericanos"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas a los Juegos Suramericanos con siete campeonas del mundo 2026 - ESPN Argentina",
+    "llm_rejected": "Convocatoria/nómina para evento futuro, no un logro consumado"
+  },
+  "88265176e117": {
+    "date": "2026-09-05",
+    "core": [
+      "pascual",
+      "perez"
+    ],
+    "medal": "oro",
+    "title": "Pascual Pérez, el primer campeón mundial argentino - ellitoral.com.ar",
+    "llm_rejected": "Nota histórica/obituario sobre deportista del pasado, no logro actual"
+  },
+  "4d5287106954": {
+    "date": "2026-09-05",
+    "core": [
+      "hockey",
+      "leonas",
+      "tercer"
+    ],
+    "medal": "oro",
+    "dup_of": "39b33b38c670",
+    "title": "Las Leonas hicieron historia y ganaron su tercer Mundial de hockey - flipr.com.ar"
+  },
+  "446cc3949c60": {
+    "date": "2026-09-05",
+    "core": [
+      "camiseta",
+      "deschamps",
+      "obsesiones",
+      "pidio",
+      "trofeo",
+      "utilero"
+    ],
+    "medal": "oro",
+    "title": "La camiseta argentina que Deschamps pidió como trofeo y las obsesiones del utilero campeón del mundo - lapapa.com.ar",
+    "llm_rejected": "Anécdota sobre utilero, no informa un podio consumado"
+  },
+  "42e1db7bdb9c": {
+    "date": "2026-09-06",
+    "core": [
+      "baltazar",
+      "catamarqueno",
+      "mago",
+      "mediano",
+      "noria"
+    ],
+    "medal": "oro",
+    "title": "El catamarqueño Baltazar \"Rey Mago\" Noria, es campeón sudamericano mediano - launion.digital"
   }
 }
