@@ -5280,5 +5280,110 @@
     ],
     "medal": "oro",
     "title": "El catamarqueño Baltazar \"Rey Mago\" Noria, es campeón sudamericano mediano - launion.digital"
+  },
+  "98a4919cb8e1": {
+    "date": "2026-09-04",
+    "core": [
+      "juegos",
+      "leonas",
+      "rosario",
+      "siete",
+      "suramericanos",
+      "tendran"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas tendrán a siete campeonas del mundo en los Juegos Suramericanos de Rosario - fm899.com.ar",
+    "llm_rejected": "Noticia sobre evento futuro, no un logro consumado"
+  },
+  "94829289bc30": {
+    "date": "2026-09-06",
+    "core": [
+      "tango"
+    ],
+    "medal": "oro",
+    "title": "Argentina es Campeona Mundial de Tango - El Tribuno de Jujuy",
+    "llm_merged": "repite el logro f14cdded93bd del 2026-09-03"
+  },
+  "dc86eaf27aa3": {
+    "date": "2026-09-06",
+    "core": [
+      "baez",
+      "brasil",
+      "chaqueno",
+      "ezequias"
+    ],
+    "medal": "oro",
+    "dup_of": "584638eafd9d",
+    "title": "Ezequías Báez hizo historia: el chaqueño se consagró campeón sudamericano en Brasil - DataChaco"
+  },
+  "944c785fef1d": {
+    "date": "2026-09-06",
+    "core": [
+      "bronce",
+      "obtuvo",
+      "presencia",
+      "rugby",
+      "universitario",
+      "unlp"
+    ],
+    "medal": "bronce",
+    "title": "Con presencia de la UNLP, Argentina obtuvo el bronce en el Mundial Universitario de Rugby 7s - 0221"
+  },
+  "be1afbb9311a": {
+    "date": "2026-09-06",
+    "core": [
+      "800",
+      "duplas",
+      "impuso",
+      "pareja",
+      "reivindicamos",
+      "romance",
+      "tango",
+      "ternura"
+    ],
+    "medal": "oro",
+    "title": "Una pareja argentina se impuso entre 800 duplas y ganó el Mundial de Tango: “Reivindicamos el romance y la ternura” - Elonce.com",
+    "llm_merged": "repite el logro f14cdded93bd del 2026-09-03"
+  },
+  "832a882e8c62": {
+    "date": "2026-09-07",
+    "core": [
+      "empanada",
+      "mundiales",
+      "nuevos",
+      "pizza",
+      "tiene"
+    ],
+    "medal": "oro",
+    "title": "Argentina tiene nuevos campeones mundiales de pizza y empanada - Flipr.news"
+  },
+  "1f7078371414": {
+    "date": "2026-09-07",
+    "core": [
+      "empanada",
+      "mundiales",
+      "nuevos",
+      "pizza"
+    ],
+    "medal": "oro",
+    "dup_of": "832a882e8c62",
+    "title": "Argentina consagró a sus nuevos campeones mundiales de la pizza y la empanada - En Agenda"
+  },
+  "f841a25586e1": {
+    "date": "2026-09-07",
+    "core": [
+      "artola",
+      "castellaro",
+      "juana",
+      "leonas",
+      "mercedes",
+      "monumental",
+      "mundiales",
+      "rindio",
+      "river"
+    ],
+    "medal": "oro",
+    "title": "El Monumental SE RINDIÓ ante Juana Castellaro y Mercedes Artola, LAS LEONAS CAMPEONAS mundiales de River - santafedeportivo.com.ar",
+    "llm_rejected": "Celebración/reacción posterior al logro, no el hecho consumado"
   }
 }
