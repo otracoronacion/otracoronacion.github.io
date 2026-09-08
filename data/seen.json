@@ -5385,5 +5385,127 @@
     "medal": "oro",
     "title": "El Monumental SE RINDIÓ ante Juana Castellaro y Mercedes Artola, LAS LEONAS CAMPEONAS mundiales de River - santafedeportivo.com.ar",
     "llm_rejected": "Celebración/reacción posterior al logro, no el hecho consumado"
+  },
+  "986f99bce719": {
+    "date": "2026-09-05",
+    "core": [
+      "2026",
+      "caffa",
+      "chef",
+      "empanada",
+      "gachi",
+      "neuquino",
+      "rural",
+      "zapalina"
+    ],
+    "medal": "oro",
+    "title": "Orgullo neuquino en La Rural: la chef zapalina \"Gachi\" Caffa se consagró campeona en el Mundial de la Empanada 2026 - Patagonia Press",
+    "llm_merged": "repite el logro 832a882e8c62 del 2026-09-07"
+  },
+  "f66a002fe065": {
+    "date": "2026-09-07",
+    "core": [
+      "2026",
+      "empanada",
+      "hotelga",
+      "pizza"
+    ],
+    "medal": "oro",
+    "dup_of": "832a882e8c62",
+    "title": "Dos argentinos ganaron el Mundial de la Pizza y la Empanada en Hotelga 2026 - mercado.com.ar"
+  },
+  "2566beaa36fe": {
+    "date": "2026-09-07",
+    "core": [
+      "20",
+      "cientifico",
+      "dance",
+      "franco",
+      "just",
+      "quien",
+      "vitali"
+    ],
+    "medal": "oro",
+    "dup_of": "d2301a265ed7",
+    "title": "Quién es Franco Vitali, el científico argentino que ganó el Mundial de Just Dance y US$20 mil - noticiasd.com"
+  },
+  "b43e64b7e3e7": {
+    "date": "2026-09-07",
+    "core": [
+      "empanada",
+      "pizza"
+    ],
+    "medal": "oro",
+    "dup_of": "832a882e8c62",
+    "title": "Argentina consagró al nuevo Campeón Mundial de la Pizza y la Campeona Mundial de la Empanada - Diario Río Negro"
+  },
+  "bf0d71355b14": {
+    "date": "2026-09-07",
+    "core": [
+      "bronce",
+      "quedo",
+      "rugby",
+      "universitario"
+    ],
+    "medal": "bronce",
+    "dup_of": "944c785fef1d",
+    "title": "Histórico: Argentina se quedó con la medalla de bronce en el Mundial Universitario de Rugby - el1digital.com.ar"
+  },
+  "d8d7dfa7228a": {
+    "date": "2026-09-07",
+    "core": [
+      "hacia",
+      "hockey",
+      "leonas",
+      "lucha",
+      "miranda",
+      "profesionalizar",
+      "sacrificio",
+      "victoria"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Victoria Miranda, campeona del mundo con Las Leonas: el sacrificio hacia la gloria y la lucha por profesionalizar el hockey - La Voz del Interior"
+  },
+  "437f0adec050": {
+    "date": "2026-09-08",
+    "core": [
+      "empanadas",
+      "mundiales",
+      "nuevos",
+      "pizza",
+      "tiene"
+    ],
+    "medal": "oro",
+    "dup_of": "832a882e8c62",
+    "title": "Argentina tiene nuevos campeones mundiales de pizza y empanadas - Flipr.news"
+  },
+  "4653f2224f92": {
+    "date": "2026-09-08",
+    "core": [
+      "2026",
+      "descarta",
+      "messi",
+      "perdon",
+      "pidiendole",
+      "sacude",
+      "vidal"
+    ],
+    "medal": "oro",
+    "title": "Vidal sacude el Mundial 2026: descarta a Argentina como campeón pidiéndole perdón a Messi - RedGol",
+    "llm_rejected": "Declaración/reacción sobre el Mundial, no un logro consumado"
+  },
+  "cb4daec93998": {
+    "date": "2026-09-08",
+    "core": [
+      "bronce",
+      "logro",
+      "rugby",
+      "tucumanos",
+      "universitario"
+    ],
+    "medal": "bronce",
+    "dup_of": "944c785fef1d",
+    "title": "Con dos tucumanos, Argentina logró la medalla de bronce en el Mundial de rugby universitario - Tendencia de Noticias"
   }
 }
