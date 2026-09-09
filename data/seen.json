@@ -5507,5 +5507,103 @@
     "medal": "bronce",
     "dup_of": "944c785fef1d",
     "title": "Con dos tucumanos, Argentina logró la medalla de bronce en el Mundial de rugby universitario - Tendencia de Noticias"
+  },
+  "429e4bfb305c": {
+    "date": "2026-09-08",
+    "core": [
+      "brasil",
+      "femenina"
+    ],
+    "medal": "oro",
+    "title": "Argentina venció a Brasil y ganó la primera Copa América femenina - El Zonda"
+  },
+  "c3562adb04a0": {
+    "date": "2026-09-08",
+    "core": [
+      "mendocina",
+      "murcielagas"
+    ],
+    "medal": "oro",
+    "title": "Una mendocina se consagró campeona de América con Las Murciélagas - elsol.com.ar",
+    "llm_merged": "mismo logro que 429e4bfb305c"
+  },
+  "fb70ee4b7f7a": {
+    "date": "2026-09-08",
+    "core": [
+      "brasil",
+      "murcielagas"
+    ],
+    "medal": "oro",
+    "dup_of": "429e4bfb305c",
+    "title": "Las Murciélagas hicieron historia: Argentina venció a Brasil y es campeona de América - Diario TAG"
+  },
+  "93ed97ae1608": {
+    "date": "2026-09-08",
+    "core": [
+      "bruggesser",
+      "ciudad",
+      "compartir",
+      "leonas",
+      "miranda"
+    ],
+    "medal": "oro",
+    "dup_of": "f0829fa5912c",
+    "title": "Las Leonas Miranda y Bruggesser, de compartir Ciudad hasta ser campeonas del mundo - ESPN Argentina"
+  },
+  "5919516cd336": {
+    "date": "2026-09-08",
+    "core": [
+      "ciegas",
+      "futbol",
+      "pablo",
+      "quedo"
+    ],
+    "medal": "oro",
+    "title": "La Selección argentina de fútbol para ciegas se quedó con la Copa América en San Pablo - Diario de Cuyo"
+  },
+  "9206f675d6b6": {
+    "date": "2026-09-08",
+    "core": [
+      "brasil",
+      "conquisto",
+      "murcielagas"
+    ],
+    "medal": "oro",
+    "dup_of": "429e4bfb305c",
+    "title": "Las Murciélagas campeonas de América: Argentina venció a Brasil y conquistó un título histórico - Los Andes"
+  },
+  "afdfcea52b3c": {
+    "date": "2026-09-08",
+    "core": [
+      "brasil",
+      "murcielagas"
+    ],
+    "medal": "oro",
+    "dup_of": "429e4bfb305c",
+    "title": "Las Murciélagas campeonas de América: Argentina venció a Brasil y ganó un título histórico - Aire de Santa Fe"
+  },
+  "dae6b94a6d5a": {
+    "date": "2026-09-08",
+    "core": [
+      "brasil",
+      "murcielagas"
+    ],
+    "medal": "oro",
+    "dup_of": "429e4bfb305c",
+    "title": "Las Murciélagas hicieron historia: Argentina venció a Brasil y ganó la primera Copa América - Nuevo Diario Web"
+  },
+  "9d176ae45ef8": {
+    "date": "2026-09-08",
+    "core": [
+      "balon",
+      "entrenador",
+      "nominado",
+      "pese",
+      "scaloni",
+      "sorpresa"
+    ],
+    "medal": "plata",
+    "title": "Sorpresa en el Balón de Oro: Scaloni no fue nominado a mejor entrenador pese al subcampeonato mundial de Argentina - DeporTV",
+    "llm_rejected": "Declaración sobre nominaciones, no un logro consumado"
   }
 }
