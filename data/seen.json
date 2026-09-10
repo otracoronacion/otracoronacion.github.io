@@ -5605,5 +5605,69 @@
     "medal": "plata",
     "title": "Sorpresa en el Balón de Oro: Scaloni no fue nominado a mejor entrenador pese al subcampeonato mundial de Argentina - DeporTV",
     "llm_rejected": "Declaración sobre nominaciones, no un logro consumado"
+  },
+  "b2fc9c6bb4c9": {
+    "date": "2026-09-07",
+    "core": [
+      "clinica",
+      "experiencia",
+      "hockey",
+      "leonas",
+      "llevaron",
+      "tunuyan"
+    ],
+    "medal": "oro",
+    "dup_of": "b03b09268939",
+    "title": "Dos campeonas del mundo llevaron la experiencia de Las Leonas a una clínica de hockey en Tunuyán - 8 Digital"
+  },
+  "3b77be04f3ba": {
+    "date": "2026-09-09",
+    "core": [
+      "brasil"
+    ],
+    "medal": "oro",
+    "dup_of": "429e4bfb305c",
+    "title": "Campeonas de América: Argentina venció a Brasil - LV12"
+  },
+  "43a21363b8e4": {
+    "date": "2026-09-09",
+    "core": [
+      "cordobesas",
+      "cuatro",
+      "murcielagas"
+    ],
+    "medal": "oro",
+    "title": "Las Murciélagas, campeonas de América con cuatro cordobesas - Agencia Córdoba Deportes",
+    "llm_merged": "repite el logro 429e4bfb305c del 2026-09-08"
+  },
+  "0fe7d5b65e89": {
+    "date": "2026-09-09",
+    "core": [
+      "arquero",
+      "claves",
+      "cordobes",
+      "leones",
+      "puesto",
+      "santiago",
+      "tercer",
+      "tomas"
+    ],
+    "medal": "bronce",
+    "title": "Tomás Santiago, el arquero cordobés de Los Leones y las claves del tercer puesto en el Mundial - La Voz del Interior",
+    "llm_rejected": "Declaración/reacción posterior sobre logro ya publicado"
+  },
+  "31a4a83de85b": {
+    "date": "2026-09-09",
+    "core": [
+      "barquisimetano",
+      "brilla",
+      "empanada",
+      "pena",
+      "pizza",
+      "rubens"
+    ],
+    "medal": "oro",
+    "dup_of": "832a882e8c62",
+    "title": "El barquisimetano Rubens Peña brilla en el 2° Campeonato Mundial de la Pizza y la Empanada en Argentina - El Informador Venezuela"
   }
 }
