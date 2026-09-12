@@ -5679,5 +5679,32 @@
     "medal": "oro",
     "dup_of": "c3562adb04a0",
     "title": "Las Murciélagas hicieron historia: Argentina es campeona de América - Telefe Córdoba"
+  },
+  "b9b8f97152fe": {
+    "date": "2026-09-09",
+    "core": [
+      "conquistaron",
+      "mendocina",
+      "murcielagas",
+      "presencia"
+    ],
+    "medal": "oro",
+    "dup_of": "c3562adb04a0",
+    "title": "Con presencia mendocina, Las Murciélagas conquistaron la Copa América - eleditormendoza.com.ar"
+  },
+  "40da93062cdc": {
+    "date": "2026-09-11",
+    "core": [
+      "bronce",
+      "club",
+      "integraron",
+      "jugadores",
+      "rugby",
+      "seven",
+      "universitario"
+    ],
+    "medal": "bronce",
+    "dup_of": "944c785fef1d",
+    "title": "Jugadores del Club Argentino de Rugby integraron el seleccionado argentino que ganó el bronce en el Mundial Universitario de Seven - Vive Click"
   }
 }
