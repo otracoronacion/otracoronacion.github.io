@@ -5,7 +5,7 @@ regex, antes de publicar/enviar. Una sola llamada con todos los titulares del d�
 así puede (a) descartar los que no son coronaciones y (b) agrupar las notas que
 hablan del mismo logro, usando unos titulares para desambiguar otros.
 
-También recibe los logros ya publicados en los últimos 21 días: la prensa local
+También recibe los logros ya publicados en los últimos 90 días: la prensa local
 sigue publicando notas del mismo campeonato durante días (a menudo tituladas por
 el deportista del pueblo, sin ningún token en común), así que sin esa memoria el
 mismo logro se volvía a publicar y a mandar por mail.
@@ -196,13 +196,27 @@ def main():
     with open(NEW_EVENTS, encoding="utf-8") as f:
         events = json.load(f)
 
-    # contexto: logros ya publicados en los últimos 21 días, para que la IA detecte repeticiones
-    corte = (date.today() - timedelta(days=21)).isoformat()
+    # Contexto: logros ya publicados, para que la IA detecte repeticiones.
+    # La ventana era de 21 días y se coló un duplicado a los 28: el Mundial de
+    # Just Dance de Franco Vitali salió el 07/08 y volvió a salir el 04/09 con
+    # una entrevista ("Gané 20 mil dólares"). La prensa argentina vuelve sobre
+    # un logro MESES después —el que volvió al pueblo, el perfil, la nota de
+    # color—, así que 90 días. Es barato: cada entrada son ~90 caracteres.
+    corte = (date.today() - timedelta(days=90)).isoformat()
     nuevos_ids = {e["id"] for e in events}
     publicados = [e for e in json.load(open(PODIOS, encoding="utf-8"))
                   if e.get("date", "") >= corte and e["id"] not in nuevos_ids]
     publicados.sort(key=lambda e: e.get("date", ""), reverse=True)
-    publicados = publicados[:40]
+    # Un logro por etiqueta: si ya salió dos veces, con listarlo una alcanza.
+    vistos, unicos = set(), []
+    for e in publicados:
+        clave = (e.get("logro") or "").strip().lower()
+        if clave and clave in vistos:
+            continue
+        if clave:
+            vistos.add(clave)
+        unicos.append(e)
+    publicados = unicos[:60]
 
     res = ask_batch(key,
                     [(e["title"], e.get("source", ""), e.get("date", "")) for e in events],
