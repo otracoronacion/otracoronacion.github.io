@@ -5706,5 +5706,47 @@
     "medal": "bronce",
     "dup_of": "944c785fef1d",
     "title": "Jugadores del Club Argentino de Rugby integraron el seleccionado argentino que ganó el bronce en el Mundial Universitario de Seven - Vive Click"
+  },
+  "3a7186a95d7c": {
+    "date": "2026-09-12",
+    "core": [
+      "elegido",
+      "malbec",
+      "mendocino",
+      "tinto",
+      "vino"
+    ],
+    "medal": "oro",
+    "title": "Un Malbec mendocino es elegido como el mejor vino tinto del mundo - MendoVoz",
+    "llm_rejected": "Concurso de vinos, no competencia deportiva de nivel mundial reconocida"
+  },
+  "768f87af92bd": {
+    "date": "2026-09-12",
+    "core": [
+      "2026",
+      "brasil",
+      "canal",
+      "gran",
+      "hora",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "Brasil vs Argentina: día, hora y canal TV de la gran final del Campeonato Sudamericano de vóley 2026 - Infobae",
+    "llm_rejected": "Partido futuro, no resultado consumado"
+  },
+  "a88d96e0f3b3": {
+    "date": "2026-09-12",
+    "core": [
+      "2026",
+      "abanderados",
+      "llorar",
+      "mama",
+      "olimpico",
+      "santa",
+      "volvio"
+    ],
+    "medal": "oro",
+    "title": "Argentina: la campeona del mundo que hizo llorar a su mamá y el olímpico que volvió para ser abanderados en Santa Fe 2026 - Prensa Mercosur",
+    "llm_rejected": "Titular vago sobre abanderados, no informa logro específico consumado"
   }
 }
