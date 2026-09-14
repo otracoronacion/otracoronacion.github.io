@@ -5748,5 +5748,513 @@
     "medal": "oro",
     "title": "Argentina: la campeona del mundo que hizo llorar a su mamá y el olímpico que volvió para ser abanderados en Santa Fe 2026 - Prensa Mercosur",
     "llm_rejected": "Titular vago sobre abanderados, no informa logro específico consumado"
+  },
+  "117992503f88": {
+    "date": "2026-09-13",
+    "core": [
+      "caballero",
+      "panteras",
+      "victoria"
+    ],
+    "medal": "plata",
+    "title": "Victoria Caballero es subcampeona sudamericana con Las Panteras - Diario 1588"
+  },
+  "27ca30ec3fbe": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "consiguio"
+    ],
+    "medal": "oro",
+    "title": "Argentina consiguió su primera medalla en los Juegos Suramericanos 2026 - espn.com.ar",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "ed22929a6464": {
+    "date": "2026-09-13",
+    "core": [
+      "domingo",
+      "medallas",
+      "obtuvo"
+    ],
+    "medal": "oro",
+    "title": "Qué medallas obtuvo Argentina este domingo en los Juegos Suramericanos - radiofonica.com",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "432abe88f93b": {
+    "date": "2026-09-13",
+    "core": [
+      "dorada",
+      "pascual",
+      "tella"
+    ],
+    "medal": "oro",
+    "title": "Pascual Di Tella le dio a Argentina la primera medalla dorada en los Juegos Suramericanos - C5N"
+  },
+  "8fb3bfc21778": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "consiguio",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina consiguió su primera medalla en los Juegos Suramericanos Santa Fe 2026 - El Comodorense"
+  },
+  "17ccba50e2e1": {
+    "date": "2026-09-13",
+    "core": [
+      "obtuvo",
+      "santafesina"
+    ],
+    "medal": "oro",
+    "title": "Una santafesina obtuvo la primera medalla argentina en los Juegos Suramericanos - Rosario Nuestro",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "510afdbc1060": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "dorada"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó su primera medalla dorada en los Juegos Suramericanos 2026 - Agencia Noticias Argentinas",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "39775a595284": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "alfieri",
+      "artistica",
+      "bronce",
+      "gimnasia",
+      "luca",
+      "rosarino"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos 2026: el rosarino Luca Alfieri ganó el bronce en gimnasia artística - El Ciudadano"
+  },
+  "13ebac723aac": {
+    "date": "2026-09-13",
+    "core": [
+      "gran",
+      "jornada",
+      "medallas",
+      "oros",
+      "seis",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina ganó dos oros y sumó seis medallas en una gran jornada de los Juegos Suramericanos - Elonce.com",
+    "llm_rejected": "Titular vago sin especificar disciplinas ni medallas"
+  },
+  "90d20c075924": {
+    "date": "2026-09-13",
+    "core": [
+      "gustavo",
+      "logro",
+      "torregiani"
+    ],
+    "medal": "oro",
+    "title": "Gustavo Torregiani logró la primera medalla de oro argentina en los Juegos Suramericanos - Rosario Nuestro",
+    "llm_merged": "mismo logro que 432abe88f93b"
+  },
+  "42fda827e032": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "pascual",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "432abe88f93b",
+    "title": "Pascual Di Tella le dio la primera medalla de oro a Argentina en los Juegos Suramericanos 2026 - espn.com.ar"
+  },
+  "290644993ac9": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "mucho",
+      "santa",
+      "sone",
+      "tiempo"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina ganó su primera medalla en los Juegos Suramericanos Santa Fe 2026: “Lo soñé mucho tiempo” - Infobae"
+  },
+  "615ae5d4c553": {
+    "date": "2026-09-13",
+    "core": [
+      "esgrima",
+      "medallas",
+      "natacion",
+      "primeras",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "13ebac723aac",
+    "title": "Juegos Suramericanos: Argentina sumó sus primeras medallas de Oro con la esgrima y la natación - Diario Chaco"
+  },
+  "3d8646415b42": {
+    "date": "2026-09-13",
+    "core": [
+      "imwinkelried",
+      "romina",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Romina Imwinkelried sumó la primera medalla para Argentina en los Juegos Suramericanos - Cuestión Entrerriana",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "d021a94b0c5a": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "consiguio",
+      "imwinkelried",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Romina Imwinkelried consiguió la primera medalla argentina en los Juegos Suramericanos 2026 - lacapital.com.ar"
+  },
+  "172d5b3eee3d": {
+    "date": "2026-09-13",
+    "core": [
+      "consiguio",
+      "imwinkelried",
+      "mano",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina consiguió su primera medalla en los Suramericanos de la mano de Romina Imwinkelried - Canal Doce Misiones"
+  },
+  "1372c3901a05": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "conquisto",
+      "enorme",
+      "santa",
+      "satisfaccion"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina conquistó su primera medalla en los Juegos Suramericanos Santa Fe 2026: \"Una satisfacción enorme\" - Ambito"
+  },
+  "086d5e5c38b2": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "conquisto",
+      "imwinkelried",
+      "romina"
+    ],
+    "medal": "medalla",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Romina Imwinkelried conquistó la primera medalla para Argentina en los Juegos Suramericanos 2026 - misionesonline.net"
+  },
+  "7aa895bff880": {
+    "date": "2026-09-13",
+    "core": [
+      "alcanzaron",
+      "bronce",
+      "costa",
+      "golearon",
+      "murcielagos",
+      "rica"
+    ],
+    "medal": "bronce",
+    "title": "Los Murciélagos golearon a Costa Rica y alcanzaron la medalla de bronce de la Copa América - Agencia Noticias Argentinas"
+  },
+  "045c5e8905cd": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "bronce",
+      "imwinkelried",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina ganó su primera medalla en los Juegos Suramericanos 2026: bronce para Romina Imwinkelried - Diario Castellanos"
+  },
+  "b58d9b620b23": {
+    "date": "2026-09-13",
+    "core": [
+      "apunto",
+      "deporte",
+      "entrenador",
+      "falta",
+      "inversion"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó su primer oro en los Suramericanos y el entrenador apuntó a la falta de inversión en el deporte - Doble Amarilla",
+    "llm_rejected": "Declaración sobre falta de inversión, no es el logro"
+  },
+  "1ebccf814024": {
+    "date": "2026-09-13",
+    "core": [
+      "bronce",
+      "colgo",
+      "consiguio",
+      "imwinkelried",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina consiguió su primera medalla en los Juegos Sudamericanos: Romina Imwinkelried se colgó el bronce - La Voz del Interior"
+  },
+  "7ff8957e4473": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "abiertas",
+      "aguas",
+      "bronce",
+      "imwinkelried",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Primera medalla para Argentina en los Suramericanos 2026: Romina Imwinkelried ganó el bronce en aguas abiertas - Los Primeros TV"
+  },
+  "15e6d4947edc": {
+    "date": "2026-09-13",
+    "core": [
+      "100",
+      "ceballos",
+      "macarena",
+      "metros",
+      "pecho",
+      "segundo"
+    ],
+    "medal": "oro",
+    "title": "¡Segundo oro para Argentina en los Juegos Suramericanos! Macarena Ceballos se consagró en los 100 metros pecho - Aire de Santa Fe"
+  },
+  "2215c163cef4": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "bronce",
+      "consiguio",
+      "imwinkelried",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina consiguió su primera medalla en los Juegos Suramericanos 2026: bronce para Romina Imwinkelried - telediariodigital.com.ar"
+  },
+  "03316add7cf0": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "bronce",
+      "consiguio",
+      "imwinkelried",
+      "romina",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina consiguió su primera medalla en los Juegos Suramericanos Santa Fe 2026: Romina Imwinkelried ganó el bronce - InfoVeloz.com"
+  },
+  "9e10d46cd7b0": {
+    "date": "2026-09-13",
+    "core": [
+      "2026",
+      "conquisto",
+      "diario",
+      "dorada",
+      "norte",
+      "pascual",
+      "santa",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "432abe88f93b",
+    "title": "Pascual Di Tella conquistó la primera medalla dorada para Argentina en los Juegos Suramericanos Santa Fe 2026 - Diario El Norte - San Nicolás"
+  },
+  "44a4918332f6": {
+    "date": "2026-09-13",
+    "core": [
+      "esgrima",
+      "individual",
+      "pascual",
+      "prueba",
+      "sable",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "432abe88f93b",
+    "title": "Primera medalla de oro para Argentina en los Juegos Suramericanos: Pascual Di Tella ganó en la prueba de sable individual en esgrima - tn.com.ar"
+  },
+  "a8b51679b516": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "medallas",
+      "natacion",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "13ebac723aac",
+    "title": "La natación sumó más medallas para Argentina en los Suramericanos 2026 - El Litoral"
+  },
+  "bae8e0594f84": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "medallas",
+      "natacion",
+      "sumo",
+      "video"
+    ],
+    "medal": "medalla",
+    "dup_of": "13ebac723aac",
+    "title": "[Video] La natación sumó más medallas para Argentina en los Suramericanos 2026 - El Litoral"
+  },
+  "57a11ed59817": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "consiguio",
+      "pascual",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Pascual Di Tella consiguió el primer oro para Argentina en los Juegos Suramericanos 2026 - Haceinstantes"
+  },
+  "0ca5a9764a2c": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "dorada",
+      "pascual",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Juegos Suramericanos 2026: Pascual Di Tella ganó la primera medalla dorada para la Argentina - La Nación"
+  },
+  "c65de71a59be": {
+    "date": "2026-09-14",
+    "core": [
+      "bronce",
+      "medallas",
+      "plata"
+    ],
+    "medal": "medalla",
+    "title": "El primer día de los Juegos Suramericanos: medallas de oro, plata y bronce para Argentina - lacapital.com.ar",
+    "llm_rejected": "Titular vago sin especificar disciplinas ni medallas"
+  },
+  "d19e8247f852": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "deporte",
+      "quien",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina ganó su primera medalla en los Juegos Suramericanos Santa Fe 2026: quién fue y en qué deporte - Olé"
+  },
+  "65c38170d559": {
+    "date": "2026-09-14",
+    "core": [
+      "bronces",
+      "medallas",
+      "plata",
+      "sumo",
+      "tres"
+    ],
+    "medal": "oro",
+    "dup_of": "13ebac723aac",
+    "title": "Argentina sumó dos medallas de oro, una de plata y tres bronces en el día 1 de los Juegos Suramericanos - Infobae"
+  },
+  "4b810524be90": {
+    "date": "2026-09-14",
+    "core": [
+      "11",
+      "cerro",
+      "jornada",
+      "medallas",
+      "total"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos: Argentina cerró la primera jornada con 3 medallas de oro y 11 en total - Cadena 3 Argentina",
+    "llm_rejected": "Titular vago sin especificar disciplinas ni medallas"
+  },
+  "fdb8319d0660": {
+    "date": "2026-09-14",
+    "core": [
+      "11",
+      "comienzo",
+      "gran",
+      "medallas",
+      "tuvo"
+    ],
+    "medal": "oro",
+    "dup_of": "4b810524be90",
+    "title": "Argentina tuvo un gran comienzo y ganó 11 medallas en el primer día de los Juegos Suramericanos - Nuevo Diario Web"
+  },
+  "d52f970c8dc3": {
+    "date": "2026-09-14",
+    "core": [
+      "bronces",
+      "medallas",
+      "plata",
+      "tres"
+    ],
+    "medal": "oro",
+    "dup_of": "13ebac723aac",
+    "title": "Argentina ganó dos medallas de oro, una de plata y tres bronces en el primer día de los Juegos Suramericanos - misionesonline.net"
+  },
+  "d7f21839554f": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "deporte",
+      "quien",
+      "radio",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Argentina ganó su primera medalla en los Juegos Suramericanos Santa Fe 2026: quién fue y en qué deporte - Radio Fan - 96.9 MHz Castelli"
+  },
+  "72da9922d3c1": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "conquisto",
+      "imwinkelried",
+      "mano",
+      "natacion",
+      "romina"
+    ],
+    "medal": "oro",
+    "dup_of": "27ca30ec3fbe",
+    "title": "Juegos Suramericanos 2026: en Natación Argentina conquistó su primera medalla de la mano de Romina Imwinkelried - Radio y Televisión Riojana"
+  },
+  "2a6d2abfba9c": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "eliecer",
+      "esgrima",
+      "logro",
+      "pascual",
+      "romero",
+      "tella"
+    ],
+    "medal": "oro",
+    "title": "Pascual Di Tella logró la primera medalla de oro para Argentina en los Juegos Suramericanos 2026: venció a Eliecer Romero en esgrima - Radio Mitre",
+    "llm_merged": "mismo logro que 432abe88f93b"
   }
 }
