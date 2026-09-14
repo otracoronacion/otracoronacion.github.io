@@ -275,11 +275,20 @@ def main():
             grupos[g] = ev
         m = mejor_por_grupo.get(g)
         if m and events[m - 1] is not ev:
-            fuente = events[m - 1]
+            fuente, vf = events[m - 1], res[m - 1]
             print(f"↑ IA prefiere el titular de {fuente.get('source','?')}: «{fuente['title'][:62]}»")
             ev["title"] = fuente["title"]
             ev["source"] = fuente.get("source", "")
             ev["url"] = fuente["url"]
+            # El titular y la medalla tienen que describir LO MISMO. Si adoptamos
+            # el titular de otra nota, adoptamos también su lectura: si no, sale
+            # "ganó el bronce" con medalla de oro (pasó con Luca Alfieri, 13/09).
+            if vf["medalla"] in ("oro", "plata", "bronce"):
+                ev["medal"] = vf["medalla"]
+            if vf["alcance"] in ("mundial", "continental"):
+                ev["scope"] = vf["alcance"]
+            if vf.get("logro"):
+                ev["logro"] = vf["logro"]
         etiqueta = f" ({ev['logro']})" if ev.get("logro") else ""
         print(f"✓ IA confirma [{ev['medal']}/{ev.get('scope','mundial')}]: {ev['title'][:62]}{etiqueta}")
         keep.append(ev)

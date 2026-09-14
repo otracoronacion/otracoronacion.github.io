@@ -162,6 +162,13 @@ PODIUM_PATTERNS = [
     (rf"medalla\w* de plata.{{0,60}}{WORLD}", "plata"),
     (rf"{AV} la plata.{{0,60}}{WORLD}", "plata"),
     (rf"\bla plata ({ADJ}|en el {WORLD}|del {WORLD})", "plata"),
+    # Nivel adelante y verbo después: "Juegos Suramericanos 2026: X ganó el
+    # bronce en gimnasia" — sin esto ganaba el patrón genérico de oro.
+    (rf"{WORLD}.{{0,70}}{AV} (el |la |una )?(medalla de )?bronce", "bronce"),
+    (rf"{WORLD}.{{0,70}}{AV} (el |la |una )?(medalla de )?plata", "plata"),
+    (rf"{WORLD}.{{0,70}}medalla\w* de bronce", "bronce"),
+    (rf"{WORLD}.{{0,70}}medalla\w* de plata", "plata"),
+
     # --- bronce ---
     (rf"(tercer puesto|tercer lugar|tercera posicion).{{0,50}}{WORLD}", "bronce"),
     (rf"{WORLD}.{{0,40}}(tercer puesto|tercer lugar)", "bronce"),
