@@ -6256,5 +6256,229 @@
     "medal": "oro",
     "title": "Pascual Di Tella logró la primera medalla de oro para Argentina en los Juegos Suramericanos 2026: venció a Eliecer Romero en esgrima - Radio Mitre",
     "llm_merged": "mismo logro que 432abe88f93b"
+  },
+  "6b720583578c": {
+    "date": "2026-09-13",
+    "core": [
+      "conquisto",
+      "dorada",
+      "pascual",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "432abe88f93b",
+    "title": "Pascual Di Tella conquistó la primera medalla dorada para Argentina en los Juegos Suramericanos - Uno Entre Rios"
+  },
+  "b161529a8462": {
+    "date": "2026-09-13",
+    "core": [
+      "11",
+      "esgrima",
+      "logro",
+      "medallas",
+      "natacion",
+      "oros"
+    ],
+    "medal": "oro",
+    "title": "Argentina logró 11 medallas en el primer día de los Juegos Suramericanos: oros en esgrima, natación y un ro... - Rosario3",
+    "llm_rejected": "Titular vago sin especificar disciplinas"
+  },
+  "24e833ace54b": {
+    "date": "2026-09-13",
+    "core": [
+      "candelaria",
+      "equipo",
+      "herrera",
+      "ideal",
+      "panteras",
+      "sanjuanina",
+      "termino"
+    ],
+    "medal": "plata",
+    "title": "La sanjuanina Candelaria Herrera fue subcampeona sudamericana con Las Panteras y terminó en el equipo ideal - 0264Noticias",
+    "llm_merged": "repite el logro 117992503f88 del 2026-09-13"
+  },
+  "d7bf535585f5": {
+    "date": "2026-09-14",
+    "core": [
+      "jaldo",
+      "leonas",
+      "reconocio",
+      "sauze",
+      "victoria"
+    ],
+    "medal": "oro",
+    "title": "Jaldo reconoció a Victoria Sauze, campeona del mundo con Las Leonas - GN Noticias",
+    "llm_rejected": "Declaración/reacción posterior al logro, no el hecho consumado"
+  },
+  "ca75894a849c": {
+    "date": "2026-09-14",
+    "core": [
+      "medallero",
+      "oros",
+      "puesto"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: Argentina ganó dos oros y 2do puesto en el medallero - SoyDeportes",
+    "llm_rejected": "Titular vago sin especificar disciplinas"
+  },
+  "4f8acb939848": {
+    "date": "2026-09-14",
+    "core": [
+      "11",
+      "2026",
+      "medallas",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "b161529a8462",
+    "title": "Argentina sumó 11 medallas en el día 1 de los Juegos Suramericanos 2026 - El Departamental"
+  },
+  "70ed6481e6f5": {
+    "date": "2026-09-14",
+    "core": [
+      "cumplidos",
+      "grandes",
+      "objetivos",
+      "panteras",
+      "subcampeonas"
+    ],
+    "medal": "plata",
+    "title": "Las Panteras subcampeonas en el Sudamericano con dos grandes objetivos cumplidos - Radio Rafaela",
+    "llm_merged": "repite el logro 117992503f88 del 2026-09-13"
+  },
+  "9aabf80b49a7": {
+    "date": "2026-09-14",
+    "core": [
+      "14",
+      "golearon",
+      "leonas",
+      "paraguay",
+      "salir"
+    ],
+    "medal": "oro",
+    "title": "Tras salir campeonas del mundo, Las Leonas golearon 14-0 a Paraguay en los Juegos Suramericanos - Olé",
+    "llm_rejected": "Noticia posterior: goleada en partido de Juegos Suramericanos, no el logro del Mundial"
+  },
+  "9c8179642dfd": {
+    "date": "2026-09-14",
+    "core": [
+      "cinco",
+      "competencia",
+      "medallas",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "b161529a8462",
+    "title": "Argentina sumó cinco medallas en el primer día de competencia de los juegos suramericanos - MisionesOpina"
+  },
+  "b853dd96b9b9": {
+    "date": "2026-09-14",
+    "core": [
+      "11",
+      "2026",
+      "deportistas",
+      "medallas",
+      "quienes"
+    ],
+    "medal": "oro",
+    "dup_of": "b161529a8462",
+    "title": "Quiénes son los deportistas argentinos que ganaron 11 medallas en los Juegos Suramericanos 2026 - a24.com"
+  },
+  "bc81bf41cacc": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "lago",
+      "parque",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "b161529a8462",
+    "title": "Juegos Suramericanos 2026: Argentina sumó su primera medalla en el lago del Parque del Sur - enelarea.com.ar"
+  },
+  "9110bf2da5a3": {
+    "date": "2026-09-14",
+    "core": [
+      "11",
+      "medallas",
+      "obtuvo",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "b161529a8462",
+    "title": "Argentina obtuvo 11 medallas en el primer día de los Juegos Suramericanos de Santa Fe - Tendencia de Noticias"
+  },
+  "d29368c2a234": {
+    "date": "2026-09-14",
+    "core": [
+      "artistica",
+      "bronce",
+      "entrerriana",
+      "gimnasia",
+      "masculina",
+      "presencia"
+    ],
+    "medal": "bronce",
+    "dup_of": "944c785fef1d",
+    "title": "Juegos Suramericanos: Argentina ganó el bronce en gimnasia artística masculina con presencia entrerriana - Plaza Web"
+  },
+  "412b0035e2f3": {
+    "date": "2026-09-14",
+    "core": [
+      "conquisto",
+      "doradas",
+      "esgrima",
+      "medallas",
+      "natacion",
+      "tres"
+    ],
+    "medal": "oro",
+    "dup_of": "b161529a8462",
+    "title": "De la esgrima a la natación: Argentina conquistó tres medallas doradas en los Juegos Suramericanos - alertadigital.ar"
+  },
+  "8ebb3802001e": {
+    "date": "2026-09-14",
+    "core": [
+      "2026",
+      "bike",
+      "contreras",
+      "cuarta",
+      "dorada",
+      "mountain"
+    ],
+    "medal": "oro",
+    "title": "Contreras ganó la medalla dorada en mountain bike: la cuarta para Argentina en los Juegos Suramericanos 2026 - Aire de Santa Fe"
+  },
+  "eb6af694b4e4": {
+    "date": "2026-09-14",
+    "core": [
+      "artistica",
+      "bronce",
+      "concordiense",
+      "equipo",
+      "gimnasia",
+      "integra"
+    ],
+    "medal": "bronce",
+    "title": "Un concordiense integra el equipo argentino que ganó el bronce en gimnasia artística en los Juegos Suramericanos - Chajarí Digital",
+    "llm_rejected": "Repite logro ya publicado (gimnasia artística, Juegos Suramericanos del 2026-09-13)"
+  },
+  "ff8e9257da57": {
+    "date": "2026-09-14",
+    "core": [
+      "11",
+      "2026",
+      "lugar",
+      "medallas",
+      "medallero",
+      "oros",
+      "santa",
+      "sumo",
+      "tres"
+    ],
+    "medal": "medalla",
+    "dup_of": "b161529a8462",
+    "title": "Argentina sumó 11 medallas en el día 1 de los Juegos Suramericanos Santa Fe 2026: con tres oros está en el 2° lugar del medallero - Infobae"
   }
 }
