@@ -76,6 +76,10 @@ QUERIES_ES = [
     '"subcampeón sudamericano" OR "subcampeona sudamericana" argentina',
     'argentina "medalla de plata" sudamericano OR panamericano',
     'argentina "medalla de bronce" sudamericano OR panamericano',
+    # Juegos multideporte: ODESUR escribe "Suramericanos", con R.
+    'argentina medalla "Juegos Suramericanos"',
+    'argentino "Juegos Suramericanos" oro OR plata OR bronce',
+    'argentina medalla "Juegos Panamericanos"',
 ]
 QUERIES_EN = [
     'argentine "world champion"',
@@ -128,15 +132,15 @@ PROV = (
 )
 ARG = rf"(argentin\w+|albiceleste|los pumas|las leonas|los gladiadores|las panteras|los murcielagos|{PROV})"
 # Adjetivos de nivel (mundial y continental). El alcance se decide después con detect_scope.
-CONT_ADJ = r"(sudamerican\w+|panamerican\w+|latinoamerican\w+|iberoamerican\w+|continental\w*)"
+CONT_ADJ = r"(sudamerican\w+|suramerican\w+|panamerican\w+|latinoamerican\w+|iberoamerican\w+|continental\w*)"
 WORLD = (
     r"(mundial\w*|del mundo|world|olimpiada internacional|olimpiada iberoamericana|"
-    r"international olympiad|planetari\w+|sudamerican\w+|panamerican\w+|latinoamerican\w+|"
+    r"international olympiad|planetari\w+|sudamerican\w+|suramerican\w+|panamerican\w+|latinoamerican\w+|"
     r"iberoamerican\w+|continental\w*|copa america|de america)"
 )
 # Adjetivo pegado a "campeón/subcampeón": campeón mundial, campeona sudamericana…
 ADJ = (
-    r"(mundial|del mundo|sudamerican[oa]|panamerican[oa]|latinoamerican[oa]|"
+    r"(mundial|del mundo|sudamerican[oa]|suramerican[oa]|panamerican[oa]|latinoamerican[oa]|"
     r"iberoamerican[oa]|continental|de america)"
 )
 CONT_RE = re.compile(CONT_ADJ + r"|copa america|de america")
@@ -183,6 +187,15 @@ PODIUM_PATTERNS = [
     (rf"world champion", "oro"),
     (rf"(wins?|won|clinch\w*|crowned|captur\w*|claim\w*|tak\w*|took).{{0,40}}world (title|championship|cup|crown)", "oro"),
     (rf"world (title|championship|cup).{{0,30}}(win|won|victory|champion)", "oro"),
+    # --- medalla en unos Juegos (multideporte): una medalla ES un podio ---
+    # "ganó su primera medalla en los Juegos Suramericanos", "medalla dorada"
+    (rf"medalla\w* dorada.{{0,60}}{WORLD}", "oro"),
+    (rf"{WORLD}.{{0,60}}medalla\w* dorada", "oro"),
+    (rf"medalla\w* plateada.{{0,60}}{WORLD}", "plata"),
+    (rf"(gan(?:o|aron)|conquist\w+|obtuv(?:o|ieron)|consigui(?:o|eron)|sum(?:o|aron)|"
+     rf"se colg(?:o|aron)|se qued(?:o|aron) con).{{0,34}}medalla\w*.{{0,50}}{WORLD}", "medalla"),
+    (rf"{WORLD}.{{0,50}}(gan(?:o|aron)|conquist\w+|obtuv(?:o|ieron)|sum(?:o|aron)).{{0,26}}medalla", "medalla"),
+
     # --- genéricos ---
     (rf"{WORLD}.{{0,50}}medalla\w* de (oro|plata|bronce)", "medalla"),
     (rf"medalla\w* (de (oro|plata|bronce) )?en la olimpiada", "medalla"),
@@ -247,7 +260,7 @@ def has_old_year(nt: str) -> bool:
 
 # Rechazo duro: previa / futuro / historia / ruido / declaraciones / mercado de pases
 HARD_EXCLUDE = [
-    r"\b(buscara|buscaran|ira por|iran por|va por|van por|va en busca|suena con|suenan con|aspira|quiere ser|puede\w*|pueden|podria\w*|podrian|podra|podran|intentara|jugara|jugaran|enfrentara|enfrentaran|enfrentarse|se mide|se miden|se enfrenta|chocara|viajara\w*|para ser campeon)\b",
+    r"\b(buscara|buscaran|ira por|iran por|va por|van por|va en busca|suena con|suenan con|aspira|quiere ser|puede\w*|pueden|podria\w*|podrian|podra|podran|intentara|jugara|jugaran|enfrentara|enfrentaran|enfrentarse|se mide|se miden|se enfrenta|chocara|viajara\w*|para ser campeon|tendra|tendran|llevara|llevaran|competira|competiran|participara|participaran|estara|estaran|debutara|debutaran)\b",
     r"\bsi (la seleccion|argentina|sale|gana|es|se consagra)\b",
     r"\b(donde ver|como ver|a que hora|hora y tv|en vivo|en directo|minuto a minuto|formaciones|posibles formaciones|fixture|calendario|sorteo|entradas|amistoso\w*)\b",
     r"\b(previa|palpita|antesala|expectativa por|se prepara|se alista|rumbo al|de cara al|clasifico|clasificaron|clasifica)\b",
@@ -414,6 +427,7 @@ GENERIC_TOKENS = {
     "titulo", "final", "copa", "medalla", "world", "champion", "historico", "historica",
     # vocabulario continental: también es genérico, no distingue eventos
     "sudamericano", "sudamericana", "sudamericanos", "sudamericanas", "sudamericano2026",
+    "suramericano", "suramericana", "suramericanos", "suramericanas", "juegos",
     "panamericano", "panamericana", "panamericanos", "panamericanas", "america",
     "americano", "americana", "continental", "bicampeon", "bicampeona", "bicampeones",
     "tricampeon", "tricampeona", "consagra", "consagraron", "proclamo", "venciendo",
