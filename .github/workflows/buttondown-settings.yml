@@ -8,7 +8,7 @@ on:
         required: false
         default: "aplicar"
         type: choice
-        options: [aplicar, dry-run, dump]
+        options: [aplicar, dry-run, dump, stats]
 
 permissions:
   contents: write
@@ -28,6 +28,7 @@ jobs:
           case "${{ github.event.inputs.modo }}" in
             dry-run) python3 scraper/buttondown_settings.py --dry-run ;;
             dump)    python3 scraper/buttondown_settings.py --dump ;;
+            stats)   python3 scraper/buttondown_settings.py --stats ;;
             *)       python3 scraper/buttondown_settings.py ;;
           esac
 

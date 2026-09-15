@@ -146,6 +146,30 @@ def volcar(n):
         print(f"  {k:34} {estado}")
 
 
+def contar_suscriptores(key):
+    """Cuántos suscriptores hay y en qué estado.
+
+    El número que importa es `confirmed`: el que completó el doble opt-in.
+    Los `unactivated` se anotaron pero nunca clickearon el mail de confirmación
+    — si esa proporción es alta, el problema está en el mail de confirmación,
+    no en la landing.
+    """
+    from collections import Counter
+    estados, cursor, paginas = Counter(), None, 0
+    while paginas < 20:
+        url = "https://api.buttondown.com/v1/subscribers?page=" + str(paginas + 1)
+        try:
+            datos = pedir("GET", url, key)
+        except urllib.error.HTTPError as e:
+            return None, f"HTTP {e.code}: {e.read().decode()[:200]}"
+        for sub in datos.get("results", []):
+            estados[sub.get("subscriber_type") or sub.get("type") or "?"] += 1
+        paginas += 1
+        if not datos.get("next"):
+            break
+    return estados, None
+
+
 def main():
     verificar_copy()
     key = os.environ.get("BUTTONDOWN_API_KEY")
@@ -169,6 +193,19 @@ def main():
     antes = resultados[0]
     nid = antes["id"]
     mostrar("ANTES", antes)
+
+    if "--stats" in sys.argv:
+        estados, err = contar_suscriptores(key)
+        if err:
+            print(f"No se pudieron contar los suscriptores: {err}", file=sys.stderr)
+            sys.exit(1)
+        total = sum(estados.values())
+        print(f"\n--- SUSCRIPTORES: {total} ---")
+        for estado, n in estados.most_common():
+            print(f"  {estado:16} {n}")
+        with open(OUT, "w", encoding="utf-8") as f:
+            json.dump({"total": total, "por_estado": dict(estados)}, f, ensure_ascii=False, indent=2)
+        return
 
     if "--dump" in sys.argv:
         print()
