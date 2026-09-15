@@ -1,1 +1,1 @@
-2026-09-15 12:23 ART — cron 10:33 UTC, demora 290 min
+2026-09-15 18:29 ART — disparo workflow_dispatch

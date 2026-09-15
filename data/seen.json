@@ -7131,5 +7131,196 @@
     ],
     "medal": "bronce",
     "title": "La sanjuanina Delfina Dibella hizo historia: ganó la medalla de bronce para Argentina en los Juegos Sudamericanos - Diario de Cuyo"
+  },
+  "06747cafcd6b": {
+    "date": "2026-09-15",
+    "core": [
+      "artistica",
+      "gimnasia"
+    ],
+    "medal": "oro",
+    "dup_of": "39775a595284",
+    "title": "Juegos Suramericanos: Argentina ganó el oro en gimnasia artística - Diario del Oeste"
+  },
+  "984dde9b7e78": {
+    "date": "2026-09-15",
+    "core": [
+      "12",
+      "medallas",
+      "suma"
+    ],
+    "medal": "oro",
+    "title": "Argentina suma 12 medallas de oro en los Juegos Suramericanos - enfantterrible.com.ar",
+    "llm_rejected": "resumen/medallero, no logro específico"
+  },
+  "ba08cdf059fb": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "alcanzo",
+      "medallero",
+      "puesto",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Argentina alcanzó el segundo puesto del medallero en los Juegos Suramericanos 2026 - datadiario.com",
+    "llm_rejected": "resumen/medallero, no logro específico"
+  },
+  "c5f8390b58c4": {
+    "date": "2026-09-15",
+    "core": [
+      "bronce",
+      "manuel",
+      "neuquino",
+      "turone"
+    ],
+    "medal": "bronce",
+    "title": "Medalla de bronce para el neuquino Manuel Turone en BMX en los Juegos Suramericanos - rionegro.com.ar"
+  },
+  "9ac8057fd394": {
+    "date": "2026-09-15",
+    "core": [
+      "esports",
+      "medallas",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Los esports hicieron historia en los Juegos Suramericanos: Argentina ya ganó tres medallas - Infocielo",
+    "llm_rejected": "resumen de medallas sin logro específico nuevo"
+  },
+  "1b45407ea4ae": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "disciplina",
+      "duhaime",
+      "juliette",
+      "logro"
+    ],
+    "medal": "oro",
+    "dup_of": "2a6d2abfba9c",
+    "title": "Juliette Duhaime logró el oro para Argentina en una nueva disciplina de los Juegos Suramericanos 2026 - TN"
+  },
+  "addb2e7b05a9": {
+    "date": "2026-09-15",
+    "core": [
+      "contrarreloj",
+      "kalejman",
+      "mateo",
+      "rafaela"
+    ],
+    "medal": "oro",
+    "title": "Otro oro argentino en Rafaela: Mateo Kalejman ganó la contrarreloj de los Suramericanos - radiorafaela.com.ar"
+  },
+  "c8a40da6ca14": {
+    "date": "2026-09-15",
+    "core": [
+      "32",
+      "anos",
+      "artistica",
+      "gimnasia"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó el oro en gimnasia artística de los Juegos Suramericanos tras 32 años - noticiasdelacalle.com.ar",
+    "llm_rejected": "repetición del logro ya publicado (gimnasia artística oro)"
+  },
+  "f3dd9467d06f": {
+    "date": "2026-09-15",
+    "core": [
+      "arias",
+      "consiguio",
+      "daniela",
+      "esports"
+    ],
+    "medal": "oro",
+    "dup_of": "b4d752461378",
+    "title": "La argentina Daniela Arias consiguió la medalla de oro en los esports de los Juegos Suramericanos - lanacion.com.ar"
+  },
+  "02c40e470cf9": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "carrera",
+      "hiroshima",
+      "patin",
+      "plata",
+      "raices",
+      "samurai"
+    ],
+    "medal": "plata",
+    "title": "Con raíces en Hiroshima, el \"samurai argentino\" de patín carrera que ganó la plata en los Suramericanos 2026 - TyC Sports"
+  },
+  "4bfd3888b4d6": {
+    "date": "2026-09-15",
+    "core": [
+      "21",
+      "brillar",
+      "competencia",
+      "medallas",
+      "segundo",
+      "volvio"
+    ],
+    "medal": "oro",
+    "title": "Argentina volvió a brillar en los Juegos Suramericanos: ganó 21 medallas en el segundo día de competencia - La Unión Digital",
+    "llm_rejected": "resumen/medallero, no logro específico"
+  },
+  "98115787dc34": {
+    "date": "2026-09-15",
+    "core": [
+      "bronce",
+      "delfina",
+      "dibella",
+      "sanjuanina"
+    ],
+    "medal": "bronce",
+    "dup_of": "e60f9bc76f46",
+    "title": "La sanjuanina Delfina Dibella hizo historia: ganó la medalla de bronce para Argentina en los Juegos Suramericanos - Diario de Cuyo"
+  },
+  "910165a645c9": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "bronce",
+      "conquisto",
+      "contrarreloj",
+      "delfina",
+      "dibella",
+      "sanjuanina"
+    ],
+    "medal": "bronce",
+    "dup_of": "e60f9bc76f46",
+    "title": "La sanjuanina Delfina Dibella conquistó una medalla de bronce histórica en la contrarreloj de los Juegos Suramericanos 2026 - Los Andes"
+  },
+  "3f5310a23401": {
+    "date": "2026-09-15",
+    "core": [
+      "30",
+      "anos",
+      "artistica",
+      "brasil",
+      "corto",
+      "gimnasia",
+      "hegemonia"
+    ],
+    "medal": "oro",
+    "title": "Histórico: Argentina cortó con la hegemonía de Brasil y ganó el oro en la gimnasia artística de los Juegos Suramericanos tras 30 años - Infobae",
+    "llm_rejected": "repetición del logro ya publicado (gimnasia artística oro)"
+  },
+  "d8be12a39132": {
+    "date": "2026-09-15",
+    "core": [
+      "esgrimista",
+      "estudio",
+      "harvard",
+      "isabel",
+      "quien",
+      "street",
+      "tella",
+      "trabaja",
+      "wall"
+    ],
+    "medal": "oro",
+    "title": "Estudió en Harvard y trabaja en Wall Street: quién es Isabel Di Tella, la esgrimista argentina que ganó el oro en los Juegos Suramericanos - TN",
+    "llm_rejected": "repetición del logro ya publicado (esgrima oro Di Tella)"
   }
 }
