@@ -49,7 +49,13 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/
           git diff --cached --quiet || git commit -m "🏅 Actualización diaria de podios"
-          git push
+          # Rebase antes de empujar: si alguien pushea mientras el loop corre, el
+          # push se rechaza y el día queda sin publicar EN SILENCIO. Pasó el 15/09.
+          for intento in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "push rechazado (intento $intento), reintento…"
+            sleep 5
+          done
 
       - name: Enviar email a suscriptores
         if: steps.check.outputs.new == 'true'
