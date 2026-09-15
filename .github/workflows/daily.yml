@@ -1,8 +1,27 @@
 name: Coronación diaria
 
+# Siete disparos escalonados en vez de uno.
+#
+# El cron único de las 10:33 UTC funcionó hasta el 26/08: GitHub demoraba entre
+# 18 y 48 minutos y el mail aterrizaba 07:51–08:21 ART. Desde el 27/08 la cola
+# de Actions se degradó a 3–11 horas y el mail empezó a caer 10:30–18:13 ART:
+# "despertate coronado" llegando a la hora de almorzar.
+#
+# Como no podemos controlar la demora, tiramos varias líneas al agua a lo largo
+# de la noche y la madrugada. `turno.sh` deja trabajar SOLO a la primera que
+# aterriza a partir de las 07 ART; las demás salen en 10 segundos sin scrapear
+# ni gastar un peso de IA. Sea la demora de 10 minutos o de 12 horas, alguna cae
+# entre las 07 y las 10 de la mañana — y el cron de las 12:19 UTC (09:19 ART)
+# garantiza que ningún día quede sin publicar.
 on:
   schedule:
-    - cron: "33 10 * * *"   # 07:33 ART: GitHub demora ~43 min, así aterriza ~08:16 — la épica de 1816 🇦🇷
+    - cron: "7 1 * * *"     # 22:07 ART (día anterior) — la red para demoras de ~10 h
+    - cron: "19 3 * * *"    # 00:19 ART — demoras de ~7 h
+    - cron: "41 5 * * *"    # 02:41 ART — demoras de ~5 h
+    - cron: "13 7 * * *"    # 04:13 ART — demoras de ~3 h (la mediana de hoy)
+    - cron: "47 8 * * *"    # 05:47 ART — demoras de ~1,5 h
+    - cron: "33 10 * * *"   # 07:33 ART — el de siempre: si GitHub se normaliza, gana este
+    - cron: "19 12 * * *"   # 09:19 ART — último recurso: aterrice cuando aterrice, publica
   workflow_dispatch:
     inputs:
       dry_run:
@@ -18,10 +37,30 @@ permissions:
   contents: write
 
 jobs:
+  # Guardia barato: decide si esta corrida trabaja. Checkout liviano y chau.
+  turno:
+    runs-on: ubuntu-latest
+    outputs:
+      correr: ${{ steps.decidir.outputs.correr }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: ¿Le toca a esta corrida?
+        id: decidir
+        run: |
+          salida=$(bash scraper/turno.sh "${{ github.event_name }}")
+          echo "$salida"
+          echo "$salida" | tail -1 >> "$GITHUB_OUTPUT"
+
   scrape-and-send:
+    needs: turno
+    if: needs.turno.outputs.correr == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+
+      - name: Anotar el aterrizaje
+        run: bash scraper/marcar_corrida.sh "${{ github.event.schedule }}" "${{ github.event_name }}"
 
       - name: Rastrear podios
         run: python3 scraper/scrape.py
@@ -51,11 +90,19 @@ jobs:
           git diff --cached --quiet || git commit -m "🏅 Actualización diaria de podios"
           # Rebase antes de empujar: si alguien pushea mientras el loop corre, el
           # push se rechaza y el día queda sin publicar EN SILENCIO. Pasó el 15/09.
+          ok=0
           for intento in 1 2 3; do
-            git pull --rebase --autostash origin main && git push && break
+            if git pull --rebase --autostash origin main && git push; then ok=1; break; fi
             echo "push rechazado (intento $intento), reintento…"
             sleep 5
           done
+          # Si no pudimos pushear, el marcador del día NO quedó guardado. Cortamos
+          # acá a propósito: sin mail, sin tweet y con el día abierto, para que el
+          # próximo cron reintente entero en vez de dar el día por hecho.
+          if [ "$ok" != "1" ]; then
+            echo "::error::No se pudo pushear después de 3 intentos. El próximo cron reintenta el día."
+            exit 1
+          fi
 
       - name: Enviar email a suscriptores
         if: steps.check.outputs.new == 'true'
