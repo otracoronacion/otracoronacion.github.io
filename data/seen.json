@@ -6947,5 +6947,189 @@
     "medal": "oro",
     "dup_of": "437bb0dac5d6",
     "title": "Juegos Suramericanos 2026: los deportistas argentinos ganaron 21 medallas en el segundo día de competencia - radioytelevisionriojana.com.ar"
+  },
+  "df4858449b93": {
+    "date": "2026-09-14",
+    "core": [
+      "arias",
+      "daniela",
+      "esports"
+    ],
+    "medal": "oro",
+    "title": "Histórico oro argentino en los Juegos Suramericanos: Daniela Arias se consagró campeona en esports - Info del Estero",
+    "llm_merged": "repite el logro b4d752461378 del 2026-09-14"
+  },
+  "af7fd029f248": {
+    "date": "2026-09-14",
+    "core": [
+      "esgrimista",
+      "pascual",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "432abe88f93b",
+    "title": "El esgrimista Pascual Di Tella le dio la primera medalla de oro a Argentina en los Juegos Suramericanos - Diario Norte"
+  },
+  "a9b2b01bbad4": {
+    "date": "2026-09-15",
+    "core": [
+      "32",
+      "dias",
+      "medallas"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: Argentina ganó 32 medallas en los primeros dos días - LV12",
+    "llm_rejected": "Titular vago sin disciplina específica"
+  },
+  "de5cb3a4620b": {
+    "date": "2026-09-15",
+    "core": [
+      "audio",
+      "pizza"
+    ],
+    "medal": "oro",
+    "title": "(audio) Argentina se consagró campeón mundial de la Pizza - LU24 – Radio Tres Arroyos",
+    "llm_merged": "repite el logro 97dda8852dde del 2026-09-01"
+  },
+  "612c22fa47c6": {
+    "date": "2026-09-15",
+    "core": [
+      "21",
+      "medallas",
+      "segunda",
+      "sigue",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó 21 medallas y sigue segunda en los Juegos Suramericanos - Diario Huarpe",
+    "llm_rejected": "Titular vago sin disciplina específica"
+  },
+  "370e1bc15a17": {
+    "date": "2026-09-15",
+    "core": [
+      "grassi",
+      "plata",
+      "santafesino"
+    ],
+    "medal": "plata",
+    "title": "El santafesino Grassi, medalla de plata en los Juegos Suramericanos - 30 Días de Noticias"
+  },
+  "49f9ac97b2c3": {
+    "date": "2026-09-15",
+    "core": [
+      "brasil",
+      "gregalio",
+      "valentino"
+    ],
+    "medal": "plata",
+    "title": "Valentino Gregalio, Subcampeón Sudamericano con Argentina en Brasil - La Razon de Chivilcoy"
+  },
+  "a6101f789376": {
+    "date": "2026-09-15",
+    "core": [
+      "21",
+      "jornada",
+      "medallas",
+      "segunda",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "612c22fa47c6",
+    "title": "Argentina sumó 21 medallas en la segunda jornada de los Juegos Suramericanos - lalupamedios.com.ar"
+  },
+  "743d8a8c25ab": {
+    "date": "2026-09-15",
+    "core": [
+      "21",
+      "medallas",
+      "permanecio",
+      "puesto",
+      "segundo",
+      "sumo"
+    ],
+    "medal": "plata",
+    "dup_of": "612c22fa47c6",
+    "title": "Argentina sumó 21 medallas y permaneció en el segundo puesto en los Juegos Suramericanos - Doble Amarilla"
+  },
+  "51d4db0c5fbb": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "21",
+      "brillar",
+      "medallas",
+      "sumo",
+      "volvio"
+    ],
+    "medal": "medalla",
+    "dup_of": "612c22fa47c6",
+    "title": "Argentina volvió a brillar y sumó 21 medallas más en los Juegos Suramericanos 2026 - Radio Facundo Quiroga"
+  },
+  "b28e71d078b1": {
+    "date": "2026-09-15",
+    "core": [
+      "esgrimista",
+      "hincha",
+      "pascual",
+      "platense",
+      "tella"
+    ],
+    "medal": "oro",
+    "dup_of": "432abe88f93b",
+    "title": "Pascual Di Tella, esgrimista hincha de Platense, ganó el oro en los Juegos Suramericanos - saavedraonline.com.ar"
+  },
+  "c6d383b41545": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "dorada",
+      "esgrima",
+      "inolvidable",
+      "jornada"
+    ],
+    "medal": "oro",
+    "dup_of": "2a6d2abfba9c",
+    "title": "Esgrima dorada para Argentina en los Juegos Suramericanos 2026: dos campeones y una jornada inolvidable - Los Andes"
+  },
+  "c30499eb8e2b": {
+    "date": "2026-09-15",
+    "core": [
+      "14",
+      "2026",
+      "destacada",
+      "jornada",
+      "medallas",
+      "santa",
+      "tuvo"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos Santa Fe 2026: Argentina ganó 14 medallas y tuvo una jornada destacada - puntocapitalnoticias.com",
+    "llm_rejected": "Titular vago sin disciplina específica"
+  },
+  "09a3b99f7aa7": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "japonesas",
+      "pais",
+      "raices",
+      "representa",
+      "samurai",
+      "tiene"
+    ],
+    "medal": "oro",
+    "title": "El Samurai argentino: es bicampeón del mundo, tiene raíces japonesas y representa al país en los Juegos Suramericanos 2026 - TN",
+    "llm_rejected": "Perfil de deportista sin logro específico consumado"
+  },
+  "e60f9bc76f46": {
+    "date": "2026-09-15",
+    "core": [
+      "bronce",
+      "delfina",
+      "dibella",
+      "sanjuanina"
+    ],
+    "medal": "bronce",
+    "title": "La sanjuanina Delfina Dibella hizo historia: ganó la medalla de bronce para Argentina en los Juegos Sudamericanos - Diario de Cuyo"
   }
 }
