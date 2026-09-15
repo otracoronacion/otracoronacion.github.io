@@ -1,0 +1,9 @@
+{
+  "total": 22,
+  "por_estado": {
+    "regular": 11,
+    "unactivated": 9,
+    "undeliverable": 1,
+    "unsubscribed": 1
+  }
+}
