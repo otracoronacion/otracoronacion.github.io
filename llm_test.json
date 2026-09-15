@@ -116,8 +116,8 @@
     "grupo": 3,
     "repite": 0,
     "mejor": 10,
-    "logro": "fútbol masculino, Mundial, mayores",
-    "motivo": "Argentina subcampeona mundial fútbol"
+    "logro": "disciplina desconocida, Mundial, mayores",
+    "motivo": "Argentina subcampeona mundial"
   },
   {
     "title": "Bronce para Argentina en la Olimpíada Internacional de Química gracias a un estu",
@@ -129,7 +129,7 @@
     "repite": 0,
     "mejor": 11,
     "logro": "química, Olimpíada Internacional, mayores",
-    "motivo": "Argentina bronce Olimpíada Química"
+    "motivo": "bronce en Olimpíada Internacional de Química"
   },
   {
     "title": "Argentina se consagró campeón sudamericano de voley tras vencer a Brasil",
@@ -153,7 +153,7 @@
     "repite": 0,
     "mejor": 13,
     "logro": "rugby 7s masculino, Juegos Panamericanos, mayores",
-    "motivo": "Argentina oro Pumas 7s Panamericanos"
+    "motivo": "Pumas 7s oro en Panamericanos"
   },
   {
     "title": "Argentina se consagró campeón de la Copa Sudamericana de vóley masculino",
@@ -177,7 +177,7 @@
     "repite": 0,
     "mejor": 15,
     "logro": "fútbol phygital, Mundial, mayores",
-    "motivo": "Argentina campeona mundial fútbol phygital"
+    "motivo": "equipo argentino campeón mundial fútbol phygital"
   },
   {
     "title": "Mundial del Alfajor 2026: el catamarqueño que se coronó como el mejor del mundo ",
@@ -189,6 +189,6 @@
     "repite": 0,
     "mejor": 16,
     "logro": "alfajor, Mundial, mayores",
-    "motivo": "Argentina campeón mundial alfajor"
+    "motivo": "argentino campeón mundial de alfajor"
   }
 ]

@@ -40,7 +40,7 @@ MODEL = "claude-haiku-4-5"
 SYSTEM = """Sos el verificador de "Otra Coronación de Gloria", un servicio que informa podios YA OBTENIDOS por argentinos en competencias de nivel MUNDIAL o CONTINENTAL.
 
 Recibís una lista numerada de titulares de noticias del día. Devolvé ÚNICAMENTE un array JSON, un objeto por titular, sin texto alrededor:
-[{"i": 1, "ok": true|false, "medalla": "oro"|"plata"|"bronce"|null, "alcance": "mundial"|"continental"|null, "grupo": <entero>, "repite": <entero>, "mejor": <entero>, "logro": "<etiqueta>", "motivo": "<frase corta>"}]
+[{"i": 1, "ok": true|false, "medalla": "oro"|"plata"|"bronce"|"medalla"|null, "alcance": "mundial"|"continental"|null, "grupo": <entero>, "repite": <entero>, "mejor": <entero>, "logro": "<etiqueta>", "motivo": "<frase corta>"}]
 
 ## ok = true
 Solo si el titular informa un HECHO CONSUMADO: una persona, equipo o selección ARGENTINA obtuvo el 1°, 2° o 3° puesto en un campeonato de nivel:
@@ -58,6 +58,10 @@ OJO con "Copa Sudamericana": en vóley, básquet, handball y la mayoría de los 
 - entretenimiento con guión (WWE), publicidad, memes, sucesos policiales
 - liga o torneo nacional/local, torneo de CLUBES de fútbol, circuito profesional semanal (ATP, Challenger, ITF)
 - declaraciones, reacciones o celebraciones posteriores a un logro
+
+## medalla
+"oro", "plata" o "bronce" SOLO si el titular lo dice o se deduce sin ambigüedad ("se consagró campeón" = oro, "subcampeón" = plata).
+Si el titular dice que hubo medalla pero NO cuál ("consiguió una medalla", "se aseguró una medalla", "sumó una presea"), devolvé "medalla". **NUNCA adivines el color**: el 15/09 se publicó como ORO una plata de esports por adivinar, y sale por mail y por X.
 
 ## grupo
 Número entero que agrupa los titulares que hablan del MISMO logro (misma disciplina, misma competencia, misma categoría), aunque uno hable de la selección y otro del deportista local. Titulares vagos ("Argentina campeona sudamericana") van al grupo del logro que mejor encaje según el resto de la lista. Distintos logros = distinto número. A los ok=false ponéles grupo 0.
@@ -252,7 +256,7 @@ def main():
             print(f"✗ IA rechaza: {ev['title'][:66]} :: {v['motivo'][:70]}")
             descartes.append((ev, "llm_rejected", v["motivo"]))
             continue
-        if v["medalla"] in ("oro", "plata", "bronce"):
+        if v["medalla"] in ("oro", "plata", "bronce", "medalla"):
             ev["medal"] = v["medalla"]
         if v["alcance"] in ("mundial", "continental"):
             ev["scope"] = v["alcance"]
@@ -283,7 +287,7 @@ def main():
             # El titular y la medalla tienen que describir LO MISMO. Si adoptamos
             # el titular de otra nota, adoptamos también su lectura: si no, sale
             # "ganó el bronce" con medalla de oro (pasó con Luca Alfieri, 13/09).
-            if vf["medalla"] in ("oro", "plata", "bronce"):
+            if vf["medalla"] in ("oro", "plata", "bronce", "medalla"):
                 ev["medal"] = vf["medalla"]
             if vf["alcance"] in ("mundial", "continental"):
                 ev["scope"] = vf["alcance"]
