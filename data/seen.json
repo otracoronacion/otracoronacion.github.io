@@ -7322,5 +7322,139 @@
     "medal": "oro",
     "title": "Estudió en Harvard y trabaja en Wall Street: quién es Isabel Di Tella, la esgrimista argentina que ganó el oro en los Juegos Suramericanos - TN",
     "llm_rejected": "repetición del logro ya publicado (esgrima oro Di Tella)"
+  },
+  "64ae1cf7a3d7": {
+    "date": "2026-09-15",
+    "core": [
+      "consiguieron",
+      "mendocinos"
+    ],
+    "medal": "oro",
+    "title": "Dos mendocinos consiguieron medalla de oro en los Juegos Suramericanos - El Editor Mendoza"
+  },
+  "de3bfaeb17cc": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "delfina",
+      "estoco",
+      "logro",
+      "mendocina",
+      "segunda"
+    ],
+    "medal": "oro",
+    "dup_of": "2a6d2abfba9c",
+    "title": "La mendocina Delfina Estoco logró su segunda medalla en los Juegos Suramericanos 2026 - Diario Mendoza"
+  },
+  "4a9fa35c80c7": {
+    "date": "2026-09-15",
+    "core": [
+      "21",
+      "arraso",
+      "medallas",
+      "quedo",
+      "segunda",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina arrasó en los Juegos Suramericanos: sumó 21 medallas y quedó segunda - libertaddigital.com.ar",
+    "llm_rejected": "Resumen general sin logro específico nuevo"
+  },
+  "09b9073469e9": {
+    "date": "2026-09-15",
+    "core": [
+      "agua",
+      "basaldella",
+      "rosarino",
+      "santino"
+    ],
+    "medal": "oro",
+    "title": "Oro rosarino en el agua: Santino Basaldella se consagró campeón en SUP en los Juegos Suramericanos - Noticias MR",
+    "llm_merged": "mismo logro que 64ae1cf7a3d7"
+  },
+  "f8fdeb0ed353": {
+    "date": "2026-09-15",
+    "core": [
+      "2026",
+      "agua",
+      "basaldella",
+      "dorada",
+      "rosarino",
+      "santino"
+    ],
+    "medal": "oro",
+    "dup_of": "39775a595284",
+    "title": "Medalla dorada en el agua: el rosarino Santino Basaldella se consagró campeón en SUP en los Juegos Suramericanos 2026 - El Ciudadano"
+  },
+  "96b1966d1770": {
+    "date": "2026-09-15",
+    "core": [
+      "anuncio",
+      "despedida",
+      "gesto",
+      "messi",
+      "partido",
+      "qatar",
+      "tango",
+      "ultimo"
+    ],
+    "medal": "oro",
+    "title": "“El último tango”: así anunció la selección argentina el partido despedida de Messi, con un gesto con los campeones del mundo de Qatar - Infobae",
+    "llm_rejected": "Anuncio de partido despedida, no logro deportivo"
+  },
+  "780dc6f67043": {
+    "date": "2026-09-16",
+    "core": [
+      "2026",
+      "32",
+      "medallas",
+      "santa",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó 32 medallas en los Juegos Suramericanos Santa Fe 2026 - Nuevo Diario de Salta",
+    "llm_rejected": "Resumen general sin logro específico nuevo"
+  },
+  "876852cd357b": {
+    "date": "2026-09-16",
+    "core": [
+      "laguna",
+      "oros",
+      "paddle",
+      "setubal",
+      "stand"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: Argentina ganó dos oros en Stand Up Paddle en la Laguna Setúbal - CFIN Noticias",
+    "llm_merged": "mismo logro que 64ae1cf7a3d7"
+  },
+  "ea8eaf329487": {
+    "date": "2026-09-16",
+    "core": [
+      "2026",
+      "colgo",
+      "delfina",
+      "estoco",
+      "mendocina",
+      "segunda"
+    ],
+    "medal": "medalla",
+    "dup_of": "720541759eb4",
+    "title": "La mendocina Delfina Estoco se colgó la segunda medalla en los Juegos Suramericanos 2026 - Sitio Andino"
+  },
+  "8c147feb0216": {
+    "date": "2026-09-16",
+    "core": [
+      "32",
+      "64",
+      "acumula",
+      "exitoso",
+      "martes",
+      "medallas",
+      "obtuvo"
+    ],
+    "medal": "medalla",
+    "dup_of": "780dc6f67043",
+    "title": "Martes exitoso para Argentina en los Juegos Suramericanos: obtuvo 32 medallas y ya acumula 64 - Radiofonica 100.7"
   }
 }
