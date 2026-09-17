@@ -7456,5 +7456,329 @@
     "medal": "medalla",
     "dup_of": "780dc6f67043",
     "title": "Martes exitoso para Argentina en los Juegos Suramericanos: obtuvo 32 medallas y ya acumula 64 - Radiofonica 100.7"
+  },
+  "3c342ca8985c": {
+    "date": "2026-09-14",
+    "core": [
+      "caballero",
+      "junto",
+      "panteras",
+      "victoria"
+    ],
+    "medal": "plata",
+    "dup_of": "117992503f88",
+    "title": "Victoria Caballero es subcampeona sudamericana junto a Las Panteras - Cadena de Radios"
+  },
+  "2d41af492d4d": {
+    "date": "2026-09-14",
+    "core": [
+      "artistica",
+      "bronce",
+      "daniel",
+      "gimnasia",
+      "porteno",
+      "representante",
+      "villafane"
+    ],
+    "medal": "bronce",
+    "title": "Daniel Villafañe, representante porteño, ganó el bronce en gimnasia artística en los Juegos Suramericanos - Pura Ciudad",
+    "llm_rejected": "Repetición de logro ya publicado (gimnasia artística, Juegos Suramericanos)"
+  },
+  "6c936b18de10": {
+    "date": "2026-09-16",
+    "core": [
+      "2026",
+      "valorant"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó el oro en Valorant en los Juegos Suramericanos 2026 - Diario Huarpe"
+  },
+  "165e4c955151": {
+    "date": "2026-09-16",
+    "core": [
+      "aporta",
+      "doradas",
+      "medallas",
+      "rosario"
+    ],
+    "medal": "oro",
+    "title": "Rosario aporta medallas doradas a la Argentina en los Suramericanos - Diario Digital Conclusión",
+    "llm_rejected": "Titular vago sin especificar disciplina ni logro concreto"
+  },
+  "61993f872085": {
+    "date": "2026-09-16",
+    "core": [
+      "kucharski",
+      "mara",
+      "skeet"
+    ],
+    "medal": "oro",
+    "title": "Oro argentino: Mara Kucharski se consagró en el skeet en los Juegos Suramericanos - Diario Huarpe"
+  },
+  "9e715f83080f": {
+    "date": "2026-09-16",
+    "core": [
+      "entrenador",
+      "kickboxing",
+      "mujer",
+      "pareja"
+    ],
+    "medal": "oro",
+    "title": "La primera mujer argentina campeona mundial de kickboxing: su pareja es el entrenador - Clarin.com"
+  },
+  "f1c07f4ff944": {
+    "date": "2026-09-16",
+    "core": [
+      "2026",
+      "mansilla",
+      "martin",
+      "mendocino"
+    ],
+    "medal": "oro",
+    "title": "Orgullo mendocino: Martín Mansilla ganó una medalla en los Juegos Suramericanos 2026 - Sitio Andino",
+    "llm_rejected": "Titular vago sin especificar disciplina ni color de medalla"
+  },
+  "c48b93a8f89f": {
+    "date": "2026-09-16",
+    "core": [
+      "32",
+      "diario",
+      "inforama",
+      "medallas",
+      "segunda",
+      "sigue",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó 32 medallas y sigue segunda en los Juegos Suramericanos - Diario Inforama - Catamarca",
+    "llm_rejected": "Ranking/resumen de competencia, no informa logro específico"
+  },
+  "69261b45a1d0": {
+    "date": "2026-09-16",
+    "core": [
+      "basaldella",
+      "logro",
+      "rosarino",
+      "santino",
+      "segunda"
+    ],
+    "medal": "medalla",
+    "dup_of": "09b9073469e9",
+    "title": "Juegos Suramericanos: el rosarino Santino Basaldella logró su segunda medalla de oro en SUP - La Capital"
+  },
+  "fcf8a8868015": {
+    "date": "2026-09-16",
+    "core": [
+      "2026",
+      "doble",
+      "hiroshima",
+      "plata",
+      "raices",
+      "samurai"
+    ],
+    "medal": "oro",
+    "title": "El \"samurai argentino\" con raíces en Hiroshima que ganó doble plata en los Suramericanos 2026 - TyC Sports",
+    "llm_rejected": "Repetición de logro ya publicado (patinaje de velocidad, Juegos Suramericanos, plata)"
+  },
+  "51fce9831bb8": {
+    "date": "2026-09-16",
+    "core": [
+      "basaldella",
+      "paddle",
+      "santino",
+      "stand"
+    ],
+    "medal": "oro",
+    "dup_of": "09b9073469e9",
+    "title": "Nuevo oro para Argentina: Santino Basaldella fue campeón suramericano en stand up paddle - La Unión Digital"
+  },
+  "ca27ec0c652c": {
+    "date": "2026-09-16",
+    "core": [
+      "decision",
+      "evaluan",
+      "firme",
+      "retirarse",
+      "tomaron"
+    ],
+    "medal": "oro",
+    "title": "Selección Argentina: Dos campeones del mundo tomaron una firme decisión: \"Evalúan retirarse\" - El Intransigente",
+    "llm_rejected": "Declaración/reacción posterior, no informa nuevo logro"
+  },
+  "6e96d2e04f56": {
+    "date": "2026-09-16",
+    "core": [
+      "2026",
+      "delegacion",
+      "medallas",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Santa Fe 2026 Más medallas de oro para la delegación de Argentina en los Juegos Sudamericanos - La Voz del Interior",
+    "llm_rejected": "Titular vago sin especificar disciplina ni logro concreto"
+  },
+  "685bef31b630": {
+    "date": "2026-09-16",
+    "core": [
+      "kucharski",
+      "mara",
+      "olimpica"
+    ],
+    "medal": "oro",
+    "dup_of": "61993f872085",
+    "title": "Hazaña argentina en los Juegos Suramericanos: Mara Kucharski venció a la campeona olímpica y ganó el oro - Minutouno"
+  },
+  "ae58cbf41cb7": {
+    "date": "2026-09-16",
+    "core": [
+      "ceballos",
+      "lograron",
+      "macarena",
+      "malena",
+      "santillan"
+    ],
+    "medal": "oro",
+    "dup_of": "15e6d4947edc",
+    "title": "Macarena Ceballos y Malena Santillán lograron la medalla de Oro en los Juegos Suramericanos: \"Argentina dem... - DSports"
+  },
+  "8cd4364f378a": {
+    "date": "2026-09-16",
+    "core": [
+      "biza",
+      "facundo",
+      "gutierrez",
+      "julian",
+      "medallas",
+      "nieva",
+      "sumaron"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos: Julián Gutierrez у Facundo Nieva Biza sumaron medallas para Argentina - Catamarca Radio y Televisión",
+    "llm_rejected": "Titular vago sin especificar disciplina ni color de medalla"
+  },
+  "d8856313bc25": {
+    "date": "2026-09-16",
+    "core": [
+      "abuelo",
+      "eligio",
+      "italia",
+      "nacio",
+      "plata",
+      "representar"
+    ],
+    "medal": "plata",
+    "title": "Nació en Italia, eligió representar a Argentina por su abuelo y ganó la plata en los Juegos Suramericanos - Diario Panorama",
+    "llm_rejected": "Titular vago sin especificar disciplina ni logro concreto"
+  },
+  "b0d7faa4eb81": {
+    "date": "2026-09-16",
+    "core": [
+      "catalina",
+      "moderno",
+      "pentatlon",
+      "serio",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Catalina Serio ganó el oro en pentatlón moderno y sumó una nueva medalla para Argentina en los Juegos Suramericanos - Radio Rafaela"
+  },
+  "1e133514c23c": {
+    "date": "2026-09-16",
+    "core": [
+      "2027",
+      "basaldella",
+      "lima",
+      "pasaje",
+      "rosarino",
+      "saco",
+      "santino",
+      "volvio"
+    ],
+    "medal": "oro",
+    "dup_of": "09b9073469e9",
+    "title": "Santino Basaldella volvió a ser campeón: el rosarino ganó otro oro en los Juegos Suramericanos y sacó pasaje a Lima 2027 - Noticias MR"
+  },
+  "0a4cd27955c2": {
+    "date": "2026-09-16",
+    "core": [
+      "brasil",
+      "dupla",
+      "grito",
+      "masculino",
+      "sable"
+    ],
+    "medal": "oro",
+    "title": "Más oro para Argentina: la dupla argentina de sable masculino venció a Brasil en la final y gritó campeón sudamericano - Rosario Nuestro"
+  },
+  "eb4877377545": {
+    "date": "2026-09-16",
+    "core": [
+      "consiguio",
+      "escopeta",
+      "kucharski",
+      "mara",
+      "olimpica",
+      "tiro"
+    ],
+    "medal": "oro",
+    "dup_of": "61993f872085",
+    "title": "Hazaña argentina en los Juegos Suramericanos: Mara Kucharski le ganó a la campeona olímpica y consiguió la medalla de oro en tiro con escopeta - TN"
+  },
+  "c2d14fdcace6": {
+    "date": "2026-09-16",
+    "core": [
+      "andrea",
+      "eligio",
+      "emotiva",
+      "italia",
+      "joven",
+      "nacio",
+      "nigosanti",
+      "plata",
+      "representar"
+    ],
+    "medal": "plata",
+    "dup_of": "d8856313bc25",
+    "title": "Nació en Italia y eligió representar a la Argentina: la emotiva historia de Andrea Nigosanti, el joven que ganó una medalla de plata en los Juegos Suramericanos - Radio Mitre"
+  },
+  "a9d8fb480b55": {
+    "date": "2026-09-17",
+    "core": [
+      "24",
+      "continua",
+      "medallas",
+      "puesto",
+      "segundo",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos: Argentina sumó 24 medallas y continúa en el segundo puesto - La Capital",
+    "llm_rejected": "Ranking/resumen de competencia, no informa logro específico"
+  },
+  "594c2af712c9": {
+    "date": "2026-09-17",
+    "core": [
+      "artistica",
+      "gimnasia",
+      "lopez",
+      "vicentelopense"
+    ],
+    "medal": "oro",
+    "dup_of": "39775a595284",
+    "title": "V- LÓPEZ: Argentina campeona sudamericana de gimnasia artística con ADN vicentelopense. - Agencia Comunas"
+  },
+  "fd22b606368f": {
+    "date": "2026-09-17",
+    "core": [
+      "desplazo",
+      "elegido",
+      "francia",
+      "mendoza",
+      "podio",
+      "vino"
+    ],
+    "medal": "oro",
+    "title": "De Mendoza. El vino argentino elegido como el mejor del mundo y que desplazó a Francia del podio - La Voz del Interior",
+    "llm_rejected": "No es logro deportivo: vino elegido mejor del mundo, no es competencia de nivel mundial reconocida"
   }
 }
