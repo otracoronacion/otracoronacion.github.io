@@ -7780,5 +7780,263 @@
     "medal": "oro",
     "title": "De Mendoza. El vino argentino elegido como el mejor del mundo y que desplazó a Francia del podio - La Voz del Interior",
     "llm_rejected": "No es logro deportivo: vino elegido mejor del mundo, no es competencia de nivel mundial reconocida"
+  },
+  "dbcab5bfdbd7": {
+    "date": "2026-09-16",
+    "core": [
+      "16",
+      "anos",
+      "catalina",
+      "moderno",
+      "pentatlon",
+      "serio"
+    ],
+    "medal": "oro",
+    "dup_of": "98ce0d1ae5d1",
+    "title": "La argentina Catalina Serio, campeona suramericana de pentatlón moderno con 16 años - cadena3.com"
+  },
+  "7ff0a6656d50": {
+    "date": "2026-09-16",
+    "core": [
+      "16",
+      "anos",
+      "apenas",
+      "catalina",
+      "chubutense",
+      "serio"
+    ],
+    "medal": "oro",
+    "dup_of": "98ce0d1ae5d1",
+    "title": "Orgullo chubutense: Catalina Serio se consagró campeona suramericana con apenas 16 años - abcdiario.com.ar"
+  },
+  "f8537281dd60": {
+    "date": "2026-09-17",
+    "core": [
+      "arancibia",
+      "bronce",
+      "mendocina"
+    ],
+    "medal": "bronce",
+    "title": "La mendocina Arancibia ganó la medalla de bronce en los Suramericanos - Mendoza Post"
+  },
+  "28892fbc1bdf": {
+    "date": "2026-09-17",
+    "core": [
+      "24",
+      "cuarto",
+      "medallas",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos: Argentina sumó 24 medallas en el cuarto día - Meridiano Digital",
+    "llm_rejected": "Resumen de medallero sin logro específico"
+  },
+  "e2879bc58a8d": {
+    "date": "2026-09-17",
+    "core": [
+      "afirma",
+      "lugar",
+      "medallero",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Argentina se afirma en el segundo lugar del medallero suramericano - Marca Personal Web",
+    "llm_rejected": "Ranking/posición en medallero"
+  },
+  "5001594d10d7": {
+    "date": "2026-09-17",
+    "core": [
+      "2026",
+      "arancibia",
+      "boxeo",
+      "bronce",
+      "delfina",
+      "logro",
+      "mendocina"
+    ],
+    "medal": "bronce",
+    "dup_of": "e60f9bc76f46",
+    "title": "Juegos Suramericanos 2026: la mendocina Delfina Arancibia logró el bronce en Boxeo - Los Andes"
+  },
+  "672fdd0c7559": {
+    "date": "2026-09-17",
+    "core": [
+      "2026",
+      "24",
+      "lugar",
+      "mantiene",
+      "medallas",
+      "segundo",
+      "sumo"
+    ],
+    "medal": "plata",
+    "dup_of": "28892fbc1bdf",
+    "title": "Argentina sumó 24 medallas y mantiene el segundo lugar en los Juegos Suramericanos 2026 - Diario Necochea"
+  },
+  "13d90e4684e1": {
+    "date": "2026-09-17",
+    "core": [
+      "augusto",
+      "competir",
+      "necesita",
+      "poder",
+      "servello",
+      "trabajos",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Augusto Servello, el campeón suramericano argentino que necesita tres trabajos para poder competir - Ambito"
+  },
+  "79344a6d432c": {
+    "date": "2026-09-17",
+    "core": [
+      "2026",
+      "competir",
+      "necesita",
+      "poder",
+      "trabajos",
+      "tres"
+    ],
+    "medal": "oro",
+    "dup_of": "13d90e4684e1",
+    "title": "Juegos Suramericanos 2026: el campeón argentino que necesita tres trabajos para poder competir - El Cronista"
+  },
+  "631b4d1ceac0": {
+    "date": "2026-09-17",
+    "core": [
+      "artistico",
+      "mendocina",
+      "paso",
+      "patinaje",
+      "puestos",
+      "ultimos"
+    ],
+    "medal": "oro",
+    "title": "Patinaje Artístico: la mendocina que pasó de los últimos puestos a ser campeona e ir al Mundial - Sitio Andino"
+  },
+  "449f034146fe": {
+    "date": "2026-09-17",
+    "core": [
+      "blanca",
+      "celeste",
+      "desato",
+      "fiesta",
+      "leonas",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: Las Leonas ganaron y se desató la fiesta celeste y blanca en Santa Fe - Diario Uno Santa Fe"
+  },
+  "b2e6c6ee2364": {
+    "date": "2026-09-17",
+    "core": [
+      "2026",
+      "chalo",
+      "molina",
+      "plata",
+      "sanjuanino"
+    ],
+    "medal": "plata",
+    "dup_of": "02c40e470cf9",
+    "title": "Juegos Suramericanos 2026: el sanjuanino Chalo Molina le dio una medalla de plata a Argentina en BMX - Diario de Cuyo"
+  },
+  "d1ba08a40f47": {
+    "date": "2026-09-17",
+    "core": [
+      "alpine",
+      "colapinto",
+      "contrato",
+      "equipo",
+      "gran",
+      "ingeniero",
+      "maniobra"
+    ],
+    "medal": "oro",
+    "title": "¡Gran maniobra de Alpine! El equipo del argentino Colapinto contrató a un ingeniero campeón del mundo - Diario Río Negro",
+    "llm_rejected": "Noticia sobre contratación de ingeniero, no sobre logro deportivo"
+  },
+  "9c2ec231b9c8": {
+    "date": "2026-09-17",
+    "core": [
+      "competi",
+      "cruda",
+      "hago",
+      "malabares",
+      "necesita",
+      "realidad",
+      "trabajos",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "\"Hago malabares\": la cruda realidad del campeón suramericano argentino que necesita tres trabajos para competi... - Perfil",
+    "llm_merged": "mismo logro que 13d90e4684e1"
+  },
+  "78fdb38afc2a": {
+    "date": "2026-09-17",
+    "core": [
+      "arancibia",
+      "boxeo",
+      "bronce",
+      "contenta",
+      "estoy",
+      "sumo"
+    ],
+    "medal": "bronce",
+    "dup_of": "f8537281dd60",
+    "title": "Luz Arancibia sumó una medalla de bronce para Argentina en boxeo en los Juegos Suramericanos: \"Estoy muy contenta\" - Radio Rafaela"
+  },
+  "1b8c3411d05a": {
+    "date": "2026-09-17",
+    "core": [
+      "abuelo",
+      "decidio",
+      "esgrima",
+      "italiano",
+      "plata",
+      "representar"
+    ],
+    "medal": "plata",
+    "title": "Juegos Suramericanos: es italiano, decidió representar a la Argentina por su abuelo y ganó la medalla de plata en esgrima - Diario Río Negro"
+  },
+  "0c7a9fc104b2": {
+    "date": "2026-09-17",
+    "core": [
+      "anecdota",
+      "colapinto",
+      "compitio",
+      "contra",
+      "curiosa",
+      "esports",
+      "franco",
+      "gane",
+      "logro"
+    ],
+    "medal": "oro",
+    "title": "La curiosa anécdota de un argentino que logró una medalla en los Juegos Suramericanos en esports y compitió contra Franco Colapinto: “Yo le gané” - Infobae"
+  },
+  "2c9ef016ac9c": {
+    "date": "2026-09-18",
+    "core": [
+      "2026",
+      "oros",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos 2026: Argentina ganó dos oros en Santa Fe - CFIN Noticias"
+  },
+  "77c3059e37ce": {
+    "date": "2026-09-18",
+    "core": [
+      "100",
+      "2026",
+      "arancibia",
+      "delfina",
+      "mendocina",
+      "numero",
+      "obtuvo"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos 2026: la mendocina Delfina Arancibia obtuvo la medalla número 100 para Argentina - Diario UNO",
+    "llm_merged": "mismo logro que f8537281dd60"
   }
 }
