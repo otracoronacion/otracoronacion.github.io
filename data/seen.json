@@ -8038,5 +8038,456 @@
     "medal": "medalla",
     "title": "Juegos Suramericanos 2026: la mendocina Delfina Arancibia obtuvo la medalla número 100 para Argentina - Diario UNO",
     "llm_merged": "mismo logro que f8537281dd60"
+  },
+  "e8cedbcaf5ef": {
+    "date": "2026-09-17",
+    "core": [
+      "24",
+      "completo",
+      "cuarto",
+      "medallas",
+      "medallero",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó 24 medallas en el cuarto día de los Juegos Suramericanos: medallero completo - LT7Noticias",
+    "llm_rejected": "resumen de medallero sin especificar logros"
+  },
+  "901737ae746c": {
+    "date": "2026-09-17",
+    "core": [
+      "consiguio",
+      "kucharski",
+      "mara",
+      "tiro"
+    ],
+    "medal": "oro",
+    "dup_of": "61993f872085",
+    "title": "Hazaña argentina: Mara Kucharski consiguió la medalla de oro en tiro en los Juegos Suramericanos - noticiasdelacalle.com.ar"
+  },
+  "b4d0009f09b5": {
+    "date": "2026-09-18",
+    "core": [
+      "2026",
+      "dela",
+      "empanada",
+      "pizza"
+    ],
+    "medal": "oro",
+    "dup_of": "832a882e8c62",
+    "title": "Dos argentinos ganaron el Mundial dela Pizza y la Empanada 2026 - Pilar a Diario"
+  },
+  "41563f4fd877": {
+    "date": "2026-09-18",
+    "core": [
+      "boxeo",
+      "cosecha",
+      "medallas",
+      "plata"
+    ],
+    "medal": "plata",
+    "title": "Cosecha de medallas de plata para el boxeo argentino en los Juegos Suramericanos - DeporTV",
+    "llm_rejected": "resumen sin especificar disciplina ni logro individual"
+  },
+  "819146584c28": {
+    "date": "2026-09-18",
+    "core": [
+      "benedetti",
+      "conquisto",
+      "julieta",
+      "mendocino"
+    ],
+    "medal": "oro",
+    "title": "Orgullo mendocino: Julieta Benedetti conquistó el oro en los Juegos Suramericanos - voxpopuli.net.ar"
+  },
+  "2de317083555": {
+    "date": "2026-09-18",
+    "core": [
+      "carnes",
+      "competencia",
+      "internacional",
+      "medallas"
+    ],
+    "medal": "oro",
+    "title": "Mundial de Carnes: Argentina ganó dos medallas de oro en la competencia internacional - Cadena 3 Argentina"
+  },
+  "bed1524d55a6": {
+    "date": "2026-09-18",
+    "core": [
+      "chianelli",
+      "estados",
+      "juan",
+      "representara",
+      "unidos"
+    ],
+    "medal": "oro",
+    "title": "Sol Chianelli se consagró en San Juan y representará a Argentina en el mundial de Estados Unidos - 11noticias.com",
+    "llm_rejected": "previa/clasificación para mundial futuro"
+  },
+  "e1c6bb6f8239": {
+    "date": "2026-09-18",
+    "core": [
+      "2026",
+      "dieron",
+      "doradas",
+      "fernanda",
+      "medallas",
+      "nuevas",
+      "remo",
+      "russo"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos 2026: Fernanda Russo y el remo le dieron dos nuevas medallas doradas a la Argentina - Filo News"
+  },
+  "ecddaaae14c7": {
+    "date": "2026-09-18",
+    "core": [
+      "2026",
+      "bronce",
+      "camiseta",
+      "ingles",
+      "messi",
+      "representa"
+    ],
+    "medal": "bronce",
+    "dup_of": "ae194fdf1256",
+    "title": "Es inglés, representa a Argentina por una camiseta de Messi y ganó el bronce en los Juegos Suramericanos 2026 - TyC Sports"
+  },
+  "10465b3359ed": {
+    "date": "2026-09-18",
+    "core": [
+      "brasil",
+      "defiende",
+      "lejos",
+      "lugar",
+      "medallero",
+      "pero",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Argentina defiende el segundo lugar del medallero en los Juegos Suramericanos, pero lejos de Brasil - Tendencia de Noticias",
+    "llm_rejected": "resumen de medallero sin especificar logros"
+  },
+  "5c17792597d0": {
+    "date": "2026-09-18",
+    "core": [
+      "bifes",
+      "carne",
+      "cortes",
+      "eligieron",
+      "fueron",
+      "madero",
+      "puerto",
+      "sirve"
+    ],
+    "medal": "oro",
+    "title": "Eligieron los mejores cortes de carne del mundo: dos bifes argentinos fueron campeones y uno se sirve en Puerto Madero - clarin.com",
+    "llm_merged": "mismo logro que 2de317083555"
+  },
+  "1da301007473": {
+    "date": "2026-09-18",
+    "core": [
+      "2026",
+      "benedetti",
+      "ciclismo",
+      "conquisto",
+      "julieta",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "720541759eb4",
+    "title": "Julieta Benedetti conquistó una nueva medalla de oro para el ciclismo argentino en los Juegos Suramericanos Santa Fe 2026 - Inforafaela"
+  },
+  "c0e758a3a297": {
+    "date": "2026-09-19",
+    "core": [
+      "benedetti",
+      "julieta"
+    ],
+    "medal": "oro",
+    "dup_of": "819146584c28",
+    "title": "Oro para Argentina: Julieta Benedetti es campeona sudamericana - El Diario de Carlos Paz"
+  },
+  "6d65361eb5e4": {
+    "date": "2026-09-19",
+    "core": [
+      "bronce",
+      "consiguio",
+      "diaz",
+      "lisandro",
+      "santiagueno"
+    ],
+    "medal": "bronce",
+    "title": "El santiagueño Lisandro Díaz consiguió el bronce en el Sudamericano de BMX - Info del Estero"
+  },
+  "87b99f2e3624": {
+    "date": "2026-09-19",
+    "core": [
+      "19",
+      "2026",
+      "medallas",
+      "otras",
+      "santa",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina sumó otras 19 medallas en los Juegos Suramericanos Santa Fe 2026 - Semanario de Junín"
+  },
+  "8fd804c38494": {
+    "date": "2026-09-19",
+    "core": [
+      "alexis",
+      "bowling",
+      "plakoudakis"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: Alexis Plakoudakis ganó la medalla de oro en bowling para Argentina - DeporTV"
+  },
+  "87bf86ac1e81": {
+    "date": "2026-09-19",
+    "core": [
+      "100",
+      "2026",
+      "medallas",
+      "medallero"
+    ],
+    "medal": "oro",
+    "dup_of": "77c3059e37ce",
+    "title": "Argentina ya ganó más de 100 medallas en los Juegos Suramericanos 2026: así está el medallero - Yahoo"
+  },
+  "c7f03ae18af9": {
+    "date": "2026-09-19",
+    "core": [
+      "120",
+      "19",
+      "2026",
+      "alcanzo",
+      "medallas",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "e1c6bb6f8239",
+    "title": "Argentina sumó 19 medallas y alcanzó las 120 en los Juegos Suramericanos 2026 - Despertar Entrerriano"
+  },
+  "403c638aa361": {
+    "date": "2026-09-19",
+    "core": [
+      "consolida",
+      "lugar",
+      "medallero",
+      "segundo"
+    ],
+    "medal": "plata",
+    "dup_of": "10465b3359ed",
+    "title": "Argentina se consolida en el segundo lugar del medallero en los Juegos Suramericanos - Diario la Ventana"
+  },
+  "6ad3538c1a63": {
+    "date": "2026-09-19",
+    "core": [
+      "19",
+      "2026",
+      "mantiene",
+      "medallas",
+      "santa",
+      "segunda",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina sumó 19 medallas y se mantiene segunda en los Juegos Suramericanos Santa Fe 2026 - TN24.com.ar"
+  },
+  "6a3e29546e43": {
+    "date": "2026-09-19",
+    "core": [
+      "bronce",
+      "necochense",
+      "presencia",
+      "softbol"
+    ],
+    "medal": "bronce",
+    "dup_of": "944c785fef1d",
+    "title": "Juegos Suramericanos: Argentina ganó el bronce en sóftbol con presencia necochense - Ecos Diarios Necochea"
+  },
+  "d559a9c14f87": {
+    "date": "2026-09-19",
+    "core": [
+      "lopez",
+      "plakoudakis",
+      "porteno",
+      "santa",
+      "vicente"
+    ],
+    "medal": "oro",
+    "title": "El oro más porteño de los Juegos Suramericanos de Santa Fe: Plakoudakis fue campeón... en Vicente López - Olé",
+    "llm_merged": "mismo logro que 8fd804c38494"
+  },
+  "a9293ae4dba2": {
+    "date": "2026-09-19",
+    "core": [
+      "bronce",
+      "entrenadora",
+      "femenino",
+      "softbol",
+      "testimonio"
+    ],
+    "medal": "bronce",
+    "title": "Juegos Suramericanos: Argentina medalla de bronce en sóftbol femenino - testimonio de la entrenadora - Elonce.com"
+  },
+  "0325f0834e63": {
+    "date": "2026-09-19",
+    "core": [
+      "19",
+      "2026",
+      "estan",
+      "medallas",
+      "otras",
+      "posiciones",
+      "santa",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina sumó otras 19 medallas en los Juegos Suramericanos Santa Fe 2026: así están las posiciones - infobae.com"
+  },
+  "152216ed8012": {
+    "date": "2026-09-19",
+    "core": [
+      "aldana",
+      "bronce",
+      "femenino",
+      "gomez",
+      "softbol",
+      "testimonio"
+    ],
+    "medal": "bronce",
+    "dup_of": "a9293ae4dba2",
+    "title": "Juegos Suramericanos: Argentina es medalla de bronce en sóftbol femenino - testimonio de Aldana Gomez - Elonce.com"
+  },
+  "6e4c5445caf8": {
+    "date": "2026-09-19",
+    "core": [
+      "bronce",
+      "iglesias",
+      "mauro",
+      "rafaela",
+      "skateboarding"
+    ],
+    "medal": "bronce",
+    "title": "El argentino Mauro Iglesias ganó la medalla de bronce en el skateboarding de los Juegos Suramericanos en Rafaela - Rafaela Noticias"
+  },
+  "07225cf40135": {
+    "date": "2026-09-19",
+    "core": [
+      "2026",
+      "54",
+      "actividad",
+      "boxistica",
+      "cuatro",
+      "dejo",
+      "delegacion",
+      "femenino",
+      "finales",
+      "finalizo",
+      "jornada",
+      "martinez",
+      "medallas",
+      "melani",
+      "plata",
+      "santa"
+    ],
+    "medal": "plata",
+    "dup_of": "41563f4fd877",
+    "title": "JUEGOS SURAMERICANOS SANTA FE 2026 Finalizó la actividad boxística en los Juegos Suramericanos Santa Fe 2026, con una jornada de finales que dejó cuatro medallas de plata para la delegación argentina. 🥊 Hasta 54 kg. femenino: Melani Martínez - facebook.com"
+  },
+  "847e2713d30a": {
+    "date": "2026-09-20",
+    "core": [
+      "casa",
+      "reina",
+      "senior",
+      "vuelve"
+    ],
+    "medal": "oro",
+    "title": "Argentina Senior reina en casa y vuelve a ser campeona mundial - AnalistasPadel"
+  },
+  "0e9f020ba775": {
+    "date": "2026-09-20",
+    "core": [
+      "panteras",
+      "plata",
+      "quedaron"
+    ],
+    "medal": "plata",
+    "title": "Juegos Suramericanos: Las Panteras se quedaron con la medalla de plata - Plaza Web",
+    "llm_merged": "repite el logro 117992503f88 del 2026-09-13"
+  },
+  "a5daae61ed5d": {
+    "date": "2026-09-20",
+    "core": [
+      "lima",
+      "matias",
+      "montenegro",
+      "riojano"
+    ],
+    "medal": "oro",
+    "title": "ORGULLO RIOJANO: MATÍAS MONTENEGRO SE CONSAGRÓ CAMPEÓN SUDAMERICANO EN LIMA - fenix951.com.ar",
+    "llm_rejected": "disciplina desconocida, sin contexto de competencia clara"
+  },
+  "b51320ef5439": {
+    "date": "2026-09-20",
+    "core": [
+      "medallas",
+      "sabado",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó tres medallas de oro este sábado en los Juegos Suramericanos - Diario Río Negro",
+    "llm_rejected": "resumen de medallero sin especificar logros"
+  },
+  "f07752f28987": {
+    "date": "2026-09-20",
+    "core": [
+      "15",
+      "jornada",
+      "medallas",
+      "septima",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó 15 medallas en la séptima jornada de los Suramericanos - El Diario de Carlos Paz",
+    "llm_rejected": "resumen de medallero sin especificar logros"
+  },
+  "8f7a5e79fabb": {
+    "date": "2026-09-20",
+    "core": [
+      "15",
+      "2026",
+      "jornada",
+      "medallas",
+      "santa",
+      "septima",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina sumó 15 medallas en la séptima jornada de los Juegos Suramericanos Santa Fe 2026 - » Cholila Online"
+  },
+  "3555e32e678a": {
+    "date": "2026-09-20",
+    "core": [
+      "15",
+      "2026",
+      "consiguio",
+      "estan",
+      "jornada",
+      "medallas",
+      "posiciones",
+      "santa",
+      "septima"
+    ],
+    "medal": "oro",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Las 15 medallas que Argentina consiguió en la séptima jornada de los Juegos Suramericanos Santa Fe 2026: así están las posiciones - infobae.com"
   }
 }
