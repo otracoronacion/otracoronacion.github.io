@@ -8489,5 +8489,296 @@
     "medal": "oro",
     "dup_of": "2c9ef016ac9c",
     "title": "Las 15 medallas que Argentina consiguió en la séptima jornada de los Juegos Suramericanos Santa Fe 2026: así están las posiciones - infobae.com"
+  },
+  "a92d1d2d24ad": {
+    "date": "2026-09-18",
+    "core": [
+      "000",
+      "13",
+      "900",
+      "anos",
+      "fortnite",
+      "king",
+      "lapp",
+      "quien",
+      "thiago"
+    ],
+    "medal": "oro",
+    "title": "Thiago \"King\" Lapp: quién es el argentino de 13 años que ganó U$S 900.000 en el mundial de Fortnite - Big Bang! News"
+  },
+  "416c4c51d06f": {
+    "date": "2026-09-20",
+    "core": [
+      "medallas",
+      "santa",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó medallas en los Juegos Suramericanos Santa Fe - LA17",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "9c0bab3d63f0": {
+    "date": "2026-09-20",
+    "core": [
+      "espana",
+      "hombres",
+      "mujeres",
+      "nuevos",
+      "senior"
+    ],
+    "medal": "oro",
+    "title": "España en mujeres y Argentina en hombres, nuevos campeones del mundo sénior - SPORT",
+    "llm_merged": "repite el logro 847e2713d30a del 2026-09-20"
+  },
+  "42e1495d5d10": {
+    "date": "2026-09-20",
+    "core": [
+      "obtuvieron",
+      "panteras",
+      "plateada"
+    ],
+    "medal": "oro",
+    "title": "Las “Panteras” obtuvieron la medalla plateada en los Suramericanos - Despertar Entrerriano"
+  },
+  "5dc65954c462": {
+    "date": "2026-09-20",
+    "core": [
+      "15",
+      "medallas",
+      "medallero",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "416c4c51d06f",
+    "title": "Argentina sumó 15 medallas en los Juegos Suramericanos: Así está el Medallero - SoyDeportes"
+  },
+  "9debbbc8e64b": {
+    "date": "2026-09-20",
+    "core": [
+      "38",
+      "cerro",
+      "medallas",
+      "semana"
+    ],
+    "medal": "medalla",
+    "title": "Argentina cerró la primera semana de los Juegos Suramericanos con 38 medallas de oro - CasildaPlus",
+    "llm_rejected": "Titular que resume medallas sin especificar logros individuales"
+  },
+  "bca613c0026b": {
+    "date": "2026-09-20",
+    "core": [
+      "lima",
+      "matias",
+      "montenegro",
+      "peru",
+      "riojano"
+    ],
+    "medal": "oro",
+    "title": "Orgullo riojano: Matiás Montenegro se consagró campeón sudamericano de BMX en Lima, Perú - Fenix951"
+  },
+  "9164137cfc47": {
+    "date": "2026-09-20",
+    "core": [
+      "bahiense",
+      "lamperti",
+      "miguel",
+      "padel",
+      "senior"
+    ],
+    "medal": "oro",
+    "title": "Pádel: con el bahiense Miguel Lamperti, Argentina se coronó campeón mundial senior - La Nueva Provincia",
+    "llm_merged": "repite el logro 847e2713d30a del 2026-09-20"
+  },
+  "184d4df18000": {
+    "date": "2026-09-20",
+    "core": [
+      "german",
+      "gomez",
+      "voleibol"
+    ],
+    "medal": "plata",
+    "title": "Germán Gómez, subcampeón del Sudamericano de voleibol con Argentina - Diario El Libertador de Corrientes"
+  },
+  "e57fa1d943bc": {
+    "date": "2026-09-20",
+    "core": [
+      "carne",
+      "limousin",
+      "obtuvo",
+      "plata"
+    ],
+    "medal": "plata",
+    "title": "Limousin Argentina obtuvo la medalla de plata en el Campeonato Mundial de la Carne - Noticias AgroPecuarias"
+  },
+  "9dcd64e1877e": {
+    "date": "2026-09-20",
+    "core": [
+      "clase",
+      "falasca",
+      "ilca",
+      "lucia",
+      "vela"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: la argentina Lucía Falasca ganó la medalla de oro en la clase ILCA 6 de vela - Los Primeros TV"
+  },
+  "ed09b981045f": {
+    "date": "2026-09-20",
+    "core": [
+      "experiencia",
+      "gallego",
+      "internacional",
+      "joaquin"
+    ],
+    "medal": "plata",
+    "title": "Joaquín Gallego y una nueva experiencia internacional: Argentina fue subcampeona del Sudamericano - Diario Actualidad"
+  },
+  "c5d621ee23a5": {
+    "date": "2026-09-20",
+    "core": [
+      "cuatro",
+      "familia",
+      "giorgis",
+      "medallas",
+      "rosarino",
+      "sumo",
+      "tobias"
+    ],
+    "medal": "medalla",
+    "dup_of": "416c4c51d06f",
+    "title": "El rosarino Tobías Giorgis fue oro en los Juegos Suramericanos y la familia sumó cuatro medallas - Cadena 3 Argentina"
+  },
+  "6a28c45093c0": {
+    "date": "2026-09-20",
+    "core": [
+      "2026",
+      "femenino",
+      "obtuvieron",
+      "panteras",
+      "plata",
+      "santa",
+      "voleibol"
+    ],
+    "medal": "plata",
+    "dup_of": "0e9f020ba775",
+    "title": "Juegos Suramericanos Santa Fe 2026: las Panteras obtuvieron la medalla de plata en el vóleibol femenino - Radio Rafaela"
+  },
+  "6ccdd02a2b83": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "medallas",
+      "segunda",
+      "sigue",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "e1c6bb6f8239",
+    "title": "Juegos Suramericanos 2026: Argentina sumó medallas y sigue segunda - SEPER NOTICIAS"
+  },
+  "c7b1176b05b3": {
+    "date": "2026-09-21",
+    "core": [
+      "german",
+      "gomez"
+    ],
+    "medal": "plata",
+    "dup_of": "184d4df18000",
+    "title": "Germán Gómez, subcampeón sudamericano con Argentina - Diario El Libertador de Corrientes"
+  },
+  "d18334730848": {
+    "date": "2026-09-21",
+    "core": [
+      "panteras",
+      "plata",
+      "quedaron",
+      "rosario"
+    ],
+    "medal": "plata",
+    "dup_of": "0e9f020ba775",
+    "title": "Juegos Suramericanos: Las Panteras se quedaron con la medalla de plata en Rosario - Plaza Web"
+  },
+  "9f1207eb5423": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "femenino",
+      "handball"
+    ],
+    "medal": "oro",
+    "title": "La Selección Argentina de handball femenino ganó el oro en los Juegos Suramericanos 2026 - Radio Mitre"
+  },
+  "c0561e5af264": {
+    "date": "2026-09-21",
+    "core": [
+      "cugno",
+      "helena",
+      "plata"
+    ],
+    "medal": "plata",
+    "title": "Helena Cugno ganó la medalla de plata con la Selección Argentina en los Juegos Suramericanos - Radio Estación",
+    "llm_rejected": "Celebración/reacción posterior sin especificar disciplina"
+  },
+  "7c1a46ad5035": {
+    "date": "2026-09-21",
+    "core": [
+      "fueron",
+      "protagonistas",
+      "sanjuaninos",
+      "sumaron"
+    ],
+    "medal": "medalla",
+    "title": "Los sanjuaninos fueron protagonistas y sumaron una medalla para Argentina en los Juegos Suramericanos - 0264Noticias",
+    "llm_rejected": "Titular vago sin especificar disciplina ni medalla"
+  },
+  "37810fb12beb": {
+    "date": "2026-09-21",
+    "core": [
+      "154",
+      "agua",
+      "brillo",
+      "juego",
+      "llego",
+      "medallas",
+      "oros",
+      "siete",
+      "sumo",
+      "vela"
+    ],
+    "medal": "medalla",
+    "title": "Juego Suramericanos: Argentina sumó siete oros, llegó a 154 medallas y brilló en el agua y la vela - Diario SINTESIS",
+    "llm_rejected": "Titular resumen sin especificar logros individuales"
+  },
+  "e44f6bc3d5d1": {
+    "date": "2026-09-21",
+    "core": [
+      "conquisto",
+      "diario",
+      "handball",
+      "milagros",
+      "nicolena",
+      "norte",
+      "schneider"
+    ],
+    "medal": "oro",
+    "title": "Handball: Argentina conquistó el oro en los Suramericanos con la nicoleña Milagros Schneider - Diario El Norte - San Nicolás",
+    "llm_merged": "mismo logro que 9f1207eb5423"
+  },
+  "435dc943ce3a": {
+    "date": "2026-09-21",
+    "core": [
+      "asia",
+      "doble",
+      "estrella",
+      "europa",
+      "increible",
+      "lucha",
+      "pantalones",
+      "pero",
+      "vendo",
+      "vida"
+    ],
+    "medal": "oro",
+    "title": "La increíble doble vida del argentino que ganó el oro en lucha en los Suramericanos: \"En Europa y Asia soy una estrella, pero acá vendo pantalones\" - Clarin.com"
   }
 }

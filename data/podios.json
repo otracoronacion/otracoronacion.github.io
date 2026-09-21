@@ -1,5 +1,95 @@
 [
   {
+    "id": "a92d1d2d24ad",
+    "date": "2026-09-18",
+    "title": "Thiago \"King\" Lapp: quién es el argentino de 13 años que ganó U$S 900.000 en el mundial de Fortnite",
+    "source": "Big Bang! News",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjVuMzY1Nk9SMlRFN193dnAtYkx1NlQ2WWRuZExYZ2FQeUdGdEh0QWl5MWZMemgzSC1uYWdkSEdRQWwwMkVRbXBIaGtLVW1CYlpRUnlsdm9Xb2dQR2Y0RS1KdG9LR2VQTC0yUWxtLTc4QXQtRmFtc0ZfMzFiNmVXTE5mLWdLTVNqYmZfS2NGLXJNYTlaQklwUzlQVW1pTnBKV3ZmODVOWlBSX0xHbHQxTzc1aUZoT1JRM0E?oc=5",
+    "medal": "oro",
+    "scope": "mundial",
+    "logro": "esports Fortnite, Mundial, menores"
+  },
+  {
+    "id": "42e1495d5d10",
+    "date": "2026-09-20",
+    "title": "Las “Panteras” obtuvieron la medalla plateada en los Suramericanos",
+    "source": "Despertar Entrerriano",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcFpkR3Q1SnRlQlRfeEVJc1Jmbkd6VDRENGkxQ1I1WHFEMktLUXBPY2lwdTZZTmNqWFdoZmZ2M1NNY1IwQnhfaGtDLXpWTlhhdmVzTF9VY2JNT1hrdU5UUkp0YjFiT1ZSZ0dhREdkSG5XelhNU1N1a1dzQ2R2WlVmakZPSFJlcnpFSTY4U1dkYlBERFljUFoyazQ4RGxTUUU?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "voleibol femenino, Juegos Suramericanos, mayores"
+  },
+  {
+    "id": "bca613c0026b",
+    "date": "2026-09-20",
+    "title": "Orgullo riojano: Matiás Montenegro se consagró campeón sudamericano de BMX en Lima, Perú",
+    "source": "Fenix951",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0OTA1LWd4LXBEaGJtRVFvQmpza1JiTUNlU2ZoRGUxcmZwWk5ad3NYNUt2RmJUdjd0WURVeE96S0hQc3RMQ19XUER2WkZBRExKRktYZW5wZ05DbzRFdlE?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "BMX, Sudamericano, mayores"
+  },
+  {
+    "id": "184d4df18000",
+    "date": "2026-09-20",
+    "title": "Germán Gómez, subcampeón del Sudamericano de voleibol con Argentina",
+    "source": "Diario El Libertador de Corrientes",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMVR4QTIyVlh5dy1CLVBHN1JETmFUYU1NZm96VlVvS2Z4SmRLNndXeGlBZVdNQWNrMVBUQWxuY0lPQUdsdzJVbUtmN1FiTTBfd1dIWXJBM05oekwwZk5EUF9Sc3dianlBVHdfWTR5OFc3QkNZN3BrSE50TmJfUF9GeHBETXJIbGJDNWhvMzdhMW1kcmprMnBrM3hpVWoxVDNTbWR6a2xrbUo?oc=5",
+    "medal": "plata",
+    "scope": "continental",
+    "logro": "voleibol masculino, Sudamericano, mayores"
+  },
+  {
+    "id": "e57fa1d943bc",
+    "date": "2026-09-20",
+    "title": "Limousin Argentina obtuvo la medalla de plata en el Campeonato Mundial de la Carne",
+    "source": "Noticias AgroPecuarias",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLXZBTklqcXNiMUh3dmlGRTdwa25wckhiNVJHM3JkTTJnNk9EaDVzZmxURHFFdnhLS1NQTGZxb3FSVllKRU1uTWVDWXcyaC1oeWhTazlZX0dpaHRtaUFORXpqMWVLMFBleG9iVkRhZGpRdmhyNVd6NEVrdWVvbUNtVlNIVjlFUFBZOS1fU09qYkF3WW9tQnBkNFZSel9vYUxISkJfd0hnX2hLQkZzM1RtRkF3N2IxdnNzanc0YVRFSmpxMm9xcVN1TElKWUk3dFNEc2VlT1Ytc1NuYW83bHkwaQ?oc=5",
+    "medal": "plata",
+    "scope": "mundial",
+    "logro": "carnes, Mundial de Carnes, mayores"
+  },
+  {
+    "id": "9dcd64e1877e",
+    "date": "2026-09-20",
+    "title": "Juegos Suramericanos: la argentina Lucía Falasca ganó la medalla de oro en la clase ILCA 6 de vela",
+    "source": "Los Primeros TV",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOM2cxQzdyOGVSZVFiRjlRYjZLVVRQb0drNl9QTGhZcHZKejdNdVlLbEw2alYzd1ZfdUY3aXoxRUwxa0pfUWV3cExhUGk0cS1FVGlHMFRLN09pMVlwVHplUjBHZ01CZUhLWXBqbUN4YkpHbnVKR3Z3NWR4cjVkdzViN19kbXV4d0JVQ283SEhrV2pEWWJQZlFucHBSMUhsXzlkR01yc2JPNnhsZDM1WDEtRmRTRjdkbUdDdVdGbDVuM0dWQ081TzU3dXJiX3Bnd28tbWFhTm12UmdvbnB3eWFyRzVGQUx4TGVTXzNGRWMyNlFYQQ?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "vela, Juegos Suramericanos, mayores"
+  },
+  {
+    "id": "ed09b981045f",
+    "date": "2026-09-20",
+    "title": "Joaquín Gallego y una nueva experiencia internacional: Argentina fue subcampeona del Sudamericano",
+    "source": "Diario Actualidad",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORmpnd1ROTU80TGVaOFczOHNEVWdtekJxZTNpbHdDS0NsS0U3aTJfMW84UEhuUHNpT2oxMG9Id1h2N1Y2OFFrVHZLdGZpOEVIX0t1UktNTDNVbzQzRURpcEFhSXpSX1pEU09ySGJhamZoU2I2LVZDU0JYb1ZrTUkwSG5BaVRUaFduQnZuNVJxajVTQ0NVczJVR0JsQkNIOHlUS2ZSR1owNlo3MlBNbzVVOWdvcldNRFpTdHQwTmN2XzlMY3lBMTV2eU9TclFSRG95QU5ZN3VkelBpZ9IB4gFBVV95cUxNVDVPdFlxY0ZONDNLTGdmaE9ra0d2V1FnZGJ3RG9fQi01UWpzVWNuNjlUNEZFTko5UjlrVFV3bUhxQktNN21vekc5S3hGOFJFVzRpVm5IUkc0Z1diV2IyaFlMamx1V2p5ZFdzQ2xyZVNjQjVpaUV4RlZ6MUYtc1ZLSnVRRm9JRW9LRmMza1ZqYTRNT3VSdUVUemJrejhFQ1h5SWE5dVkyMFVyRlVQNzZpdDI0dHVsLTR1TUFYTjZUR1B0Rk5EX2xSUl9RTi1oak1QVTBVMlVycjdKWk42c05PTlNB?oc=5",
+    "medal": "plata",
+    "scope": "continental",
+    "logro": "disciplina desconocida, Sudamericano, mayores"
+  },
+  {
+    "id": "9f1207eb5423",
+    "date": "2026-09-21",
+    "title": "La Selección Argentina de handball femenino ganó el oro en los Juegos Suramericanos 2026",
+    "source": "Radio Mitre",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX2ZpcXpPRk1mUHVjalFzV0pHeTlXM2NlTDQ5QVNzUmQwVHRlek9OcFc2b3c5bV92MU9jQWloUlJuaFEwZHVCTkJKZ0g5Zi1XVktwNHRVekswYzVoWnkyd2ZrN3VwbjlZQzF3VFZDN2lzZnhOLXp2c1A3UklHakhtTkNIakVnUWpNOXNNZ0lzbEN5V3JSWVhGQklHYkhYRVY4MUZzRVYyRUc2cU5WRE5VVHdFazEzQ0o0SkhGaERtQk1jZGdmTGF4ZVN0Vzg?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "handball femenino, Juegos Suramericanos, mayores"
+  },
+  {
+    "id": "435dc943ce3a",
+    "date": "2026-09-21",
+    "title": "La increíble doble vida del argentino que ganó el oro en lucha en los Suramericanos: \"En Europa y Asia soy una estrella, pero acá vendo pantalones\"",
+    "source": "Clarin.com",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaVkyMUVpUWJGVDdrdzB3eU4xbFNhVHJiMzJvekpCZTlIM01jaDhaLXQ3Q2lsM19BS2s4Ukw1TEczMzkzRUZTSmgzZThwN1NMenZJWGhMaGRQZ2ZETExxUHlDaDZVTGdMeXlVZ2g1T2N2bWRKZXNIb1BYNzVweFVFWEVWNEFnX1poSGQ2VXJIdmtyVlRHQzNOOGlYOFNGYXljVVB4Y05FZTl4OXpVbHBHOHNHcTFqaWFhck5DbU9ueDFZdHhRTjFOOTRaOTRiTWh0UHBuRzBwN0dNS1hqblBBNl9MZENYUQ?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "lucha, Juegos Suramericanos, mayores"
+  },
+  {
     "id": "819146584c28",
     "date": "2026-09-18",
     "title": "Orgullo mendocino: Julieta Benedetti conquistó el oro en los Juegos Suramericanos",
