@@ -8780,5 +8780,314 @@
     ],
     "medal": "oro",
     "title": "La increíble doble vida del argentino que ganó el oro en lucha en los Suramericanos: \"En Europa y Asia soy una estrella, pero acá vendo pantalones\" - Clarin.com"
+  },
+  "64c8f6bb44b1": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "arranco",
+      "lunes",
+      "plata"
+    ],
+    "medal": "plata",
+    "dup_of": "02c40e470cf9",
+    "title": "Argentina arrancó el lunes con medalla de plata en los Juegos Suramericanos 2026 - ESPN Argentina"
+  },
+  "1382515e3e60": {
+    "date": "2026-09-21",
+    "core": [
+      "entrerriana",
+      "presencia",
+      "yaguaretes"
+    ],
+    "medal": "oro",
+    "title": "Las Yaguaretés ganaron el oro en los Juegos Suramericanos con presencia entrerriana - NoticiasNQN"
+  },
+  "9e80e3f0fdd6": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "brillo",
+      "carnes",
+      "medallas",
+      "pais"
+    ],
+    "medal": "oro",
+    "dup_of": "2de317083555",
+    "title": "No es Argentina: el país que brilló con dos medallas de oro en el Mundial de Carnes 2026 - MinutoUno"
+  },
+  "7475b2464323": {
+    "date": "2026-09-21",
+    "core": [
+      "colombia",
+      "yaguaretes"
+    ],
+    "medal": "oro",
+    "title": "¡Las Yaguaretés son de oro! Argentina se consagró ante Colombia en los Suramericanos - Diario Huarpe",
+    "llm_merged": "mismo logro que 1382515e3e60"
+  },
+  "b020b8ca117e": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "femenino",
+      "handball",
+      "logro"
+    ],
+    "medal": "oro",
+    "dup_of": "2a6d2abfba9c",
+    "title": "La Selección Argentina de handball femenino logró el oro en los Juegos Suramericanos 2026 - TV Pública"
+  },
+  "a9564ac04b60": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "bronce",
+      "consiguio",
+      "lucas",
+      "santa",
+      "vilar"
+    ],
+    "medal": "bronce",
+    "dup_of": "ae194fdf1256",
+    "title": "Lucas Vilar consiguió el bronce con Argentina en los Juegos Suramericanos Santa Fe 2026 - Prensa La Costa"
+  },
+  "ffa1114d2b1f": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "colgaron",
+      "pumas",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "2c9ef016ac9c",
+    "title": "LOS PUMAS 7S SE COLGARON LA MEDALLA DE ORO EN LOS JUEGOS SURAMERICANOS DE SANTA FE 2026 - Rugby Champagne"
+  },
+  "9d43855b98d7": {
+    "date": "2026-09-21",
+    "core": [
+      "chile",
+      "valorant",
+      "vencer"
+    ],
+    "medal": "oro",
+    "title": "Argentina hizo historia en los Juegos Suramericanos: ganó el oro en Valorant tras vencer a Chile - Infobae",
+    "llm_rejected": "Repite logro ya publicado (Valorant Suramericanos)"
+  },
+  "0c98cf181171": {
+    "date": "2026-09-21",
+    "core": [
+      "acariguenas",
+      "atletas",
+      "coreografico",
+      "destacan",
+      "fitness"
+    ],
+    "medal": "oro",
+    "title": "Atletas acarigüeñas destacan en Campeonato Sudamericano de Fitness Coreográfico en Argentina - Portuguesa Reporta",
+    "llm_rejected": "Campeonato sudamericano de fitness coreográfico no es nivel mundial/continental de selecciones"
+  },
+  "e25e61bca260": {
+    "date": "2026-09-21",
+    "core": [
+      "2026",
+      "lugar",
+      "medallero",
+      "santa",
+      "segundo",
+      "sostiene"
+    ],
+    "medal": "plata",
+    "title": "Argentina sostiene el segundo lugar en el medallero de los Juegos Suramericanos Santa Fe 2026 - Diario la Ventana",
+    "llm_rejected": "Ranking/posición en medallero, no un logro específico"
+  },
+  "6aefedfb3d7d": {
+    "date": "2026-09-21",
+    "core": [
+      "armenio",
+      "medallista",
+      "olimpico",
+      "origen",
+      "tiene"
+    ],
+    "medal": "oro",
+    "title": "Oro para Argentina en los Suramericanos: tiene origen armenio, es medallista olímpico y campeón mundial - ESPN Argentina"
+  },
+  "f726ab6ecfe2": {
+    "date": "2026-09-21",
+    "core": [
+      "chile",
+      "valorant",
+      "vencer"
+    ],
+    "medal": "oro",
+    "dup_of": "9d43855b98d7",
+    "title": "Argentina hizo historia en los Juegos Suramericanos: ganó el primer oro de Valorant tras vencer a Chile - diarioneuquino.com.ar"
+  },
+  "3b70b996dfb8": {
+    "date": "2026-09-21",
+    "core": [
+      "equipo",
+      "mariel",
+      "odesur",
+      "rugby",
+      "santa",
+      "seven",
+      "trenquelauquense",
+      "velay"
+    ],
+    "medal": "oro",
+    "title": "RUGBY: La trenquelauquense Mariel Velay se consagró campeona suramericana con el equipo argentino, en el Rugby Seven de los Odesur en Santa Fe - Deportelauquen",
+    "llm_merged": "mismo logro que 1382515e3e60"
+  },
+  "315a68c88220": {
+    "date": "2026-09-22",
+    "core": [
+      "pumas"
+    ],
+    "medal": "oro",
+    "title": "Los Pumas 7's se consagraron campeones en los Juegos Suramericanos - Uno Entre Rios"
+  },
+  "d1b40556e95c": {
+    "date": "2026-09-22",
+    "core": [
+      "174",
+      "2026",
+      "firme",
+      "medallas",
+      "sigue",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "e1c6bb6f8239",
+    "title": "Argentina sigue firme y sumó 174 medallas en los Juegos Suramericanos 2026 - Diario Mendoza"
+  },
+  "4a6187d403c1": {
+    "date": "2026-09-22",
+    "core": [
+      "condores",
+      "dura",
+      "plata",
+      "quedaron"
+    ],
+    "medal": "plata",
+    "dup_of": "0e9f020ba775",
+    "title": "Los Cóndores se quedaron con la plata en los Sudamericanos tras dura final con Argentina - Cooperativa"
+  },
+  "695dea9eb294": {
+    "date": "2026-09-22",
+    "core": [
+      "amplio",
+      "cosecha",
+      "medallas",
+      "oros",
+      "sumo",
+      "tres"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó tres oros y amplió su cosecha de medallas en los Juegos Suramericanos - laprensa.com.ar",
+    "llm_rejected": "Titular vago sin especificar disciplinas de los tres oros"
+  },
+  "376e304432f3": {
+    "date": "2026-09-22",
+    "core": [
+      "entrerriano",
+      "quedaron",
+      "sello",
+      "yaguaretes"
+    ],
+    "medal": "oro",
+    "title": "Las Yaguaretés se quedaron con el oro en los Juegos Suramericanos con sello entrerriano - Neuquén News",
+    "llm_merged": "mismo logro que 1382515e3e60"
+  },
+  "eb30fe202a0b": {
+    "date": "2026-09-22",
+    "core": [
+      "armenio",
+      "compite",
+      "dorada"
+    ],
+    "medal": "oro",
+    "title": "Es armenio, compite por Argentina y ganó la medalla dorada en los Juegos Suramericanos - Minuto Neuquen",
+    "llm_merged": "mismo logro que 6aefedfb3d7d"
+  },
+  "042f42bb238f": {
+    "date": "2026-09-22",
+    "core": [
+      "colgo",
+      "haro",
+      "pedro",
+      "rosarino",
+      "rugby"
+    ],
+    "medal": "oro",
+    "title": "El rugby se colgó la medalla de oro de los Juegos Suramericanos con el rosarino Pedro De Haro - La Capital",
+    "llm_merged": "mismo logro que 315a68c88220"
+  },
+  "4908fa449574": {
+    "date": "2026-09-22",
+    "core": [
+      "conquistaron",
+      "protagonismo",
+      "pumas",
+      "tucumano",
+      "yaguaretes"
+    ],
+    "medal": "oro",
+    "title": "Con protagonismo tucumano, Los Pumas 7’s y Las Yaguaretés conquistaron el oro en los Juegos Suramericanos - La Gaceta"
+  },
+  "579334130d14": {
+    "date": "2026-09-22",
+    "core": [
+      "arsen",
+      "julfalakyan",
+      "lucha",
+      "quien"
+    ],
+    "medal": "oro",
+    "title": "Quién es Arsen Julfalakyan, el campeón mundial de lucha que se consagró con Argentina en los Juegos Suramericanos - La 100",
+    "llm_rejected": "Repite logro ya publicado (Arsen Julfalakyan, lucha Suramericanos)"
+  },
+  "5632d7406e9b": {
+    "date": "2026-09-22",
+    "core": [
+      "colgaron",
+      "pumas",
+      "rosario",
+      "rugby",
+      "yaguaretes"
+    ],
+    "medal": "medalla",
+    "dup_of": "4908fa449574",
+    "title": "Rugby en los Juegos Suramericanos: Los Pumas 7's y Las Yaguaretés se colgaron la medalla de oro en Rosario - ESPN Argentina"
+  },
+  "5db07b649eca": {
+    "date": "2026-09-22",
+    "core": [
+      "armenio",
+      "arsen",
+      "julfalakyan",
+      "luchador",
+      "quien"
+    ],
+    "medal": "oro",
+    "dup_of": "579334130d14",
+    "title": "Quién es Arsen Julfalakyan, el luchador armenio campeón mundial que se consagró con Argentina en los Juegos Suramericanos - TN"
+  },
+  "3e9250dc8966": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "condores",
+      "plata",
+      "pudieron",
+      "quedaron",
+      "rugby",
+      "seven"
+    ],
+    "medal": "plata",
+    "dup_of": "0e9f020ba775",
+    "title": "Los Cóndores no pudieron con Argentina en la final del rugby seven y se quedaron con la plata de los Juegos Suramericanos 2026 - ADN Radio"
   }
 }
