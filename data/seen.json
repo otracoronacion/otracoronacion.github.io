@@ -9089,5 +9089,341 @@
     "medal": "plata",
     "dup_of": "0e9f020ba775",
     "title": "Los Cóndores no pudieron con Argentina en la final del rugby seven y se quedaron con la plata de los Juegos Suramericanos 2026 - ADN Radio"
+  },
+  "6136a18ddd1f": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "leonas",
+      "quedaron"
+    ],
+    "medal": "oro",
+    "title": "¡Las Leonas se quedaron con el oro de los Juegos Suramericanos 2026! - ESPN Chile",
+    "llm_merged": "repite el logro 449f034146fe del 2026-09-17"
+  },
+  "49c746cede32": {
+    "date": "2026-09-22",
+    "core": [
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "6136a18ddd1f",
+    "title": "Las Leonas ganaron la medalla de oro en los Juegos Suramericanos - Radio Sudamericana"
+  },
+  "2aa36f0d1827": {
+    "date": "2026-09-22",
+    "core": [
+      "atletismo",
+      "medallas",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "El atletismo sumó medallas para Argentina en los Juegos Suramericanos - ESPN Argentina",
+    "llm_rejected": "Titular vago sin especificar disciplina ni resultado"
+  },
+  "6234036ac6fd": {
+    "date": "2026-09-22",
+    "core": [
+      "bruggesser",
+      "dorada",
+      "leonas",
+      "sumo"
+    ],
+    "medal": "oro",
+    "title": "Bruggesser sumó otra medalla dorada con Las Leonas en los Juegos Suramericanos - El Eco",
+    "llm_merged": "repite el logro 449f034146fe del 2026-09-17"
+  },
+  "160f2e7d0612": {
+    "date": "2026-09-22",
+    "core": [
+      "batac",
+      "juninense",
+      "pumas"
+    ],
+    "medal": "oro",
+    "dup_of": "315a68c88220",
+    "title": "El juninense Batac se consagró campeón suramericano con Los Pumas 7s - Diario Democracia"
+  },
+  "8da35348cc71": {
+    "date": "2026-09-22",
+    "core": [
+      "dulor",
+      "leones",
+      "luca",
+      "tucumano"
+    ],
+    "medal": "oro",
+    "title": "El tucumano Luca Dulor ganó el oro con Los Leones en los Juegos Suramericanos - La Gaceta"
+  },
+  "a985849cfcbd": {
+    "date": "2026-09-22",
+    "core": [
+      "arranco",
+      "atletismo"
+    ],
+    "medal": "oro",
+    "title": "Suramericanos: arrancó el atletismo y Argentina ya ganó la primera medalla - launion.digital",
+    "llm_rejected": "Titular vago sin especificar disciplina ni resultado final"
+  },
+  "2f4d5d1ea457": {
+    "date": "2026-09-22",
+    "core": [
+      "leones",
+      "pentacampeones"
+    ],
+    "medal": "oro",
+    "title": "Los Leones, pentacampeones: Argentina ganó el oro en los Juegos Suramericanos - Cadena 3 Argentina",
+    "llm_merged": "mismo logro que 8da35348cc71"
+  },
+  "007d3ada7402": {
+    "date": "2026-09-22",
+    "core": [
+      "odesur",
+      "parana",
+      "softbol"
+    ],
+    "medal": "oro",
+    "title": "Sóftbol: en Paraná, Argentina le ganó al campeón del mundo por los Juegos Odesur - Análisis Digital"
+  },
+  "376a2c679001": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "leonas",
+      "leones",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "449f034146fe",
+    "title": "Los Leones y Las Leonas se consagraron campeones en los Juegos Suramericanos Santa Fe 2026 - Perfil"
+  },
+  "62298e6c9b20": {
+    "date": "2026-09-22",
+    "core": [
+      "arsen",
+      "conquista",
+      "julfalakyan"
+    ],
+    "medal": "oro",
+    "title": "Arsen Julfalakyan conquista el oro en los Juegos Suramericanos para Argentina - diariocronica.com.ar"
+  },
+  "61a2e44a5901": {
+    "date": "2026-09-22",
+    "core": [
+      "chile",
+      "goleada",
+      "imparables",
+      "leonas"
+    ],
+    "medal": "medalla",
+    "title": "Las Leonas, imparables en los Juegos Suramericanos: goleada ante Chile y medalla de oro - lanueva.com",
+    "llm_merged": "repite el logro 449f034146fe del 2026-09-17"
+  },
+  "65ddef75e8b1": {
+    "date": "2026-09-22",
+    "core": [
+      "14",
+      "2026",
+      "medallas",
+      "noveno",
+      "santa",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina sumó 14 medallas en el noveno día de los Juegos Suramericanos Santa Fe 2026 - Radio Rafaela"
+  },
+  "9187178f88ee": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "abrio",
+      "atletismo",
+      "medallas",
+      "plata",
+      "santa"
+    ],
+    "medal": "plata",
+    "dup_of": "2aa36f0d1827",
+    "title": "Juegos Suramericanos Santa Fe 2026: Argentina abrió el atletismo con dos medallas de plata - lt9.com.ar"
+  },
+  "a65991c1fc58": {
+    "date": "2026-09-22",
+    "core": [
+      "conquisto",
+      "matias",
+      "plata",
+      "reynaga",
+      "salteno"
+    ],
+    "medal": "plata",
+    "title": "¡Orgullo salteño! Matías Reynaga conquistó la plata para Argentina en los Juegos Suramericanos - Gente de Salta"
+  },
+  "6e18da0ad191": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "22",
+      "conquistaron",
+      "leonas",
+      "leones",
+      "septiembre"
+    ],
+    "medal": "oro",
+    "dup_of": "6136a18ddd1f",
+    "title": "Las Leonas y Los Leones conquistaron el oro en los Juegos Suramericanos | 22 de septiembre de 2026 - Hoy Día Córdoba"
+  },
+  "ac981a3891a1": {
+    "date": "2026-09-22",
+    "core": [
+      "chile",
+      "medallero",
+      "pentacampeones",
+      "sumo"
+    ],
+    "medal": "oro",
+    "title": "Pentacampeones suramericanos: Argentina venció a Chile por 3-1 en la final y sumó otro oro para el medallero - RedBoing",
+    "llm_merged": "mismo logro que 8da35348cc71"
+  },
+  "2a3bed926132": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "mantiene",
+      "medallero",
+      "puesto",
+      "santa",
+      "segundo"
+    ],
+    "medal": "plata",
+    "dup_of": "2aa36f0d1827",
+    "title": "Argentina mantiene el segundo puesto en el medallero de los Juegos Suramericanos Santa Fe 2026 - diariolaventana.com.ar"
+  },
+  "554831e45b18": {
+    "date": "2026-09-22",
+    "core": [
+      "hockey",
+      "leonas",
+      "leones"
+    ],
+    "medal": "oro",
+    "dup_of": "6136a18ddd1f",
+    "title": "El hockey argentino hizo historia en los Juegos Suramericanos | Los Leones y Las Leonas ganaron el oro - Nuevo Diario Web"
+  },
+  "70ed769ce35b": {
+    "date": "2026-09-22",
+    "core": [
+      "hockey",
+      "leonas",
+      "leones",
+      "quedaron"
+    ],
+    "medal": "oro",
+    "dup_of": "6136a18ddd1f",
+    "title": "Día histórico para el hockey argentino: Las Leonas y Los Leones se quedaron con el oro en los Juegos Suramericanos - Ambito"
+  },
+  "c05aff985407": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "arsen",
+      "grecorromana",
+      "julfalakyan",
+      "lucha"
+    ],
+    "medal": "oro",
+    "dup_of": "62298e6c9b20",
+    "title": "Arsen Julfalakyan ganó medalla de oro en lucha grecorromana para Argentina en los Juegos Suramericanos 2026 - Diario Armenia"
+  },
+  "6b990ad1a6af": {
+    "date": "2026-09-22",
+    "core": [
+      "2026",
+      "bronce",
+      "nelida",
+      "penaflor",
+      "santa",
+      "santiagueno"
+    ],
+    "medal": "bronce",
+    "dup_of": "ae194fdf1256",
+    "title": "Orgullo santiagueño | Nélida Peñaflor ganó la medalla de bronce en los Juegos Suramericanos Santa Fe 2026 - Nuevo Diario Web"
+  },
+  "a653873366c4": {
+    "date": "2026-09-22",
+    "core": [
+      "estoy",
+      "orgullosa",
+      "rionegrina"
+    ],
+    "medal": "oro",
+    "title": "La rionegrina que ganó una medalla de oro con la Selección Argentina en los Suramericanos: \"Estoy muy orgullosa\" - LM Cipolletti",
+    "llm_rejected": "Titular por deportista sin especificar disciplina ni competencia"
+  },
+  "e5603cb27576": {
+    "date": "2026-09-22",
+    "core": [
+      "ahora",
+      "armenio",
+      "medallista",
+      "olimpico",
+      "pais",
+      "representando"
+    ],
+    "medal": "oro",
+    "dup_of": "6aefedfb3d7d",
+    "title": "Es armenio, fue medallista olímpico y campeón del mundo con su país y ahora representando a Argentina ganó el oro en los Juegos Suramericanos - Radiofonica 100.7"
+  },
+  "892d69451939": {
+    "date": "2026-09-23",
+    "core": [
+      "4x100",
+      "cosecho",
+      "mixta",
+      "plata",
+      "posta"
+    ],
+    "medal": "plata",
+    "title": "Juegos Suramericanos: la posta 4x100 mixta cosechó otra medalla de plata para Argentina - La Capital"
+  },
+  "ac3eac0a12db": {
+    "date": "2026-09-23",
+    "core": [
+      "carne",
+      "edicion",
+      "limousin",
+      "obtuvo",
+      "plata"
+    ],
+    "medal": "plata",
+    "dup_of": "e57fa1d943bc",
+    "title": "Limousin Argentina obtuvo la medalla de plata en la 2ª edición del Campeonato Mundial de la Carne - Prensa Mercosur"
+  },
+  "962750e2772f": {
+    "date": "2026-09-23",
+    "core": [
+      "natalia",
+      "nelida",
+      "penaflor",
+      "podio",
+      "santiagueno",
+      "subieron",
+      "vera"
+    ],
+    "medal": "podio",
+    "title": "Orgullo santiagueño: Nélida Peñaflor y Natalia Vera se subieron al podio en los Juegos Suramericanos - Info del Estero",
+    "llm_rejected": "Titular por deportistas sin especificar disciplina ni resultado"
+  },
+  "145ea0556ace": {
+    "date": "2026-09-23",
+    "core": [
+      "bronce",
+      "neli",
+      "penaflor",
+      "santiagueno"
+    ],
+    "medal": "bronce",
+    "dup_of": "6d65361eb5e4",
+    "title": "¡Orgullo santiagueño! Neli Peñaflor ganó la medalla de bronce en los Juegos Suramericanos - Exclusiva | Plataforma de noticias"
   }
 }
