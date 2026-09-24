@@ -9425,5 +9425,249 @@
     "medal": "bronce",
     "dup_of": "6d65361eb5e4",
     "title": "¡Orgullo santiagueño! Neli Peñaflor ganó la medalla de bronce en los Juegos Suramericanos - Exclusiva | Plataforma de noticias"
+  },
+  "427b450a5f48": {
+    "date": "2026-09-23",
+    "core": [
+      "2026",
+      "plata"
+    ],
+    "medal": "oro",
+    "dup_of": "6c936b18de10",
+    "title": "Argentina ganó oro y plata en los Juegos Suramericanos 2026 - ESPN Argentina"
+  },
+  "bece9b10d753": {
+    "date": "2026-09-23",
+    "core": [
+      "50",
+      "alcanza",
+      "medallas"
+    ],
+    "medal": "oro",
+    "title": "Argentina alcanza las 50 medallas de oro en los Juegos Suramericanos - todojujuy.com",
+    "llm_rejected": "ranking/estadística acumulada, no un logro específico"
+  },
+  "53b8a0274acb": {
+    "date": "2026-09-23",
+    "core": [
+      "logro",
+      "lorenzo",
+      "mendocino",
+      "santiago"
+    ],
+    "medal": "oro",
+    "title": "El mendocino Santiago Lorenzo logró la medalla de oro en los Juegos Suramericanos - Diario Mendoza"
+  },
+  "e9d14fe7e618": {
+    "date": "2026-09-23",
+    "core": [
+      "11",
+      "abrio",
+      "atletismo",
+      "plata"
+    ],
+    "medal": "plata",
+    "title": "Argentina abrió el día 11 de los Juegos Suramericanos con una medalla de plata en atletismo - DeporTV",
+    "llm_merged": "repite el logro 892d69451939 del 2026-09-23"
+  },
+  "8e1eab430a6e": {
+    "date": "2026-09-23",
+    "core": [
+      "atleta",
+      "children",
+      "cumanesa",
+      "fitness",
+      "obtuvo",
+      "plata"
+    ],
+    "medal": "plata",
+    "dup_of": "e57fa1d943bc",
+    "title": "Atleta cumanesa obtuvo medalla de plata en el Sudamericano de Children Fitness en Argentina - Prensa Oriente"
+  },
+  "0a27d46c705f": {
+    "date": "2026-09-23",
+    "core": [
+      "arca",
+      "bronce",
+      "contreras",
+      "lograron",
+      "matias",
+      "neuquinos",
+      "wanda"
+    ],
+    "medal": "bronce",
+    "title": "Juegos Suramericanos: los neuquinos Wanda Arca y Matías Contreras lograron la medalla de bronce - Diario Río Negro"
+  },
+  "7aad9d3d2665": {
+    "date": "2026-09-23",
+    "core": [
+      "ahora",
+      "albiceleste",
+      "asia",
+      "carrera",
+      "jugo",
+      "seguira"
+    ],
+    "medal": "oro",
+    "title": "Fue campeón mundial con la selección, no jugó más con la albiceleste y ahora seguirá su carrera en Asia - La Capital",
+    "llm_rejected": "declaración sobre carrera futura, no un logro actual"
+  },
+  "80cf020bf4b2": {
+    "date": "2026-09-23",
+    "core": [
+      "desafectados",
+      "entrenamiento",
+      "fueron",
+      "lesion",
+      "miercole"
+    ],
+    "medal": "oro",
+    "title": "Selección Argentina: dos Campeones del Mundo fueron desafectados por lesión tras el entrenamiento del miércole... - Perfil",
+    "llm_rejected": "noticia sobre desafectaciones, no un logro"
+  },
+  "8e1954e5803d": {
+    "date": "2026-09-23",
+    "core": [
+      "desafectados",
+      "entrenamiento",
+      "fueron",
+      "lesion",
+      "miercoles"
+    ],
+    "medal": "oro",
+    "dup_of": "80cf020bf4b2",
+    "title": "Selección Argentina: dos Campeones del Mundo fueron desafectados por lesión tras el entrenamiento del miércoles - qpaso.ar"
+  },
+  "7d075da83911": {
+    "date": "2026-09-23",
+    "core": [
+      "50",
+      "cifuentes",
+      "llego",
+      "lorenzo",
+      "medallas",
+      "mesa",
+      "tenis"
+    ],
+    "medal": "oro",
+    "dup_of": "bece9b10d753",
+    "title": "Argentina llegó a las 50 medallas de oro en los Juegos Suramericanos: Cifuentes y Lorenzo se consagraron en tenis de mesa - Fenix951"
+  },
+  "84193e3714d2": {
+    "date": "2026-09-23",
+    "core": [
+      "50",
+      "cifuentes",
+      "lorenzo",
+      "medallas",
+      "mesa",
+      "supero",
+      "tenis"
+    ],
+    "medal": "oro",
+    "dup_of": "bece9b10d753",
+    "title": "Argentina superó las 50 medallas de oro en los Juegos Suramericanos: Cifuentes y Lorenzo se consagraron campeones en tenis de mesa - TN"
+  },
+  "67dc7a39cdec": {
+    "date": "2026-09-23",
+    "core": [
+      "2026",
+      "alexis",
+      "campo",
+      "eberhardt",
+      "familiar",
+      "santa",
+      "tirador",
+      "trabaja"
+    ],
+    "medal": "oro",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Alexis Eberhardt, el tirador argentino que trabaja en su campo familiar y ganó una medalla de oro en los Juegos Suramericanos Santa Fe 2026 - Clarin.com"
+  },
+  "479c7c766323": {
+    "date": "2026-09-24",
+    "core": [
+      "brasil",
+      "clasico",
+      "gladiadores"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: “Los Gladiadores\" le ganaron el clásico a Brasil - noticiasargentinas.com"
+  },
+  "60e9f6fc5864": {
+    "date": "2026-09-24",
+    "core": [
+      "209",
+      "mantiene",
+      "medallas",
+      "puesto",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Con 209 medallas, Argentina mantiene el segundo puesto en los Juegos Suramericanos - La Prensa Digital",
+    "llm_rejected": "ranking/estadística acumulada, no un logro específico"
+  },
+  "40156521bd5e": {
+    "date": "2026-09-24",
+    "core": [
+      "madison",
+      "modalidad"
+    ],
+    "medal": "oro",
+    "title": "La selección Argentina ganó el oro en la modalidad de Madison de los Sudamericanos - mendozatoday.com.ar"
+  },
+  "6179c670c288": {
+    "date": "2026-09-24",
+    "core": [
+      "2026",
+      "cosecho",
+      "mesa",
+      "santa",
+      "tenis"
+    ],
+    "medal": "oro",
+    "dup_of": "2c9ef016ac9c",
+    "title": "El tenis de mesa argentino cosechó la medalla de oro en los Juegos Suramericanos Santa Fe 2026 - Cuestión Entrerriana"
+  },
+  "025a71a2062e": {
+    "date": "2026-09-24",
+    "core": [
+      "agradecio",
+      "atleta",
+      "ayudaron",
+      "quienes",
+      "remontada",
+      "rifa"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos: una atleta argentina ganó el oro con una remontada y agradeció a quienes la ayudaron con una rifa - La Nación"
+  },
+  "5d5cd54feda0": {
+    "date": "2026-09-24",
+    "core": [
+      "atletismo",
+      "conseguir",
+      "dorada",
+      "levaggi",
+      "micaela",
+      "rifas",
+      "vender"
+    ],
+    "medal": "oro",
+    "title": "Micaela Levaggi, de vender rifas a conseguir la primera medalla dorada al atletismo argentino en los Juegos Suramericanos - Clarin.com",
+    "llm_merged": "mismo logro que 025a71a2062e"
+  },
+  "945d27b1025a": {
+    "date": "2026-09-24",
+    "core": [
+      "dedos",
+      "dorada",
+      "ensangrentados",
+      "escalada",
+      "termino",
+      "todo"
+    ],
+    "medal": "oro",
+    "title": "Terminó con los dedos ensangrentados y le dio la medalla dorada a la Argentina en escalada en los Juegos Suramericanos: \"Di todo\" - Clarin.com"
   }
 }
