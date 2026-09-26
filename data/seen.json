@@ -9898,5 +9898,252 @@
     "medal": "oro",
     "dup_of": "c1a6e5adabf7",
     "title": "Nacieron en Bolivia, eligieron a Argentina y ganaron las medallas de oro y plata en los Juegos Suramericanos 2026: quiénes son María José Vargas y Natalia Méndez - Radio Mitre"
+  },
+  "2cd923a5ba2a": {
+    "date": "2026-09-24",
+    "core": [
+      "empanada",
+      "mundiales",
+      "pizza",
+      "salta",
+      "saltenos"
+    ],
+    "medal": "plata",
+    "title": "¡De Salta al mundo! Dos salteños se consagraron subcampeones mundiales de pizza y empanada - Salta Soy",
+    "llm_rejected": "Repite logro ya publicado (49 y 45)"
+  },
+  "78ee32a4dcef": {
+    "date": "2026-09-24",
+    "core": [
+      "andrea",
+      "boyacense",
+      "conquisto",
+      "ramirez",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Boyacense Andrea Ramírez conquistó el oro en los Juegos Suramericanos de Santa Fe, Argentina - Boyaca Radio",
+    "llm_rejected": "Deportista de otro país (Colombia) representando a Argentina"
+  },
+  "eb94e630538a": {
+    "date": "2026-09-25",
+    "core": [
+      "femenino",
+      "padel"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó el oro en pádel femenino en los Juegos Suramericanos - Rafaela Noticias"
+  },
+  "9f92802bf7cf": {
+    "date": "2026-09-25",
+    "core": [
+      "mateo",
+      "mendocino",
+      "plata"
+    ],
+    "medal": "plata",
+    "dup_of": "299935a3c4bd",
+    "title": "El mendocino Mateo Di Leo ganó la medalla de plata en los Juegos Suramericanos - Diario Mendoza"
+  },
+  "00f64867a98d": {
+    "date": "2026-09-25",
+    "core": [
+      "belen",
+      "consiguio",
+      "mosca"
+    ],
+    "medal": "oro",
+    "title": "Histórico: Belén Mosca consiguió el Oro para Argentina en los Suramericanos - Diario UNO Arrecifes"
+  },
+  "9110b66bda38": {
+    "date": "2026-09-25",
+    "core": [
+      "2026",
+      "canotaje",
+      "medallas",
+      "tres"
+    ],
+    "medal": "oro",
+    "dup_of": "e1c6bb6f8239",
+    "title": "Tres medallas de oro más para Argentina en canotaje en los Juegos Suramericanos 2026 - ellitoral.com"
+  },
+  "b2fb65606212": {
+    "date": "2026-09-25",
+    "core": [
+      "brillar",
+      "canotaje",
+      "imparable",
+      "oros",
+      "tres",
+      "volvio"
+    ],
+    "medal": "oro",
+    "title": "Canotaje imparable: Argentina ganó tres oros y volvió a brillar en los Juegos Suramericanos - DeporTV"
+  },
+  "8a44db84ecbe": {
+    "date": "2026-09-25",
+    "core": [
+      "4x400",
+      "finalizo",
+      "masculina",
+      "posta",
+      "segunda",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "La posta 4x400 masculina de Argentina finalizó segunda y sumó medalla en los Suramericanos - ellitoral.com"
+  },
+  "54165bf1dda8": {
+    "date": "2026-09-25",
+    "core": [
+      "logro",
+      "rosarina",
+      "tenis"
+    ],
+    "medal": "oro",
+    "title": "Una rosarina logró la primera medalla de oro para el tenis argentino en los Juegos Suramericanos - Rosario3"
+  },
+  "02fece7c7882": {
+    "date": "2026-09-25",
+    "core": [
+      "2026",
+      "masculino",
+      "padel",
+      "plata",
+      "santa"
+    ],
+    "medal": "plata",
+    "dup_of": "02c40e470cf9",
+    "title": "Argentina ganó la medalla de plata en pádel masculino de los Juegos Suramericanos Santa Fe 2026 - Radio Rafaela"
+  },
+  "d401ede667fa": {
+    "date": "2026-09-25",
+    "core": [
+      "2026",
+      "4x400",
+      "mixta",
+      "posta",
+      "santa"
+    ],
+    "medal": "oro",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina ganó la medalla de oro en la posta 4x400 mixta en los Juegos Suramericanos Santa Fe 2026 - Radio LV11"
+  },
+  "e662211d4f6d": {
+    "date": "2026-09-25",
+    "core": [
+      "entrerriana",
+      "garro",
+      "magdalena",
+      "segunda"
+    ],
+    "medal": "oro",
+    "title": "La entrerriana Magdalena Garro ganó su segunda medalla de oro en los Juegos Suramericanos - chajarialdia.com.ar"
+  },
+  "18e3e356461d": {
+    "date": "2026-09-25",
+    "core": [
+      "4x400",
+      "finalizo",
+      "masculina",
+      "posta",
+      "segunda",
+      "sumo",
+      "video"
+    ],
+    "medal": "medalla",
+    "dup_of": "8a44db84ecbe",
+    "title": "[Video] La posta 4x400 masculina de Argentina finalizó segunda y sumó medalla en los Suramericanos - ellitoral.com"
+  },
+  "3c9570a203b2": {
+    "date": "2026-09-25",
+    "core": [
+      "futbol",
+      "paraguay",
+      "penales",
+      "plata",
+      "quedo"
+    ],
+    "medal": "plata",
+    "title": "Juegos Suramericanos: Paraguay se quedó con el oro por penales y Argentina es medalla de plata en fútbol - Rosario3",
+    "llm_rejected": "Fútbol es torneo de selecciones pero perdió la final (subcampeón)"
+  },
+  "c02357b9ee17": {
+    "date": "2026-09-25",
+    "core": [
+      "ahora",
+      "anos",
+      "castelar",
+      "empezo",
+      "hacer",
+      "representando",
+      "tumbling"
+    ],
+    "medal": "oro",
+    "title": "Empezó a hacer tumbling a los 6 años en Castelar y ahora es campeona Sudamericana representando a Argentina - Viví el Oeste"
+  },
+  "9fe487ca5ef4": {
+    "date": "2026-09-25",
+    "core": [
+      "caer",
+      "futbol",
+      "paraguay",
+      "penales",
+      "plata",
+      "quedo"
+    ],
+    "medal": "plata",
+    "dup_of": "3c9570a203b2",
+    "title": "La Selección Argentina de fútbol se quedó con la medalla de plata en los Juegos Suramericanos tras caer ante Paraguay por penales - El Esquiu"
+  },
+  "ef215cb901df": {
+    "date": "2026-09-26",
+    "core": [
+      "arroyo",
+      "logro",
+      "plata",
+      "rionegrino",
+      "voley"
+    ],
+    "medal": "plata",
+    "title": "Vóley: con el rionegrino Arroyo, Argentina logró la medalla de plata en los Juegos Suramericanos - Diario Río Negro",
+    "llm_merged": "repite el logro 184d4df18000 del 2026-09-20"
+  },
+  "c39fa1a510d5": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "feva",
+      "plateada",
+      "quedo"
+    ],
+    "medal": "oro",
+    "dup_of": "35e2249636a0",
+    "title": "Argentina se quedó con la medalla plateada en los Juegos Suramericanos 2026 - FeVA - Federación del Voleibol Argentino"
+  },
+  "dd3990306b2a": {
+    "date": "2026-09-26",
+    "core": [
+      "giovannini",
+      "jazmin",
+      "luisina",
+      "ortenzi",
+      "tenis"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos: medalla de oro para Argentina en tenis con Luisina Giovannini y Jazmín Ortenzi - Cuestión Entrerriana"
+  },
+  "675416814d65": {
+    "date": "2026-09-26",
+    "core": [
+      "colgo",
+      "german",
+      "gomez",
+      "notable",
+      "plata"
+    ],
+    "medal": "plata",
+    "dup_of": "184d4df18000",
+    "title": "Con un notable Germán Gómez, Argentina se colgó la medalla de plata en los Suramericanos - Diario El Libertador de Corrientes"
   }
 }
