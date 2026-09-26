@@ -9,76 +9,110 @@
 <meta property="og:title" content="Otra Coronación de Gloria — argentinos en podios mundiales y continentales">
 <meta property="og:description" content="Me despierto → otra coronación de gloria. El rastreador que revisa las noticias cada mañana y te avisa cuando Argentina se sube a un podio mundial o continental. Del deporte al asado.">
 <meta property="og:url" content="https://otracoronacion.github.io/">
-<meta property="og:image" content="https://otracoronacion.github.io/assets/og-card.png">
+<meta property="og:image" content="https://otracoronacion.github.io/assets/og-card.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="es_AR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Otra Coronación de Gloria">
 <meta name="twitter:description" content="Argentinos en podios mundiales y continentales, todas las mañanas. Suscribite y despertate coronado.">
-<meta name="twitter:image" content="https://otracoronacion.github.io/assets/og-card.png">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<meta name="twitter:image" content="https://otracoronacion.github.io/assets/og-card.jpg">
+<meta name="theme-color" content="#232850">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --celeste:#74ACDF; --celeste-deep:#3E7CB1; --navy:#152A45;
-    --gold:#C9A227; --gold-soft:#E8D48B;
-    --paper:#FBF8F1; --ink:#1C2B3A; --muted:#5D6B7A;
+    /* Paleta tomada del póster: el navy del fondo, el amarillo de la corona
+       y el azul del tramado de la hinchada. */
+    --navy:#232850; --navy-deep:#191D3E; --azul:#444C9E; --azul-claro:#5A63C4;
+    --amarillo:#E7DA74; --oro:#8A7412;
+    --paper:#FBF8F1; --ink:#1C2033; --muted:#5E6376;
     --card:#FFFFFF; --line:#E7E0D2;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
-  .hero{background:linear-gradient(175deg,var(--navy) 0%, #1E3A5F 55%, var(--celeste-deep) 130%);color:#fff;padding:72px 20px 96px;text-align:center;position:relative;overflow:hidden}
+  /* La corona del póster, recortada sobre transparente y usada como máscara:
+     un solo archivo que toma el color del contexto donde se lo ponga. */
+  .corona{display:inline-block;background-color:currentColor;vertical-align:-.16em;
+    -webkit-mask:url(assets/corona.png) center/contain no-repeat;
+            mask:url(assets/corona.png) center/contain no-repeat}
+
+  /* El fondo es un recorte del papel del propio póster (mismo navy, mismo grano):
+     los costados del recorte vertical se funden en vez de cortar contra un plano. */
+  .hero{background:var(--navy) url(assets/textura.jpg) center/380px repeat;color:#fff;text-align:center;position:relative;overflow:hidden}
   .hero::after{content:"";position:absolute;inset:auto 0 -1px 0;height:60px;background:var(--paper);clip-path:ellipse(60% 100% at 50% 100%)}
-  .sol{font-size:44px;margin-bottom:18px;display:inline-block;filter:drop-shadow(0 0 18px rgba(232,212,139,.65))}
-  .hero h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2.4rem,6vw,4.3rem);line-height:1.05;letter-spacing:-.5px}
-  .hero h1 .gloria{color:var(--gold-soft);font-style:italic}
-  .anthem{margin-top:14px;font-family:'Fraunces',serif;font-style:italic;font-size:clamp(1rem,2.2vw,1.25rem);color:#C9D8EA}
-  .anthem2{margin-top:4px;font-family:'Fraunces',serif;font-style:italic;font-size:clamp(.88rem,1.9vw,1.05rem);color:#9DB4CC}
-  .hero p.sub{max-width:620px;margin:22px auto 0;font-size:1.05rem;color:#DCE7F2}
+  /* El póster ya trae el título adentro, así que entra como imagen y el h1 se
+     va a lectores de pantalla. Los bordes se funden con el navy de la sección
+     para que se vea full-bleed en cualquier pantalla. */
+  /* El póster es vertical: se lo ata al alto de la ventana (aspecto 3:4) para
+     que nunca se coma la pantalla entera y el botón de WhatsApp quede a la vista. */
+  .poster{display:block;width:min(100%,470px,40vh);height:auto;margin:0 auto;
+    -webkit-mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),
+                 linear-gradient(#000 78%,transparent);
+            mask:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),
+                 linear-gradient(#000 78%,transparent);
+    -webkit-mask-composite:source-in;mask-composite:intersect}
+  .hero-texto{padding:0 20px 68px;margin-top:-76px;position:relative;z-index:1}
+  .anthem{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(1rem,2.2vw,1.25rem);color:#C6C9E8}
+  .anthem2{margin-top:4px;font-family:'Fraunces',serif;font-style:italic;font-size:clamp(.88rem,1.9vw,1.05rem);color:#9CA1CC}
+  .hero p.sub{max-width:620px;margin:22px auto 0;font-size:1.05rem;color:#DCDEF0}
   .band{display:flex;justify-content:center;gap:8px;margin-top:26px}
   .band span{width:52px;height:6px;border-radius:3px}
-  .band .c{background:var(--celeste)} .band .w{background:#fff} .band .g{background:var(--gold)}
+  .band .c{background:var(--azul-claro)} .band .w{background:#fff} .band .g{background:var(--amarillo)}
+
+  /* En el teléfono el póster va a sangre: el recorte vertical no molesta y
+     la foto llena la pantalla como un afiche. */
+  @media (max-width:700px){
+    .poster{width:100%}
+    .hero p.sub{font-size:.98rem;margin-top:18px}
+    .hero-texto{padding-bottom:56px}
+  }
 
   .wrap{max-width:860px;margin:0 auto;padding:0 20px}
 
-  .signup{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 40px rgba(21,42,69,.10);padding:30px 28px;margin:-38px auto 0;position:relative;z-index:2;text-align:center}
+  .signup{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 40px rgba(25,29,62,.12);padding:30px 28px;margin:-38px auto 0;position:relative;z-index:2;text-align:center}
   .signup h2{font-family:'Fraunces',serif;font-size:1.5rem;margin-bottom:6px}
   .signup p{color:var(--muted);font-size:.95rem;max-width:520px;margin:0 auto 18px}
   .signup form{display:flex;gap:10px;max-width:460px;margin:0 auto;flex-wrap:wrap;justify-content:center}
   .signup input[type=email]{flex:1;min-width:220px;padding:13px 16px;border:1.5px solid var(--line);border-radius:12px;font-size:1rem;font-family:inherit;background:#FDFCF9}
-  .signup input[type=email]:focus{outline:none;border-color:var(--celeste-deep)}
-  .signup button{padding:13px 22px;border:none;border-radius:12px;background:var(--celeste-deep);color:#fff;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;transition:background .15s}
+  .signup input[type=email]:focus{outline:none;border-color:var(--azul)}
+  .signup button{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border:none;border-radius:12px;background:var(--azul);color:#fff;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;transition:background .15s}
   .signup button:hover{background:var(--navy)}
+  .signup button .corona{color:var(--amarillo);width:20px;height:20px}
   .signup .fine{font-size:.78rem;color:var(--muted);margin-top:12px}
 
   .meme{margin:40px auto 6px;text-align:center;max-width:460px}
-  .meme img{width:100%;max-width:330px;border-radius:18px;border:1px solid var(--line);box-shadow:0 14px 34px rgba(21,42,69,.14)}
+  .meme img{width:100%;max-width:330px;border-radius:18px;border:1px solid var(--line);box-shadow:0 14px 34px rgba(25,29,62,.16)}
   .meme p{margin-top:14px;font-size:.92rem;color:var(--muted);max-width:420px;margin-left:auto;margin-right:auto}
 
   .stats{display:flex;justify-content:center;gap:14px;margin:38px 0 8px;flex-wrap:wrap}
   .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 22px;text-align:center;min-width:110px}
   .stat b{display:block;font-family:'Fraunces',serif;font-size:1.7rem}
   .stat span{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .stat span .corona{color:var(--oro);width:15px;height:15px}
 
   .feed{margin:34px 0 60px}
-  .feed h2{font-family:'Fraunces',serif;font-size:1.8rem;margin-bottom:4px}
+  .feed h2{font-family:'Fraunces',serif;font-size:1.8rem;margin-bottom:4px;display:flex;align-items:center;gap:12px}
+  .feed h2 .corona{color:var(--oro);width:30px;height:30px;flex:none}
   .feed .sub{color:var(--muted);font-size:.92rem;margin-bottom:22px}
   .event{display:flex;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:14px;align-items:flex-start;transition:transform .12s, box-shadow .12s}
-  .event:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(21,42,69,.08)}
-  .event.destacado{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,162,39,.20)}
-  .medal{font-size:1.9rem;line-height:1;margin-top:2px}
+  .event:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(25,29,62,.09)}
+  .event.destacado{border-color:var(--amarillo);box-shadow:0 0 0 3px rgba(231,218,116,.45)}
+  .medal{font-size:1.9rem;line-height:1;margin-top:2px;flex:none;width:34px;text-align:center}
+  .medal .corona{color:var(--oro);width:30px;height:30px}
   .event h3{font-size:1.02rem;font-weight:600;line-height:1.4}
   .event h3 a{color:var(--ink);text-decoration:none}
-  .event h3 a:hover{color:var(--celeste-deep);text-decoration:underline}
+  .event h3 a:hover{color:var(--azul);text-decoration:underline}
   .meta{font-size:.82rem;color:var(--muted);margin-top:6px}
-  .meta .tag{display:inline-block;background:#F1EBDD;border-radius:999px;padding:1px 10px;margin-right:8px;font-weight:600;color:#8A7420}
+  .meta .tag{display:inline-block;background:#F6F0DC;border-radius:999px;padding:1px 10px;margin-right:8px;font-weight:600;color:var(--oro)}
   .meta .scope{display:inline-block;border-radius:999px;padding:1px 10px;margin-right:8px;font-weight:600;font-size:.74rem;letter-spacing:.03em;text-transform:uppercase}
-  .meta .scope.mundial{background:#E6EEF7;color:#2F5D8A}
+  .meta .scope.mundial{background:#E8EAF6;color:#3A4290}
   .meta .scope.continental{background:#EAF3E8;color:#4A7A4E}
   .share{display:inline-block;background:#25D366;color:#fff;border-radius:999px;padding:2px 12px;margin-left:8px;font-weight:700;font-size:.76rem;text-decoration:none;vertical-align:middle}
   .share:hover{background:#1DA851}
@@ -90,10 +124,11 @@
   .divisor{display:flex;align-items:center;gap:14px;max-width:430px;margin:24px auto 18px;color:var(--muted);font-size:.8rem;letter-spacing:.04em}
   .divisor::before,.divisor::after{content:"";flex:1;height:1px;background:var(--line)}
   .empty{background:var(--card);border:1.5px dashed var(--line);border-radius:16px;padding:44px 24px;text-align:center;color:var(--muted)}
-  .empty .mate{font-size:2.2rem;margin-bottom:10px}
+  .empty .corona{color:var(--amarillo);width:56px;height:56px;margin-bottom:12px}
 
-  footer{background:var(--navy);color:#B9C9DB;padding:36px 20px;text-align:center;font-size:.88rem}
-  footer a{color:var(--gold-soft);text-decoration:none}
+  footer{background:var(--navy) url(assets/textura.jpg) center/380px repeat;color:#B7BBDA;padding:36px 20px;text-align:center;font-size:.88rem}
+  footer .corona{color:var(--amarillo);width:34px;height:34px;margin-bottom:14px}
+  footer a{color:var(--amarillo);text-decoration:none}
   footer a:hover{text-decoration:underline}
   footer .sep{margin:0 10px;opacity:.5}
 </style>
@@ -101,12 +136,14 @@
 <body>
 
 <header class="hero">
-  <span class="sol">☀️</span>
-  <h1>Otra Coronación<br>de <span class="gloria">Gloria</span></h1>
-  <p class="anthem">«Coronados de gloria vivamos…»</p>
-  <p class="anthem2">y acá las contamos todas.</p>
-  <p class="sub">Un rastreador automático que revisa las noticias todas las mañanas, tempranito, buscando argentinos y argentinas que salieron <strong>primeros, segundos o terceros</strong> en cualquier competencia mundial o continental. Fútbol, hockey, matemática, asado, tango, lo que sea. Si hay podio, te despertás coronado.</p>
-  <div class="band"><span class="c"></span><span class="w"></span><span class="g"></span><span class="w"></span><span class="c"></span></div>
+  <h1 class="sr-only">Otra Coronación de Gloria</h1>
+  <img class="poster" src="assets/hero-poster.jpg" width="940" height="1253" alt="Otra coronación de gloria" fetchpriority="high">
+  <div class="hero-texto">
+    <p class="anthem">«Coronados de gloria vivamos…»</p>
+    <p class="anthem2">y acá las contamos todas.</p>
+    <p class="sub">Un rastreador automático que revisa las noticias todas las mañanas, tempranito, buscando argentinos y argentinas que salieron <strong>primeros, segundos o terceros</strong> en cualquier competencia mundial o continental. Fútbol, hockey, matemática, asado, tango, lo que sea. Si hay podio, te despertás coronado.</p>
+    <div class="band"><span class="c"></span><span class="w"></span><span class="g"></span><span class="w"></span><span class="c"></span></div>
+  </div>
 </header>
 
 <div class="wrap">
@@ -120,7 +157,7 @@
 
     <form action="https://buttondown.com/api/emails/embed-subscribe/coronadosdegloria" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/coronadosdegloria','popupwindow')">
       <input type="email" name="email" placeholder="tu@email.com" required>
-      <button type="submit">Quiero enterarme 🏆</button>
+      <button type="submit">Quiero enterarme <i class="corona" aria-hidden="true"></i></button>
     </form>
     <p class="fine">Confirmás con un click desde tu correo. Te podés dar de baja cuando quieras.</p>
   </section>
@@ -134,16 +171,18 @@
     <div class="stat"><b id="n-oro">0</b><span>🥇 oros</span></div>
     <div class="stat"><b id="n-plata">0</b><span>🥈 platas</span></div>
     <div class="stat"><b id="n-bronce">0</b><span>🥉 bronces</span></div>
+    <div class="stat" id="stat-medalla" hidden><b id="n-medalla">0</b><span><i class="corona" aria-hidden="true"></i> medallas</span></div>
   </div>
 
   <section class="feed">
-    <h2>Últimas coronaciones</h2>
+    <h2><i class="corona" aria-hidden="true"></i> Últimas coronaciones</h2>
     <p class="sub">Detectadas automáticamente en la prensa. Actualizado cada mañana.</p>
     <div id="events"></div>
   </section>
 </div>
 
 <footer>
+  <i class="corona" aria-hidden="true"></i>
   <p>Hecho con orgullo y un poco de código 🧉</p>
   <p style="margin-top:8px">
     <a href="mailto:otracoronacion@gmail.com?subject=Se%20les%20escap%C3%B3%20una%20coronaci%C3%B3n">¿Nos perdimos alguna? Avisanos</a>
@@ -157,6 +196,12 @@
 <script>
 const MEDAL = {oro:"🥇", plata:"🥈", bronce:"🥉", medalla:"🏅", podio:"🏅"};
 const MEDAL_NAME = {oro:"Oro", plata:"Plata", bronce:"Bronce", medalla:"Medalla", podio:"Podio"};
+// Lo que se DIBUJA en la tarjeta. Aparte de MEDAL a propósito: ese mapa viaja
+// en el mensaje de WhatsApp y tiene que seguir siendo idéntico al de
+// send_email.py, así que el emoji de texto no se toca. Acá, cuando no hay
+// color de medalla, en vez del 🏅 genérico va la corona del póster.
+const CORONA = '<i class="corona" aria-hidden="true"></i>';
+function medalHTML(m){ return (m === "oro" || m === "plata" || m === "bronce") ? MEDAL[m] : CORONA; }
 const SITIO = "https://otracoronacion.github.io/";
 const CANAL = "https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P";
 
@@ -180,20 +225,21 @@ fetch("data/podios.json", {cache:"no-store"})
   .then(events => {
     const box = document.getElementById("events");
     if (!events || events.length === 0) {
-      box.innerHTML = `<div class="empty"><div class="mate">🧉⏳</div>
+      box.innerHTML = `<div class="empty"><i class="corona" aria-hidden="true"></i><br>
         Todavía no registramos coronaciones — el rastreador corre todas las mañanas.<br>
         Suscribite arriba y sé el primero en enterarte de la próxima.</div>`;
       return;
     }
-    const counts = {oro:0, plata:0, bronce:0};
+    const counts = {oro:0, plata:0, bronce:0, medalla:0};
     box.innerHTML = events.map(ev => {
       if (counts[ev.medal] !== undefined) counts[ev.medal]++;
+      else counts.medalla++;
       const d = new Date(ev.date + "T12:00:00");
       const fecha = isNaN(d) ? ev.date : d.toLocaleDateString("es-AR", {day:"numeric", month:"long", year:"numeric"});
       const src = ev.source ? ` · ${esc(ev.source)}` : "";
       const waText = encodeURIComponent(mensajeCompartir(ev));
       return `<article class="event" id="e-${esc(ev.id)}">
-        <div class="medal">${MEDAL[ev.medal] || "🏅"}</div>
+        <div class="medal">${medalHTML(ev.medal)}</div>
         <div><h3><a href="${esc(ev.url)}" rel="noopener" target="_blank">${esc(ev.title)}</a></h3>
         <div class="meta"><span class="tag">${MEDAL_NAME[ev.medal] || "Podio"}</span><span class="scope ${ev.scope === "continental" ? "continental" : "mundial"}">${ev.scope === "continental" ? "Continental" : "Mundial"}</span>${fecha}${src}<a class="share" href="https://wa.me/?text=${waText}" rel="noopener" target="_blank">📲 WhatsApp</a></div></div>
       </article>`;
@@ -203,6 +249,10 @@ fetch("data/podios.json", {cache:"no-store"})
       document.getElementById("n-oro").textContent = counts.oro;
       document.getElementById("n-plata").textContent = counts.plata;
       document.getElementById("n-bronce").textContent = counts.bronce;
+      if (counts.medalla > 0) {
+        document.getElementById("stat-medalla").hidden = false;
+        document.getElementById("n-medalla").textContent = counts.medalla;
+      }
     }
     // El feed se dibuja después del fetch, así que el salto nativo al #hash
     // ya pasó: hay que hacerlo a mano cuando alguien llega por un compartido.
