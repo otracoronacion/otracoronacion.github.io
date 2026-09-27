@@ -10145,5 +10145,259 @@
     "medal": "plata",
     "dup_of": "184d4df18000",
     "title": "Con un notable Germán Gómez, Argentina se colgó la medalla de plata en los Suramericanos - Diario El Libertador de Corrientes"
+  },
+  "02782ada0cda": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "podio",
+      "santa"
+    ],
+    "medal": "podio",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Juegos Suramericanos Santa Fe 2026: podio para Argentina - Cuestión Entrerriana"
+  },
+  "6d8e0929f812": {
+    "date": "2026-09-26",
+    "core": [
+      "plata",
+      "river"
+    ],
+    "medal": "plata",
+    "title": "Orgullo de River: Medalla de Plata para Argentina en el Sudamericano - Soy del Millo",
+    "llm_rejected": "Titular vago sin disciplina; no especifica qué deporte"
+  },
+  "693872048e37": {
+    "date": "2026-09-26",
+    "core": [
+      "cerraron",
+      "dorada",
+      "gladiadores"
+    ],
+    "medal": "oro",
+    "title": "Los Gladiadores cerraron los Juegos Suramericanos con la medalla dorada - NewsDigitales"
+  },
+  "bd8d351e320d": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "bronce",
+      "mesa",
+      "quedo",
+      "tenis"
+    ],
+    "medal": "bronce",
+    "dup_of": "3f402e909c9b",
+    "title": "Juegos Suramericanos 2026: Argentina se quedó con el bronce en tenis de mesa - lt9.com.ar"
+  },
+  "d16eccdeb12a": {
+    "date": "2026-09-26",
+    "core": [
+      "81",
+      "cerro",
+      "medallas",
+      "segunda",
+      "termino"
+    ],
+    "medal": "medalla",
+    "title": "Argentina cerró los Juegos Suramericanos con 81 medallas de oro y terminó segunda - Diario TAG",
+    "llm_rejected": "Ranking/medallero general, no logro específico"
+  },
+  "477cf253bc1c": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "plateada",
+      "quedo"
+    ],
+    "medal": "oro",
+    "dup_of": "35e2249636a0",
+    "title": "Argentina se quedó con la medalla plateada en los Juegos Suramericanos 2026 - Diario Uno Santa Fe"
+  },
+  "c801c8049e90": {
+    "date": "2026-09-26",
+    "core": [
+      "medallas",
+      "primeras",
+      "sumo",
+      "ultimo"
+    ],
+    "medal": "medalla",
+    "title": "Argentina sumó sus primeras medallas en el último día de los Juegos Suramericanos - deportv.gob.ar",
+    "llm_rejected": "Titular vago sin disciplina específica"
+  },
+  "3562caa683fc": {
+    "date": "2026-09-26",
+    "core": [
+      "2027",
+      "gladiadores",
+      "lima",
+      "pasaje",
+      "saco"
+    ],
+    "medal": "oro",
+    "title": "Gladiadores de oro: Argentina se consagró y sacó pasaje a los Panamericanos de Lima 2027 - Elonce.com",
+    "llm_merged": "mismo logro que 693872048e37"
+  },
+  "b357afced87b": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "chile",
+      "empataron",
+      "gladiadores"
+    ],
+    "medal": "oro",
+    "title": "Juegos Suramericanos 2026: Los Gladiadores empataron con Chile y se consagraron campeones - Los Andes",
+    "llm_merged": "mismo logro que 693872048e37"
+  },
+  "1f1a58b33b0e": {
+    "date": "2026-09-26",
+    "core": [
+      "medallero",
+      "meritorio",
+      "puesto",
+      "quedo",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Argentina se quedó con un meritorio segundo puesto en los Juegos Suramericanos: el medallero - Diario UNO",
+    "llm_rejected": "Ranking/medallero general, segundo puesto en juegos"
+  },
+  "e9e6e3d25303": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "medallero",
+      "puesto",
+      "santa",
+      "segundo"
+    ],
+    "medal": "plata",
+    "dup_of": "1f1a58b33b0e",
+    "title": "Histórico segundo puesto para Argentina en los Juegos Suramericanos Santa Fe 2026: el medallero final - C5N"
+  },
+  "a3f147424c34": {
+    "date": "2026-09-26",
+    "core": [],
+    "medal": "oro",
+    "title": "Argentina se consagró campeón y ganó la medalla de oro en los Juegos Suramericanos - El Diario de Carlos Paz",
+    "llm_rejected": "Titular vago sin disciplina específica"
+  },
+  "32eab2ae42e2": {
+    "date": "2026-09-26",
+    "core": [
+      "chile",
+      "empate",
+      "gladiadores",
+      "quedaron",
+      "vibrante"
+    ],
+    "medal": "oro",
+    "dup_of": "b357afced87b",
+    "title": "Los Gladiadores se quedaron con el oro en los Juegos Suramericanos tras un vibrante empate con Chile - La Nación"
+  },
+  "14ae1ecd38d7": {
+    "date": "2026-09-26",
+    "core": [
+      "angustia",
+      "cierre",
+      "gladiadores",
+      "handball",
+      "lograron"
+    ],
+    "medal": "oro",
+    "title": "Los Gladiadores lograron el oro en handball con angustia sobre el cierre de los Juegos Suramericanos - deportv.gob.ar",
+    "llm_merged": "mismo logro que 693872048e37"
+  },
+  "8a4507108aaa": {
+    "date": "2026-09-26",
+    "core": [
+      "cinco",
+      "jornada",
+      "medallas",
+      "misioneros",
+      "sumaron"
+    ],
+    "medal": "medalla",
+    "title": "Juegos Suramericanos: los misioneros sumaron cinco medallas en una jornada histórica para Argentina - Canal Doce Misiones",
+    "llm_rejected": "Titular vago sin especificar disciplinas de las cinco medallas"
+  },
+  "ecd01a5c0cb6": {
+    "date": "2026-09-26",
+    "core": [
+      "castelar",
+      "florencia",
+      "greco",
+      "kickboxing",
+      "sacrificio",
+      "vecina"
+    ],
+    "medal": "oro",
+    "title": "El sacrificio de Florencia Greco, la vecina de Castelar que es la primera argentina campeona mundial de kickboxing - Zonales",
+    "llm_rejected": "Celebración/reacción posterior al logro ya publicado"
+  },
+  "83bf16b5a250": {
+    "date": "2026-09-26",
+    "core": [
+      "abud",
+      "conquistan",
+      "dehnike",
+      "hacen",
+      "mosca",
+      "paraguay",
+      "vilchez"
+    ],
+    "medal": "oro",
+    "title": "Paraguay y Argentina hacen historia: Abud-Dehnike y Vilchez-Mosca conquistan el oro en los Juegos Suramericanos - elneverazo"
+  },
+  "91ce6cb28c0e": {
+    "date": "2026-09-26",
+    "core": [
+      "correntino",
+      "encabezo",
+      "lautaro",
+      "midon",
+      "podio"
+    ],
+    "medal": "oro",
+    "title": "El correntino Lautaro Midón ganó el oro en los Juegos Suramericanos y encabezó un podio argentino - El Litoral | Novedades de Corrientes"
+  },
+  "897c0630ba2e": {
+    "date": "2026-09-27",
+    "core": [
+      "puesto",
+      "segundo"
+    ],
+    "medal": "plata",
+    "dup_of": "1f1a58b33b0e",
+    "title": "Histórico segundo puesto para Argentina en los Juegos Suramericanos - El Diario de Carlos Paz"
+  },
+  "ff7c3bded002": {
+    "date": "2026-09-27",
+    "core": [
+      "medallas",
+      "ocho",
+      "santa",
+      "tenis"
+    ],
+    "medal": "oro",
+    "title": "Histórico: el tenis argentino ganó ocho medallas en los Juegos Suramericanos de Santa Fe - Infobae",
+    "llm_rejected": "Titular vago sobre ocho medallas sin especificar cuáles son nuevas"
+  },
+  "c6b2435f6051": {
+    "date": "2026-09-27",
+    "core": [
+      "2026",
+      "medallas",
+      "medallero",
+      "santa",
+      "segunda",
+      "termino",
+      "todas"
+    ],
+    "medal": "medalla",
+    "dup_of": "2c9ef016ac9c",
+    "title": "Argentina terminó segunda en los Juegos Suramericanos Santa Fe 2026: medallero y todas las medallas de oro - BAE Negocios"
   }
 }
