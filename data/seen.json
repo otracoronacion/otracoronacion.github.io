@@ -10399,5 +10399,168 @@
     "medal": "medalla",
     "dup_of": "2c9ef016ac9c",
     "title": "Argentina terminó segunda en los Juegos Suramericanos Santa Fe 2026: medallero y todas las medallas de oro - BAE Negocios"
+  },
+  "8331d8d4b0bb": {
+    "date": "2026-09-26",
+    "core": [
+      "2026",
+      "logro",
+      "puesto",
+      "santa",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Argentina logró el segundo puesto en los Juegos Suramericanos Santa Fe 2026 - radio don",
+    "llm_rejected": "Titular vago sobre resultado general de los Juegos, no informa logro específico"
+  },
+  "2d25d77ea471": {
+    "date": "2026-09-27",
+    "core": [
+      "2026",
+      "cordobeses",
+      "medallas"
+    ],
+    "medal": "oro",
+    "dup_of": "e1c6bb6f8239",
+    "title": "Estos son los cordobeses que ganaron medallas en los Juegos Suramericanos 2026 - Cba24n"
+  },
+  "4261084dd0da": {
+    "date": "2026-09-27",
+    "core": [
+      "2026",
+      "santa"
+    ],
+    "medal": "plata",
+    "dup_of": "8331d8d4b0bb",
+    "title": "Argentina fue subcampeona en los Juegos Suramericanos Santa Fe 2026 - Identidad Correntina"
+  },
+  "b1aa954cf870": {
+    "date": "2026-09-27",
+    "core": [
+      "2026",
+      "odesur",
+      "posicion",
+      "quedo",
+      "santa",
+      "segunda"
+    ],
+    "medal": "plata",
+    "dup_of": "8331d8d4b0bb",
+    "title": "Argentina quedó en la segunda posición de los Juegos Sudamericanos Odesur Santa Fe 2026 - mendovoz.com"
+  },
+  "da8a884afbdc": {
+    "date": "2026-09-27",
+    "core": [
+      "logra",
+      "medallero",
+      "puesto",
+      "segundo"
+    ],
+    "medal": "plata",
+    "dup_of": "8331d8d4b0bb",
+    "title": "Argentina logra un histórico segundo puesto en el medallero de los Juegos Suramericanos - elheraldo.com.ar"
+  },
+  "c9eaac80da5d": {
+    "date": "2026-09-27",
+    "core": [
+      "asociacion",
+      "damas",
+      "golf",
+      "prejuvenil"
+    ],
+    "medal": "oro",
+    "title": "Argentina se consagró en Damas en el Campeonato Sudamericano Prejuvenil - Asociación Argentina de Golf - AAG"
+  },
+  "1f21364d9f01": {
+    "date": "2026-09-27",
+    "core": [
+      "24",
+      "brillo",
+      "marplatenses",
+      "medallas",
+      "plata",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Mar del Plata brilló en Santa Fe: los marplatenses que ganaron 24 medallas en los Juegos Suramericanos - 0223.com.ar",
+    "llm_rejected": "Titular sobre deportistas locales, no informa logro específico de Argentina"
+  },
+  "7293e8982bc2": {
+    "date": "2026-09-27",
+    "core": [
+      "2026",
+      "293",
+      "cosecho",
+      "delegacion",
+      "medallas",
+      "nacional",
+      "puesto",
+      "santa",
+      "segundo"
+    ],
+    "medal": "plata",
+    "title": "Histórico segundo puesto para Argentina en los Juegos Suramericanos Santa Fe 2026: la delegación nacional cosechó 293 medallas - Radio Popular San Luis",
+    "llm_rejected": "Titular vago sobre resultado general de los Juegos, no informa logro específico"
+  },
+  "6c8d47a95289": {
+    "date": "2026-09-27",
+    "core": [
+      "albys",
+      "amalia",
+      "americas",
+      "avanza",
+      "boxeo",
+      "conquisto",
+      "gallo",
+      "larez",
+      "mazzarello",
+      "rapida",
+      "rounds",
+      "vacante"
+    ],
+    "medal": "oro",
+    "title": "Nuevo KO y título para Argentina: Amalia Mazzarello venció por la vía rápida a Albys Larez y conquistó Continental de las Américas Amalia Mazzarello vs Albys Larez Gallo // 8 rounds Título Continental de las Américas AMB vacante El boxeo avanza en esta - facebook.com"
+  },
+  "9062efa5b189": {
+    "date": "2026-09-28",
+    "core": [
+      "29",
+      "lucion",
+      "medallas",
+      "rafaela",
+      "sede",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Rafaela se lución como sede de los Juegos Suramericanos y Argentina sumó 29 medallas - Radio Rafaela",
+    "llm_rejected": "Titular vago sobre resultado general de los Juegos, no informa logro específico"
+  },
+  "d061595dc7ae": {
+    "date": "2026-09-28",
+    "core": [
+      "agustin",
+      "obtuvo",
+      "ojuez",
+      "plata"
+    ],
+    "medal": "plata",
+    "dup_of": "e57fa1d943bc",
+    "title": "Agustín Ojuez obtuvo la medalla de plata con la Selección Argentina en los Juegos Suramericanos - Presente Noticias"
+  },
+  "60bb3926b1f3": {
+    "date": "2026-09-28",
+    "core": [
+      "2026",
+      "293",
+      "cerro",
+      "lugar",
+      "medallas",
+      "santa",
+      "segundo",
+      "volvio"
+    ],
+    "medal": "plata",
+    "dup_of": "7293e8982bc2",
+    "title": "Argentina cerró Santa Fe 2026 con 293 medallas y volvió al segundo lugar de los Juegos Suramericanos - Medios Provincia"
   }
 }
