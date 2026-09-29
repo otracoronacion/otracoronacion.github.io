@@ -10562,5 +10562,80 @@
     "medal": "plata",
     "dup_of": "7293e8982bc2",
     "title": "Argentina cerró Santa Fe 2026 con 293 medallas y volvió al segundo lugar de los Juegos Suramericanos - Medios Provincia"
+  },
+  "1d2c2e423f89": {
+    "date": "2026-09-28",
+    "core": [
+      "despues",
+      "partido"
+    ],
+    "medal": "plata",
+    "title": "Cómo le fue a Argentina en su primer partido después de ser subcampeón mundial - ESPN Deportes",
+    "llm_rejected": "Partido futuro o posterior a logro ya publicado"
+  },
+  "5970567795e4": {
+    "date": "2026-09-28",
+    "core": [
+      "29",
+      "lucio",
+      "medallas",
+      "rafaela",
+      "sede",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "Rafaela se lució como sede de los Juegos Suramericanos y Argentina sumó 29 medallas - Radio Rafaela",
+    "llm_rejected": "Resumen de competencia ya publicada, no nuevo logro"
+  },
+  "28bd56be8314": {
+    "date": "2026-09-28",
+    "core": [
+      "14",
+      "destaco",
+      "finalizo",
+      "fortnite",
+      "leviatan",
+      "partida",
+      "randu"
+    ],
+    "medal": "oro",
+    "title": "Argentina se destacó en el Mundial de Fortnite: Randu ganó una partida y Leviatán finalizó 14 - TyC Sports",
+    "llm_rejected": "Desempeño en torneo, no podio consumado"
+  },
+  "5a9e34aa5717": {
+    "date": "2026-09-28",
+    "core": [
+      "ganan",
+      "medallas",
+      "padel",
+      "paraguay",
+      "primeras"
+    ],
+    "medal": "oro",
+    "title": "Argentina y Paraguay ganan las primeras medallas de oro de Pádel en los Juegos Suramericanos - Canal Tenis",
+    "llm_rejected": "Repite logro ya publicado (pádel femenino Suramericanos)"
+  },
+  "c1395a63bba2": {
+    "date": "2026-09-28",
+    "core": [
+      "acaba",
+      "elegido",
+      "francia",
+      "grandes",
+      "tinto",
+      "vino"
+    ],
+    "medal": "oro",
+    "title": "Es argentino, acaba de ser elegido el mejor vino tinto del mundo y le ganó a los grandes de Francia - El Cronista"
+  },
+  "a3c90ff5b080": {
+    "date": "2026-09-29",
+    "core": [
+      "catamarquenos",
+      "podio",
+      "subieron"
+    ],
+    "medal": "oro",
+    "title": "Dos catamarqueños subieron al podio en el Campeonato Sudamericano XCO - inforama.com.ar"
   }
 }
