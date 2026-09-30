@@ -10637,5 +10637,94 @@
     ],
     "medal": "oro",
     "title": "Dos catamarqueños subieron al podio en el Campeonato Sudamericano XCO - inforama.com.ar"
+  },
+  "9b1194e4246f": {
+    "date": "2026-09-29",
+    "core": [
+      "cordobes",
+      "lucas",
+      "pizzaiolo",
+      "sagues"
+    ],
+    "medal": "oro",
+    "title": "Lucas Sagués, el pizzaiolo cordobés que se consagró campeón sudamericano - CUISINE & VINS"
+  },
+  "053830a32207": {
+    "date": "2026-09-29",
+    "core": [
+      "desplazo",
+      "elegido",
+      "francia",
+      "podio",
+      "vino"
+    ],
+    "medal": "oro",
+    "dup_of": "c1395a63bba2",
+    "title": "Vino argentino elegido como el mejor del mundo y que desplazó a Francia del podio - Estación K2"
+  },
+  "fe568f6c7da7": {
+    "date": "2026-09-29",
+    "core": [
+      "autoriza",
+      "despedida",
+      "golpe",
+      "messi",
+      "roma",
+      "viajar"
+    ],
+    "medal": "oro",
+    "title": "Golpe a la despedida de Messi: Roma no autoriza a dos campeones del mundo a viajar a Argentina - En Cancha",
+    "llm_rejected": "Noticia sobre mercado de pases y viajes, no sobre un logro deportivo"
+  },
+  "3d6f26b176e6": {
+    "date": "2026-09-29",
+    "core": [
+      "medallas",
+      "participaron",
+      "rionegrinos",
+      "seis",
+      "sumaron"
+    ],
+    "medal": "medalla",
+    "title": "Seis rionegrinos participaron en los Juegos Suramericanos y sumaron medallas para Argentina - VDM Noticias",
+    "llm_rejected": "Titular vago sin especificar disciplina ni logro concreto"
+  },
+  "f9695ca4e987": {
+    "date": "2026-09-29",
+    "core": [
+      "albiceleste",
+      "autoriza",
+      "despedida",
+      "messi",
+      "planta",
+      "roma"
+    ],
+    "medal": "oro",
+    "dup_of": "fe568f6c7da7",
+    "title": "La Roma se planta y no autoriza a dos campeones del mundo a despedida de Messi a la Albiceleste - BioBioChile"
+  },
+  "76a07d1b561b": {
+    "date": "2026-09-29",
+    "core": [
+      "albiceleste",
+      "ceder",
+      "despedida",
+      "messi",
+      "niega",
+      "roma"
+    ],
+    "medal": "oro",
+    "dup_of": "fe568f6c7da7",
+    "title": "Roma se niega a ceder a dos campeones del mundo para la despedida de Messi con la Albiceleste - Canal 9 Bío Bío Televisión"
+  },
+  "a47ea318194b": {
+    "date": "2026-09-30",
+    "core": [
+      "encuentra",
+      "gente"
+    ],
+    "medal": "plata",
+    "title": "Argentina se encuentra la gente tras el subcampeonato del mundo - Radio 3 Cadena Patagonia",
+    "llm_rejected": "Referencia a un subcampeonato mundial pasado, no a un logro actual"
   }
 }
