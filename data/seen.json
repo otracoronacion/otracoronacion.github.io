@@ -10726,5 +10726,91 @@
     "medal": "plata",
     "title": "Argentina se encuentra la gente tras el subcampeonato del mundo - Radio 3 Cadena Patagonia",
     "llm_rejected": "Referencia a un subcampeonato mundial pasado, no a un logro actual"
+  },
+  "a27a9ab1820d": {
+    "date": "2026-09-30",
+    "core": [
+      "2026",
+      "cordobes",
+      "pizzaiolo"
+    ],
+    "medal": "oro",
+    "dup_of": "9b1194e4246f",
+    "title": "Pizzaiolo cordobés, campeón sudamericano 2026 - Rincon Bon Vivant"
+  },
+  "ce3c9558e2af": {
+    "date": "2026-09-30",
+    "core": [
+      "cordobes",
+      "pizza"
+    ],
+    "medal": "oro",
+    "dup_of": "de5cb3a4620b",
+    "title": "Un cordobés se consagró campeón sudamericano de pizza - La Voz del Interior"
+  },
+  "f6c64db5bc8f": {
+    "date": "2026-09-30",
+    "core": [
+      "leonas"
+    ],
+    "medal": "oro",
+    "dup_of": "6136a18ddd1f",
+    "title": "A un mes de la gloria: Las Leonas Campeona del Mundo - telediariodigital.com.ar"
+  },
+  "adbf87ce09f4": {
+    "date": "2026-09-30",
+    "core": [
+      "agostina",
+      "alonso",
+      "aprendio",
+      "convivir",
+      "leonas",
+      "presion"
+    ],
+    "medal": "oro",
+    "title": "Agostina Alonso, la campeona del mundo que aprendió a convivir con la presión de Las Leonas - Clarin.com",
+    "llm_rejected": "declaración/reacción posterior a un logro"
+  },
+  "c4306cad570f": {
+    "date": "2026-09-30",
+    "core": [
+      "berazategui",
+      "deportista",
+      "handball"
+    ],
+    "medal": "oro",
+    "title": "UN DEPORTISTA DE BERAZATEGUI SE CONSAGRÓ CAMPEÓN SURAMERICANO DE HANDBALL CON LA SELECCIÓN ARGENTINA - La Misión Informa",
+    "llm_rejected": "titular por el pueblo del deportista, no cuenta el logro"
+  },
+  "88b25d4dab91": {
+    "date": "2026-09-30",
+    "core": [
+      "cantarlo",
+      "decidimos",
+      "himno",
+      "leonas",
+      "penales",
+      "pusieron",
+      "secreto",
+      "summit"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas campeonas del mundo, en el Olé Summit: \"No nos pusieron el himno y decidimos cantarlo\" y el secreto de los penales - Olé",
+    "llm_rejected": "celebración/reacción posterior a un logro ya publicado"
+  },
+  "5449c8815e3b": {
+    "date": "2026-09-30",
+    "core": [
+      "granatto",
+      "legado",
+      "leonas",
+      "majo",
+      "representados",
+      "sientan",
+      "todos"
+    ],
+    "medal": "oro",
+    "title": "Majo Granatto, a un mes del Campeonato del Mundo: \"El legado de Las Leonas es que todos se sientan representados\" - forbesargentina.com",
+    "llm_rejected": "declaración previa a un campeonato futuro"
   }
 }
