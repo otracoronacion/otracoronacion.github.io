@@ -10812,5 +10812,52 @@
     "medal": "oro",
     "title": "Majo Granatto, a un mes del Campeonato del Mundo: \"El legado de Las Leonas es que todos se sientan representados\" - forbesargentina.com",
     "llm_rejected": "declaración previa a un campeonato futuro"
+  },
+  "590424150bd3": {
+    "date": "2026-10-01",
+    "core": [],
+    "medal": "oro",
+    "title": "Argentina es campeona del mundo - afa.com.ar",
+    "llm_rejected": "Titular vago sin disciplina ni competencia"
+  },
+  "cc1e547aba58": {
+    "date": "2026-10-01",
+    "core": [
+      "ciudad",
+      "entrerriana",
+      "paraguay",
+      "peluquero",
+      "radicado"
+    ],
+    "medal": "oro",
+    "title": "Peluquero radicado en ciudad entrerriana se consagró campeón mundial en Paraguay - elonce.com"
+  },
+  "4bb897ab364b": {
+    "date": "2026-10-01",
+    "core": [
+      "adios",
+      "cambio",
+      "camiseta",
+      "parche"
+    ],
+    "medal": "oro",
+    "title": "Adiós al parche de campeón del mundo: el cambio en la camiseta de la Selección Argentina - tycsports.com",
+    "llm_rejected": "Nota sobre cambio de camiseta, no sobre logro"
+  },
+  "595ceae064a4": {
+    "date": "2026-10-01",
+    "core": [
+      "agostina",
+      "alonso",
+      "deporte",
+      "destacada",
+      "leonas",
+      "personalidad",
+      "reconocio",
+      "tigre"
+    ],
+    "medal": "oro",
+    "title": "Tigre reconoció como Personalidad Destacada del Deporte a Agostina Alonso, campeona mundial con Las Leonas - Informe Norte",
+    "llm_rejected": "Celebración/reconocimiento posterior a logro ya publicado"
   }
 }
