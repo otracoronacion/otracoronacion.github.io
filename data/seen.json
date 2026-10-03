@@ -10859,5 +10859,46 @@
     "medal": "oro",
     "title": "Tigre reconoció como Personalidad Destacada del Deporte a Agostina Alonso, campeona mundial con Las Leonas - Informe Norte",
     "llm_rejected": "Celebración/reconocimiento posterior a logro ya publicado"
+  },
+  "7942678951c1": {
+    "date": "2026-10-02",
+    "core": [
+      "2026",
+      "beijing",
+      "clasificacion",
+      "destacada",
+      "mendocina",
+      "pump",
+      "track"
+    ],
+    "medal": "oro",
+    "title": "Una mendocina destacada ganó la clasificación al Mundial de BMX- Pump Track de Beijing 2026 - Flipr.news",
+    "llm_rejected": "clasificación a futuro mundial, no logro consumado"
+  },
+  "d5fde8b96e06": {
+    "date": "2026-10-02",
+    "core": [
+      "andres",
+      "fronton",
+      "giles",
+      "leonas",
+      "llegan",
+      "tres",
+      "visitaran"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas llegan a San Andrés de Giles: tres campeonas del mundo visitarán El Frontón - infociudad.com.ar",
+    "llm_rejected": "nota de visita/evento, no informa logro deportivo"
+  },
+  "849fe259bb8d": {
+    "date": "2026-10-02",
+    "core": [
+      "arias",
+      "daniela",
+      "esports"
+    ],
+    "medal": "oro",
+    "dup_of": "df4858449b93",
+    "title": "Daniela Arias, la argentina que ganó el oro en los esports de los Juegos Suramericanos - radionacional.com.ar"
   }
 }
