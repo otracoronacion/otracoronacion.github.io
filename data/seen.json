@@ -10900,5 +10900,32 @@
     "medal": "oro",
     "dup_of": "df4858449b93",
     "title": "Daniela Arias, la argentina que ganó el oro en los esports de los Juegos Suramericanos - radionacional.com.ar"
+  },
+  "5c1406612812": {
+    "date": "2026-10-03",
+    "core": [
+      "24",
+      "conquistar",
+      "deportistas",
+      "marplatenses",
+      "medallas",
+      "recibieron",
+      "reconocimiento"
+    ],
+    "medal": "oro",
+    "title": "Deportistas marplatenses recibieron un reconocimiento tras conquistar 24 medallas en los Juegos Suramericanos - Infobrisas",
+    "llm_rejected": "Reconocimiento posterior a logros ya publicados, no es noticia de un hecho consumado nuevo"
+  },
+  "24ed4cf3b3c4": {
+    "date": "2026-10-04",
+    "core": [
+      "espana",
+      "geraldine",
+      "gorosito",
+      "misionera",
+      "taekwondista"
+    ],
+    "medal": "oro",
+    "title": "La taekwondista misionera Geraldine Gorosito se consagró campeona del mundo en España - Canal Doce Misiones"
   }
 }
