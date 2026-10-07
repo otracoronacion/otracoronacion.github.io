@@ -10955,5 +10955,115 @@
     ],
     "medal": "oro",
     "title": "Orgullo chaqueño: Ailén Acosta es campeona mundial de Taekwondo ITF - diarioya.ar"
+  },
+  "57897c3ce3c5": {
+    "date": "2026-10-05",
+    "core": [
+      "ausentes",
+      "despide",
+      "messi",
+      "monumental",
+      "presentes"
+    ],
+    "medal": "oro",
+    "title": "Messi se despide de la Selección Argentina: los campeones del mundo presentes y ausentes en el Monumental - Doble Amarilla",
+    "llm_rejected": "Celebración/reacción posterior a un logro, no el hecho consumado"
+  },
+  "0fa4933af5ca": {
+    "date": "2026-10-06",
+    "core": [
+      "acosta",
+      "ailen",
+      "chaqueno",
+      "espana",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "dup_of": "72e6f6fdc9b8",
+    "title": "Orgullo chaqueño: Ailén Acosta, campeona mundial de Taekwondo en España - Diario Primera Linea"
+  },
+  "2710be16049c": {
+    "date": "2026-10-06",
+    "core": [
+      "formara",
+      "lionel",
+      "messi",
+      "muchos",
+      "partido",
+      "ultimo"
+    ],
+    "medal": "oro",
+    "title": "Con muchos campeones del mundo, así formará Argentina en el último partido de Lionel Messi - dsports",
+    "llm_rejected": "Declaración sobre formación futura, no un logro consumado"
+  },
+  "00041fd027cc": {
+    "date": "2026-10-06",
+    "core": [
+      "acosta",
+      "ailen",
+      "chaqueno",
+      "espana",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "dup_of": "72e6f6fdc9b8",
+    "title": "Orgullo chaqueño: Ailen Acosta se consagró campeona del mundo de Taekwondo ITF en España - Noticias Data"
+  },
+  "fecbd74d3f5c": {
+    "date": "2026-10-06",
+    "core": [
+      "benin",
+      "despedida",
+      "formacion",
+      "lionel",
+      "messi",
+      "titular"
+    ],
+    "medal": "oro",
+    "dup_of": "2710be16049c",
+    "title": "Con los campeones del mundo: la formación titular de Argentina vs. Benín en la despedida de Lionel Messi - TN"
+  },
+  "83fac1e51ef0": {
+    "date": "2026-10-06",
+    "core": [
+      "acosta",
+      "ailen",
+      "chaquena",
+      "espana",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "dup_of": "72e6f6fdc9b8",
+    "title": "Orgullo Chaqueña: Ailen Acosta se consagró campeona del mundo de Taekwondo ITF en España - Mas Contenidos.Net"
+  },
+  "66f06f0e7d41": {
+    "date": "2026-10-06",
+    "core": [
+      "2026",
+      "22",
+      "cornejo",
+      "lograron",
+      "medallas",
+      "mendocinos",
+      "reconocio"
+    ],
+    "medal": "oro",
+    "title": "Cornejo reconoció a los mendocinos que lograron 22 medallas en los Juegos Suramericanos 2026 - Diario Mendoza",
+    "llm_rejected": "Reconocimiento de logros pasados, no noticia de un hecho nuevo"
+  },
+  "59c7ba297773": {
+    "date": "2026-10-06",
+    "core": [
+      "despide",
+      "fueron",
+      "jugo",
+      "lionel",
+      "messi",
+      "mexico",
+      "veces"
+    ],
+    "medal": "oro",
+    "dup_of": "57897c3ce3c5",
+    "title": "Lionel Messi se despide de la Selección Argentina: así fueron las 3 veces que el campeón mundial jugó en México - Infobae"
   }
 }
