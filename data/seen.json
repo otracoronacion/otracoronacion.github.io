@@ -11065,5 +11065,41 @@
     "medal": "oro",
     "dup_of": "57897c3ce3c5",
     "title": "Lionel Messi se despide de la Selección Argentina: así fueron las 3 veces que el campeón mundial jugó en México - Infobae"
+  },
+  "fc9e4c4b9bad": {
+    "date": "2026-10-06",
+    "core": [
+      "2026",
+      "22",
+      "cornejo",
+      "deportistas",
+      "lograron",
+      "medallas",
+      "mendocinos",
+      "reconocio"
+    ],
+    "medal": "oro",
+    "title": "Cornejo reconoció a los deportistas mendocinos que lograron 22 medallas en los Juegos Suramericanos 2026 - PRENSA GOBIERNO DE MENDOZA",
+    "llm_rejected": "Titular vago sobre medallas pasadas, no informa logro nuevo"
+  },
+  "43cd0ab90f09": {
+    "date": "2026-10-07",
+    "core": [
+      "chaquenos",
+      "tres",
+      "uruguay"
+    ],
+    "medal": "oro",
+    "title": "Tres chaqueños hicieron historia y se consagraron campeones sudamericanos en Uruguay - Radio Facundo Quiroga",
+    "llm_rejected": "No especifica disciplina ni categoría, información insuficiente"
+  },
+  "69dfb5cf7ae4": {
+    "date": "2026-10-08",
+    "core": [
+      "fueguino"
+    ],
+    "medal": "oro",
+    "title": "Campeón sudamericano y fueguino - El Diario del Fin del Mundo",
+    "llm_rejected": "No especifica disciplina ni competencia, información insuficiente"
   }
 }
