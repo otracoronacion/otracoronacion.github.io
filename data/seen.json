@@ -11101,5 +11101,88 @@
     "medal": "oro",
     "title": "Campeón sudamericano y fueguino - El Diario del Fin del Mundo",
     "llm_rejected": "No especifica disciplina ni competencia, información insuficiente"
+  },
+  "651d6b9d54c6": {
+    "date": "2026-10-07",
+    "core": [
+      "acosta",
+      "ailen",
+      "chaqueno",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "dup_of": "72e6f6fdc9b8",
+    "title": "Orgullo chaqueño: Ailen Acosta se coronó campeona mundial de Taekwondo ITF - Chaco Ahora"
+  },
+  "1f29fbc9cf2f": {
+    "date": "2026-10-08",
+    "core": [
+      "entrenaron",
+      "formativas",
+      "fronton",
+      "leonas",
+      "mundiales",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Tres campeonas mundiales de Las Leonas entrenaron con las formativas de El Frontón - HoyMercedes",
+    "llm_rejected": "Entrenamientos/actividades posteriores, no un logro consumado"
+  },
+  "9a41be7b7f2d": {
+    "date": "2026-10-08",
+    "core": [
+      "apunto",
+      "bajo",
+      "calidad",
+      "contra",
+      "futbol",
+      "organizacion"
+    ],
+    "medal": "oro",
+    "title": "Uno de los campeones del mundo apuntó contra la organización del fútbol argentino: “Bajó la calidad” - Canal26",
+    "llm_rejected": "Declaración/reacción posterior, no informa un logro nuevo"
+  },
+  "225607f72225": {
+    "date": "2026-10-08",
+    "core": [
+      "asociacion",
+      "damas",
+      "equipos",
+      "golf",
+      "obtuvo",
+      "puesto",
+      "senior",
+      "tercer"
+    ],
+    "medal": "bronce",
+    "title": "Argentina obtuvo el tercer puesto por equipos en el Sudamericano de Damas Senior - Asociación Argentina de Golf - AAG"
+  },
+  "76a14f346a13": {
+    "date": "2026-10-08",
+    "core": [
+      "decepcionado",
+      "futbol",
+      "nicolas",
+      "nivel",
+      "tagliafico",
+      "volver"
+    ],
+    "medal": "oro",
+    "title": "Nicolás Tagliafico, el campeón del mundo decepcionado con el nivel del fútbol argentino: \"No sé si voy a volver\" - Ambito",
+    "llm_rejected": "Declaración/reacción posterior, no informa un logro nuevo"
+  },
+  "197dbae2e6fc": {
+    "date": "2026-10-08",
+    "core": [
+      "ciclismo",
+      "ciclista",
+      "correntino",
+      "medallas",
+      "plata",
+      "tarija",
+      "trae"
+    ],
+    "medal": "plata",
+    "title": "Un ciclista correntino trae dos medallas de plata del Campeonato Panamericano de Ciclismo en Tarija - Radio Dos Corrientes"
   }
 }
