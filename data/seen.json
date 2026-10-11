@@ -11184,5 +11184,48 @@
     ],
     "medal": "plata",
     "title": "Un ciclista correntino trae dos medallas de plata del Campeonato Panamericano de Ciclismo en Tarija - Radio Dos Corrientes"
+  },
+  "1196ffc30755": {
+    "date": "2026-10-10",
+    "core": [
+      "2026",
+      "cordobesa",
+      "licenciada",
+      "logro",
+      "miranda",
+      "octubre",
+      "victoria"
+    ],
+    "medal": "oro",
+    "title": "De campeona del mundo a licenciada: el nuevo logro de la cordobesa Victoria Miranda octubre 2026 - Canal Showsport",
+    "llm_rejected": "Declaración/celebración posterior, no informa un logro actual"
+  },
+  "904517070ac5": {
+    "date": "2026-10-11",
+    "core": [
+      "espana",
+      "femenino",
+      "hockey",
+      "patines",
+      "perdio"
+    ],
+    "medal": "plata",
+    "title": "HOCKEY SOBRE PATINES: Argentina perdió la final con España y es subcampeón mundial femenino - Mendoza Post"
+  },
+  "f5ef92c03c94": {
+    "date": "2026-10-11",
+    "core": [
+      "andes",
+      "corona",
+      "espana",
+      "hockey",
+      "patin",
+      "plata",
+      "quedo",
+      "renovo"
+    ],
+    "medal": "plata",
+    "dup_of": "904517070ac5",
+    "title": "Los Andes en el Mundial de Hockey Patín: España renovó la corona y Argentina se quedó con la plata - Los Andes"
   }
 }
