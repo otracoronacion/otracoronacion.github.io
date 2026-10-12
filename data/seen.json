@@ -11227,5 +11227,29 @@
     "medal": "plata",
     "dup_of": "904517070ac5",
     "title": "Los Andes en el Mundial de Hockey Patín: España renovó la corona y Argentina se quedó con la plata - Los Andes"
+  },
+  "33859afbe7e3": {
+    "date": "2026-10-11",
+    "core": [
+      "enfrenta",
+      "peru"
+    ],
+    "medal": "oro",
+    "title": "Perú enfrenta hoy a Argentina por el título del Campeonato Sudamericano U19 - Agencia Andina",
+    "llm_rejected": "partido futuro, no resultado consumado"
+  },
+  "0e482781a408": {
+    "date": "2026-10-11",
+    "core": [
+      "aguilas",
+      "fueron",
+      "hockey",
+      "patines",
+      "subcampeonas",
+      "sumo"
+    ],
+    "medal": "plata",
+    "dup_of": "904517070ac5",
+    "title": "Las Águilas fueron subcampeonas del Mundial de hockey sobre patines y Argentina sumó otra medalla - 617 News"
   }
 }
