@@ -11251,5 +11251,102 @@
     "medal": "plata",
     "dup_of": "904517070ac5",
     "title": "Las Águilas fueron subcampeonas del Mundial de hockey sobre patines y Argentina sumó otra medalla - 617 News"
+  },
+  "81807ec5f617": {
+    "date": "2026-10-12",
+    "core": [
+      "corona",
+      "zulia"
+    ],
+    "medal": "oro",
+    "title": "Argentina se corona campeona del Sudamericano U19 en Zulia - La Prensa de Monagas"
+  },
+  "a7577bb33cd9": {
+    "date": "2026-10-12",
+    "core": [
+      "agostina",
+      "cano",
+      "panteritas",
+      "tucumana"
+    ],
+    "medal": "oro",
+    "title": "La tucumana Agostina Cano se consagró campeona sudamericana con Las Panteritas - La Gaceta",
+    "llm_merged": "mismo logro que 81807ec5f617"
+  },
+  "031a87921cae": {
+    "date": "2026-10-12",
+    "core": [
+      "abril",
+      "bahiense",
+      "faiazzo",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "Con la bahiense Abril Faiazzo, Argentina se consagró campeona sudamericana de vóley - Flipr.news",
+    "llm_merged": "mismo logro que 81807ec5f617"
+  },
+  "29f3402935ee": {
+    "date": "2026-10-12",
+    "core": [
+      "corona",
+      "femenino",
+      "invicta",
+      "maracaibo",
+      "voleibol"
+    ],
+    "medal": "oro",
+    "title": "Argentina se corona campeona invicta del Sudamericano de Voleibol Femenino U19 en Maracaibo - Yvke Mundial",
+    "llm_merged": "mismo logro que 81807ec5f617"
+  },
+  "a034329178db": {
+    "date": "2026-10-12",
+    "core": [
+      "perfecta",
+      "venezuela",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "Argentina se coronó campeona sudamericana de vóley tras una final perfecta en Venezuela - Radio Facundo Quiroga",
+    "llm_merged": "mismo logro que 81807ec5f617"
+  },
+  "bc544a51acd3": {
+    "date": "2026-10-12",
+    "core": [
+      "cano",
+      "cierre",
+      "panteritas",
+      "perfecto",
+      "tucumana"
+    ],
+    "medal": "oro",
+    "dup_of": "a7577bb33cd9",
+    "title": "El cierre perfecto: con la tucumana Cano, las Panteritas se consagraron campeonas sudamericanas U19 - Tendencia de Noticias"
+  },
+  "4d0bdf75a8a1": {
+    "date": "2026-10-12",
+    "core": [
+      "carlos",
+      "corona",
+      "doble",
+      "invictos",
+      "pumas",
+      "seven",
+      "yaguaretes"
+    ],
+    "medal": "oro",
+    "dup_of": "4908fa449574",
+    "title": "Doble corona histórica: Las Yaguaretes y los Pumas Seven, campeones invictos del Sudamericano de Seven en Carlos Paz - Alternativa en Papel"
+  },
+  "ecc0e0711562": {
+    "date": "2026-10-13",
+    "core": [
+      "ahora",
+      "levanto",
+      "libertadores",
+      "recepcionista"
+    ],
+    "medal": "oro",
+    "title": "Levantó la Copa del Mundo con la Selección Argentina, ganó la Libertadores y ahora es recepcionista - TyC Sports",
+    "llm_rejected": "Nota sobre carrera posterior, no sobre logro actual"
   }
 }
