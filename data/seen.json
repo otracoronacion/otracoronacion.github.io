@@ -11348,5 +11348,44 @@
     "medal": "oro",
     "title": "Levantó la Copa del Mundo con la Selección Argentina, ganó la Libertadores y ahora es recepcionista - TyC Sports",
     "llm_rejected": "Nota sobre carrera posterior, no sobre logro actual"
+  },
+  "dea6c7ddb7a8": {
+    "date": "2026-10-13",
+    "core": [
+      "boca",
+      "bomba",
+      "renuncia"
+    ],
+    "medal": "oro",
+    "title": "¡Bomba en la TV! Campeón del Mundo con Boca renuncia y se va de la Argentina - Urgente24",
+    "llm_rejected": "Declaración/reacción posterior, no un hecho de competencia"
+  },
+  "1568716f47ab": {
+    "date": "2026-10-13",
+    "core": [
+      "boleto",
+      "conquista",
+      "queda",
+      "venezuela"
+    ],
+    "medal": "oro",
+    "title": "Argentina conquista el Sudamericano U19 y Venezuela se queda sin boleto al Mundial - Diario Versión Final",
+    "llm_merged": "repite el logro 81807ec5f617 del 2026-10-12"
+  },
+  "adbae3bb74b9": {
+    "date": "2026-10-13",
+    "core": [
+      "bahia",
+      "gorzelany",
+      "historias",
+      "leonas",
+      "llega",
+      "superadoras",
+      "tenemos",
+      "todos"
+    ],
+    "medal": "oro",
+    "title": "Gorzelany, campeona del mundo con Las Leonas, llega a Bahía: \"Todos tenemos historias superadoras\" - La Nueva Provincia",
+    "llm_rejected": "Declaración/reacción posterior, no un hecho de competencia"
   }
 }
