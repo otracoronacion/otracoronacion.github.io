@@ -11387,5 +11387,63 @@
     "medal": "oro",
     "title": "Gorzelany, campeona del mundo con Las Leonas, llega a Bahía: \"Todos tenemos historias superadoras\" - La Nueva Provincia",
     "llm_rejected": "Declaración/reacción posterior, no un hecho de competencia"
+  },
+  "4d141939b9af": {
+    "date": "2026-10-14",
+    "core": [
+      "angola",
+      "hockey",
+      "patines",
+      "recupero"
+    ],
+    "medal": "oro",
+    "title": "Argentina se recuperó ante Angola en el Mundial de Hockey sobre patines - Cadena 3 Argentina",
+    "llm_rejected": "Partido futuro o en curso, no resultado final de podio"
+  },
+  "7b77dbf91e1a": {
+    "date": "2026-10-14",
+    "core": [
+      "cena",
+      "cordobes",
+      "emanuel",
+      "esgrima",
+      "lima"
+    ],
+    "medal": "oro",
+    "title": "Emanuel Cena, el cordobés campeón de la Copa del Mundo de Esgrima en Lima - Agencia Córdoba Deportes"
+  },
+  "f9e904647639": {
+    "date": "2026-10-14",
+    "core": [
+      "cena",
+      "cordobes",
+      "emanuel",
+      "esgrima",
+      "lima",
+      "objetivo"
+    ],
+    "medal": "oro",
+    "dup_of": "7b77dbf91e1a",
+    "title": "Emanuel Cena, el cordobés campeón de la Copa del Mundo de Esgrima en Lima - El Objetivo - Medio de comunicación digital"
+  },
+  "ec0cbc610110": {
+    "date": "2026-10-14",
+    "core": [
+      "alimento",
+      "castro",
+      "combate",
+      "cuestionando",
+      "dice",
+      "gobierno",
+      "haber",
+      "locomotora",
+      "miles",
+      "pobreza",
+      "reducido",
+      "ultimo"
+    ],
+    "medal": "oro",
+    "title": "El último combate de Locomotora Castro: fue campeón del mundo, alimentó a miles de argentinos y se fue cuestionando la pobreza que el Gobierno dice haber reducido - Diario San Rafael",
+    "llm_rejected": "Obituario/nota histórica, no informa logro actual consumado"
   }
 }
