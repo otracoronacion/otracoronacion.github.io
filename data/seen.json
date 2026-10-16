@@ -11445,5 +11445,74 @@
     "medal": "oro",
     "title": "El último combate de Locomotora Castro: fue campeón del mundo, alimentó a miles de argentinos y se fue cuestionando la pobreza que el Gobierno dice haber reducido - Diario San Rafael",
     "llm_rejected": "Obituario/nota histórica, no informa logro actual consumado"
+  },
+  "2b81a6c80115": {
+    "date": "2026-10-13",
+    "core": [
+      "panteritas",
+      "platense",
+      "presencia"
+    ],
+    "medal": "oro",
+    "title": "Con presencia platense, Las Panteritas hicieron historia y son campeonas sudamericanas U19 - Infocielo"
+  },
+  "791258a99ef7": {
+    "date": "2026-10-13",
+    "core": [
+      "cordoba",
+      "pumas",
+      "reyes",
+      "yaguaretes"
+    ],
+    "medal": "oro",
+    "title": "Reyes de América: Los Pumas 7's y Las Yaguaretés se consagraron en Córdoba e hicieron historia - Cba24n",
+    "llm_rejected": "Celebración/reacción posterior a logros ya publicados"
+  },
+  "b0114eadfdf6": {
+    "date": "2026-10-14",
+    "core": [
+      "chile",
+      "hockey",
+      "patines"
+    ],
+    "medal": "oro",
+    "title": "Argentina le ganó 4-0 a Chile en el Mundial de hockey sobre patines - San Juan 8"
+  },
+  "93c630c19865": {
+    "date": "2026-10-15",
+    "core": [
+      "cena",
+      "cordobes",
+      "emanuel",
+      "esgrima",
+      "lima"
+    ],
+    "medal": "oro",
+    "dup_of": "7b77dbf91e1a",
+    "title": "El cordobés Emanuel Cena se consagró campeón de la Copa del Mundo de Esgrima en Lima - La Nueva Mañana"
+  },
+  "04c30830b4fb": {
+    "date": "2026-10-15",
+    "core": [
+      "besso",
+      "cordobesa",
+      "esqui",
+      "isabella",
+      "nautico",
+      "salto"
+    ],
+    "medal": "oro",
+    "title": "La cordobesa Isabella Besso se consagró campeona panamericana de esquí náutico en Salto - La Voz del Interior"
+  },
+  "bb49c4653ce7": {
+    "date": "2026-10-16",
+    "core": [
+      "leonardo",
+      "rodriguez",
+      "veces"
+    ],
+    "medal": "oro",
+    "title": "Leonardo Rodríguez, dos veces campeón de américa con la Selección Argentina - www.afa.com.ar",
+    "llm_rejected": "Declaración/nota histórica sin logro actual"
   }
 }
