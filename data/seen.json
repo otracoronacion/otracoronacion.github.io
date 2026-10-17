@@ -11514,5 +11514,49 @@
     "medal": "oro",
     "title": "Leonardo Rodríguez, dos veces campeón de américa con la Selección Argentina - www.afa.com.ar",
     "llm_rejected": "Declaración/nota histórica sin logro actual"
+  },
+  "75f324e26bce": {
+    "date": "2026-10-16",
+    "core": [
+      "500",
+      "atletismo",
+      "metros",
+      "plata",
+      "tucumana",
+      "valentina",
+      "velardez"
+    ],
+    "medal": "plata",
+    "title": "Atletismo: la tucumana Valentina Velardez ganó la medalla de plata en los 1.500 metros del Sudamericano U23 - La Gaceta"
+  },
+  "1c04b0cc28ee": {
+    "date": "2026-10-17",
+    "core": [
+      "amico",
+      "atleta",
+      "conquisto",
+      "milagros",
+      "plata",
+      "saltena"
+    ],
+    "medal": "plata",
+    "title": "La atleta salteña Milagros D’Amico conquistó la plata en el Sudamericano U23 - Nuevo Diario de Salta",
+    "llm_merged": "mismo logro que 75f324e26bce"
+  },
+  "40fcf9165d69": {
+    "date": "2026-10-17",
+    "core": [
+      "chicos",
+      "nacional",
+      "puerto",
+      "representaran",
+      "rico",
+      "robotica",
+      "saltenos",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Tres chicos salteños ganaron el campeonato nacional de robótica y representarán a la Argentina en el Mundial de Puerto Rico - TN",
+    "llm_rejected": "Convocatoria/previa para Mundial, no resultado consumado"
   }
 }
