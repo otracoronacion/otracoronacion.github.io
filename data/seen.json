@@ -11558,5 +11558,56 @@
     "medal": "oro",
     "title": "Tres chicos salteños ganaron el campeonato nacional de robótica y representarán a la Argentina en el Mundial de Puerto Rico - TN",
     "llm_rejected": "Convocatoria/previa para Mundial, no resultado consumado"
+  },
+  "38b0b34ea380": {
+    "date": "2026-10-16",
+    "core": [
+      "tucumana",
+      "valentina",
+      "velardez"
+    ],
+    "medal": "plata",
+    "dup_of": "75f324e26bce",
+    "title": "La tucumana Valentina Velárdez es subcampeona sudamericana U23 - Tendencia de Noticias"
+  },
+  "1568186a0253": {
+    "date": "2026-10-16",
+    "core": [
+      "asociacion",
+      "futbol",
+      "paso",
+      "rosarina"
+    ],
+    "medal": "oro",
+    "title": "Otro campeón del mundo que pasó por la Asociación Rosarina de Fútbol - Asociación Rosarina de Fútbol",
+    "llm_rejected": "Titular vago sin disciplina ni competencia identificable"
+  },
+  "1aa8436b8bfb": {
+    "date": "2026-10-17",
+    "core": [
+      "100",
+      "amico",
+      "metros",
+      "milagros",
+      "plata",
+      "saltena"
+    ],
+    "medal": "plata",
+    "dup_of": "1c04b0cc28ee",
+    "title": "La salteña Milagros D’Amico ganó la medalla de plata en los 100 metros del Sudamericano U23 - Cuarto: Salta a diario"
+  },
+  "30b75d2a2ae8": {
+    "date": "2026-10-18",
+    "core": [
+      "bochas",
+      "farias",
+      "mundiales",
+      "pascual",
+      "ramirez",
+      "renzo",
+      "riocuartense"
+    ],
+    "medal": "oro",
+    "title": "Orgullo argentino: el riocuartense Pascual Ramírez y Renzo Farías son campeones mundiales de bochas - telediariodigital.com.ar"
   }
 }
