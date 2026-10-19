@@ -11609,5 +11609,84 @@
     ],
     "medal": "oro",
     "title": "Orgullo argentino: el riocuartense Pascual Ramírez y Renzo Farías son campeones mundiales de bochas - telediariodigital.com.ar"
+  },
+  "e172674e7f1d": {
+    "date": "2026-10-18",
+    "core": [
+      "cordobes",
+      "loud",
+      "romanilly",
+      "valorant"
+    ],
+    "medal": "oro",
+    "title": "Romanilly, el cordobés campeón mundial de VALORANT con LOUD - Argentina Amateur Deporte",
+    "llm_rejected": "Esports Valorant ya publicado el 2026-09-16"
+  },
+  "ead82ef5bbef": {
+    "date": "2026-10-18",
+    "core": [
+      "66",
+      "anos",
+      "bronce",
+      "conquisto",
+      "sanjuanino"
+    ],
+    "medal": "bronce",
+    "title": "A los 66 años, un sanjuanino hizo historia y conquistó el bronce mundial - Diario Huarpe"
+  },
+  "ead31ac9ee68": {
+    "date": "2026-10-18",
+    "core": [
+      "bochas",
+      "riocuartense",
+      "sello",
+      "tuvo"
+    ],
+    "medal": "oro",
+    "dup_of": "30b75d2a2ae8",
+    "title": "Argentina campeón mundial de bochas: el título histórico que tuvo sello riocuartense - Al Toque Deportes"
+  },
+  "8e114e2f1cab": {
+    "date": "2026-10-18",
+    "core": [
+      "bronce",
+      "contrera",
+      "games",
+      "logro",
+      "maraton",
+      "oscar",
+      "podio",
+      "sanjuanino",
+      "skate"
+    ],
+    "medal": "bronce",
+    "dup_of": "ead82ef5bbef",
+    "title": "El sanjuanino Oscar Contrera hizo podio en el mundial: logró el bronce en la maratón de los World Skate Games - Diario de Cuyo"
+  },
+  "377862183f1f": {
+    "date": "2026-10-19",
+    "core": [
+      "cayo",
+      "francia",
+      "hockey",
+      "patines"
+    ],
+    "medal": "plata",
+    "dup_of": "904517070ac5",
+    "title": "Argentina cayó ante Francia y es subcampeón del mundo en hockey sobre patines - NewsDigitales"
+  },
+  "16876a80283c": {
+    "date": "2026-10-19",
+    "core": [
+      "agradecio",
+      "haaland",
+      "mate",
+      "rutina",
+      "sumo",
+      "tres"
+    ],
+    "medal": "oro",
+    "title": "Haaland sumó el mate a su rutina y le agradeció a tres campeones del mundo de la Selección Argentina - La Gaceta",
+    "llm_rejected": "Declaración/reacción posterior, no logro consumado"
   }
 }
