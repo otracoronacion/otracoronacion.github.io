@@ -11688,5 +11688,82 @@
     "medal": "oro",
     "title": "Haaland sumó el mate a su rutina y le agradeció a tres campeones del mundo de la Selección Argentina - La Gaceta",
     "llm_rejected": "Declaración/reacción posterior, no logro consumado"
+  },
+  "bdea85ed4db8": {
+    "date": "2026-10-19",
+    "core": [
+      "games",
+      "skate"
+    ],
+    "medal": "plata",
+    "title": "Argentina, subcampeona en los World Skate Games - Argentina Amateur Deporte"
+  },
+  "43bd60c2451a": {
+    "date": "2026-10-19",
+    "core": [
+      "atleta",
+      "centro",
+      "logro",
+      "riojano",
+      "torneo"
+    ],
+    "medal": "oro",
+    "title": "ATLETA RIOJANO DEL CENTRO 5 LOGRÓ MEDALLA DE ORO EN TORNEO SUDAMERICANO - Rioja Virtual",
+    "llm_rejected": "Titular vago sin disciplina ni competencia identificable"
+  },
+  "ecd1a9a749fe": {
+    "date": "2026-10-19",
+    "core": [
+      "atletismo",
+      "general",
+      "santa"
+    ],
+    "medal": "plata",
+    "title": "Atletismo: Argentina fue subcampeona general en el Sudamericano U23 de Santa Fe - DeporTV"
+  },
+  "3b05ef7e4489": {
+    "date": "2026-10-19",
+    "core": [
+      "amateur",
+      "boxeador",
+      "coronarse"
+    ],
+    "medal": "oro",
+    "title": "Boxeador de la UPT irá a Argentina tras coronarse campeón mundial amateur - El Universal Hidalgo",
+    "llm_rejected": "Boxeador extranjero que irá a Argentina, no es logro argentino"
+  },
+  "cdef23e54ea0": {
+    "date": "2026-10-19",
+    "core": [
+      "medallero",
+      "santa"
+    ],
+    "medal": "plata",
+    "title": "Argentina fue subcampeón en el medallero en el Sudamericano U23 en Santa Fe - Diario Uno Santa Fe",
+    "llm_merged": "mismo logro que ecd1a9a749fe"
+  },
+  "693fc87b2321": {
+    "date": "2026-10-20",
+    "core": [
+      "boxeo",
+      "conquista",
+      "estudiante"
+    ],
+    "medal": "oro",
+    "title": "Estudiante de la UPT conquista título mundial de boxeo y va a Argentina - Trasfondo Noticias",
+    "llm_rejected": "Boxeador extranjero que irá a Argentina, no es logro argentino"
+  },
+  "b2942e9647d5": {
+    "date": "2026-10-20",
+    "core": [
+      "backyard",
+      "deportiva",
+      "dolores",
+      "logro",
+      "puesto",
+      "ultra"
+    ],
+    "medal": "oro",
+    "title": "Hazaña deportiva en Dolores: Argentina logró el primer puesto sudamericano en backyard ultra - PINAMAR 24"
   }
 }
