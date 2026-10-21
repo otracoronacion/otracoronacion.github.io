@@ -11765,5 +11765,138 @@
     ],
     "medal": "oro",
     "title": "Hazaña deportiva en Dolores: Argentina logró el primer puesto sudamericano en backyard ultra - PINAMAR 24"
+  },
+  "56ec7e39d294": {
+    "date": "2026-10-20",
+    "core": [
+      "besso",
+      "cordobesa",
+      "esqui",
+      "isabella",
+      "nautico"
+    ],
+    "medal": "oro",
+    "dup_of": "04c30830b4fb",
+    "title": "La cordobesa Isabella Besso se consagró campeona panamericana de esquí náutico - Prensa Cba"
+  },
+  "4ec99b6729ae": {
+    "date": "2026-10-20",
+    "core": [
+      "bolivia",
+      "boxeo",
+      "choque",
+      "jujeno",
+      "latinoamericano",
+      "sebastian"
+    ],
+    "medal": "oro",
+    "title": "Boxeo: el jujeño Sebastián Choque se consagró campeón latinoamericano en Bolivia - Todo Jujuy"
+  },
+  "2a9114d526af": {
+    "date": "2026-10-20",
+    "core": [
+      "backyard",
+      "dolores",
+      "ultra"
+    ],
+    "medal": "oro",
+    "dup_of": "b2942e9647d5",
+    "title": "Historia en Dolores: Argentina fue campeón sudamericano en el Mundial de Backyard Ultra - Infocielo"
+  },
+  "974a6ea802c1": {
+    "date": "2026-10-20",
+    "core": [
+      "15",
+      "atletismo",
+      "conquista",
+      "medallas",
+      "peru"
+    ],
+    "medal": "oro",
+    "title": "Perú conquista 15 medallas en el Sudamericano U23 de Atletismo en Argentina - https://hbanoticias.pe/",
+    "llm_rejected": "Perú es el campeón, no Argentina"
+  },
+  "e0596c156ab9": {
+    "date": "2026-10-20",
+    "core": [
+      "castro",
+      "equipo",
+      "integro",
+      "matias",
+      "relevos",
+      "riojano",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Orgullo riojano: Matías Castro integró el equipo campeón sudamericano de relevos en Santa Fe - Fenix951"
+  },
+  "6842a7899891": {
+    "date": "2026-10-20",
+    "core": [
+      "amargura",
+      "hockey",
+      "lucas",
+      "martinez",
+      "mucha",
+      "patines",
+      "quedo"
+    ],
+    "medal": "plata",
+    "dup_of": "904517070ac5",
+    "title": "Lucas Martínez tras ser subcampeón mundial de hockey sobre patines con Argentina: \"Me quedó mucha amargura\" - Diario UNO"
+  },
+  "f47b4842688e": {
+    "date": "2026-10-20",
+    "core": [
+      "abedul",
+      "aljaraque",
+      "antonio",
+      "arroyo",
+      "blanca",
+      "cielo",
+      "cruzado",
+      "plata",
+      "toca"
+    ],
+    "medal": "oro",
+    "title": "El Abedul de Aljaraque toca el cielo en Argentina con el oro mundial de Blanca Arroyo y la plata de Antonio Cruzado - Huelva24",
+    "llm_rejected": "Blanca Arroyo y Antonio Cruzado son españoles, no argentinos"
+  },
+  "808f4bb7f23c": {
+    "date": "2026-10-20",
+    "core": [
+      "bonvissutto",
+      "federico",
+      "pedro",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "San Pedro: Federico Bonvissutto se consagró campeón sudamericano con la Selección Argentina de vóley U19 - La Opinión | Pergamino"
+  },
+  "8244aadb4dfc": {
+    "date": "2026-10-21",
+    "core": [
+      "brasil",
+      "mesa",
+      "tenis"
+    ],
+    "medal": "oro",
+    "title": "Argentina le ganó a Brasil y es bicampeona panamericana de tenis de mesa - Diario San Rafael"
+  },
+  "33950d40f3e8": {
+    "date": "2026-10-21",
+    "core": [
+      "antes",
+      "bahia",
+      "esfuerzo",
+      "familia",
+      "gorzelany",
+      "leonas",
+      "malvinas",
+      "venir"
+    ],
+    "medal": "oro",
+    "title": "Gorzelany, campeona del mundo con Las Leonas, antes de venir a Bahía: el esfuerzo, su familia, Malvinas y más... - La Nueva Provincia",
+    "llm_rejected": "Celebración posterior a logro ya publicado, no nuevo hecho"
   }
 }

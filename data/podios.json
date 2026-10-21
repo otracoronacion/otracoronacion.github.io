@@ -1,5 +1,45 @@
 [
   {
+    "id": "4ec99b6729ae",
+    "date": "2026-10-20",
+    "title": "Boxeo: el jujeño Sebastián Choque se consagró campeón latinoamericano en Bolivia",
+    "source": "Todo Jujuy",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMUF4NUhQQ0dvWWZMaDVvWEVNWklVT2dkdEV0ZUk2VTVIbGg1TW9WX3lEYjFONEZjLTZpdE9rb2tyRFZvQUpmRTBiTG02YngySEZNeUtHT2dObTFBYktXOWxXeFJDazRrVmd3dXJJSzZYVjItcFBabkxqbENSYTNMVk1EMHZSRkRZR2tBVHNtaXdfb1hLcE9OTkRmVnRWS1JvcVFMR2lkTFdqUjc1X245S1FmMUNFQmlEN3kw0gHAAUFVX3lxTFBuV3BERV9IMkhZcUNhTlBhYXBDOS1DZkRuVHBEcERhYkxKT041N1p1QmJMRWtqOEZvLUhXOVdMRzN1ZHEwbEZlekpTVjRNYk8yQjNTUkhKaVR3bDNmc05iUnNTejYxMTFwVUlOZFRQbi16dHJjcmxBcnpLRnVwZjhFRUxVbzRpeGdfNDJnVUhFR2hqSjRjaTU1Z1c5QmlUUC1GZ3AtQmdrWDl1aDhFcHFmMnhFelRXamN0UnZxMW5vTQ?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "boxeo masculino, Campeonato Latinoamericano, mayores"
+  },
+  {
+    "id": "e0596c156ab9",
+    "date": "2026-10-20",
+    "title": "Orgullo riojano: Matías Castro integró el equipo campeón sudamericano de relevos en Santa Fe",
+    "source": "Fenix951",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YakFPZGlHcmpPcnEzdXdCQUNiQU5YVVlEQ1BsZ3VKUEJnemtLNl9zVHVlQlpIbEQzQjJfY0dLOHR1N0NheHI5eXY1d202LWtBcXZkeE9lSmxOejh6X2c?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "atletismo relevos, Sudamericano U23, menores"
+  },
+  {
+    "id": "808f4bb7f23c",
+    "date": "2026-10-20",
+    "title": "San Pedro: Federico Bonvissutto se consagró campeón sudamericano con la Selección Argentina de vóley U19",
+    "source": "La Opinión | Pergamino",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUUd6WFR6eWIxMlY2ZEU3UEY4UW0xbGE1T0M2WmpqVkpraXBLZHpwZFpNYWVNSUtyeXhqaXUzMGt6Z2xPWnNZVnhJUHJRcXVqaUU3T09UZms1WmMwYlZnNTZ4UUY1dF8wTUd0a2dVNjhDSWdycWRvZEItTnFIU3BYODctcm45X0VEWFJXaHJNLUZRbkZCOUg0U3YxakdwNTVKS2g4TzJxUGVnQldqcG5QWUEwek03RVFhTHh0WmZNQktacUtaSEowUzZ0SVV0Q1VRMWxJ?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "voleibol masculino, Sudamericano U19, menores"
+  },
+  {
+    "id": "8244aadb4dfc",
+    "date": "2026-10-21",
+    "title": "Argentina le ganó a Brasil y es bicampeona panamericana de tenis de mesa",
+    "source": "Diario San Rafael",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSUx4UzV1Ti1pZ2hSRm9mQWxkUHJMRldhNk5CZUw0RXdrOWhKZ19WVjl0WlNhSXFWd0ZIb1NUZm1mbExxcVBBY0FiMXlhdGdJY3p2aHhoaGlWQmItdXNMN0dVcEs1RFhPeUJpWEpEdUl6QlM2bG94Tm5ZaXBUYmZ6bU5faWlHb3Rlc0E3TGdoOHhoMEhoc0RPcFh6d2c1OEJTdEx3dkN1SQ?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "tenis de mesa, Campeonato Panamericano, mayores"
+  },
+  {
     "id": "bdea85ed4db8",
     "date": "2026-10-19",
     "title": "Argentina, subcampeona en los World Skate Games",
