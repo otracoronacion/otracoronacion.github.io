@@ -11898,5 +11898,105 @@
     "medal": "oro",
     "title": "Gorzelany, campeona del mundo con Las Leonas, antes de venir a Bahía: el esfuerzo, su familia, Malvinas y más... - La Nueva Provincia",
     "llm_rejected": "Celebración posterior a logro ya publicado, no nuevo hecho"
+  },
+  "40e7cd7e475e": {
+    "date": "2026-10-21",
+    "core": [
+      "2026",
+      "bochas",
+      "cordobes",
+      "octubre",
+      "pascual",
+      "ramirez"
+    ],
+    "medal": "oro",
+    "dup_of": "30b75d2a2ae8",
+    "title": "Pascual Ramírez, el cordobés campeón del mundo en bochas octubre 2026 - Canal Showsport"
+  },
+  "af615eefa32a": {
+    "date": "2026-10-21",
+    "core": [
+      "brasil",
+      "mesa",
+      "tenis"
+    ],
+    "medal": "oro",
+    "dup_of": "8244aadb4dfc",
+    "title": "Argentina derrotó a Brasil y se consagró bicampeona panamericana de tenis de mesa - ESPN Argentina"
+  },
+  "eb8c244abe55": {
+    "date": "2026-10-21",
+    "core": [
+      "bochas",
+      "cordobes"
+    ],
+    "medal": "oro",
+    "title": "Un cordobés se consagró campeón mundial de bochas con la Selección Argentina - El Diario de Carlos Paz",
+    "llm_rejected": "Repetición de logro ya publicado"
+  },
+  "cd79e25e8453": {
+    "date": "2026-10-21",
+    "core": [
+      "alto",
+      "bochas",
+      "consagracion",
+      "cordobes",
+      "pascual",
+      "ramirez"
+    ],
+    "medal": "oro",
+    "dup_of": "30b75d2a2ae8",
+    "title": "Consagración. Un cordobés en lo más alto: Pascual Ramírez ganó el Mundial de bochas - La Voz del Interior"
+  },
+  "9529b2fa38e7": {
+    "date": "2026-10-21",
+    "core": [
+      "2026",
+      "21",
+      "brasil",
+      "octubre"
+    ],
+    "medal": "oro",
+    "title": "Argentina le ganó a Brasil y se consagró bicampeona panamericana | 21 de octubre de 2026 - Hoy Día Córdoba",
+    "llm_rejected": "Repetición de logro ya publicado"
+  },
+  "ecf1fdf7df73": {
+    "date": "2026-10-21",
+    "core": [
+      "acordo",
+      "renovacion",
+      "scaloni",
+      "sigue"
+    ],
+    "medal": "oro",
+    "title": "Sigue Scaloni: el DT campeón del mundo acordó su renovación en la Selección Argentina - AHORA Mar del Plata",
+    "llm_rejected": "Declaración/reacción posterior a un logro"
+  },
+  "1e9a8f51caf3": {
+    "date": "2026-10-21",
+    "core": [
+      "bienvenida",
+      "brindo",
+      "emotiva",
+      "lucas",
+      "ordonez"
+    ],
+    "medal": "plata",
+    "title": "¡Qué orgullo! La emotiva bienvenida que le brindó Argentino a Lucas Ordoñez tras el subcampeonato en el Mundial - Diario de Cuyo",
+    "llm_rejected": "Subcampeonato sin especificar disciplina ni competencia"
+  },
+  "f7f245d41826": {
+    "date": "2026-10-21",
+    "core": [
+      "actuacion",
+      "canotaje",
+      "cosecho",
+      "cuatro",
+      "medallas",
+      "nautico",
+      "ribera"
+    ],
+    "medal": "oro",
+    "title": "Histórica actuación del Náutico La Ribera en el Campeonato Mundial de Canotaje: cosechó cuatro medallas para la Argentina - Noticias Río Negro"
   }
 }
