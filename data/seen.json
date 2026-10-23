@@ -11998,5 +11998,60 @@
     ],
     "medal": "oro",
     "title": "Histórica actuación del Náutico La Ribera en el Campeonato Mundial de Canotaje: cosechó cuatro medallas para la Argentina - Noticias Río Negro"
+  },
+  "6adf58e4bb41": {
+    "date": "2026-10-21",
+    "core": [
+      "101",
+      "franco",
+      "lorenzo",
+      "mesa",
+      "piruzi",
+      "radio",
+      "santiago",
+      "tenis"
+    ],
+    "medal": "oro",
+    "dup_of": "8244aadb4dfc",
+    "title": "Santiago Lorenzo y Franco Piruzi, bicampeones panamericanos de tenis de mesa con Argentina - Radio 101.5 - San Rafael"
+  },
+  "8a2a41ca8033": {
+    "date": "2026-10-22",
+    "core": [
+      "bronce",
+      "llevo",
+      "pelota",
+      "ruedas",
+      "silla"
+    ],
+    "medal": "bronce",
+    "title": "Argentina se llevó el bronce en pelota sobre silla de ruedas del Mundial - DeporTV"
+  },
+  "b44c95f5e9df": {
+    "date": "2026-10-22",
+    "core": [
+      "consagrarse",
+      "diario",
+      "enfrentamientos",
+      "leonas",
+      "norte",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas volvieron a los enfrentamientos tras consagrarse campeonas del Mundo - Diario El Norte - San Nicolás",
+    "llm_rejected": "Declaración/reacción posterior al logro, no el hecho consumado"
+  },
+  "17242f0c5db3": {
+    "date": "2026-10-23",
+    "core": [
+      "canotaje",
+      "consiguio",
+      "ferrier",
+      "jorge",
+      "plata"
+    ],
+    "medal": "medalla",
+    "title": "Mundial de Canotaje: Jorge Ferrier consiguió una medalla de oro y una de plata para la Argentina - Radionacional.com.ar",
+    "llm_merged": "repite el logro f7f245d41826 del 2026-10-21"
   }
 }
