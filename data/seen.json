@@ -12053,5 +12053,143 @@
     "medal": "medalla",
     "title": "Mundial de Canotaje: Jorge Ferrier consiguió una medalla de oro y una de plata para la Argentina - Radionacional.com.ar",
     "llm_merged": "repite el logro f7f245d41826 del 2026-10-21"
+  },
+  "b187eccc2cae": {
+    "date": "2026-10-21",
+    "core": [
+      "bochas",
+      "cordobes",
+      "pascual",
+      "ramirez"
+    ],
+    "medal": "oro",
+    "dup_of": "30b75d2a2ae8",
+    "title": "Pascual Ramírez, el cordobés campeón del mundo en bochas - Agencia Córdoba Deportes"
+  },
+  "d67a0fa9b91c": {
+    "date": "2026-10-23",
+    "core": [
+      "madrid",
+      "real",
+      "reforzaria"
+    ],
+    "medal": "oro",
+    "title": "Real Madrid se reforzaría con un argentino campeón del mundo - El Intransigente",
+    "llm_rejected": "Declaración sobre posible fichaje, no un logro consumado"
+  },
+  "b722fe41cb0b": {
+    "date": "2026-10-23",
+    "core": [
+      "puly",
+      "villegas"
+    ],
+    "medal": "oro",
+    "title": "Con “Puly” Villegas, Argentina se consagró Campeón del Mundo - El Diario de la República"
+  },
+  "2a55d4cc50e7": {
+    "date": "2026-10-23",
+    "core": [
+      "cairo",
+      "elegida",
+      "hockey",
+      "jugadora",
+      "sofia"
+    ],
+    "medal": "oro",
+    "title": "La argentina Sofía Cairó fue elegida como la mejor jugadora de hockey del mundo - El Diario de Carlos Paz",
+    "llm_rejected": "Premios individuales a mejor jugadora, no podio de competencia"
+  },
+  "9b3f47bed768": {
+    "date": "2026-10-23",
+    "core": [
+      "cuatro",
+      "premios"
+    ],
+    "medal": "oro",
+    "title": "Histórico: cuatro argentinos se consagraron como los mejores del mundo en los premios de la FIH - El Esquiu",
+    "llm_rejected": "Premios individuales de la FIH, no podio de competencia"
+  },
+  "c74f4b0484d3": {
+    "date": "2026-10-23",
+    "core": [
+      "asturiana",
+      "corta",
+      "distancia",
+      "maraton",
+      "miriam",
+      "vega"
+    ],
+    "medal": "plata",
+    "title": "La asturiana Miriam Vega, subcampeona del Mundo de maratón de distancia corta en Argentina - La Nueva España",
+    "llm_rejected": "La subcampeona es asturiana (España), no argentina"
+  },
+  "64382afa0736": {
+    "date": "2026-10-23",
+    "core": [
+      "conquisto",
+      "cuatro",
+      "gualeguaychu",
+      "medallas",
+      "paracanotaje"
+    ],
+    "medal": "oro",
+    "dup_of": "f7f245d41826",
+    "title": "PARACANOTAJE: ARGENTINA CONQUISTÓ CUATRO MEDALLAS EN EL PRIMER DÍA DEL MUNDIAL DE GUALEGUAYCHÚ - Paradeportes"
+  },
+  "405cea4274bd": {
+    "date": "2026-10-23",
+    "core": [
+      "arraso",
+      "cuatro",
+      "diario",
+      "distinciones",
+      "hockey",
+      "norte",
+      "premios",
+      "seis"
+    ],
+    "medal": "oro",
+    "dup_of": "9b3f47bed768",
+    "title": "Argentina arrasó en los premios del hockey mundial: ganó cuatro de las seis distinciones - Diario El Norte - San Nicolás"
+  },
+  "ee2bd5539e79": {
+    "date": "2026-10-23",
+    "core": [
+      "conquistaron",
+      "cuatro",
+      "figuras",
+      "hockey",
+      "importantes",
+      "nacional",
+      "premios"
+    ],
+    "medal": "oro",
+    "title": "¡Orgullo argentino! Cuatro figuras del hockey nacional conquistaron los premios más importantes del mundo - Gente de Salta",
+    "llm_rejected": "Premios individuales, no podio de competencia"
+  },
+  "43ac5f605be7": {
+    "date": "2026-10-24",
+    "core": [
+      "adega",
+      "cuelga",
+      "maraton",
+      "nico",
+      "plata"
+    ],
+    "medal": "plata",
+    "title": "Nico Adega se cuelga la plata mundial de maratón KL3 en Argentina - LugoXa"
+  },
+  "6efb61a87682": {
+    "date": "2026-10-24",
+    "core": [
+      "aires",
+      "buenos",
+      "logro",
+      "medallas",
+      "pelota",
+      "vasca"
+    ],
+    "medal": "oro",
+    "title": "Argentina logró dos medallas de oro en el Mundial de Pelota Vasca de Buenos Aires - DeporTV"
   }
 }
