@@ -12191,5 +12191,127 @@
     ],
     "medal": "oro",
     "title": "Argentina logró dos medallas de oro en el Mundial de Pelota Vasca de Buenos Aires - DeporTV"
+  },
+  "ad89964c687c": {
+    "date": "2026-10-24",
+    "core": [
+      "canotaje",
+      "garro",
+      "magdalena"
+    ],
+    "medal": "oro",
+    "title": "Orgullo argentino: Magdalena Garro ganó una medalla en el Mundial de Canotaje - Infobrisas",
+    "llm_merged": "repite el logro f7f245d41826 del 2026-10-21"
+  },
+  "3a72d84a7563": {
+    "date": "2026-10-24",
+    "core": [
+      "crivelli",
+      "duhpraz",
+      "franco",
+      "iame",
+      "mano",
+      "racing"
+    ],
+    "medal": "oro",
+    "title": "Argentina, campeona mundial IAME de la mano de Franco Crivelli y Duhpraz Racing - Campeones"
+  },
+  "b6adce070e4d": {
+    "date": "2026-10-24",
+    "core": [
+      "carrera",
+      "pampeana",
+      "patin",
+      "pordomingo",
+      "virginia"
+    ],
+    "medal": "plata",
+    "title": "La pampeana Virginia Pordomingo fue subcampeona mundial de patín carrera - Marca Personal Web"
+  },
+  "de115044f10c": {
+    "date": "2026-10-24",
+    "core": [
+      "cairo",
+      "excelencia",
+      "hockey",
+      "jugadora",
+      "maxima",
+      "sofia"
+    ],
+    "medal": "oro",
+    "title": "Excelencia argentina en el hockey: Sofía Cairó se consagra como la máxima jugadora mundial - Info Arenales",
+    "llm_rejected": "Ranking o reconocimiento, no un podio consumado"
+  },
+  "0188f5556dc2": {
+    "date": "2026-10-24",
+    "core": [
+      "cordoba",
+      "entrenar",
+      "leonas",
+      "luego",
+      "mente",
+      "mundiales",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas volvieron a entrenar luego de ser campeonas mundiales y con la mente en Córdoba - La Voz del Interior",
+    "llm_rejected": "Declaración/reacción posterior a logro ya publicado"
+  },
+  "fef16b1e9da3": {
+    "date": "2026-10-24",
+    "core": [
+      "adolescente",
+      "boxing",
+      "cartagena",
+      "chaquena",
+      "kick",
+      "sanchez",
+      "valentina"
+    ],
+    "medal": "oro",
+    "title": "La chaqueña Valentina Sanchez se consagró campeona mundial adolescente de Kick Boxing en Cartagena - TN24.com.ar"
+  },
+  "90ab24eaf9fe": {
+    "date": "2026-10-24",
+    "core": [
+      "cuatro",
+      "hija",
+      "madre",
+      "medallas",
+      "santiagueno",
+      "taekwon"
+    ],
+    "medal": "oro",
+    "dup_of": "f7f245d41826",
+    "title": "Orgullo santiagueño: madre e hija ganaron cuatro medallas de oro en los Juegos Panamericanos de Taekwon-Do - Info del Estero"
+  },
+  "67361dd6c32b": {
+    "date": "2026-10-25",
+    "core": [
+      "cielo",
+      "cynthia",
+      "equipo",
+      "pinto",
+      "toco",
+      "tucumana"
+    ],
+    "medal": "oro",
+    "title": "Cynthia Pinto tocó el cielo: con la tucumana en el equipo, Argentina se consagró campeón del mundo - La Gaceta",
+    "llm_rejected": "Titular vago sin especificar disciplina ni competencia"
+  },
+  "97e97f06afcf": {
+    "date": "2026-10-25",
+    "core": [
+      "calderon",
+      "garcia",
+      "pelota",
+      "platense",
+      "realidad",
+      "sone",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "La platense Lis García Calderón se consagró campeona mundial de pelota vasca: \"Lo que soñé hoy es realidad\" - Diario El Día de La Plata"
   }
 }
