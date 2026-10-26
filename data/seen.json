@@ -12313,5 +12313,209 @@
     "medal": "oro",
     "dup_of": "6efb61a87682",
     "title": "La platense Lis García Calderón se consagró campeona mundial de pelota vasca: \"Lo que soñé hoy es realidad\" - Diario El Día de La Plata"
+  },
+  "781da76f421a": {
+    "date": "2026-10-25",
+    "core": [
+      "jose",
+      "mailliard",
+      "maria"
+    ],
+    "medal": "oro",
+    "title": "María José Mailliard, campeona mundial en Argentina - En Cancha",
+    "llm_rejected": "Titular vago, no especifica disciplina ni competencia"
+  },
+  "764eeaa16df2": {
+    "date": "2026-10-25",
+    "core": [
+      "jose",
+      "mailliard",
+      "maria"
+    ],
+    "medal": "oro",
+    "dup_of": "781da76f421a",
+    "title": "María José Mailliard se coronó campeona mundial en Argentina - Cooperativa"
+  },
+  "5601d96b14fe": {
+    "date": "2026-10-25",
+    "core": [
+      "adaptada",
+      "bronces",
+      "obtuvo",
+      "pelota"
+    ],
+    "medal": "oro",
+    "title": "PELOTA ADAPTADA: ARGENTINA OBTUVO DOS BRONCES EN EL MUNDIAL - Paradeportes",
+    "llm_merged": "repite el logro 6efb61a87682 del 2026-10-24"
+  },
+  "6b0bf560e413": {
+    "date": "2026-10-25",
+    "core": [
+      "andres",
+      "puntanos",
+      "villegas"
+    ],
+    "medal": "oro",
+    "title": "Más gloria para los puntanos: Andrés Villegas también es campeón del mundo - El Diario de la República",
+    "llm_merged": "repite el logro b722fe41cb0b del 2026-10-23"
+  },
+  "befba7eb8dea": {
+    "date": "2026-10-25",
+    "core": [
+      "50",
+      "actuacion",
+      "anos",
+      "logro",
+      "pelota",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Argentina logró su mejor actuación en más de 50 años en el Mundial de Pelota Vasca - Opinando San Nicolás"
+  },
+  "669fd974f095": {
+    "date": "2026-10-25",
+    "core": [
+      "agustin",
+      "canotaje",
+      "cierre",
+      "entrerriano",
+      "ratto"
+    ],
+    "medal": "plata",
+    "title": "Un entrerriano hizo historia: Agustín Ratto fue subcampeón en el cierre del Mundial de Canotaje - Diario El Argentino",
+    "llm_merged": "repite el logro f7f245d41826 del 2026-10-21"
+  },
+  "0b123e140a1f": {
+    "date": "2026-10-25",
+    "core": [
+      "baumstarh",
+      "maria",
+      "perdio",
+      "quedo"
+    ],
+    "medal": "oro",
+    "title": "María Sol Baumstarh perdió su título mundial y Argentina se quedó sin campeones - Diario Noticias De La Calle de Misiones",
+    "llm_rejected": "María Sol Baumstarh perdió su título; Argentina se quedó sin campeones en esa disciplina"
+  },
+  "35fce405c1f9": {
+    "date": "2026-10-25",
+    "core": [
+      "baumstarh",
+      "boxeo",
+      "bustillos",
+      "cayo",
+      "dorada",
+      "mundiales",
+      "quedo"
+    ],
+    "medal": "oro",
+    "dup_of": "0b123e140a1f",
+    "title": "Fin a una era dorada: Sol Baumstarh cayó ante Bustillos y el boxeo argentino se quedó sin campeones mundiales - SgoSports"
+  },
+  "b2c23fcdaeac": {
+    "date": "2026-10-25",
+    "core": [
+      "20",
+      "anos",
+      "baumstarh",
+      "boxeo",
+      "corona",
+      "mundiales",
+      "perdio",
+      "quedo"
+    ],
+    "medal": "oro",
+    "dup_of": "0b123e140a1f",
+    "title": "El boxeo argentino se quedó sin campeones mundiales por primera vez en 20 años: Sol Baumstarh perdió su corona - estas informado"
+  },
+  "a1f5a234c7db": {
+    "date": "2026-10-25",
+    "core": [
+      "azula",
+      "colombia",
+      "correntina",
+      "josefina",
+      "matematica",
+      "nacional"
+    ],
+    "medal": "oro",
+    "title": "Orgullo nacional: la correntina Josefina Azula se consagró campeona sudamericana de Matemática en Colombia - Radio Popular San Luis"
+  },
+  "b2bb09c1bbe0": {
+    "date": "2026-10-25",
+    "core": [
+      "2026",
+      "agustin",
+      "canotaje",
+      "cierre",
+      "entrerriano",
+      "gualeguaychu",
+      "ratto"
+    ],
+    "medal": "plata",
+    "dup_of": "669fd974f095",
+    "title": "Un entrerriano hizo historia: Agustín Ratto fue subcampeón mundial en el cierre del Canotaje Gualeguaychú 2026 - Diario El Argentino"
+  },
+  "1bc945f6b895": {
+    "date": "2026-10-25",
+    "core": [
+      "cordoba",
+      "leonas",
+      "mira",
+      "objetivo",
+      "puesta",
+      "trabajo",
+      "volvieron"
+    ],
+    "medal": "oro",
+    "title": "Las Leonas volvieron al trabajo como campeonas del mundo y con la mira puesta en Córdoba - El Objetivo - Medio de comunicación digital",
+    "llm_rejected": "Celebración posterior a un logro ya publicado, no es noticia de hoy"
+  },
+  "51195dea4071": {
+    "date": "2026-10-25",
+    "core": [
+      "20",
+      "anos",
+      "baumstarh",
+      "boxeo",
+      "bustillos",
+      "corona",
+      "despues",
+      "mundiales",
+      "perdio",
+      "quedo",
+      "yadira"
+    ],
+    "medal": "oro",
+    "dup_of": "0b123e140a1f",
+    "title": "El boxeo argentino se quedó sin campeones mundiales después de 20 años: Sol Baumstarh perdió su corona ante Yadira Bustillos - Clarin.com"
+  },
+  "1008761e421b": {
+    "date": "2026-10-26",
+    "core": [
+      "calderon",
+      "garcia",
+      "pelota",
+      "platense"
+    ],
+    "medal": "oro",
+    "title": "La platense Lis García Calderón, campeona del mundo de Pelota - Diario El Día de La Plata",
+    "llm_merged": "repite el logro 6efb61a87682 del 2026-10-24"
+  },
+  "b3f39541d0ad": {
+    "date": "2026-10-26",
+    "core": [
+      "almudena",
+      "boza",
+      "deportivo",
+      "ganan",
+      "hija",
+      "pancho",
+      "tiro"
+    ],
+    "medal": "oro",
+    "title": "‘Pancho’ Boza y su hija Almudena ganan medalla en el Campeonato Sudamericano de Tiro Deportivo en Argentina - El Comercio Perú",
+    "llm_rejected": "Fuente peruana, no especifica si es argentino el ganador; ambigüedad sobre nacionalidad"
   }
 }
