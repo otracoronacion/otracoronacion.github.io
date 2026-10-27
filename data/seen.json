@@ -12517,5 +12517,196 @@
     "medal": "oro",
     "title": "‘Pancho’ Boza y su hija Almudena ganan medalla en el Campeonato Sudamericano de Tiro Deportivo en Argentina - El Comercio Perú",
     "llm_rejected": "Fuente peruana, no especifica si es argentino el ganador; ambigüedad sobre nacionalidad"
+  },
+  "f09788807447": {
+    "date": "2026-10-25",
+    "core": [
+      "canotaje",
+      "concluyo",
+      "entrerriano"
+    ],
+    "medal": "plata",
+    "dup_of": "669fd974f095",
+    "title": "Concluyó el Mundial de Canotaje con un entrerriano como subcampeón del mundo - gualeguaychu.gov.ar"
+  },
+  "252982ce518b": {
+    "date": "2026-10-25",
+    "core": [
+      "20",
+      "anos",
+      "baumstarh",
+      "boxeo",
+      "corona",
+      "mundiales",
+      "perdio",
+      "quedo"
+    ],
+    "medal": "oro",
+    "title": "Sol Baumstarh perdió su corona y Argentina se quedó sin campeones mundiales de boxeo tras 20 años - DeporTV",
+    "llm_rejected": "Titular sobre pérdida de título, no sobre un logro consumado"
+  },
+  "e51d18a63635": {
+    "date": "2026-10-25",
+    "core": [
+      "berruezo",
+      "coronaron",
+      "entrerriano",
+      "federico",
+      "fernandez",
+      "logro",
+      "mundiales",
+      "nicolas",
+      "pelota",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Histórico logro entrerriano: Nicolás Berruezo y Federico Fernández se coronaron campeones mundiales de pelota vasca - La Pirámide"
+  },
+  "dd589c6b92c1": {
+    "date": "2026-10-26",
+    "core": [
+      "2027",
+      "santa"
+    ],
+    "medal": "oro",
+    "title": "Argentina campeón con dos de Santa Fe y va al Mundial 2027 - El Litoral",
+    "llm_rejected": "Vago, no especifica disciplina ni competencia"
+  },
+  "c0029b64da10": {
+    "date": "2026-10-26",
+    "core": [
+      "goma",
+      "pelota",
+      "trinquete",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Argentina es campeón mundial de pelota vasca en goma trinquete - VirasoroVirtual"
+  },
+  "6c4b8c04f7ee": {
+    "date": "2026-10-26",
+    "core": [
+      "bronce",
+      "clady",
+      "deportivo",
+      "jujeno",
+      "nicolas",
+      "tiro"
+    ],
+    "medal": "bronce",
+    "title": "El jujeño Nicolás Clady ganó la medalla de bronce en el Sudamericano de tiro deportivo - Somos Jujuy"
+  },
+  "84b2fc09948c": {
+    "date": "2026-10-26",
+    "core": [
+      "canotaje",
+      "cerro",
+      "gualeguaychu"
+    ],
+    "medal": "plata",
+    "title": "Argentina cerró el Mundial de Canotaje con un subcampeonato histórico en Gualeguaychú - Marca Personal Web"
+  },
+  "671bafa47e31": {
+    "date": "2026-10-26",
+    "core": [
+      "cinco",
+      "clavell",
+      "jorge",
+      "luis",
+      "medallas",
+      "salteno",
+      "trasplantados"
+    ],
+    "medal": "oro",
+    "title": "Orgullo salteño: Jorge Luis Clavell ganó cinco medallas en los Panamericanos para trasplantados - El 10 TV"
+  },
+  "e3bd9d90cdd2": {
+    "date": "2026-10-26",
+    "core": [
+      "aporte",
+      "jugadores",
+      "mendocinos",
+      "padel",
+      "paraguay",
+      "salio"
+    ],
+    "medal": "oro",
+    "title": "Pádel: Argentina salió campeón Panamericano en Paraguay con el aporte de dos jugadores mendocinos - Sitio Andino"
+  },
+  "da8ef2c9b616": {
+    "date": "2026-10-26",
+    "core": [
+      "2026",
+      "canotaje",
+      "consagrarse",
+      "quedo",
+      "suspiro"
+    ],
+    "medal": "plata",
+    "title": "Mundial de Canotaje 2026: un argentino quedó a un suspiro del oro al consagrarse subcampeón del mundo - Vía País",
+    "llm_merged": "mismo logro que 84b2fc09948c"
+  },
+  "f95faa68eb1d": {
+    "date": "2026-10-26",
+    "core": [
+      "canotaje",
+      "corona",
+      "hito",
+      "jose",
+      "mailliard",
+      "maraton",
+      "maria"
+    ],
+    "medal": "oro",
+    "title": "Hito histórico en Argentina: María José Mailliard se corona campeona en el Mundial de Canotaje Maratón - Publimetro"
+  },
+  "be66e906e7d9": {
+    "date": "2026-10-27",
+    "core": [
+      "2026",
+      "aires",
+      "buenos",
+      "conquistaron",
+      "formosenos",
+      "medallas",
+      "wushu"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Wushu: los formoseños conquistaron medallas en el Panamericano 2026 de Buenos Aires - NEA HOY"
+  },
+  "2fea8a4ee39a": {
+    "date": "2026-10-27",
+    "core": [
+      "club",
+      "insausti",
+      "javier",
+      "pamplona",
+      "pelota",
+      "proclama",
+      "tenis"
+    ],
+    "medal": "oro",
+    "title": "Javier Insausti, del Club Tenis Pamplona, se proclama campeón del mundo de pelota en Argentina - Navarra.com",
+    "llm_rejected": "Deportista español, no argentino"
+  },
+  "14da19abd078": {
+    "date": "2026-10-27",
+    "core": [
+      "cinco",
+      "clavell",
+      "conquisto",
+      "deportistas",
+      "jorge",
+      "luis",
+      "medallas",
+      "salteno",
+      "trasplantados"
+    ],
+    "medal": "oro",
+    "dup_of": "671bafa47e31",
+    "title": "El salteño Jorge Luis Clavell conquistó cinco medallas en los I Juegos Panamericanos para Deportistas Trasplantados - HolaSalta Noticias"
   }
 }

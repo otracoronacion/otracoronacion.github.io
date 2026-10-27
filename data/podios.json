@@ -1,5 +1,55 @@
 [
   {
+    "id": "6c4b8c04f7ee",
+    "date": "2026-10-26",
+    "title": "El jujeño Nicolás Clady ganó la medalla de bronce en el Sudamericano de tiro deportivo",
+    "source": "Somos Jujuy",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeEhnRmR5dVIwVTVoU1BDcGR0bWwtZXFqSGJWZ2pWRkN5ZS1QTnU3cWlUMm5CTVhZNzRKTlQ0T0hXaUlZZXJnd3Y4VHRNNE41dXhENEdaVDRXaTNETjVzUmtLUnNCVkxsSF9JUWkyS0k5VnpfdlNjcEM2MHp1VEFUU2o1Z0RVOFhEOWpSOWlUVVVPRjhsYkR2WFBRR2l4Uk1rYlNDS3VWQzhXU1VrSDg3ZV90VDZSeUVYYXfSAb8BQVVfeXFMTVVVUURadXlBQk5aajQ1RnFvSGM3MDBGOFFRQVByTENzTVI4OERlQnVBekpscnZsR1pxY1RBWEJQSUJpY3lKTk9tRkgtRWVWQllqSWU0WGdNNGdPMllZS2NyaTF2OGdTcEp2VklKaXN4TXMxeXI2VlN6R0swQzVJZTRVUmoxQnRSV3F1cXJPQW9kMW85eklEX3U2c0ZEVWdfcUZodjZmemEwOWJBZW9WRW5Kb0V1UXNuanVrR2NybGc?oc=5",
+    "medal": "bronce",
+    "scope": "continental",
+    "logro": "tiro deportivo, Sudamericano, mayores"
+  },
+  {
+    "id": "84b2fc09948c",
+    "date": "2026-10-26",
+    "title": "Argentina cerró el Mundial de Canotaje con un subcampeonato histórico en Gualeguaychú",
+    "source": "Marca Personal Web",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVV82cUxUM1RZXzhyb2IzQ3NlSTctZElHV1lwLUpTQk1SOGFIUWUxakFBNmE4ampUakgxNUh0bHotbzRIZXo2QmtiUTFubndENUc4Sm9MRHJ1SFpNYlhKSUMtZWNuTGp4VDEwb19KeWFvcm16dE1ramNnNUYwMkdtN1ZqcFZvc1dMdy1VUHh0T1NzR2RqQnZ2MEVLQ0pFWUlweHd6RUtOOXpZaWcwbVVyTnQtSHA2M0FpbmdOM3BnSW1DeWNYd3hnQw?oc=5",
+    "medal": "plata",
+    "scope": "mundial",
+    "logro": "canotaje, Mundial, mayores"
+  },
+  {
+    "id": "671bafa47e31",
+    "date": "2026-10-26",
+    "title": "Orgullo salteño: Jorge Luis Clavell ganó cinco medallas en los Panamericanos para trasplantados",
+    "source": "El 10 TV",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb1Y1SUk1b1dBU0h5akp2a0RkaXRnaHh1WkE3Qkh1dld1YVBiRTV6emYzZmEzem0zcklzY0I4NXhlbWctYUtjRVhnc3VWWEFYOU1ydS1PM3h3QWVFeHYtVTF6Q3lDbVZtcUtLNk5kSzFRaGx0WmM2TWFkTDFrUDlqNXJSVk9VX1lROU0xWGVVbUExT1VuR3dPMjBpNHBMRmJPLTN6YjYxbWVfOWlyZGpHenlHMUNVZEszdUdlMWpZZlJ4R1lZQjR2VExydDhweHh2?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "atletismo, Panamericanos para trasplantados, mayores"
+  },
+  {
+    "id": "e3bd9d90cdd2",
+    "date": "2026-10-26",
+    "title": "Pádel: Argentina salió campeón Panamericano en Paraguay con el aporte de dos jugadores mendocinos",
+    "source": "Sitio Andino",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1ZSUW1aYlVaVTlWZHEwd2szUXZMd28ybUdsemZ3WWxCeEN6OVFWUWFiM0xVZE5HVy00OU43SXp2QWJ1NnpmS0RtZnRaRFNFVWRobmFqNGtIT1lZYXdWalg5RG9xQlZ4V3FyWTNacU14dk9LQksxcFFfZ1JvSlNqcnhSWEhMQzFfMGpHaE5ieGVSeUNKMFpfUW5vUnJlX2wwak0tTUY1SEJMd1RDLTk3TXU3Q1BjeWc3OWktdTU3bVo5OVpvTllPc29KdHlpZ1hpd2QwdFZ0ZHRqUkw30gHcAUFVX3lxTE5DVlJRbVpiVVpVOVZkcTB3azNRdkx3bzJtR2x6ZndZbEJ4Q3o5UVZRYWIzTFVkTkdXLTQ5TjdJenZBYnU2emZLRG1mdFpEU0VVZGhuYWo0a0hPWVlhd1ZqWDlEb3FCVnhXcXJZM1pxTXh2T0tCSzFwUV9nUm9KU2pyeFJYSExDMV8wakdoTmJ4ZVJ5Q0owWl9Rbm9ScmVfbDBqTS1NRjVIQkx3VEMtOTdNdTdDUGN5Zzc5aS11NTdtWjk5Wm9OWU9zb0p0eWlnWGl3ZDB0VnRkdGpSTDc?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "pádel femenino, Campeonato Panamericano, mayores"
+  },
+  {
+    "id": "f95faa68eb1d",
+    "date": "2026-10-26",
+    "title": "Hito histórico en Argentina: María José Mailliard se corona campeona en el Mundial de Canotaje Maratón",
+    "source": "Publimetro",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2NSLThMM1VkSkUwRGlpMG96OVhzZVF3ZmtzZEFTbW93NWNfYzJJbFZrODMwQmdRa3lMY1RBLUt2SnZELWtNRGNaNENrXy1mYUZ4ZUNCczV5cnJNRDUtZHVWWXFDZ255X1BYVTZsZk9rUFBjNDc1cGpIcVU1UlMzRE5lazBob19pVWFEV2FWeGs0d28waHFKM1FFTXgwWUZ6Tkx2Z2pHM1Job25RSFBSM1ROXzgtZlJpMmxtbA?oc=5",
+    "medal": "oro",
+    "scope": "mundial",
+    "logro": "canotaje maratón, Mundial, mayores"
+  },
+  {
     "id": "a1f5a234c7db",
     "date": "2026-10-25",
     "title": "Orgullo nacional: la correntina Josefina Azula se consagró campeona sudamericana de Matemática en Colombia",
