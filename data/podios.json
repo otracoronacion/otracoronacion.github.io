@@ -1,5 +1,45 @@
 [
   {
+    "id": "45fa3be8ca6c",
+    "date": "2026-10-27",
+    "title": "Argentina se coronó campeón Panamericano de waterpolo máster",
+    "source": "Marca Personal Web",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzEzb0pqdHlvc0VzeFpfQkM2Y25sa1pueDJXTG43bmVFajNpZGZjUjdNcGVMMzVpeXZFdWxRdzlLb2ZZS1BYV0ZhUm9CNGRxcWdaTzk3REFabV9aREd0UkNhaUpNeS0yMFdBYk83cm5wenp0OUtnRGFzN25TTURYLTNPV0xKY2dzTkk2QnljNzYzWGY5cWlrSkNjWlQyeGJycGRaNldZMA?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "waterpolo máster, Campeonato Panamericano, +40"
+  },
+  {
+    "id": "bcc904f8d0be",
+    "date": "2026-10-28",
+    "title": "Tiradora catamarqueña se consagró campeona sudamericana - Diario Inforama",
+    "source": "Diario Inforama - Catamarca",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZjBaV19jZGxtMWozdUI5WUdaTjFLMnRIWjRndjlXSlVaeVJwTGk2RXdWN2lDa09QSjBQT0tLWk9fSUdRRFR2YVpzMmtHbmRDd3dzRGVyWm5sMS1vS2NkWHlnbXRoS2dDV3h4QndVTnQ0c3Q1cUQ2U1MwNVhta18xaHA5b1FiX1FoeFRsZnprbVNiSHMzbndBbzZlTkdvVGVTb3c?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "tiro deportivo, Sudamericano, mayores"
+  },
+  {
+    "id": "250428ccea6a",
+    "date": "2026-10-28",
+    "title": "Boxeadora salteña se consagró campeona en el Latinoamericano Verde y Oro",
+    "source": "Que Pasa Salta",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeG1JRUJYbU44MUpEZ0tyYkpheUc4WktIRG9pNHVTLXo1cHJSbjlTNlpObUxOaWsyaTU5OTc1ekgtcENZaXZvb1ZhaGpmZTdlMUFMOHo2TURELVU4WWlqaHp0eUNDZjdEcXlWQXREUUhwd2tWZXYzcFQ4QVlqRHgwT1h2T2FvSzhSSTFlNGFMc1ZFa1p1ZW1aM044b3NWWXZWcndFcERGUnlLS1ZR0gGsAUFVX3lxTE54bUlFQlhtTjgxSkRnS3JiSmF5RzhaS0hEb2k0dVMtejVwclJuOVM2Wk5tTE5pazJpNTk5NzV6SC1wQ1lpdm9vVmFoamZlN2UxQUw4ejZNREQtVThZaWpoenR5Q0NmN0RxeVZBdERRSHB3a1ZldjNwVDhBWWpEeDBPWHZPYW9LOFJJMWU0YUxzVkVrWnVlbVozTjhvc1ZZdlZyd0VwREZSeUtLVlE?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "boxeo femenino, Campeonato Latinoamericano, mayores"
+  },
+  {
+    "id": "3eefdaacc557",
+    "date": "2026-10-28",
+    "title": "Fátima Moreno, de Zinacantepec, se corona campeona mundial de Frontball en Argentina",
+    "source": "Apocaliptic",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYU1vaXVFRVBoVWQ2S2hlZWxwMHJ4V2dHaVlpMEtTRUZoRjV4a3Izdld0eWk5cy1lVEFTRWtFcGE4MU1KbmhmTDk5Qk1pU3ltTVJEeUM0aHVRcG1jcWNKRTFXUFh1MURGbFdSdm9IandELUg2TVpGY2tjR29meHF1bDVMNDBDZmhqZkVLN1Bmck95MmxSWVpLZmR3azRNQlQ4ZW5NWElJYll6NXJwRHhyTFY3VWpiYTZQWnYybk1NbUtZWEpremVaWE8yUGJQT3Rqa1VKMg?oc=5",
+    "medal": "oro",
+    "scope": "mundial",
+    "logro": "frontball femenino, Mundial, mayores"
+  },
+  {
     "id": "6c4b8c04f7ee",
     "date": "2026-10-26",
     "title": "El jujeño Nicolás Clady ganó la medalla de bronce en el Sudamericano de tiro deportivo",

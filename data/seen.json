@@ -12708,5 +12708,81 @@
     "medal": "oro",
     "dup_of": "671bafa47e31",
     "title": "El salteño Jorge Luis Clavell conquistó cinco medallas en los I Juegos Panamericanos para Deportistas Trasplantados - HolaSalta Noticias"
+  },
+  "51b056d2c577": {
+    "date": "2026-10-27",
+    "core": [
+      "boxeo",
+      "mundiales"
+    ],
+    "medal": "oro",
+    "title": "Argentina, sin campeones mundiales de boxeo - ESPN Argentina",
+    "llm_rejected": "Titular negativo: Argentina sin campeones, no informa un logro"
+  },
+  "45fa3be8ca6c": {
+    "date": "2026-10-27",
+    "core": [
+      "master",
+      "waterpolo"
+    ],
+    "medal": "oro",
+    "title": "Argentina se coronó campeón Panamericano de waterpolo máster - Marca Personal Web"
+  },
+  "347920380209": {
+    "date": "2026-10-27",
+    "core": [
+      "cordobes",
+      "espana",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "title": "Un cordobés se consagró campeón del mundo de taekwondo en España - El Diario de Carlos Paz",
+    "llm_rejected": "Titular vago sin disciplina clara ni competencia específica; podría ser repetición de #30 o #31 pero no lo especifica"
+  },
+  "ed3a13dc8e25": {
+    "date": "2026-10-27",
+    "core": [
+      "boxeo",
+      "joya",
+      "peralta",
+      "video"
+    ],
+    "medal": "oro",
+    "title": "LA JOYA ARGENTINA LO HIZO: ¡PERALTA CAMPEÓN DEL MUNDO! #boxeo #argentina #fyp #video - YouTube",
+    "llm_rejected": "Titular de redes sociales sin información verificable de competencia mundial; no especifica disciplina ni campeonato"
+  },
+  "bcc904f8d0be": {
+    "date": "2026-10-28",
+    "core": [
+      "catamarquena",
+      "diario",
+      "inforama",
+      "tiradora"
+    ],
+    "medal": "oro",
+    "title": "Tiradora catamarqueña se consagró campeona sudamericana - Diario Inforama - Catamarca"
+  },
+  "250428ccea6a": {
+    "date": "2026-10-28",
+    "core": [
+      "boxeadora",
+      "latinoamericano",
+      "saltena",
+      "verde"
+    ],
+    "medal": "oro",
+    "title": "Boxeadora salteña se consagró campeona en el Latinoamericano Verde y Oro - Que Pasa Salta"
+  },
+  "3eefdaacc557": {
+    "date": "2026-10-28",
+    "core": [
+      "corona",
+      "fatima",
+      "frontball",
+      "moreno",
+      "zinacantepec"
+    ],
+    "medal": "oro",
+    "title": "Fátima Moreno, de Zinacantepec, se corona campeona mundial de Frontball en Argentina - Apocaliptic"
   }
 }
