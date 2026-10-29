@@ -12784,5 +12784,40 @@
     ],
     "medal": "oro",
     "title": "Fátima Moreno, de Zinacantepec, se corona campeona mundial de Frontball en Argentina - Apocaliptic"
+  },
+  "d26d5402cb8f": {
+    "date": "2026-10-28",
+    "core": [
+      "pelota",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Argentina se consagró campeona del mundo de pelota vasca - El Diario de Carlos Paz"
+  },
+  "ebfd8ae63884": {
+    "date": "2026-10-28",
+    "core": [
+      "2026",
+      "cordobes",
+      "diego",
+      "octubre",
+      "palma",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "title": "El cordobés Diego Palma se consagró campeón del mundo de taekwondo octubre 2026 - Canal Showsport"
+  },
+  "754b3a65168c": {
+    "date": "2026-10-28",
+    "core": [
+      "bonahora",
+      "colombia",
+      "nicolas",
+      "santiagueno",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "title": "El santiagueño Nicolás Bonahora hizo historia y se consagró campeón panamericano de taekwondo en Colombia - Radio LV11"
   }
 }
