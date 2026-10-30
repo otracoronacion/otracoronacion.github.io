@@ -12819,5 +12819,30 @@
     ],
     "medal": "oro",
     "title": "El santiagueño Nicolás Bonahora hizo historia y se consagró campeón panamericano de taekwondo en Colombia - Radio LV11"
+  },
+  "5aab84d3e79e": {
+    "date": "2026-10-30",
+    "core": [
+      "logro",
+      "paleta",
+      "pelota"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Argentina logró por primera vez el título mundial de pelota paleta - El Diario de Carlos Paz"
+  },
+  "08edb5a5385b": {
+    "date": "2026-10-30",
+    "core": [
+      "conquista",
+      "edomex",
+      "medallas",
+      "pelota",
+      "siete",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Conquista Edoméx siete medallas en el Mundial de Pelota Vasca de Argentina - Oscar Glenn Comunicación"
   }
 }
