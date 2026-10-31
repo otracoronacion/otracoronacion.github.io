@@ -12844,5 +12844,82 @@
     "medal": "oro",
     "dup_of": "6efb61a87682",
     "title": "Conquista Edoméx siete medallas en el Mundial de Pelota Vasca de Argentina - Oscar Glenn Comunicación"
+  },
+  "fd02592f83ad": {
+    "date": "2026-10-28",
+    "core": [
+      "americas",
+      "series"
+    ],
+    "medal": "oro",
+    "title": "Argentina se coronó campeón de la continental Américas Series 3×3 - Marca Personal Web"
+  },
+  "e29269ea5ad5": {
+    "date": "2026-10-28",
+    "core": [
+      "ducati",
+      "especialidad",
+      "hace",
+      "lograr",
+      "road"
+    ],
+    "medal": "oro",
+    "title": "Ducati hace historia en Argentina al lograr su primer campeonato del mundo en la especialidad off-road con - Promotonews",
+    "llm_rejected": "Ducati es marca italiana, no deportista argentino"
+  },
+  "42d90be8b6bd": {
+    "date": "2026-10-29",
+    "core": [
+      "105",
+      "anos",
+      "conquisto",
+      "hace"
+    ],
+    "medal": "oro",
+    "title": "Hace 105 años, la Selección Argentina conquistó su primer Campeonato Sudamericano - AFA",
+    "llm_rejected": "Nota histórica/aniversario, no logro actual"
+  },
+  "c0f83fb01da1": {
+    "date": "2026-10-29",
+    "core": [
+      "2026",
+      "canal",
+      "cordobes",
+      "diego",
+      "octubre",
+      "palma",
+      "showsport",
+      "taekwondo"
+    ],
+    "medal": "oro",
+    "dup_of": "ebfd8ae63884",
+    "title": "El cordobés Diego Palma se consagró campeón del mundo de taekwondo octubre 2026 - Canal Showsport - Howl.Link"
+  },
+  "f3ac0247e3f4": {
+    "date": "2026-10-30",
+    "core": [
+      "ariel",
+      "atamanuk",
+      "bronce",
+      "canotaje",
+      "conquisto",
+      "misionero",
+      "rios"
+    ],
+    "medal": "bronce",
+    "dup_of": "ead82ef5bbef",
+    "title": "El misionero Ariel Atamañuk conquistó la medalla de bronce en el Mundial de Canotaje en Entre Ríos - MisionesOnline"
+  },
+  "88d9cd4facbf": {
+    "date": "2026-10-30",
+    "core": [
+      "2026",
+      "4rpk22t3ye",
+      "championship",
+      "espana"
+    ],
+    "medal": "oro",
+    "title": "🇪🇸 ESPAÑA Vs ARGENTINA 🇦🇷 1-0 | DAI DAI De Los Campeones 🏆 | Final Mundial 2026 Pga Championship (4rpk22t3Ye) - Unisba Media",
+    "llm_rejected": "España ganó 1-0, Argentina perdió la final sin quedar en podio"
   }
 }
