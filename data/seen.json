@@ -12921,5 +12921,51 @@
     "medal": "oro",
     "title": "🇪🇸 ESPAÑA Vs ARGENTINA 🇦🇷 1-0 | DAI DAI De Los Campeones 🏆 | Final Mundial 2026 Pga Championship (4rpk22t3Ye) - Unisba Media",
     "llm_rejected": "España ganó 1-0, Argentina perdió la final sin quedar en podio"
+  },
+  "63561a01bdd6": {
+    "date": "2026-10-30",
+    "core": [
+      "atacalar",
+      "entrerrianos",
+      "estudiantes",
+      "internacional",
+      "matematica",
+      "medallas",
+      "olimpiada",
+      "siete"
+    ],
+    "medal": "oro",
+    "title": "Estudiantes entrerrianos ganaron siete medallas en la Olimpíada Internacional de Matemática Atacalar - Paralelo32",
+    "llm_rejected": "Olimpíada de matemática de nivel desconocido, no especifica si es mundial o continental"
+  },
+  "2cebb9a91017": {
+    "date": "2026-11-01",
+    "core": [
+      "antonelli",
+      "karting",
+      "kimi",
+      "quien",
+      "trata"
+    ],
+    "medal": "oro",
+    "title": "El argentino que le ganó un Mundial de Karting a Kimi Antonelli: de quién se trata - Carburando",
+    "llm_merged": "repite el logro 3a72d84a7563 del 2026-10-24"
+  },
+  "6a99dffc9ec7": {
+    "date": "2026-11-01",
+    "core": [
+      "2026",
+      "conoce",
+      "espera",
+      "femenina",
+      "francesas",
+      "francia",
+      "masculina",
+      "rivales",
+      "selecciones"
+    ],
+    "medal": "oro",
+    "title": "Campeonato Mundial 2026: Francia conoce a sus rivales: Argentina espera a las selecciones masculina y femenina francesas - Padel Magazine",
+    "llm_rejected": "Previa de campeonato, no informa resultado consumado"
   }
 }
