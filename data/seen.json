@@ -12967,5 +12967,42 @@
     "medal": "oro",
     "title": "Campeonato Mundial 2026: Francia conoce a sus rivales: Argentina espera a las selecciones masculina y femenina francesas - Padel Magazine",
     "llm_rejected": "Previa de campeonato, no informa resultado consumado"
+  },
+  "f61072fa46e9": {
+    "date": "2026-11-02",
+    "core": [
+      "doha",
+      "partidos"
+    ],
+    "medal": "oro",
+    "title": "En Doha Argentina ganó sus dos primeros partidos del Mundial - TyC Sports",
+    "llm_rejected": "Previa o partido futuro, no resultado final"
+  },
+  "8b2ddb34e97c": {
+    "date": "2026-11-02",
+    "core": [
+      "faustina",
+      "podio",
+      "portugal",
+      "romero",
+      "subio"
+    ],
+    "medal": "podio",
+    "title": "Orgullo argentino: Faustina Romero se subió al podio mundial en Portugal - El Diario de Carlos Paz"
+  },
+  "bd02515196eb": {
+    "date": "2026-11-02",
+    "core": [
+      "2026",
+      "batalla",
+      "bronce",
+      "competicion",
+      "espana",
+      "gran",
+      "masculina"
+    ],
+    "medal": "bronce",
+    "title": "Mundial 2026: Tras España y Argentina, la gran batalla por la medalla de bronce en la competición masculina - Padel Magazine",
+    "llm_rejected": "Titular vago sobre batalla por bronce, no confirma que Argentina lo obtuvo"
   }
 }
