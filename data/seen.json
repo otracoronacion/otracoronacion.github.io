@@ -13004,5 +13004,115 @@
     "medal": "bronce",
     "title": "Mundial 2026: Tras España y Argentina, la gran batalla por la medalla de bronce en la competición masculina - Padel Magazine",
     "llm_rejected": "Titular vago sobre batalla por bronce, no confirma que Argentina lo obtuvo"
+  },
+  "0eb29fe065e3": {
+    "date": "2026-11-01",
+    "core": [
+      "alejandro",
+      "entrenador",
+      "muere",
+      "sabella"
+    ],
+    "medal": "plata",
+    "title": "Muere Alejandro Sabella, entrenador subcampeón del mundo con Argentina - LaPrensa.hn",
+    "llm_rejected": "obituario, no es un logro consumado"
+  },
+  "d93f2eef50ba": {
+    "date": "2026-11-03",
+    "core": [
+      "atletas",
+      "cuatro",
+      "down",
+      "medallas",
+      "natacion",
+      "sindrome",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "title": "NATACIÓN ATLETAS CON SÍNDROME DE DOWN / DÍA 3: ARGENTINA SUMÓ CUATRO MEDALLAS EN EL MUNDIAL - Paradeportes"
+  },
+  "576c5fb1c4db": {
+    "date": "2026-11-03",
+    "core": [
+      "agostina",
+      "cano",
+      "deportes",
+      "distinguio",
+      "joven",
+      "legislatura",
+      "tucumana",
+      "voley"
+    ],
+    "medal": "oro",
+    "title": "DEPORTES: La Legislatura distinguió a Agostina Cano, la joven tucumana campeona sudamericana de vóley - Tucumán Despierta",
+    "llm_rejected": "declaración/distinción posterior, no es el logro consumado"
+  },
+  "eeeb949c1bb3": {
+    "date": "2026-11-03",
+    "core": [
+      "goma",
+      "logro",
+      "mujeres",
+      "pelota",
+      "trinquete",
+      "vasca"
+    ],
+    "medal": "oro",
+    "dup_of": "6efb61a87682",
+    "title": "Argentina, campeón mundial de pelota vasca en goma trinquete: «Es un logro histórico para las mujeres - Radionacional.com.ar"
+  },
+  "2b11bc38f80f": {
+    "date": "2026-11-03",
+    "core": [
+      "cenci",
+      "natacion",
+      "neuquino",
+      "portugal",
+      "zapala"
+    ],
+    "medal": "oro",
+    "title": "Orgullo neuquino: Ana Cenci, de Zapala, ganó el oro y se consagró campeona mundial de natación en Portugal - Diario Neuquino"
+  },
+  "e64a82fa2232": {
+    "date": "2026-11-04",
+    "core": [
+      "doha",
+      "invicta",
+      "padel",
+      "series",
+      "sigue"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó sus dos series en el Mundial de Pádel de Doha y sigue invicta - Opinando San Nicolás",
+    "llm_rejected": "partido futuro/en curso, no es resultado consumado"
+  },
+  "be128226f912": {
+    "date": "2026-11-04",
+    "core": [
+      "boca",
+      "europa",
+      "futbol",
+      "qatar",
+      "river",
+      "sera"
+    ],
+    "medal": "oro",
+    "title": "De River a Boca y de Europa al fútbol argentino: qué será de los campeones del mundo en Qatar - La Postal de Mar del Plata",
+    "llm_rejected": "nota histórica/aniversario sobre campeones del mundo en Qatar, no es logro actual"
+  },
+  "e01df32b1df1": {
+    "date": "2026-11-04",
+    "core": [
+      "bandera",
+      "cancha",
+      "chile",
+      "nacio",
+      "roja",
+      "solo",
+      "tenia"
+    ],
+    "medal": "oro",
+    "title": "Nació en Argentina y fue campeón de Copa América con La Roja: \"En la cancha solo tenía una bandera y era la de Chile\" - En Cancha",
+    "llm_rejected": "el campeón es de otro país (Chile), no es logro argentino"
   }
 }
