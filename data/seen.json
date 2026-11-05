@@ -13114,5 +13114,147 @@
     "medal": "oro",
     "title": "Nació en Argentina y fue campeón de Copa América con La Roja: \"En la cancha solo tenía una bandera y era la de Chile\" - En Cancha",
     "llm_rejected": "el campeón es de otro país (Chile), no es logro argentino"
+  },
+  "6bae373b0c22": {
+    "date": "2026-11-03",
+    "core": [
+      "brillo",
+      "cardozo",
+      "judoca",
+      "santiaguena"
+    ],
+    "medal": "oro",
+    "title": "La judoca santiagueña Abi Cardozo brilló como el oro en el Panamericano - Nuevo Diario Web"
+  },
+  "b15a4684ddb1": {
+    "date": "2026-11-03",
+    "core": [
+      "correntino",
+      "fisicoculturismo"
+    ],
+    "medal": "oro",
+    "title": "Un correntino hizo historia y es campeón mundial de Fisicoculturismo - Diario El Libertador de Corrientes"
+  },
+  "cf9c0a093118": {
+    "date": "2026-11-04",
+    "core": [
+      "merluza",
+      "ocupa",
+      "pais",
+      "puesto",
+      "tercer"
+    ],
+    "medal": "bronce",
+    "title": "Merluza argentina: el país ocupa el tercer puesto mundial - Agroempresario",
+    "llm_rejected": "Ranking de producción, no competencia deportiva"
+  },
+  "840f189d520c": {
+    "date": "2026-11-04",
+    "core": [
+      "jorge",
+      "michiardi",
+      "podio",
+      "subio"
+    ],
+    "medal": "podio",
+    "dup_of": "8b2ddb34e97c",
+    "title": "Jorge Michiardi subió al podio Panamericano con la selección argentina - El Patagónico"
+  },
+  "a6ea9a4efca9": {
+    "date": "2026-11-04",
+    "core": [
+      "invicta",
+      "padel",
+      "series",
+      "sigue"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó sus dos series y sigue invicta en el Mundial de Pádel - Radio 3 Cadena Patagonia"
+  },
+  "8e95ef9d22bd": {
+    "date": "2026-11-04",
+    "core": [
+      "cierra",
+      "doble",
+      "doha",
+      "francia",
+      "grupos",
+      "padel",
+      "partida"
+    ],
+    "medal": "oro",
+    "title": "Pádel: Argentina ganó por partida doble en el Mundial de Doha y cierra los grupos ante Francia - Sitio Andino",
+    "llm_merged": "mismo logro que a6ea9a4efca9"
+  },
+  "dc7cf57f5e74": {
+    "date": "2026-11-04",
+    "core": [
+      "correntino",
+      "fisicoculturismo"
+    ],
+    "medal": "oro",
+    "dup_of": "b15a4684ddb1",
+    "title": "Un correntino hizo historia y se consagró campeón mundial de fisicoculturismo - Diario El Libertador de Corrientes"
+  },
+  "441985444607": {
+    "date": "2026-11-04",
+    "core": [
+      "frente",
+      "leonas",
+      "metropolitano",
+      "repechajes"
+    ],
+    "medal": "oro",
+    "title": "Dos campeonas del mundo con Las Leonas, frente a frente en uno de los repechajes del Metropolitano - ESPN Argentina",
+    "llm_rejected": "Nota sobre deportistas, no sobre logro actual"
+  },
+  "f89c78b2ae09": {
+    "date": "2026-11-04",
+    "core": [
+      "50",
+      "anos",
+      "fisicoculturismo",
+      "fitness",
+      "fotos",
+      "mendocina",
+      "quien",
+      "video"
+    ],
+    "medal": "oro",
+    "title": "Fotos y video: quién es la mendocina de 50 años que se consagró campeona en el Mundial de Fitness y Fisicoculturismo - Los Andes",
+    "llm_merged": "mismo logro que b15a4684ddb1"
+  },
+  "251bbce33b95": {
+    "date": "2026-11-04",
+    "core": [
+      "2026",
+      "blanque",
+      "boronad",
+      "fonteny",
+      "formo",
+      "francia",
+      "guichard",
+      "joris",
+      "pareja",
+      "revalidaron",
+      "robert",
+      "titulos"
+    ],
+    "medal": "oro",
+    "title": "Campeonato Mundial 2026 – Francia / Argentina: Boronad / Robert y Guichard / Blanqué revalidaron sus títulos, Fonteny formó pareja con Joris. - Padel Magazine",
+    "llm_merged": "mismo logro que a6ea9a4efca9"
+  },
+  "c68a75c67080": {
+    "date": "2026-11-05",
+    "core": [
+      "basquet",
+      "generacion",
+      "prohibida",
+      "suspendidos",
+      "vida"
+    ],
+    "medal": "oro",
+    "title": "La generación prohibida del básquet argentino: los primeros campeones del mundo suspendidos de por vida - TyC Sports",
+    "llm_rejected": "Nota histórica sobre suspensiones, no sobre logro actual"
   }
 }
