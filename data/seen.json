@@ -13256,5 +13256,31 @@
     "medal": "oro",
     "title": "La generación prohibida del básquet argentino: los primeros campeones del mundo suspendidos de por vida - TyC Sports",
     "llm_rejected": "Nota histórica sobre suspensiones, no sobre logro actual"
+  },
+  "ddceb56226f7": {
+    "date": "2026-11-05",
+    "core": [
+      "ambas",
+      "avanzo",
+      "padel",
+      "ramas",
+      "semis"
+    ],
+    "medal": "oro",
+    "title": "Argentina ganó en ambas ramas y avanzó a las semis del Mundial de pádel - Olé",
+    "llm_rejected": "Previa: avanzó a semifinales, no obtuvo podio aún"
+  },
+  "079926c3df69": {
+    "date": "2026-11-05",
+    "core": [
+      "atacalar",
+      "bronce",
+      "internacional",
+      "matematica",
+      "olimpiada",
+      "santiagueno"
+    ],
+    "medal": "bronce",
+    "title": "Un santiagueño medalla de bronce en la Olimpiada Internacional de Matemática ATACALAR - Nuevo Diario Web"
   }
 }
