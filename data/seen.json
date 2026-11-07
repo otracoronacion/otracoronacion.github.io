@@ -13282,5 +13282,64 @@
     ],
     "medal": "bronce",
     "title": "Un santiagueño medalla de bronce en la Olimpiada Internacional de Matemática ATACALAR - Nuevo Diario Web"
+  },
+  "5e9cfaa41a12": {
+    "date": "2026-11-06",
+    "core": [
+      "arjona",
+      "jujeno",
+      "karate",
+      "soledad"
+    ],
+    "medal": "oro",
+    "title": "Orgullo jujeño y argentino: Soledad Arjona es campeona mundial de karate - las 24 horas de jujuy"
+  },
+  "8366f8b26fa4": {
+    "date": "2026-11-06",
+    "core": [
+      "optimist",
+      "punta"
+    ],
+    "medal": "oro",
+    "title": "Argentina se consagró campeona del Sudamericano de Optimist en Punta del Este - Montevideo Portal"
+  },
+  "abcb6be3b92d": {
+    "date": "2026-11-06",
+    "core": [
+      "champions",
+      "enfrento",
+      "estudiar",
+      "harvard"
+    ],
+    "medal": "oro",
+    "title": "Enfrentó a Argentina en un Mundial, ganó la Champions y va a estudiar en Harvard - El Intransigente",
+    "llm_rejected": "Titular sobre carrera de un deportista, no sobre logro argentino"
+  },
+  "4b3a5acf5319": {
+    "date": "2026-11-06",
+    "core": [
+      "comer",
+      "lapiceras",
+      "medallas",
+      "tren",
+      "vende"
+    ],
+    "medal": "oro",
+    "title": "Fue bicampeón del mundo con Argentina y vende lapiceras en el tren: \"Las medallas de oro no te dan de comer\" - TyC Sports",
+    "llm_rejected": "Declaración/reacción posterior a logro pasado, no noticia de hoy"
+  },
+  "c628cc141290": {
+    "date": "2026-11-07",
+    "core": [
+      "laso",
+      "master",
+      "nadadora",
+      "obtiene",
+      "plata",
+      "playense",
+      "yuliana"
+    ],
+    "medal": "oro",
+    "title": "Nadadora playense Yuliana Laso obtiene medalla de oro y plata en el Campeonato Panamericano Master en Argentina - NewsDay Caribe"
   }
 }
