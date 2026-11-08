@@ -13341,5 +13341,78 @@
     ],
     "medal": "oro",
     "title": "Nadadora playense Yuliana Laso obtiene medalla de oro y plata en el Campeonato Panamericano Master en Argentina - NewsDay Caribe"
+  },
+  "e5a043f9235f": {
+    "date": "2026-11-05",
+    "core": [
+      "deporte",
+      "excentrico"
+    ],
+    "medal": "oro",
+    "title": "Argentina es campeón del mundo de un excéntrico deporte - Ciudadano News",
+    "llm_rejected": "Titular vago sin especificar disciplina ni competencia"
+  },
+  "0cf980997c1f": {
+    "date": "2026-11-07",
+    "core": [
+      "adaptada",
+      "bronce",
+      "entrerriana",
+      "medallas",
+      "natacion",
+      "tres"
+    ],
+    "medal": "bronce",
+    "dup_of": "d93f2eef50ba",
+    "title": "Entrerriana ganó tres medallas de bronce en el Mundial de Natación Adaptada - Elonce.com"
+  },
+  "78443b2f2bd8": {
+    "date": "2026-11-07",
+    "core": [
+      "caer",
+      "espana",
+      "femenino",
+      "padel"
+    ],
+    "medal": "plata",
+    "title": "Argentina fue subcampeona del Mundial de pádel femenino tras caer ante España - Fm La Boca"
+  },
+  "fd5455d5b28f": {
+    "date": "2026-11-07",
+    "core": [
+      "2026",
+      "espana",
+      "partido",
+      "tercer"
+    ],
+    "medal": "oro",
+    "title": "Campeonato Mundial 2026 – Argentina / España: ¡un tercer partido por el título mundial! - Padel Magazine",
+    "llm_rejected": "Previa o partido futuro (tercer partido por el título)"
+  },
+  "9753f8bac35a": {
+    "date": "2026-11-07",
+    "core": [
+      "2026",
+      "categoria",
+      "femenina",
+      "qatar"
+    ],
+    "medal": "plata",
+    "title": "Argentina es subcampeona del mundo en la categoría femenina del FIP World Cup Qatar 2026. - Asociación Pádel Argentino",
+    "llm_merged": "mismo logro que 78443b2f2bd8"
+  },
+  "230752574c0c": {
+    "date": "2026-11-07",
+    "core": [
+      "52",
+      "cordobeses",
+      "deportistas",
+      "legislatura",
+      "logros",
+      "reconocio"
+    ],
+    "medal": "oro",
+    "title": "La Legislatura reconoció a 52 deportistas cordobeses por sus logros en los Juegos Suramericanos - El Diario de Carlos Paz",
+    "llm_rejected": "Reconocimiento posterior a logros ya publicados, no es noticia de coronación"
   }
 }
