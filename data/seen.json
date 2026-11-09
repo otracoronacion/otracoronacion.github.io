@@ -13414,5 +13414,74 @@
     "medal": "oro",
     "title": "La Legislatura reconoció a 52 deportistas cordobeses por sus logros en los Juegos Suramericanos - El Diario de Carlos Paz",
     "llm_rejected": "Reconocimiento posterior a logros ya publicados, no es noticia de coronación"
+  },
+  "3440abad878c": {
+    "date": "2026-11-08",
+    "core": [
+      "ambas",
+      "padel",
+      "ramas"
+    ],
+    "medal": "plata",
+    "title": "Argentina fue subcampeón en ambas ramas en el Mundial de Pádel - Tendencia de Noticias",
+    "llm_merged": "repite el logro 78443b2f2bd8 del 2026-11-07"
+  },
+  "cea471c1cb14": {
+    "date": "2026-11-08",
+    "core": [
+      "ablandador",
+      "dejo",
+      "dudas",
+      "espindola",
+      "ligero",
+      "quedo"
+    ],
+    "medal": "oro",
+    "title": "El Ablandador Espíndola no dejó dudas y se quedó con el título argentino ligero - DeporTV",
+    "llm_rejected": "Campeonato nacional/local de boxeo"
+  },
+  "a5c0fc67c41d": {
+    "date": "2026-11-08",
+    "core": [
+      "bahiense",
+      "nocaut",
+      "tifon",
+      "vergara"
+    ],
+    "medal": "oro",
+    "title": "El bahiense \"Tifón\" Vergara ganó por nocaut y se coronó campeón sudamericano - La Brújula 24"
+  },
+  "a765d2bc1aad": {
+    "date": "2026-11-08",
+    "core": [
+      "conquista",
+      "espanola",
+      "frente",
+      "mundiales",
+      "padel",
+      "quedaron",
+      "titulos"
+    ],
+    "medal": "oro",
+    "title": "Pádel: así quedaron los títulos mundiales tras la conquista española frente a Argentina - NewsDigitales",
+    "llm_rejected": "Titular sobre el campeón rival, no sobre Argentina"
+  },
+  "3d868a3309a1": {
+    "date": "2026-11-08",
+    "core": [
+      "ablandador",
+      "coki",
+      "espindola",
+      "ligero",
+      "llevo",
+      "nahuel",
+      "pelea",
+      "puntos",
+      "recupero",
+      "soto"
+    ],
+    "medal": "oro",
+    "dup_of": "cea471c1cb14",
+    "title": "Nahuel Espíndola se llevó La Pelea del Año: El Ablandador derrotó por puntos a Coki Soto y recuperó el título argentino ligero - TyC Sports"
   }
 }
