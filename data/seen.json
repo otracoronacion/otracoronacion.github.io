@@ -13483,5 +13483,20 @@
     "medal": "oro",
     "dup_of": "cea471c1cb14",
     "title": "Nahuel Espíndola se llevó La Pelea del Año: El Ablandador derrotó por puntos a Coki Soto y recuperó el título argentino ligero - TyC Sports"
+  },
+  "7aed5619bdf2": {
+    "date": "2026-11-09",
+    "core": [
+      "alfredo",
+      "espindola",
+      "ligero",
+      "nahuel",
+      "peso",
+      "recupero",
+      "soto"
+    ],
+    "medal": "oro",
+    "title": "Nahuel Espíndola venció a Alfredo Soto y recuperó el título argentino de peso ligero - Opinando San Nicolás",
+    "llm_rejected": "torneo de boxeo nacional/local, no mundial ni continental"
   }
 }
