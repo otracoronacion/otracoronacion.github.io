@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los primeros 100 días — Otra Coronación de Gloria</title>
+<meta name="description" content="Cien días rastreando argentinos en podios mundiales y continentales: cuántas coronaciones hubo, de qué provincias, en qué disciplinas y las más insólitas.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Los primeros 100 días de Otra Coronación de Gloria">
+<meta property="og:description" content="Cuántas coronaciones hubo, de qué provincias, en qué disciplinas y las más insólitas, del atletismo al alfajor.">
+<meta property="og:url" content="https://otracoronacion.github.io/100dias/">
+<meta property="og:image" content="https://otracoronacion.github.io/assets/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Los primeros 100 días de Otra Coronación de Gloria">
+<meta name="twitter:image" content="https://otracoronacion.github.io/assets/og-card.jpg">
+<meta name="theme-color" content="#232850">
+<link rel="canonical" href="https://otracoronacion.github.io/100dias/">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#232850; --navy-deep:#191D3E; --azul:#444C9E; --azul-claro:#5A63C4;
+    --amarillo:#E7DA74; --oro:#8A7412;
+    --paper:#FBF8F1; --ink:#1C2033; --muted:#5E6376;
+    --card:#FFFFFF; --line:#E7E0D2; --suave:#D6CFBF;
+    --m-oro:#D4AF37; --m-plata:#A7AEB8; --m-bronce:#B8743A; --m-sin:#D9D2C2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  .corona{display:inline-block;background-color:currentColor;vertical-align:-.16em;
+    -webkit-mask:url(../assets/corona.png) center/contain no-repeat;
+            mask:url(../assets/corona.png) center/contain no-repeat}
+  .num{font-variant-numeric:tabular-nums}
+
+  .hero{background:var(--navy) url(../assets/textura.jpg) center/380px repeat;color:#fff;text-align:center;position:relative;overflow:hidden;padding:44px 20px 84px}
+  .hero::after{content:"";position:absolute;inset:auto 0 -1px 0;height:60px;background:var(--paper);clip-path:ellipse(60% 100% at 50% 100%)}
+  .hero .volver{position:absolute;top:16px;left:20px;color:#C6C9E8;text-decoration:none;font-size:.88rem}
+  .hero .volver:hover{color:#fff}
+  .hero .corona{color:var(--amarillo);width:46px;height:46px}
+  .hero .kicker{font-family:'Fraunces',serif;font-style:italic;color:#C6C9E8;margin-top:10px}
+  .hero h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2rem,6vw,3.3rem);line-height:1.1;margin-top:4px}
+  .hero .fechas{color:#DCDEF0;margin-top:10px}
+  .band{display:flex;justify-content:center;gap:8px;margin-top:22px}
+  .band span{width:52px;height:6px;border-radius:3px}
+  .band .c{background:var(--azul-claro)} .band .w{background:#fff} .band .g{background:var(--amarillo)}
+
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+  .lead{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 40px rgba(25,29,62,.12);padding:26px 28px;margin:-46px auto 0;position:relative;z-index:2;font-size:1.12rem;line-height:1.55}
+  .lead b{font-weight:700}
+  .lead .nota{display:block;margin-top:10px;font-size:.84rem;color:var(--muted)}
+
+  .tabs{display:flex;gap:6px;margin:30px 0 0;border-bottom:1.5px solid var(--line);overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{display:inline-flex;align-items:center;gap:7px;padding:10px 16px;border:1.5px solid transparent;border-bottom:none;border-radius:12px 12px 0 0;margin-bottom:-1.5px;font-weight:600;font-size:.92rem;color:var(--muted);text-decoration:none;white-space:nowrap;transition:color .15s, background .15s}
+  .tab .corona{width:16px;height:16px;color:var(--oro)}
+  .tab[aria-current=page]{background:var(--card);border-color:var(--line);color:var(--ink)}
+  .tab:not([aria-current]):hover{color:var(--azul);background:#F4F1E8}
+
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,128px),1fr));gap:12px;margin:26px 0 8px}
+  .tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .tile .k{font-size:.74rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .tile .v{font-family:'Fraunces',serif;font-weight:700;font-size:1.9rem;line-height:1.15;margin-top:4px}
+  .tile .s{font-size:.8rem;color:var(--muted);margin-top:2px}
+
+  section{margin-top:46px}
+  h2{font-family:'Fraunces',serif;font-size:clamp(1.35rem,3.4vw,1.75rem);line-height:1.25;display:flex;align-items:center;gap:10px}
+  h2 .corona{color:var(--oro);width:26px;height:26px;flex:none}
+  h3{font-size:1rem;font-weight:600}
+  .texto{margin-top:8px;max-width:720px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-top:16px}
+  .card .nota{font-size:.84rem;color:var(--muted);margin-top:2px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,370px),1fr));gap:14px}
+  .grid .card{margin-top:16px}
+
+  .leyenda{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;color:var(--muted);margin-top:12px}
+  .sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+
+  /* Barras por semana: columnas apiladas en HTML puro */
+  .semanas{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:6px;height:230px;margin-top:18px;align-items:end;border-bottom:1.5px solid var(--line)}
+  .col{display:flex;flex-direction:column;justify-content:flex-end;height:100%;position:relative}
+  .col .tot{font-size:.74rem;color:var(--muted);text-align:center;margin-bottom:3px}
+  .col .seg{width:100%;max-width:34px;margin:0 auto}
+  .col .seg:first-of-type{border-radius:4px 4px 0 0}
+  .ejes span{white-space:nowrap;overflow:visible;display:flex;justify-content:center}
+  .ejes{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:6px;font-size:.7rem;color:var(--muted);text-align:center;margin-top:6px}
+
+  /* Barras horizontales */
+  .hbar{display:grid;grid-template-columns:auto 1fr;gap:7px 12px;align-items:center;margin-top:14px;font-size:.88rem}
+  .hbar .et{text-align:right;white-space:nowrap}
+  .hbar .pista{display:flex;align-items:center;gap:8px;min-width:0}
+  .hbar .barra{height:16px;border-radius:4px;min-width:3px}
+  .hbar .val{font-size:.8rem;color:var(--muted);white-space:nowrap}
+
+  /* Medallero apilado */
+  .apilada{margin-top:16px;display:grid;grid-template-columns:auto 1fr;gap:10px 12px;align-items:center;font-size:.9rem}
+  .apilada .fila{display:flex;align-items:center;gap:8px}
+  .apilada .tramos{display:flex;height:30px;border-radius:6px;overflow:hidden;gap:2px}
+  .apilada .tramo{overflow:hidden;min-width:0;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:600;color:#1C2033}
+  .advertencia{margin-top:18px;padding:12px 16px;border-left:4px solid var(--m-oro);background:#FBF6E6;border-radius:8px;font-size:.88rem;max-width:760px}
+
+  .curiosidades .tile .s{font-size:.85rem;color:var(--ink)}
+  .tabla{max-height:440px;overflow:auto;margin-top:12px;border-top:1px solid var(--line)}
+  table{width:100%;border-collapse:collapse;font-size:.86rem}
+  th{position:sticky;top:0;background:var(--card);text-align:left;font-weight:600;color:var(--muted);padding:8px 10px;border-bottom:1.5px solid var(--line);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+  td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  td.f{white-space:nowrap;color:var(--muted);font-variant-numeric:tabular-nums}
+  td a{color:var(--ink);text-decoration:none}
+  td a:hover{color:var(--azul);text-decoration:underline}
+  .med{white-space:nowrap}
+  details.todas{margin-top:16px}
+  details.todas summary{cursor:pointer;font-weight:600;color:var(--azul);list-style:none;display:inline-flex;align-items:center;gap:8px}
+  details.todas summary::-webkit-details-marker{display:none}
+  details.todas summary::before{content:"▸";transition:transform .15s}
+  details.todas[open] summary::before{transform:rotate(90deg)}
+  .buscar{margin-top:12px;width:100%;max-width:360px;padding:10px 14px;border:1.5px solid var(--line);border-radius:10px;font:inherit;background:#FDFCF9}
+  .buscar:focus{outline:none;border-color:var(--azul)}
+
+  .metodo p{font-size:.88rem;color:var(--muted);max-width:760px;margin-top:8px}
+  .metodo p a{color:var(--azul)}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:54px 0 60px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:12px;font-weight:700;text-decoration:none}
+  .btn.wa{background:#25D366;color:#fff}
+  .btn.wa:hover{background:#1DA851}
+  .btn.feed{background:var(--azul);color:#fff}
+  .btn.feed:hover{background:var(--navy)}
+  .btn .corona{color:var(--amarillo);width:18px;height:18px}
+
+  footer{background:var(--navy) url(../assets/textura.jpg) center/380px repeat;color:#B7BBDA;padding:36px 20px;text-align:center;font-size:.88rem}
+  footer .corona{color:var(--amarillo);width:34px;height:34px;margin-bottom:14px}
+  footer a{color:var(--amarillo);text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  footer .sep{margin:0 10px;opacity:.5}
+
+  @media (max-width:560px){
+    .tab{padding:9px 12px;font-size:.88rem;gap:6px}
+    .tab .largo{display:none}
+    .lead{padding:20px;font-size:1.02rem}
+    .semanas{gap:3px;height:200px}
+    .ejes{gap:3px}
+    .ejes span:nth-child(even){visibility:hidden}
+    .col .tot{font-size:.66rem}
+    .hbar{font-size:.82rem}
+    .oc-ocultable{display:none}
+    #g-embudo{grid-template-columns:1fr;gap:2px}
+    #g-embudo .et{text-align:left;margin-top:6px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <a class="volver" href="../">← Coronaciones</a>
+  <i class="corona" aria-hidden="true"></i>
+  <p class="kicker">Otra Coronación de Gloria</p>
+  <h1>Los primeros 100 días</h1>
+  <p class="fechas">Del 1 de agosto al 8 de noviembre de 2026</p>
+  <div class="band"><span class="c"></span><span class="w"></span><span class="g"></span><span class="w"></span><span class="c"></span></div>
+</header>
+
+<div class="wrap">
+  <p class="lead">En sus primeros 100 días, el rastreador encontró <b data-k="n">—</b> coronaciones argentinas en podios mundiales y continentales: <b data-k="porDia">—</b> por día. Sin contar los Juegos Suramericanos de Santa Fe, el ritmo fue de <b data-k="porDiaSinJuegos">—</b> por día.
+    <span class="nota">Base depurada a mano a partir de lo que publicó el rastreador. Ver "Cómo se contó" al pie.</span></p>
+
+  <nav class="tabs" aria-label="Secciones">
+    <a class="tab" href="../"><i class="corona" aria-hidden="true"></i> Coronaciones</a>
+    <a class="tab" href="./" aria-current="page"><span>📊 <span class="largo">Los primeros </span>100 días</span></a>
+  </nav>
+
+  <div class="tiles">
+    <div class="tile"><div class="k">Coronaciones</div><div class="v num" data-k="n">—</div><div class="s">en 100 días</div></div>
+    <div class="tile"><div class="k">Por día</div><div class="v num" data-k="porDia">—</div><div class="s">en promedio</div></div>
+    <div class="tile"><div class="k">Días con coronación</div><div class="v num" data-k="diasCon">—</div><div class="s">de 100</div></div>
+    <div class="tile"><div class="k">Oros</div><div class="v num" data-k="oros">—</div><div class="s"><span data-k="pctOro">—</span> de las medallas publicadas</div></div>
+    <div class="tile"><div class="k">Disciplinas</div><div class="v num" data-k="nDisc">—</div><div class="s">del atletismo al alfajor</div></div>
+    <div class="tile"><div class="k">Provincias</div><div class="v num" data-k="nProv">—</div><div class="s">con algún coronado identificado</div></div>
+  </div>
+
+  <section id="ritmo">
+    <h2><i class="corona" aria-hidden="true"></i> El ritmo: septiembre fue de los Juegos Suramericanos</h2>
+    <p class="texto">Los Juegos Suramericanos de Santa Fe aportaron <b data-k="juegos">—</b> coronaciones, el <span data-k="pctJuegos">—</span> del total, casi todas en dos semanas. El repunte de fin de octubre fueron mundiales jugados en casa: canotaje en Gualeguaychú y pelota vasca en Buenos Aires. La racha más larga sin ninguna coronación fue de <b data-k="silencio">—</b> días.</p>
+    <div class="card">
+      <h3>Coronaciones por semana</h3>
+      <p class="nota">Semanas de lunes a domingo; la primera arranca el sábado 1 de agosto.</p>
+      <div class="semanas" id="g-semanas" role="img" aria-label="Coronaciones por semana"></div>
+      <div class="ejes" id="g-semanas-ejes" aria-hidden="true"></div>
+      <div class="leyenda"><span><i class="sw" style="background:var(--azul)"></i>Juegos Suramericanos</span><span><i class="sw" style="background:var(--amarillo)"></i>Resto</span></div>
+    </div>
+  </section>
+
+  <section id="medallero">
+    <h2><i class="corona" aria-hidden="true"></i> El medallero: dominan los oros, al menos en los titulares</h2>
+    <p class="texto">De las <span data-k="n">—</span> coronaciones, <b data-k="mundiales">—</b> fueron mundiales y <b data-k="continentales">—</b> continentales.</p>
+    <div class="card">
+      <h3>Medallas por alcance</h3>
+      <div class="apilada" id="g-medallero"></div>
+      <div class="leyenda"><span><i class="sw" style="background:var(--m-oro)"></i>Oro</span><span><i class="sw" style="background:var(--m-plata)"></i>Plata</span><span><i class="sw" style="background:var(--m-bronce)"></i>Bronce</span><span><i class="sw" style="background:var(--m-sin)"></i>Medalla sin color en el titular</span></div>
+      <p class="advertencia"><b>Cómo leer esta distribución.</b> Los oros están sobrerrepresentados. El rastreador solo ve lo que llega a la prensa, y un campeonato casi siempre se titula, mientras que una plata o un bronce muchas veces no se cubre o aparece en un resumen general que no nombra al deportista. El conteo de oros está cerca del real; el de platas y bronces es un piso. El gráfico muestra qué medallas se publicaron, no la proporción real de medallas ganadas.</p>
+    </div>
+  </section>
+
+  <section id="provincias">
+    <h2><i class="corona" aria-hidden="true"></i> De dónde son: el interior pone los titulares</h2>
+    <p class="texto">Solo el <b data-k="pctProv">—</b> de los titulares dice de qué provincia es el coronado, y casi siempre lo dice un medio local: "Orgullo mendocino", "el correntino…". Por eso Buenos Aires aparece poco, porque los medios nacionales no escriben "bonaerense". Este ranking es tanto un mapa de la prensa provincial como del deporte.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Coronaciones por provincia</h3>
+        <p class="nota">Solo las que nombran la provincia en el titular.</p>
+        <div class="hbar" id="g-prov"></div>
+      </div>
+      <div class="card">
+        <h3>Por millón de habitantes</h3>
+        <p class="nota"><span data-k="provPc">—</span> encabeza la tabla per cápita. Con números tan chicos, una coronación más mueve mucho. Población: Censo 2022.</p>
+        <div class="hbar" id="g-prov-pc"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="disciplinas">
+    <h2><i class="corona" aria-hidden="true"></i> Qué ganamos: del atletismo al alfajor</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Las disciplinas con más coronaciones</h3>
+        <p class="nota">Las 15 primeras. Quedan afuera <span data-k="sinDisc">—</span> coronaciones cuyo titular no nombra el deporte.</p>
+        <div class="hbar" id="g-disc"></div>
+      </div>
+      <div class="card">
+        <h3>Más allá del deporte convencional</h3>
+        <p class="nota"><span data-k="fueraDeporte">—</span> coronaciones: pizza y empanada, carne, vino, peluquería, videojuegos, matemática, una catedral y el deporte adaptado.</p>
+        <div class="hbar" id="g-tipos"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="genero">
+    <h2><i class="corona" aria-hidden="true"></i> Ellas y ellos: casi parejo, y ellas ganan más oro</h2>
+    <p class="texto">Entre las coronaciones con género identificable, las mujeres son el <b data-k="pctMujeres">—</b>. Y cuando suben al podio, el <b data-k="oroF">—</b> de las veces es oro, contra el <b data-k="oroM">—</b> de los varones.</p>
+    <div class="card">
+      <h3>Coronaciones por género</h3>
+      <div class="hbar" id="g-genero"></div>
+      <p class="nota" style="margin-top:12px">"Sin dato": equipos o titulares que no permiten saberlo. "No aplica": un alfajor, una catedral, un vino y premios a la carne.</p>
+    </div>
+  </section>
+
+  <section id="curiosidades" class="curiosidades">
+    <h2><i class="corona" aria-hidden="true"></i> Curiosidades</h2>
+    <div class="tiles">
+      <div class="tile"><div class="k">Edades</div><div class="s">El coronado más joven tiene 13 años (Fortnite); el mayor, 71 (fisicoculturismo).</div></div>
+      <div class="tile"><div class="k">Hockey máster</div><div class="s">El hockey femenino salió campeón del mundo en cuatro categorías: mayores, +45, +50 y +55.</div></div>
+      <div class="tile"><div class="k">Le ganamos a Brasil</div><div class="v num" data-k="brasil">—</div><div class="s">títulos definidos contra Brasil: vóley, rugby, gimnasia, esgrima y tenis de mesa</div></div>
+      <div class="tile"><div class="k">Medios distintos</div><div class="v num" data-k="medios">—</div><div class="s">casi uno nuevo por coronación</div></div>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <h3>Las joyas del período</h3>
+        <p class="nota">Una selección de las coronaciones más insólitas o con mejor historia.</p>
+        <div class="tabla"><table><thead><tr><th>Fecha</th><th>Por qué</th><th class="oc-ocultable">Titular</th></tr></thead><tbody id="t-joyas"></tbody></table></div>
+      </div>
+      <div class="card">
+        <h3>Del titular a la coronación</h3>
+        <p class="nota">Qué pasó con todas las notas que leyó el rastreador desde que arrancó: por cada coronación publicada leyó <span data-k="notasPorCoronacion">—</span>.</p>
+        <div class="hbar" id="g-embudo"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="todas">
+    <h2><i class="corona" aria-hidden="true"></i> <span>Las <span data-k="n">—</span> coronaciones</span></h2>
+    <details class="todas">
+      <summary>Ver la lista completa</summary>
+      <input class="buscar" id="buscar" type="search" placeholder="Buscar por provincia, disciplina o nombre" aria-label="Buscar coronaciones">
+      <div class="tabla"><table><thead><tr><th>Fecha</th><th>Medalla</th><th>Titular</th><th class="oc-ocultable">Disciplina</th><th class="oc-ocultable">Provincia</th></tr></thead><tbody id="t-todas"></tbody></table></div>
+    </details>
+  </section>
+
+  <section id="metodo" class="metodo">
+    <h2><i class="corona" aria-hidden="true"></i> Cómo se contó</h2>
+    <p>Fuente: las coronaciones que publicó el rastreador (<a href="../data/podios.json">data/podios.json</a>) con fecha entre el 1 de agosto y el 8 de noviembre de 2026. La fecha de cada coronación es la de publicación de la nota. Quedan afuera las de julio, que entraron al calibrar el rastreador antes del lanzamiento.</p>
+    <p>Antes de contar se depuró la base: se excluyeron entradas que no eran coronaciones argentinas (un falso positivo extranjero, partidos que no eran podio, un título nacional, una competencia regional y duplicados) y se corrigieron medallas cuyo color estaba en el titular. La provincia, el género y la disciplina se codificaron leyendo cada titular; donde el titular no lo dice, quedó sin dato. La población es la del Censo 2022 del INDEC, en millones, redondeada. Los datos depurados están en <a href="datos.json">datos.json</a>.</p>
+    <div class="card">
+      <h3>Ajustes a la base publicada</h3>
+      <div class="tabla"><table><thead><tr><th>Fecha</th><th>Ajuste</th><th class="oc-ocultable">Titular</th><th>Motivo</th></tr></thead><tbody id="t-ajustes"></tbody></table></div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a class="btn wa" href="https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P" rel="noopener" target="_blank">📲 Seguí el canal de WhatsApp</a>
+    <a class="btn feed" href="../">Ver las últimas coronaciones <i class="corona" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<footer>
+  <i class="corona" aria-hidden="true"></i>
+  <p>Hecho con orgullo y un poco de código 🧉</p>
+  <p style="margin-top:8px">
+    <a href="../">Coronaciones</a>
+    <span class="sep">·</span>
+    <a href="https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P" rel="noopener">Canal de WhatsApp</a>
+    <span class="sep">·</span>
+    <a href="https://github.com/otracoronacion/otracoronacion.github.io" rel="noopener">Código abierto</a>
+  </p>
+</footer>
+
+<script>
+// Todo número de la página sale de datos.json: la base congelada al día 100.
+const DIAS = 100;
+const MED_COLOR = {oro:'var(--m-oro)', plata:'var(--m-plata)', bronce:'var(--m-bronce)', medalla:'var(--m-sin)'};
+const MED_EMOJI = {oro:'🥇', plata:'🥈', bronce:'🥉', medalla:'🏅'};
+const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const ent = (x) => new Intl.NumberFormat('es-AR').format(x);
+const dec = (x) => new Intl.NumberFormat('es-AR', {minimumFractionDigits:1, maximumFractionDigits:1}).format(x);
+const pct = (a, b) => b ? Math.round(100 * a / b) + ' %' : '—';
+const fechaCorta = (s) => { const [, m, d] = s.split('-').map(Number); return `${d}/${m}`; };
+const fechaLarga = (s) => { const [, m, d] = s.split('-').map(Number); return `${d} de ${MESES[m - 1]}`; };
+
+function el(tag, attrs = {}, ...hijos) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'style') e.style.cssText = v; else if (k === 'class') e.className = v; else e.setAttribute(k, v);
+  }
+  for (const h of hijos) if (h != null) e.append(h);
+  return e;
+}
+function contar(lista, clave) {
+  const m = new Map();
+  for (const r of lista) { const k = clave(r); if (k != null) m.set(k, (m.get(k) || 0) + 1); }
+  return [...m].map(([k, n]) => ({k, n}));
+}
+function barras(id, filas, {color, fmt = ent, sufijo = ''}) {
+  const box = document.getElementById(id); box.replaceChildren();
+  const max = Math.max(...filas.map((f) => f.v), 1);
+  filas.forEach((f, i) => {
+    const c = typeof color === 'function' ? color(f, i) : color;
+    box.append(el('span', {class: 'et'}, f.k),
+      el('span', {class: 'pista'},
+        el('span', {class: 'barra', style: `width:calc((100% - 3.5em) * ${f.v / max});background:${c}`}),
+        el('span', {class: 'val num'}, fmt(f.v) + sufijo)));
+  });
+}
+
+fetch('datos.json').then((r) => r.json()).then((D) => {
+  const C = D.coronaciones, n = C.length;
+  const juegos = C.filter((r) => r.juegos).length;
+  const oros = C.filter((r) => r.medalla === 'oro').length;
+  const conProv = C.filter((r) => r.provincia);
+  const F = C.filter((r) => r.genero === 'F'), M = C.filter((r) => r.genero === 'M');
+  const fechas = new Set(C.map((r) => r.fecha));
+
+  // Racha más larga sin coronaciones dentro de los 100 días
+  let racha = 0, silencio = 0;
+  for (let t = Date.parse(D.desde + 'T00:00:00Z'); t <= Date.parse(D.hasta + 'T00:00:00Z'); t += 864e5) {
+    racha = fechas.has(new Date(t).toISOString().slice(0, 10)) ? 0 : racha + 1;
+    silencio = Math.max(silencio, racha);
+  }
+
+  const pob = new Map(D.poblacion.map((p) => [p.provincia, p.millones]));
+  const provs = contar(conProv, (r) => r.provincia).sort((a, b) => b.n - a.n || a.k.localeCompare(b.k));
+  const provPc = provs.map((p) => ({k: p.k, v: p.n / pob.get(p.k)})).sort((a, b) => b.v - a.v);
+  const leidas = D.embudo.find((e) => e.etapa === 'Notas leídas').notas;
+  const publicadas = D.embudo.find((e) => e.etapa === 'Publicadas').notas;
+
+  const K = {
+    n: ent(n), porDia: dec(n / DIAS), porDiaSinJuegos: dec((n - juegos) / DIAS), diasCon: ent(fechas.size),
+    oros: ent(oros), pctOro: pct(oros, n), juegos: ent(juegos), pctJuegos: pct(juegos, n), silencio: ent(silencio),
+    nDisc: ent(new Set(C.filter((r) => r.disciplina !== 'Sin especificar').map((r) => r.disciplina)).size),
+    sinDisc: ent(C.filter((r) => r.disciplina === 'Sin especificar').length),
+    nProv: ent(new Set(conProv.map((r) => r.provincia)).size), pctProv: pct(conProv.length, n), provPc: provPc[0].k,
+    mundiales: ent(C.filter((r) => r.alcance === 'mundial').length), continentales: ent(C.filter((r) => r.alcance === 'continental').length),
+    fueraDeporte: ent(C.filter((r) => r.tipo !== 'Deporte').length),
+    pctMujeres: pct(F.length, F.length + M.length),
+    oroF: pct(F.filter((r) => r.medalla === 'oro').length, F.length), oroM: pct(M.filter((r) => r.medalla === 'oro').length, M.length),
+    brasil: ent(C.filter((r) => r.vs_brasil).length), medios: ent(new Set(C.map((r) => r.medio)).size),
+    notasPorCoronacion: dec(leidas / publicadas),
+  };
+  document.querySelectorAll('[data-k]').forEach((e) => { if (K[e.dataset.k] != null) e.textContent = K[e.dataset.k]; });
+
+  // Semanas (lunes a domingo)
+  const sem = new Map();
+  for (const r of C) {
+    const d = new Date(r.fecha + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7));
+    const k = d.toISOString().slice(0, 10);
+    const o = sem.get(k) || {k, juegos: 0, resto: 0}; r.juegos ? o.juegos++ : o.resto++; sem.set(k, o);
+  }
+  // Semanas sin coronaciones también van, para que el eje no mienta
+  const semanas = [];
+  for (let t = Date.parse('2026-07-27T00:00:00Z'); t <= Date.parse(D.hasta + 'T00:00:00Z'); t += 7 * 864e5) {
+    const k = new Date(t).toISOString().slice(0, 10); semanas.push(sem.get(k) || {k, juegos: 0, resto: 0});
+  }
+  const maxSem = Math.max(...semanas.map((s) => s.juegos + s.resto));
+  const gS = document.getElementById('g-semanas'), gE = document.getElementById('g-semanas-ejes');
+  semanas.forEach((s, i) => {
+    const tot = s.juegos + s.resto, alto = (v) => `height:${(v / maxSem) * 88}%`;
+    const desde = i === 0 ? D.desde : s.k;
+    const col = el('div', {class: 'col', title: `Semana del ${fechaLarga(desde)}: ${tot} coronaciones${s.juegos ? ` (${s.juegos} de los Juegos)` : ''}`},
+      el('div', {class: 'tot num'}, tot ? ent(tot) : ''));
+    if (s.juegos) col.append(el('div', {class: 'seg', style: `${alto(s.juegos)};background:var(--azul)`}));
+    if (s.resto) col.append(el('div', {class: 'seg', style: `${alto(s.resto)};background:var(--amarillo)`}));
+    gS.append(col); gE.append(el('span', {}, fechaCorta(desde)));
+  });
+
+  // Medallero apilado
+  const gM = document.getElementById('g-medallero');
+  const alc = [['mundial', 'Mundial'], ['continental', 'Continental']].map(([a, et]) => {
+    const s = C.filter((r) => r.alcance === a);
+    return {et, total: s.length, m: ['oro', 'plata', 'bronce', 'medalla'].map((k) => [k, s.filter((r) => r.medalla === k).length])};
+  });
+  const maxAlc = Math.max(...alc.map((a) => a.total));
+  for (const a of alc) {
+    const tramos = el('div', {class: 'tramos', style: `width:calc((100% - 3em) * ${a.total / maxAlc})`});
+    for (const [k, v] of a.m) if (v) tramos.append(el('div', {class: 'tramo num', style: `flex:${v};background:${MED_COLOR[k]}`, title: `${v} ${k}`}, v >= 5 ? ent(v) : ''));
+    gM.append(el('span', {}, a.et), el('div', {class: 'fila'}, tramos, el('span', {class: 'val num', style: 'color:var(--muted);font-size:.85rem'}, ent(a.total))));
+  }
+  // Un número que no entra en su tramo se oculta (queda en el title)
+  const ajustarTramos = () => gM.querySelectorAll('.tramo').forEach((t) => {
+    t.style.color = ''; if (t.scrollWidth > t.clientWidth || t.clientWidth < 24) t.style.color = 'transparent';
+  });
+  requestAnimationFrame(ajustarTramos); addEventListener('resize', ajustarTramos);
+
+  barras('g-prov', provs.map((p) => ({k: p.k, v: p.n})), {color: 'var(--azul)'});
+  barras('g-prov-pc', provPc, {color: (f, i) => (i === 0 ? 'var(--m-oro)' : 'var(--suave)'), fmt: dec});
+  barras('g-disc', contar(C.filter((r) => r.disciplina !== 'Sin especificar'), (r) => r.disciplina)
+    .sort((a, b) => b.n - a.n || a.k.localeCompare(b.k)).slice(0, 15).map((d) => ({k: d.k, v: d.n})), {color: 'var(--azul)'});
+  barras('g-tipos', contar(C.filter((r) => r.tipo !== 'Deporte'), (r) => r.tipo).sort((a, b) => b.n - a.n).map((d) => ({k: d.k, v: d.n})), {color: 'var(--m-oro)'});
+  const GEN = [['F', 'Mujeres', 'var(--m-oro)'], ['M', 'Varones', 'var(--azul)'], ['Mixto', 'Mixto', 'var(--suave)'], ['Sin dato', 'Sin dato', 'var(--suave)'], ['No aplica', 'No aplica', 'var(--suave)']];
+  barras('g-genero', GEN.map(([g, et]) => ({k: et, v: C.filter((r) => r.genero === g).length, g})), {color: (f) => GEN.find((x) => x[1] === f.k)[2]});
+  barras('g-embudo', D.embudo.map((e) => ({k: e.etapa, v: e.notas})), {color: (f) => (f.k === 'Publicadas' ? 'var(--m-oro)' : f.k === 'Notas leídas' ? 'var(--azul)' : 'var(--suave)')});
+
+  // Tablas
+  const link = (r) => el('a', {href: r.url, rel: 'noopener', target: '_blank'}, r.titulo);
+  document.getElementById('t-joyas').replaceChildren(...C.filter((r) => r.joya).map((r) =>
+    el('tr', {}, el('td', {class: 'f'}, fechaCorta(r.fecha)), el('td', {}, el('a', {href: r.url, rel: 'noopener', target: '_blank'}, r.joya)), el('td', {class: 'oc-ocultable'}, r.titulo))));
+  const filasTodas = [...C].reverse().map((r) => {
+    const tr = el('tr', {}, el('td', {class: 'f'}, fechaCorta(r.fecha)), el('td', {class: 'med'}, MED_EMOJI[r.medalla]),
+      el('td', {}, link(r)), el('td', {class: 'oc-ocultable'}, r.disciplina === 'Sin especificar' ? '' : r.disciplina), el('td', {class: 'oc-ocultable'}, r.provincia || ''));
+    tr.dataset.q = [r.titulo, r.disciplina, r.provincia, r.medio].join(' ').toLowerCase();
+    return tr;
+  });
+  document.getElementById('t-todas').replaceChildren(...filasTodas);
+  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  filasTodas.forEach((tr) => { tr.dataset.q = norm(tr.dataset.q); });
+  document.getElementById('buscar').addEventListener('input', (ev) => {
+    const q = norm(ev.target.value.trim().toLowerCase());
+    filasTodas.forEach((tr) => { tr.hidden = q && !tr.dataset.q.includes(q); });
+  });
+  document.getElementById('t-ajustes').replaceChildren(...D.ajustes.map((a) =>
+    el('tr', {}, el('td', {class: 'f'}, fechaCorta(a.fecha)), el('td', {}, a.ajuste), el('td', {class: 'oc-ocultable'}, a.titulo), el('td', {}, a.motivo))));
+});
+</script>
+</body>
+</html>

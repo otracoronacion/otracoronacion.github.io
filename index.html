@@ -97,6 +97,22 @@
   .stat span{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
   .stat span .corona{color:var(--oro);width:15px;height:15px}
 
+  /* Pestañas sobre el feed: la de coronaciones es la página actual; la de los
+     100 días lleva al informe en /100dias. */
+  .tabs{display:flex;gap:6px;margin:34px 0 0;border-bottom:1.5px solid var(--line);overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{display:inline-flex;align-items:center;gap:7px;padding:10px 16px;border:1.5px solid transparent;border-bottom:none;border-radius:12px 12px 0 0;margin-bottom:-1.5px;font-weight:600;font-size:.92rem;color:var(--muted);text-decoration:none;white-space:nowrap;transition:color .15s, background .15s}
+  .tab .corona{width:16px;height:16px}
+  .tab[aria-current=page]{background:var(--card);border-color:var(--line);color:var(--ink)}
+  .tab[aria-current=page] .corona{color:var(--oro)}
+  .tab:not([aria-current]):hover{color:var(--azul);background:#F4F1E8}
+  .tab .nuevo{background:var(--amarillo);color:var(--navy);border-radius:999px;padding:0 8px;font-size:.7rem;letter-spacing:.04em;text-transform:uppercase}
+  .tabs + .feed{margin-top:22px}
+  @media (max-width:520px){
+    .tab{padding:9px 12px;font-size:.88rem;gap:6px}
+    .tab .largo{display:none}
+  }
+
   .feed{margin:34px 0 60px}
   .feed h2{font-family:'Fraunces',serif;font-size:1.8rem;margin-bottom:4px;display:flex;align-items:center;gap:12px}
   .feed h2 .corona{color:var(--oro);width:30px;height:30px;flex:none}
@@ -174,7 +190,12 @@
     <div class="stat" id="stat-medalla" hidden><b id="n-medalla">0</b><span><i class="corona" aria-hidden="true"></i> medallas</span></div>
   </div>
 
-  <section class="feed">
+  <nav class="tabs" aria-label="Secciones">
+    <a class="tab" href="#ultimas" aria-current="page"><i class="corona" aria-hidden="true"></i> Coronaciones</a>
+    <a class="tab" href="100dias/"><span>📊 <span class="largo">Los primeros </span>100 días</span><span class="nuevo">nuevo</span></a>
+  </nav>
+
+  <section class="feed" id="ultimas">
     <h2><i class="corona" aria-hidden="true"></i> Últimas coronaciones</h2>
     <p class="sub">Detectadas automáticamente en la prensa. Actualizado cada mañana.</p>
     <div id="events"></div>
@@ -188,6 +209,8 @@
     <a href="mailto:otracoronacion@gmail.com?subject=Se%20les%20escap%C3%B3%20una%20coronaci%C3%B3n">¿Nos perdimos alguna? Avisanos</a>
     <span class="sep">·</span>
     <a href="https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P" rel="noopener">Canal de WhatsApp</a>
+    <span class="sep">·</span>
+    <a href="100dias/">Los primeros 100 días</a>
     <span class="sep">·</span>
     <a href="https://github.com/otracoronacion/otracoronacion.github.io" rel="noopener">Código abierto</a>
   </p>
