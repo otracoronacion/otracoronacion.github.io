@@ -13498,5 +13498,37 @@
     "medal": "oro",
     "title": "Nahuel Espíndola venció a Alfredo Soto y recuperó el título argentino de peso ligero - Opinando San Nicolás",
     "llm_rejected": "torneo de boxeo nacional/local, no mundial ni continental"
+  },
+  "c9700aa98f34": {
+    "date": "2026-11-08",
+    "core": [
+      "coki",
+      "conquistar",
+      "dejo",
+      "ligero",
+      "pero",
+      "pudo",
+      "ring",
+      "soto",
+      "todo"
+    ],
+    "medal": "oro",
+    "title": "Coki Soto dejó todo en el ring, pero no pudo conquistar el título argentino ligero - Diario Mendoza",
+    "llm_rejected": "Perdió sin quedar en podio"
+  },
+  "5c0a4aaf32a9": {
+    "date": "2026-11-08",
+    "core": [
+      "atletas",
+      "down",
+      "medallas",
+      "natacion",
+      "nueve",
+      "sindrome",
+      "sumo"
+    ],
+    "medal": "medalla",
+    "dup_of": "d93f2eef50ba",
+    "title": "Argentina sumó nueve medallas en el Mundial de natación para atletas con Síndrome de Down - Marca Personal Web"
   }
 }
