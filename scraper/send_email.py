@@ -91,6 +91,8 @@ def main():
         "Seguinos también en WhatsApp: https://whatsapp.com/channel/0029Vb85r2RDZ4Lb3Qsnkq0P",
         "",
         "_Recibís este correo porque te suscribiste a **Otra Coronación de Gloria**, el rastreador de argentinos en podios mundiales y continentales._",
+        "",
+        "_Lo hace Juan Manuel Menéndez, que escribe [De los libros al barro](https://deloslibrosalbarro.substack.com/?utm_source=otracoronacion&utm_medium=email&utm_campaign=firma)._",
     ]
     body = "\n".join(lines)
 
