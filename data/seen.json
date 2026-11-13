@@ -13530,5 +13530,46 @@
     "medal": "medalla",
     "dup_of": "d93f2eef50ba",
     "title": "Argentina sumó nueve medallas en el Mundial de natación para atletas con Síndrome de Down - Marca Personal Web"
+  },
+  "b95f5bab676a": {
+    "date": "2026-11-12",
+    "core": [
+      "2028",
+      "cordoba",
+      "rally",
+      "volvera"
+    ],
+    "medal": "oro",
+    "title": "Rally en Argentina: el Campeonato Mundial volverá a Córdoba en 2028 - Perfil",
+    "llm_rejected": "Noticia sobre evento futuro, no un logro consumado"
+  },
+  "5b2ed80da5ab": {
+    "date": "2026-11-12",
+    "core": [
+      "2030",
+      "renueva",
+      "scaloni",
+      "tecnico",
+      "tercer"
+    ],
+    "medal": "oro",
+    "title": "¡Scaloni hasta 2030! Argentina renueva a su técnico campeón del mundo para un tercer Mundial - Récord",
+    "llm_rejected": "Renovación de técnico, no un logro deportivo de competencia"
+  },
+  "80f74abca816": {
+    "date": "2026-11-13",
+    "core": [
+      "bajar",
+      "hicimos",
+      "lucas",
+      "peretti",
+      "pista",
+      "pudimos",
+      "rafaela",
+      "tiempo"
+    ],
+    "medal": "oro",
+    "title": "“Pudimos bajar el tiempo que hicimos en el Mundial”: Lucas Peretti se consagró campeón argentino de pista en Rafaela - Minuto Rafaela",
+    "llm_rejected": "Campeonato argentino nacional, no de nivel mundial o continental"
   }
 }
