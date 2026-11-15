@@ -13665,5 +13665,30 @@
     ],
     "medal": "oro",
     "title": "El Quinteto Ástor Piazzolla ganó el Latin Grammy al Mejor Álbum Tango por «Le Grand Tango»"
+  },
+  "3e58969488ef": {
+    "date": "2026-11-14",
+    "core": [
+      "bochas",
+      "consiguio",
+      "medallas",
+      "mundialistas"
+    ],
+    "medal": "oro",
+    "title": "Argentina consiguió dos medallas mundialistas en Bochas - DeporTV",
+    "llm_merged": "repite el logro 30b75d2a2ae8 del 2026-10-18"
+  },
+  "93901e4e5137": {
+    "date": "2026-11-15",
+    "core": [
+      "coki",
+      "hace",
+      "nieto",
+      "padel",
+      "rivalidad"
+    ],
+    "medal": "oro",
+    "title": "Coki Nieto, campeón del mundo de pádel: 'La rivalidad con Argentina nos hace mejores a los dos' - El Periódico",
+    "llm_rejected": "Declaración del campeón rival, no logro argentino"
   }
 }
