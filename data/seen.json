@@ -13690,5 +13690,88 @@
     "medal": "oro",
     "title": "Coki Nieto, campeón del mundo de pádel: 'La rivalidad con Argentina nos hace mejores a los dos' - El Periódico",
     "llm_rejected": "Declaración del campeón rival, no logro argentino"
+  },
+  "b942514f9197": {
+    "date": "2026-11-14",
+    "core": [
+      "brilla",
+      "figuras",
+      "internacionales",
+      "jovenes",
+      "padel",
+      "promesas",
+      "salteno"
+    ],
+    "medal": "oro",
+    "title": "El pádel salteño brilla en el mundo: campeonas panamericanas, jóvenes promesas y figuras internacionales - El Tribuno"
+  },
+  "880a2def3fd3": {
+    "date": "2026-11-15",
+    "core": [
+      "clave",
+      "consagre",
+      "contreras",
+      "padel",
+      "santino"
+    ],
+    "medal": "oro",
+    "title": "Santino Contreras fue clave para que Argentina se consagre campeón panamericano de pádel - El Territorio",
+    "llm_merged": "mismo logro que b942514f9197"
+  },
+  "80e926447ea7": {
+    "date": "2026-11-15",
+    "core": [
+      "bronce",
+      "chile",
+      "chubutense",
+      "coco",
+      "maraton",
+      "munoz"
+    ],
+    "medal": "bronce",
+    "title": "Orgullo chubutense: “Coco” Muñoz ganó el bronce en el Sudamericano de Maratón en Chile - La Posta Comodorense"
+  },
+  "18a0bd24e77e": {
+    "date": "2026-11-15",
+    "core": [
+      "fiorella",
+      "martin",
+      "propato",
+      "sumo"
+    ],
+    "medal": "oro",
+    "title": "¡ARGENTINA CAMPEONA Panamericana y Fiorella Propato San Martín sumó otro título con la selección! - Ahora Calafate",
+    "llm_merged": "mismo logro que b942514f9197"
+  },
+  "6757b589027a": {
+    "date": "2026-11-15",
+    "core": [
+      "bronce",
+      "chile",
+      "chubutense",
+      "coco",
+      "maraton",
+      "munoz"
+    ],
+    "medal": "bronce",
+    "dup_of": "80e926447ea7",
+    "title": "El chubutense \"Coco\" Muñoz ganó la medalla de bronce en el Campeonato Sudamericano de Maratón en Chile - Madryn Ahora"
+  },
+  "37c08aa9316a": {
+    "date": "2026-11-15",
+    "core": [
+      "alegria",
+      "atletismo",
+      "chile",
+      "darle",
+      "logro",
+      "nelida",
+      "penaflor",
+      "plata",
+      "santiagueno"
+    ],
+    "medal": "plata",
+    "title": "Nélida Peñaflor no para de darle alegría al atletismo santiagueño: logró la medalla de plata en el Sudamericano de Chile - El Liberal",
+    "llm_merged": "mismo logro que 80e926447ea7"
   }
 }
