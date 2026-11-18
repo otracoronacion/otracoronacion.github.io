@@ -13787,5 +13787,60 @@
     ],
     "medal": "plata",
     "title": "El salteño Matías Reynaga se quedó con la medalla de plata en el Sudamericano de Ruta en Chile - Gente de Salta"
+  },
+  "9dcb214612fc": {
+    "date": "2026-11-17",
+    "core": [
+      "adios",
+      "confirmado",
+      "despide",
+      "scaloni",
+      "tiene"
+    ],
+    "medal": "oro",
+    "title": "Scaloni tiene otro adiós confirmado: la Selección Argentina despide a otro campeón del mundo - El Crack Deportivo",
+    "llm_rejected": "Declaración/reacción sobre despedida de jugador, no un logro consumado"
+  },
+  "a90d30cdb2f7": {
+    "date": "2026-11-17",
+    "core": [
+      "contreras",
+      "menores",
+      "padel",
+      "protagonista",
+      "santino"
+    ],
+    "medal": "oro",
+    "dup_of": "880a2def3fd3",
+    "title": "Pádel | Argentina se consagró campeona panamericana de menores con Santino Contreras como protagonista - MisionesOnline"
+  },
+  "82ed2e3e4e8e": {
+    "date": "2026-11-17",
+    "core": [
+      "2026",
+      "academia",
+      "albornoz",
+      "artes",
+      "conquisto",
+      "marciales",
+      "mundiales",
+      "titulos"
+    ],
+    "medal": "oro",
+    "title": "Academia Albornoz conquistó títulos mundiales en la World Cup Argentina 2026 de Artes Marciales - noticiasmercedinas.com"
+  },
+  "d348da4fb62d": {
+    "date": "2026-11-17",
+    "core": [
+      "neli",
+      "nelida",
+      "penaflor",
+      "podio",
+      "ruta",
+      "santiagueno"
+    ],
+    "medal": "plata",
+    "dup_of": "37c08aa9316a",
+    "title": "¡Orgullo santiagueño en el podio continental! Nélida “Neli” Peñaflor se consagró subcampeona sudamericana en los 5K de ruta - El Tribuno Web"
   }
 }
