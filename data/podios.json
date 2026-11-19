@@ -1,5 +1,45 @@
 [
   {
+    "id": "33d003eddcce",
+    "date": "2026-11-17",
+    "title": "Spartans hizo historia: cuatro formoseños se consagraron campeones mundiales en Buenos Aires",
+    "source": "Guau Formosa",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUU9WYWI2S0pldzVOaE84S200MFlyVy11Ylp5Z2NtTnFtRUNKblpOOFByaTNmVFlPVkZINGUycHg0VkcxOElnWjFmLWY0TVRtRlhZeVZLWDVZeHhzWk1VX3dFb2FqZnVNbURUVHozYWxFSTRYM1dkTFZRMjUxazRuQ25vZElXSkpSd0hfYndhVy1pZUpTV1d2LVpvdU5DenN6NExUVXlPdHhRSjVDU2o4Nk5pRlJQanlCWlpjc0FmdEJobnNjZ2d0OTFhYk0yUE5NSFRINkFJYmRjRXBWRGlEclB30gHnAUFVX3lxTE43YVRrVDhNazI3M3BXOUxVVjB1cTZKeXQ1LXY4UVk2WXdpdW13aXJQcHctNGFDNXlwMWVuSGRCeXNLY1VMT2p3STU0ZmhBUmpuZmdkSG41UW5KenJhWFc2emR2UzBCemcwUnd5U0l4VElGTFVvcVZNbG1KRmtXRXkzYTFTX3dzN2RsUjI4ci1adlRySE5TcTBMM19zelo3ajBwb00ydVBmSkVMN09Vc0doSlljQTJTSktPa212MTREYjYwdXZkUTVMZy1yQ2R4aWs4Tm45YmxfalU5V1V2RjlsVThVTEhYaw?oc=5",
+    "medal": "oro",
+    "scope": "mundial",
+    "logro": "disciplina desconocida, Mundial, mayores"
+  },
+  {
+    "id": "21194c6ec8e7",
+    "date": "2026-11-18",
+    "title": "Estudiante de la UCV conquista el subcampeonato panamericano de Wushu en Argentina",
+    "source": "Universidad César Vallejo",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb2NuSzJ6VzF5THV4SGdsVmlfQVQ1akF3N0xhY3RIQWxJbDBXckVpaU4zaHhTbmQ3c2lTOHlPNElEbm5fVk5ZWUc0dkNFU2xTS1FXS2J2eHJWdURYWkR6SU1rdURKcnNGaFVvS21ESXJUZlpYa2Rsb3FhWmhLR1ozUmJ4WGNGYW5SZFlTLU9tck0?oc=5",
+    "medal": "plata",
+    "scope": "continental",
+    "logro": "wushu, Campeonato Panamericano, mayores"
+  },
+  {
+    "id": "044111c17803",
+    "date": "2026-11-18",
+    "title": "Una misionera volvió de Brasil con el oro panamericano de Aerodance junto a la Selección argentina",
+    "source": "Misiones Cuatro",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeFJaOWRvcmdFb1FCMmQ5WmxPX3MxRDBKNjA3Tmx5VzJScUFNS1U5NmNWd0FuXzVLUjRYUHhfcERYYWlxZXMySjduTzZSRXhOZkhpZWdlSzNmU0c0WXlMN1htdmRSVzVOYWJ3M1BVV0NuMHBvYTUyV2tpWWRDT2RNTFJBS2haNG1XOVhDRzRzZXBNdW5VUUNjenc4SkR4dmQwbDdUdXBaandVa3NXeHg2T1RCM3VpZHZPRFdjSk9YcmI2WnJLeXhfdGFLY001U3ps0gHWAUFVX3lxTE9nVjVmcHlyZGhhOXF2blZTOFpKWW9UbkxfV21YUXJJMXRfMnJJY2ZYTEpXSWEzaFQ0TVRoanl1WnpTeEE5d3dyak5HaVJDODNZOGV6RmhtX1JiWlpWRHJiYU0zeVk2VWRYNi1zZS1JNFVKZ3pnS1V4VFNGdnFJb01OdXk5dDBhd3pDZHFoN2hxN0R6YzYyajJ0V0t5YVdsbzJzQ1BCRmxKbUZKbWNrT0ZXTGtzblhoUVRqNWNtRWN6dkFvRFdQM1VRNzRFRXp3WTJIdFl5QlE?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "aerodance, Campeonato Panamericano, mayores"
+  },
+  {
+    "id": "481ce092978d",
+    "date": "2026-11-18",
+    "title": "Los salteños Máximo Maza y Federico Salas se consagraron campeones panamericanos de pádel en México",
+    "source": "Gente de Salta",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdTBFb2VkaENkcjlBSHVpdkE5a09lanBwY1BzQmxQbHhMZWlNU1FWbEdLR1dUamVnUzNCTGhESWRiOXllbXJubG5OblptLUtud1QxeVdtQ1Y4c1RJLUVEZVJTMU1tMEc5aDJoWi12czZZU0JTQ0FJSFFlVTVtbWdYTXByRUFmLXdIajJOdDlvTEpCZHZ5aDhOV2EzNUpfT1VNZkxlUUljWXZSRENZR2NDMmppYWd6dnEyR2M2LWwxMmNBajB6a2o0M05VbEZ2d9IB0wFBVV95cUxNeEE4dFAzRkIxYm1va0pQSHFYcHhmVFc4VVpQc1dqbTd1RF9LbENNOVE2Uk80elZKdW1HQ2NJaXpoS2dCSFgzUEYxRllsNE85VXpLWlZPSmhvWU5waDJuQ0FDbjRrOTRyQVBlS19aQTBFRHhNc0tKMFBQWm5FYlR5YVhpVDc2c3Zjd1JpaHNUQjJpOW1YOS1UM05MVEhxLUJZMDY0TU5ZZ25SX2lEbkhhSEVhR2I1bUpmM0s2TUR2NjdCTHBHMkEyT3lRcDE0bVU0REs0?oc=5",
+    "medal": "oro",
+    "scope": "continental",
+    "logro": "pádel masculino, Campeonato Panamericano, mayores"
+  },
+  {
     "id": "82ed2e3e4e8e",
     "date": "2026-11-17",
     "title": "Academia Albornoz conquistó títulos mundiales en la World Cup Argentina 2026 de Artes Marciales",

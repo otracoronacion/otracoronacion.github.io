@@ -13842,5 +13842,54 @@
     "medal": "plata",
     "dup_of": "37c08aa9316a",
     "title": "¡Orgullo santiagueño en el podio continental! Nélida “Neli” Peñaflor se consagró subcampeona sudamericana en los 5K de ruta - El Tribuno Web"
+  },
+  "33d003eddcce": {
+    "date": "2026-11-17",
+    "core": [
+      "aires",
+      "buenos",
+      "cuatro",
+      "formosenos",
+      "mundiales",
+      "spartans"
+    ],
+    "medal": "oro",
+    "title": "Spartans hizo historia: cuatro formoseños se consagraron campeones mundiales en Buenos Aires - Guau Formosa"
+  },
+  "21194c6ec8e7": {
+    "date": "2026-11-18",
+    "core": [
+      "conquista",
+      "estudiante",
+      "wushu"
+    ],
+    "medal": "plata",
+    "title": "Estudiante de la UCV conquista el subcampeonato panamericano de Wushu en Argentina - Universidad César Vallejo"
+  },
+  "044111c17803": {
+    "date": "2026-11-18",
+    "core": [
+      "aerodance",
+      "brasil",
+      "junto",
+      "misionera",
+      "volvio"
+    ],
+    "medal": "oro",
+    "title": "Una misionera volvió de Brasil con el oro panamericano de Aerodance junto a la Selección argentina - Misiones Cuatro"
+  },
+  "481ce092978d": {
+    "date": "2026-11-18",
+    "core": [
+      "federico",
+      "maximo",
+      "maza",
+      "mexico",
+      "padel",
+      "salas",
+      "saltenos"
+    ],
+    "medal": "oro",
+    "title": "Los salteños Máximo Maza y Federico Salas se consagraron campeones panamericanos de pádel en México - Gente de Salta"
   }
 }
