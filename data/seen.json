@@ -13905,5 +13905,34 @@
     "medal": "oro",
     "dup_of": "481ce092978d",
     "title": "Los salteños Máximo Maza y Federico Salas son campeones panamericanos de pádel - Gente de Salta"
+  },
+  "c16623db7e46": {
+    "date": "2026-11-20",
+    "core": [
+      "karate",
+      "logro",
+      "mundiales",
+      "navarro",
+      "sanjuanina",
+      "titulos",
+      "yanina"
+    ],
+    "medal": "oro",
+    "title": "La sanjuanina Yanina Navarro logró dos títulos mundiales en la World Cup de karate - Diario Huarpe"
+  },
+  "7186e575682d": {
+    "date": "2026-11-20",
+    "core": [
+      "aires",
+      "buenos",
+      "doble",
+      "karate",
+      "navarro",
+      "sanjuanino",
+      "yanina"
+    ],
+    "medal": "oro",
+    "dup_of": "33d003eddcce",
+    "title": "Yanina Navarro, doble campeona mundial de karate: Orgullo sanjuanino en Buenos Aires - Diario de Cuyo"
   }
 }
