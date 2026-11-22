@@ -13934,5 +13934,18 @@
     "medal": "oro",
     "dup_of": "33d003eddcce",
     "title": "Yanina Navarro, doble campeona mundial de karate: Orgullo sanjuanino en Buenos Aires - Diario de Cuyo"
+  },
+  "65f521fcec32": {
+    "date": "2026-11-21",
+    "core": [
+      "anelo",
+      "clinica",
+      "daran",
+      "numero",
+      "padel"
+    ],
+    "medal": "plata",
+    "title": "Una subcampeona mundial y la número uno argentina darán una clínica de pádel en Añelo - Diario 7 lagos",
+    "llm_rejected": "Es una noticia sobre una clínica/evento futuro, no un logro consumado"
   }
 }
