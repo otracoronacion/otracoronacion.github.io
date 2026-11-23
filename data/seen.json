@@ -13947,5 +13947,41 @@
     "medal": "plata",
     "title": "Una subcampeona mundial y la número uno argentina darán una clínica de pádel en Añelo - Diario 7 lagos",
     "llm_rejected": "Es una noticia sobre una clínica/evento futuro, no un logro consumado"
+  },
+  "f2f81ed219e3": {
+    "date": "2026-11-22",
+    "core": [
+      "handball",
+      "neuquinos"
+    ],
+    "medal": "oro",
+    "title": "Dos neuquinos se consagraron campeones sudamericanos de handball - Neuquen Informa"
+  },
+  "b1f011a979ff": {
+    "date": "2026-11-22",
+    "core": [
+      "boca",
+      "cambio",
+      "cuando",
+      "planes",
+      "salir",
+      "vuelve"
+    ],
+    "medal": "oro",
+    "title": "Cambio de planes: cuándo vuelve Boca a Argentina tras salir campeón de la Sudamericana - El Intransigente",
+    "llm_rejected": "Torneo de clubes de fútbol, no de selecciones"
+  },
+  "1970e303168a": {
+    "date": "2026-11-23",
+    "core": [
+      "angosturense",
+      "bruni",
+      "conquisto",
+      "felipe",
+      "gimnasia",
+      "plata"
+    ],
+    "medal": "plata",
+    "title": "El angosturense Felipe Bruni conquistó la medalla de plata con la Selección Argentina en el Sudamericano de Gimnasia - La Angostura Digital"
   }
 }
