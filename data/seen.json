@@ -13994,5 +13994,70 @@
     ],
     "medal": "oro",
     "title": "Un policía argentino salió campeón de América en Street Fighter 6 - Cultura Geek"
+  },
+  "ad3b0240edda": {
+    "date": "2026-11-24",
+    "core": [
+      "abiertas",
+      "aguas",
+      "cordobesa"
+    ],
+    "medal": "oro",
+    "title": "La Campeona Mundial de Aguas Abiertas es cordobesa - Expresión Norte"
+  },
+  "29e2b43f62a9": {
+    "date": "2026-11-24",
+    "core": [
+      "gimnasta",
+      "quilmes"
+    ],
+    "medal": "oro",
+    "title": "Gimnasta de Quilmes se consagró campeona sudamericana con la Selección Argentina - 0223.com.ar",
+    "llm_merged": "repite el logro 1970e303168a del 2026-11-23"
+  },
+  "0d932a3442e2": {
+    "date": "2026-11-24",
+    "core": [
+      "antunez",
+      "baja",
+      "brasil",
+      "marruecos",
+      "misionero",
+      "talla"
+    ],
+    "medal": "oro",
+    "title": "Mundial de Talla Baja en Marruecos: Argentina le ganó a Brasil con un gol del misionero Antúnez - Primera Edición"
+  },
+  "50df84ae2537": {
+    "date": "2026-11-24",
+    "core": [
+      "arranque",
+      "baja",
+      "diario",
+      "futbol",
+      "grupo",
+      "hilo",
+      "quedo",
+      "talla",
+      "tortuga",
+      "tres",
+      "triunfos"
+    ],
+    "medal": "oro",
+    "dup_of": "0d932a3442e2",
+    "title": "Fútbol talla baja: con tres triunfos al hilo, Argentina se quedó con su grupo en el arranque del Mundial - Diario Tortuga - Alta Gracia"
+  },
+  "32bee286050b": {
+    "date": "2026-11-25",
+    "core": [
+      "baja",
+      "brasil",
+      "goleo",
+      "grupo",
+      "talla"
+    ],
+    "medal": "oro",
+    "dup_of": "0d932a3442e2",
+    "title": "Argentina goleó a Brasil y ganó su grupo en el Mundial de Talla Baja - Tendencia de Noticias"
   }
 }
