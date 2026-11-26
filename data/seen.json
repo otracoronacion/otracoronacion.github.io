@@ -14059,5 +14059,31 @@
     "medal": "oro",
     "dup_of": "0d932a3442e2",
     "title": "Argentina goleó a Brasil y ganó su grupo en el Mundial de Talla Baja - Tendencia de Noticias"
+  },
+  "9ed64df77420": {
+    "date": "2026-11-25",
+    "core": [
+      "interesado",
+      "jugador",
+      "momento",
+      "river",
+      "ultimo"
+    ],
+    "medal": "oro",
+    "title": "Último momento: River está interesado en un jugador argentino campeón del mundo - TNT Sports",
+    "llm_rejected": "mercado de pases, no informa un logro consumado"
+  },
+  "b93009a78d7c": {
+    "date": "2026-11-25",
+    "core": [
+      "navarros",
+      "oficial",
+      "pelotaris",
+      "proclamaron",
+      "recepcion"
+    ],
+    "medal": "oro",
+    "title": "Recepción oficial a los pelotaris navarros que se proclamaron campeones del mundo en Argentina - Diario de Navarra",
+    "llm_rejected": "titular de medio español sobre pelotaris navarros (España), no argentinos"
   }
 }
