@@ -14085,5 +14085,47 @@
     "medal": "oro",
     "title": "Recepción oficial a los pelotaris navarros que se proclamaron campeones del mundo en Argentina - Diario de Navarra",
     "llm_rejected": "titular de medio español sobre pelotaris navarros (España), no argentinos"
+  },
+  "c7a21779c291": {
+    "date": "2026-11-26",
+    "core": [
+      "bombazo",
+      "carlos",
+      "confirmo",
+      "despedida",
+      "tevez"
+    ],
+    "medal": "oro",
+    "title": "Bombazo: Carlos Tevez confirmó a otro argentino campeón del mundo para su despedida - TNT Sports",
+    "llm_rejected": "Declaración/reacción sobre un logro pasado, no un hecho consumado nuevo"
+  },
+  "fff4740174e3": {
+    "date": "2026-11-26",
+    "core": [
+      "agarro",
+      "bicicleta",
+      "salud"
+    ],
+    "medal": "oro",
+    "title": "Agarró a la bicicleta por salud y hoy es campeón argentino y panamericano - https://www.noticiero9.com.ar/",
+    "llm_rejected": "Titular vago sin especificar disciplina ni competencia; no se deduce el logro"
+  },
+  "cc4bd85aaf35": {
+    "date": "2026-11-27",
+    "core": [
+      "2027",
+      "bahamas",
+      "bajas",
+      "cada",
+      "cerca",
+      "laprovittola",
+      "lujo",
+      "pese",
+      "siente",
+      "zarate"
+    ],
+    "medal": "oro",
+    "title": "Pese a las bajas, Argentina le ganó a Bahamas y siente el Mundial 2027 cada vez más cerca: el lujo de Laprovittola en Zárate - Clarin.com",
+    "llm_rejected": "Partido futuro o previa; no es un resultado consumado"
   }
 }
